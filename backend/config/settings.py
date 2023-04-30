@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'accounts',
     'movies',
     'community',
+    'rest_framework',
     # django cors
     'corsheaders',
     'django.contrib.admin',
