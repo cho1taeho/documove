@@ -34,7 +34,18 @@ INSTALLED_APPS = [
     'accounts',
     'articles',
 
-    
+    'rest_framework',
+
+    'corsheaders',
+
+    'rest_framework.authtoken',
+    'dj_rest_auth',
+
+    'django.contrib.sites',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'dj_rest_auth.registration',
 
     'django.contrib.admin',
     'django.contrib.auth',
@@ -44,15 +55,47 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 ]
 
+REST_AUTH = {
+    'SESSION_LOGIN' : False,
+}
+
+SITE_ID = 1
+
+
+REST_FRAMEWORK = {
+    # Authentication
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.TokenAuthentication',
+    ],
+
+    # permission
+    'DEFAULT_PERMISSION_CLASSES': [
+        # 'rest_framework.permissions.IsAuthenticated',
+        'rest_framework.permissions.AllowAny',
+    ],
+}
+
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+
+    
+    "corsheaders.middleware.CorsMiddleware",    
+    
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:8080',
+]
+
+CORS_ALLOW_ALL_ORIGINS = True
+
 
 ROOT_URLCONF = 'document.urls'
 
@@ -128,3 +171,5 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+AUTH_USER_MODEL = 'accounts.User'
