@@ -1,7 +1,6 @@
 <template>
   <div>
-
-    mypage
+    울라랄
   </div>
 </template>
 
@@ -10,7 +9,7 @@
 
 export default {
   name: 'MyPageView',
-
+  
 }
 </script>
 

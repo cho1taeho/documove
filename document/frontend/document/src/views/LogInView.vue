@@ -28,7 +28,7 @@ export default {
     }
   },
   methods: {
-    async login() {
+    login() {
       const username = this.username
       const password = this.password
 
@@ -36,41 +36,11 @@ export default {
         username, password
       }
 
-     
-
-      try {
-        await this.$store.dispatch('login', payload)
-        this.$router.push({name:'ArticleView'})
-      } catch (err) {
-        alert('아이디나 비밀번호가 잘못되었습니다.')
-        console.log(err)
-
-
-
-      }    
+        this.$store.dispatch('login', payload)
+    
     }
   }
 }
     
 
-
-  
-          //   this.$store.dispatch('login', payload)
-          //     .then(() => {
-          //       this.$router.push('articles')
-          //     })
-          //     .catch((err) => {
-          //       alert('아이디나 비밀번호가 잘못되었습니다.')
-          //       console.log(err)
-          //       // this.$router.push('login')
-          //     })
-      
-            // try {
-            //   await this.$store.dispatch('login', payload)
-            //   this.$router.push('articles')
-            // } catch(err) {
-            //   alert('다시')
-            //   console.log(err)
-            //   this.$router.push('login')
-            // }
 </script>

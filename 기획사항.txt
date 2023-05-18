@@ -15,7 +15,7 @@ DOCUMOVE
 4.    {봉사 영상 및 회원 안내}
 5. 왼쪽에 네비게이션 바로 그달의 환경 후원비, 후원왕, 활동왕 등등
 
-2는 뉴스api를 받아 오자
+2는 뉴스api를 받아 오자 후원 
 https://newsapi.org/
 https://developers.google.com/news
 등등 관련해서 받은 키워드를 통해 3.의 영상에서 랜덤으로 플레이 하루 한번 변경

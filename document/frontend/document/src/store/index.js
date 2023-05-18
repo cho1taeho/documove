@@ -5,6 +5,8 @@ import axios from 'axios'
 import createPersistedState from 'vuex-persistedstate'
 import router from '../router'
 
+import jwt from 'jsonwebtoken'
+
 // import { currentRoute } from 'vue-router'
 
 const API_URL = 'http://127.0.0.1:8000'
@@ -16,15 +18,15 @@ export default new Vuex.Store({
     createPersistedState(),
   ],
   state: {
-    articles: [],
+    articles: [],    
     token: null,
-    isLoggedIn: false, // 추가: 로그인 상태 여부를 저장하는 상태
+    isLoggedIn: false, 
   },
   getters: {
     isLogin(state) {
       return state.token ? true : false
     },
-    isLoggedIn(state) { // 추가: 로그인 상태를 반환하는 getter
+    isLoggedIn(state) { 
       return state.isLoggedIn
     },
   },
@@ -34,7 +36,7 @@ export default new Vuex.Store({
     },
     SAVE_TOKEN(state, token) {
       state.token = token
-      state.isLoggedIn = true // 추가: 로그인 상태를 true로 설정
+      state.isLoggedIn = true 
     },
     CLEAR_TOKEN(state) {
       state.token = null
@@ -56,6 +58,15 @@ export default new Vuex.Store({
         .catch((err) => {
           console.log(err)
         })
+    },
+    getMypage(context) {
+      axios({
+        methods: 'get',
+        url: `${API_URL}/api/v1/articles/:id`,
+        headers: {
+          Authorization: context.state.token ? 
+        }
+      })
     },
     signUp(context, payload) {
       const username = payload.username
@@ -95,12 +106,11 @@ export default new Vuex.Store({
         })
         const token = res.data.key
         context.commit('SAVE_TOKEN', token)
-        
-      
-        router.push({ name: 'ArticleView' })
-        
+        router.push({ name: 'ArticleView' }) 
+        jwt.verify()       
       } catch (err) {
         console.log(err)
+        alert('비번틀림')
         return
       }
     },
@@ -108,7 +118,7 @@ export default new Vuex.Store({
       context.commit('CLEAR_TOKEN')
       router.push({ name: 'ArticleView' })
     },
-
+   
   },
   modules: {},
 })
