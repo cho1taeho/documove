@@ -6,7 +6,7 @@ import LogInView from '@/views/LogInView'
 import SignUpView from '@/views/SignUpView'
 import DetailView from '@/views/DetailView'
 import MyPageView from '@/views/MyPageView'
-
+import NavBar from '@/components/NavBar' // NavBar 컴포넌트 추가
 
 Vue.use(VueRouter)
 
@@ -14,33 +14,51 @@ const routes = [
   {
     path: '/',
     name: 'ArticleView',
-    component: ArticleView
+    components: {
+      default: ArticleView,
+      navbar: NavBar // NavBar 컴포넌트를 'navbar' 이름으로 등록
+    }
   },
   {
-    path:'/create',
-    name:'CreateView',
-    component: CreateView
+    path: '/create',
+    name: 'CreateView',
+    components: {
+      default: CreateView,
+      navbar: NavBar
+    }
   },
   {
-    path:'/login',
+    path: '/login',
     name: 'LogInView',
-    component:LogInView
+    components: {
+      default: LogInView,
+      navbar: NavBar
+    }
   },
   {
-    path:'/singup',
+    path: '/signup',
     name: 'SignUpView',
-    component: SignUpView
+    components: {
+      default: SignUpView,
+      navbar: NavBar
+    }
   },
   {
-    path: '/:id',
+    path: '/detail/:id',
     name: 'DetailView',
-    component: DetailView
+    components: {
+      default: DetailView,
+      navbar: NavBar
+    }
   },
   {
-    path:'/mypage',
+    path: '/mypage',
     name: 'MyPageView',
-    component: MyPageView
-  },
+    components: {
+      default: MyPageView,
+      navbar: NavBar
+    }
+  }
 ]
 
 const router = new VueRouter({

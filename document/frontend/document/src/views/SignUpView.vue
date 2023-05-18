@@ -1,5 +1,6 @@
 <template>
   <div>
+
     <h1>회원 가입</h1>
     <form @submit.prevent="signUp">
       <label for="username">username : </label>
@@ -18,8 +19,12 @@
 </template>
 
 <script>
+
+
+
 export default {
   name: 'SignUpView',
+
   data() {
     return {
       username: null,
@@ -38,7 +43,7 @@ export default {
       }
 
       this.$store.dispatch('signUp', payload)
-      this.$router.push('login')
+      // this.$router.push('login')
     }
   }
 }

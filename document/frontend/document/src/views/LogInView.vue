@@ -1,5 +1,6 @@
 <template>
   <div>
+
     <h1>LogIn Page</h1>
     <form @submit.prevent="login">
       <label for="username">username : </label>
@@ -16,8 +17,10 @@
 </template>
 
 <script>
+
 export default {
   name: 'LogInView',
+
   data() {
     return {
       username: null,
@@ -25,7 +28,7 @@ export default {
     }
   },
   methods: {
-    login() {
+    async login() {
       const username = this.username
       const password = this.password
 
@@ -33,19 +36,41 @@ export default {
         username, password
       }
 
-      this.$store.dispatch('login', payload)
-        .then(() => {
-          this.$router.push('articles')
-        })
-        .catch((err) => {
-          alert('아이디나 비밀번호가 잘못되었습니다.')
-          console.log(err)
-          // this.$router.push('login')
-        })
+     
+
+      try {
+        await this.$store.dispatch('login', payload)
+        this.$router.push({name:'ArticleView'})
+      } catch (err) {
+        alert('아이디나 비밀번호가 잘못되었습니다.')
+        console.log(err)
+
+
+
+      }    
     }
   }
-
-
 }
-</script>
+    
 
+
+  
+          //   this.$store.dispatch('login', payload)
+          //     .then(() => {
+          //       this.$router.push('articles')
+          //     })
+          //     .catch((err) => {
+          //       alert('아이디나 비밀번호가 잘못되었습니다.')
+          //       console.log(err)
+          //       // this.$router.push('login')
+          //     })
+      
+            // try {
+            //   await this.$store.dispatch('login', payload)
+            //   this.$router.push('articles')
+            // } catch(err) {
+            //   alert('다시')
+            //   console.log(err)
+            //   this.$router.push('login')
+            // }
+</script>

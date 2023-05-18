@@ -10,33 +10,19 @@
 <script>
 import ArticleList from '@/components/ArticleList.vue'
 
-
 export default {
   name: 'ArticleView',
   components: {
     ArticleList,
   },
-  computed: {
-    isLogin() {
-      return this.$store.getters.isLogin
-    }
-  },
   created() {
-    this.getArticles()
+    this.$store.dispatch('getArticles') // 로그인 여부와 상관없이 항상 호출
+      .catch((err) => {
+        console.log(err)
+      })
   },
-  methods: {
-    getArticles() {
-      if (this.isLogin) {
-        this.$store.dispatch('getArticles')
-      } else {
-        alert('로그인이 필요')
-        this.$router.push({name:'LogInView'})
-      }
-    }
-  }
 }
 </script>
 
 <style>
-
 </style>
