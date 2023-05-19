@@ -5,7 +5,7 @@ import axios from 'axios'
 import createPersistedState from 'vuex-persistedstate'
 import router from '../router'
 
-import jwt from 'jsonwebtoken'
+// import jwt from 'jsonwebtoken'
 
 // import { currentRoute } from 'vue-router'
 
@@ -21,6 +21,7 @@ export default new Vuex.Store({
     articles: [],    
     token: null,
     isLoggedIn: false, 
+    point : 0,
   },
   getters: {
     isLogin(state) {
@@ -40,7 +41,7 @@ export default new Vuex.Store({
     },
     CLEAR_TOKEN(state) {
       state.token = null
-      state.isLoggedIn = false // 추가: 로그인 상태를 false로 설정
+      state.isLoggedIn = false 
     },
   },
   actions: {
@@ -58,15 +59,6 @@ export default new Vuex.Store({
         .catch((err) => {
           console.log(err)
         })
-    },
-    getMypage(context) {
-      axios({
-        methods: 'get',
-        url: `${API_URL}/api/v1/articles/:id`,
-        headers: {
-          Authorization: context.state.token ? 
-        }
-      })
     },
     signUp(context, payload) {
       const username = payload.username
@@ -107,10 +99,10 @@ export default new Vuex.Store({
         const token = res.data.key
         context.commit('SAVE_TOKEN', token)
         router.push({ name: 'ArticleView' }) 
-        jwt.verify()       
+     
       } catch (err) {
         console.log(err)
-        alert('비번틀림')
+        alert('비밀번호가 일치하지 않습니다.')
         return
       }
     },
@@ -118,7 +110,58 @@ export default new Vuex.Store({
       context.commit('CLEAR_TOKEN')
       router.push({ name: 'ArticleView' })
     },
-   
+    increasePoints(context) {
+      // axios
+      //   .post(`${API_URL}/accounts/api/points/increase/`, null, {
+      //     headers: {
+      //       Authorization: `Token ${context.state.token}`,
+      //     },
+      //   })
+      axios({
+        method : 'post',
+        url : `${API_URL}/accounts/api/points/increase/`,
+        headers: {
+          Authorization: `Token ${context.state.token}`,
+        },
+      })
+        .then((response) => {
+          context.commit('SET_POINT', response.data.points);
+        })
+        .catch((error) => {
+          console.log(error);
+        });
+    },
+    showInputDialog(context) {
+      context.commit('SET_INPUT_SHOW', true);
+    },
+    submitInput(context) {
+      const pointsToReduce = parseInt(context.state.inputValue);
+      if (!isNaN(pointsToReduce) && pointsToReduce > 0 && pointsToReduce <= context.state.point) {
+        axios({
+          method: 'post',
+          url : `${API_URL}/accounts/api/points/reduce/`,
+          headers: {
+            Authorization: `Token ${context.state.token}`,
+          },
+
+        })
+          // .post(`${API_URL}/api/points/reduce/`, { points: pointsToReduce }, {
+          //   headers: {
+          //     Authorization: `Token ${context.state.token}`,
+          //   },
+          // })
+          .then((response) => {
+            context.commit('SET_POINT', response.data.points);
+          })
+          .catch((error) => {
+            console.log(error);
+          });
+      } else if (pointsToReduce > context.state.point) {
+        alert('Points are not enough.');
+      }
+      context.commit('SET_INPUT_SHOW', false);
+      context.commit('SET_INPUT_VALUE', 0);
+    },
   },
   modules: {},
 })

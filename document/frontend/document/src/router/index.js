@@ -6,7 +6,7 @@ import LogInView from '@/views/LogInView'
 import SignUpView from '@/views/SignUpView'
 import DetailView from '@/views/DetailView'
 import MyPageView from '@/views/MyPageView'
-import NavBar from '@/components/NavBar' // NavBar 컴포넌트 추가
+import NavBar from '@/components/NavBar' 
 
 Vue.use(VueRouter)
 
@@ -16,7 +16,7 @@ const routes = [
     name: 'ArticleView',
     components: {
       default: ArticleView,
-      navbar: NavBar // NavBar 컴포넌트를 'navbar' 이름으로 등록
+      navbar: NavBar 
     }
   },
   {
