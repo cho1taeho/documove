@@ -35,9 +35,13 @@
 
 
 ## Contributors
-이성우 `seanwoory`, 최태호 `cho1taeho`
-
-
+이성우 
+`seanwoori <seanwoory@gmail.com>` 
+<br/>
+<br/>
+최태호 `cho1taeho <cow12dog@gmail.com>`
+<br/>
+<br/>
 ## Requirements
 
 - Vue.js, vuex, vue-router
