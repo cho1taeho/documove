@@ -5,7 +5,7 @@ import axios from 'axios'
 import createPersistedState from 'vuex-persistedstate'
 import router from '../router'
 
-import jwt from 'jsonwebtoken'
+// import jwt from 'jsonwebtoken'
 
 // import { currentRoute } from 'vue-router'
 
@@ -59,15 +59,15 @@ export default new Vuex.Store({
           console.log(err)
         })
     },
-    getMypage(context) {
-      axios({
-        methods: 'get',
-        url: `${API_URL}/api/v1/articles/:id`,
-        headers: {
-          Authorization: context.state.token ? 
-        }
-      })
-    },
+    // getMypage(context) {
+    //   axios({
+    //     methods: 'get',
+    //     url: `${API_URL}/api/v1/articles/:id`,
+    //     headers: {
+    //       Authorization: context.state.token ? 
+    //     }
+    //   })
+    // },
     signUp(context, payload) {
       const username = payload.username
       const password1 = payload.password1
@@ -107,7 +107,7 @@ export default new Vuex.Store({
         const token = res.data.key
         context.commit('SAVE_TOKEN', token)
         router.push({ name: 'ArticleView' }) 
-        jwt.verify()       
+        // jwt.verify()       
       } catch (err) {
         console.log(err)
         alert('비번틀림')
