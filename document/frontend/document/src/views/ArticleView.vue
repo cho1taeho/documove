@@ -16,7 +16,7 @@ export default {
     ArticleList,
   },
   created() {
-    this.$store.dispatch('getArticles') // 로그인 여부와 상관없이 항상 호출
+    this.$store.dispatch('getArticles')
       .catch((err) => {
         console.log(err)
       })

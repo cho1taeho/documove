@@ -5,5 +5,6 @@ from django.contrib.auth.models import AbstractUser
 
 
 class User(AbstractUser):
-    pass
+    points = models.IntegerField(default = 0)
+    badge = models.ImageField(upload_to='badges/', blank=True, null= True)
     
