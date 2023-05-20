@@ -60,6 +60,18 @@ export default new Vuex.Store({
           console.log(err)
         })
     },
+<<<<<<< HEAD
+    // getMypage(context) {
+    //   axios({
+    //     methods: 'get',
+    //     url: `${API_URL}/api/v1/articles/:id`,
+    //     headers: {
+    //       Authorization: context.state.token ? 
+    //     }
+    //   })
+    // },
+=======
+>>>>>>> 65d05107cd29100d85e1147a4192afdd9bddf8cd
     signUp(context, payload) {
       const username = payload.username
       const password1 = payload.password1
@@ -99,7 +111,11 @@ export default new Vuex.Store({
         const token = res.data.key
         context.commit('SAVE_TOKEN', token)
         router.push({ name: 'ArticleView' }) 
+<<<<<<< HEAD
+        // jwt.verify()       
+=======
      
+>>>>>>> 65d05107cd29100d85e1147a4192afdd9bddf8cd
       } catch (err) {
         console.log(err)
         alert('비밀번호가 일치하지 않습니다.')
