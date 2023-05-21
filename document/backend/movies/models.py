@@ -3,9 +3,7 @@ from django.conf import settings
 
 # Create your models here.
 class Theme(models.Model):
-    theme_point = models.ManyToManyField(Point, related_name='theme_point')
     like_users = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='like_genres')
-
     
     moviepk = models.IntegerField()
     subject = models.TextField()
@@ -29,6 +27,6 @@ class Movie(models.Model):
 
 
 class Point(models.Model):
-    subject = models.TextField()
-    theme_point = models.IntegerField()
+    theme_point = models.ManyToManyField(Theme, related_name='theme_point')
+
     created_at = models.DateTimeField(auto_now_add=True)
