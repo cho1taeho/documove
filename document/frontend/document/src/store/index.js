@@ -5,9 +5,7 @@ import axios from 'axios'
 import createPersistedState from 'vuex-persistedstate'
 import router from '../router'
 
-// import jwt from 'jsonwebtoken'
 
-// import { currentRoute } from 'vue-router'
 
 const API_URL = 'http://127.0.0.1:8000'
 
@@ -20,16 +18,22 @@ export default new Vuex.Store({
   state: {
     articles: [],    
     token: null,
-    isLoggedIn: false, 
+    // isLoggedIn: false, 
     point : 0,
+    isRegistered: false,
+    inputShow: false,
   },
   getters: {
     isLogin(state) {
-      return state.token ? true : false
+      // return state.token ? true : false
+      return state.token !== null && !state.isRegistered
     },
-    isLoggedIn(state) { 
-      return state.isLoggedIn
-    },
+    // isLoggedIn(state) { 
+    //   return state.isLoggedIn
+    // },
+    isSingUp() {
+      return this.$route.name === 'SignUpView'
+    }
   },
   mutations: {
     GET_ARTICLES(state, articles) {
@@ -43,6 +47,15 @@ export default new Vuex.Store({
       state.token = null
       state.isLoggedIn = false 
     },
+    SET_REGISTERED(state, status) {
+      state. isRegistered = status
+    },
+    SET_POINT(state, point) {
+      state.point = point
+    },
+    SET_INPUT_SHOW(state, inputShow) {
+      state.inputShow = inputShow
+    }
   },
   actions: {
     getArticles(context) {
@@ -60,22 +73,11 @@ export default new Vuex.Store({
           console.log(err)
         })
     },
-<<<<<<< HEAD
-    // getMypage(context) {
-    //   axios({
-    //     methods: 'get',
-    //     url: `${API_URL}/api/v1/articles/:id`,
-    //     headers: {
-    //       Authorization: context.state.token ? 
-    //     }
-    //   })
-    // },
-=======
->>>>>>> 65d05107cd29100d85e1147a4192afdd9bddf8cd
-    signUp(context, payload) {
-      const username = payload.username
-      const password1 = payload.password1
-      const password2 = payload.password2
+
+      signUp(context, payload) {
+        const username = payload.username
+        const password1 = payload.password1
+        const password2 = payload.password2
 
       axios({
         method: 'post',
@@ -88,6 +90,7 @@ export default new Vuex.Store({
       })
         .then((res) => {
           context.commit('SAVE_TOKEN', res.data.key)
+          context.commit('SET_REGISTERED', true)
           router.push('/login')
         })
         .catch((err) => {
@@ -110,12 +113,9 @@ export default new Vuex.Store({
         })
         const token = res.data.key
         context.commit('SAVE_TOKEN', token)
+        context.commit('SET_REGISTERED', false)
         router.push({ name: 'ArticleView' }) 
-<<<<<<< HEAD
-        // jwt.verify()       
-=======
      
->>>>>>> 65d05107cd29100d85e1147a4192afdd9bddf8cd
       } catch (err) {
         console.log(err)
         alert('비밀번호가 일치하지 않습니다.')
@@ -126,13 +126,7 @@ export default new Vuex.Store({
       context.commit('CLEAR_TOKEN')
       router.push({ name: 'ArticleView' })
     },
-    increasePoints(context) {
-      // axios
-      //   .post(`${API_URL}/accounts/api/points/increase/`, null, {
-      //     headers: {
-      //       Authorization: `Token ${context.state.token}`,
-      //     },
-      //   })
+    increasePoints(context) {   
       axios({
         method : 'post',
         url : `${API_URL}/accounts/api/points/increase/`,

@@ -11,16 +11,16 @@
           <li class="nav-item">
             <router-link class="nav-link" :to="{ name: 'ArticleView' }">홈</router-link>
           </li>
-          <li v-if="isLogin" class="nav-item">
+          <li v-if="isLogin && !isRegistered" class="nav-item"> 
             <router-link class="nav-link" :to="{ name: 'MyPageView' }">마이 페이지</router-link>
           </li>
-          <li v-if="isLogin" class="nav-item">
+          <li v-if="isLogin && !isRegistered" class="nav-item"> 
             <a class="nav-link" href="#" @click="logout">로그아웃</a>
           </li>
-          <li v-if="!isLogin" class="nav-item">
+          <li v-if="!isLogin || isRegistered" class="nav-item">
             <router-link class="nav-link" :to="{ name: 'LogInView' }">로그인</router-link>
           </li>
-          <li v-if="!isLogin" class="nav-item">
+          <li v-if="!isLogin || isRegistered" class="nav-item"> 
             <router-link class="nav-link" :to="{ name: 'SignUpView' }">회원가입</router-link>
           </li>
         </ul>
@@ -35,6 +35,12 @@ export default {
     isLogin() {
       return this.$store.getters.isLogin;
     },
+    isSignUp() {
+      return this.$route.name === 'SignUpView'
+    },
+    isRegistered() {
+      return this.$store.state.isRegistered
+    }
   },
   methods: {
     logout() {
