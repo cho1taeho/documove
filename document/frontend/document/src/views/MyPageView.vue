@@ -4,12 +4,12 @@
     <p>Point: {{ point }}</p>
     <button @click="increasePoints">A Button</button>
     <button @click="showInputDialog">B Button</button>
-    <div v-if="showInput">
+    <div v-if="inputShow">
       <input type="number" v-model="inputValue" />
       <button @click="submitInput">Submit</button>
       <p v-if="inputValue > point">Points are not enough.</p>
     </div>
-    <!-- <p>Input Value: {{ inputValue }}</p> -->
+    <p>Input Value: {{ inputValue }}</p>
   </div>
 </template>
 
@@ -17,10 +17,17 @@
 import { mapGetters, mapActions } from 'vuex';
 
 export default {
+  data(){
+    return {
+      inputvalue: 0,
+    }
+  },
   computed: {
     ...mapGetters(['isLogin']),
+    inputShow() {
+      return this.$store.state.inputShow
+    },
     point() {
-      // 포인트를 Vuex 스토어의 state에서 가져옵니다.
       return this.$store.state.point;
     },
   },
