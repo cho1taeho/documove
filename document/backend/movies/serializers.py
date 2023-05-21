@@ -1,23 +1,21 @@
-from django.test import TestCase
-from .models import Movie, Category
+from .models import Movie, Theme
 from rest_framework import serializers
 
 # Create your tests here.
-class CategorySerializer(serializers.ModelSerializer):
+class ThemeSerializer(serializers.ModelSerializer):
 
     class Meta:
-        model = Category
+        model = Theme
         fields = ('id', 'name',)
 
 class MovieSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Movie
-        exclude = ('id', 'like_users')
-        read_only_fields = ('genres',)
+        exclude = ('id', 'videoThumUrl', 'videoUrl',)
 
 class MovieRandomSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Movie
-        fields = ('id', 'title', 'poster_path', 'genre_ids')
+        fields = ('id', 'title', 'theme_ids',)
