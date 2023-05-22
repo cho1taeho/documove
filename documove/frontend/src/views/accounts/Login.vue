@@ -10,7 +10,7 @@
       <div class="loginAddOn">
         <p>도움이 필요하신가요?</p>
         <div>
-          Ssaflix 회원이 아닌가요? <a :href="signupLink">지금 가입하세요.</a>
+          Documove 회원이 아닌가요? <a :href="signupLink">지금 가입하세요.</a>
         </div>
       </div>
     </div>

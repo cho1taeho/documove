@@ -34,10 +34,9 @@ body {
   align-items: center;
 }
 
-.fade-enter-active, .fade-leave-active {
-  /* 트랜지션을 넣었더니 더 구림 */
-  /* transition: opacity .5s; */
-}
+/* .fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;} */
+
 .fade-enter, .fade-leave-to {
   opacity: 0;
 }
@@ -69,7 +68,7 @@ textarea {
 }
 
 .submitBtn {
-  background-color:  red;
+  background-color:  green;
   color: white;
   font-size: bold;
 }

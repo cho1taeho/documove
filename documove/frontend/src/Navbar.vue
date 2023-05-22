@@ -13,13 +13,10 @@
             <router-link class="nav-link" :to="{ name: 'Home' }">홈</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" :to="{ name: 'Recommend' }">추천</router-link>
+            <router-link class="nav-link" :to="{ name: 'Recommend' }">다큐멘터리</router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link" :to="{ name: 'Community' }">커뮤니티</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class="nav-link" :to="{ name: 'TinderMain' }">틴더</router-link>
           </li>
         </ul>
         <!-- 로그인 했을 경우 -->
