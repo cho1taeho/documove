@@ -45,3 +45,17 @@ class Donation(models.Model):
     def update_donation_info(self):
         self.points = self.users.count()  
         self.save()
+
+class TopDonator(models.Model):
+    donation = models.OneToOneField(Donation, on_delete=models.CASCADE, related_name='top_donator')
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+
+    @classmethod
+    def update_top_donator(cls):
+        top_donation = Donation.objects.order_by('-points').first()
+        if top_donation:
+            top_donator = top_donation.users.order_by('-points').first()
+            if top_donator:
+                top_donator_instance, created = cls.objects.get_or_create(donation=top_donation)
+                top_donator_instance.user = top_donator
+                top_donator_instance.save()

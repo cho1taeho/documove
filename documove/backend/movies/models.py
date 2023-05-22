@@ -8,11 +8,11 @@ class Genre(models.Model):
     like_users = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='like_genres')
 
 
-# class Keyword(models.Model):
-#     name = models.CharField(max_length=50)
+class Keyword(models.Model):
+    name = models.CharField(max_length=50)
 
-#     def __str__(self):
-#         return self.name
+    def __str__(self):
+        return self.name
 
 class Movie(models.Model):
     like_users = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='like_movies')
@@ -29,7 +29,14 @@ class Movie(models.Model):
     popularity = models.FloatField(null=True, blank=True)
     vote_count = models.IntegerField(null=True, blank=True)
     vote_average = models.FloatField(null=True, blank=True)
-    # keywords = models.ManyToManyField(Keyword, related_name='moives')
+    keywords = models.ManyToManyField(Keyword, related_name='moives')
 
-    # def get_environment_keywords(self):
-    #     return settings.ENVIRONMENT_KEYWORDS
+    def get_environment_keywords(self):
+        return settings.ENVIRONMENT_KEYWORDS
+
+
+class Keywordpoint(models.Model):
+    points = models.IntegerField()
+
+    def __str__(self):
+        return str(self.points)

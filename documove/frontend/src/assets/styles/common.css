@@ -4,8 +4,8 @@ html, body, template, #app {
 }
 
 body {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #f7f6f6;
+  color: #070000;
   /* navBar 상단 고정 이후, 컨텐츠를 제대로 보여주기 위한 padding */
   padding-top: 60px;
 }
@@ -14,8 +14,8 @@ body {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #ffffff;
-  background-color: #000000;
+  color: #0c0101;
+  background-color: #f5f2f2;
 }
 
 .home, .community, .tinder-div, .recommend{

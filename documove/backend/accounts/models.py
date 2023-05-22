@@ -25,8 +25,8 @@ class User(AbstractUser):
     
 
     # default 값이 이거라서 변하는게 없는 것.
-    # def __str__(self):
-    #     return self.username
+    def __str__(self):
+        return self.username
 
 
 
@@ -38,3 +38,6 @@ class Wishlist(models.Model):
 
     def get_environment_keywords(self):
         return settings.ENVIRONMENT_KEYWORDS
+    
+    def __str__(self):
+        return f'Wishlist by {self.user.username}'
