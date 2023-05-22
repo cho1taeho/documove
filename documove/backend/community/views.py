@@ -3,8 +3,8 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework import status
 
-from .models import Review, Comment, Rate
-from .serializers import CommentSerializer, ReviewListSerializer, ReviewSerializer, RateSerializer
+from .models import Review, Comment
+from .serializers import CommentSerializer, ReviewListSerializer, ReviewSerializer
 
 from rest_framework.decorators import authentication_classes, permission_classes
 from rest_framework.permissions import IsAuthenticated
@@ -90,36 +90,36 @@ def comment_update_delete(request, comment_pk):
         }
         return Response(data, status=status.HTTP_204_NO_CONTENT)
 
-# rank 생성
-@api_view(['POST'])
-@authentication_classes([JSONWebTokenAuthentication])
-@permission_classes([IsAuthenticated])
-def rate_create(request, review_pk):
-    review = get_object_or_404(Review, pk=review_pk)
-    serializer = RateSerializer(data=request.data)
-    if serializer.is_valid(raise_exception=True):
-        serializer.save(review=review, user=request.user)
-        return Response(serializer.data, status=status.HTTP_201_CREATED)
+# # rank 생성
+# @api_view(['POST'])
+# @authentication_classes([JSONWebTokenAuthentication])
+# @permission_classes([IsAuthenticated])
+# def rate_create(request, review_pk):
+#     review = get_object_or_404(Review, pk=review_pk)
+#     serializer = RateSerializer(data=request.data)
+#     if serializer.is_valid(raise_exception=True):
+#         serializer.save(review=review, user=request.user)
+#         return Response(serializer.data, status=status.HTTP_201_CREATED)
 
-# rank 수정, 삭제
-@api_view(['PUT', 'DELETE'])
-@authentication_classes([JSONWebTokenAuthentication])
-@permission_classes([IsAuthenticated])
-def rate_update_delete(request, rate_pk):
-    rate = get_object_or_404(Rate, pk=rate_pk)
-    if request.method == 'PUT':
-        serializer = RateSerializer(rate, data=request.data)
-        if not request.user.rates.filter(pk=rate_pk).exists():
-            return Response({'detail': '권한이 없습니다.'}, status=status.HTTP_403_FORBIDDEN)
-        if serializer.is_valid(raise_exception=True):
-            serializer.save()
-            return Response(serializer.data)
-    elif request.method == 'DELETE':
-        if not request.user.rates.filter(pk=rate_pk).exists():
-            return Response({'detail': '권한이 없습니다.'}, status=status.HTTP_403_FORBIDDEN)
-        rate.delete()
-        data = {
-            'id': rate_pk,
-            'delete': f'data {rate_pk} is deleted!!',
-        }
-        return Response(data, status=status.HTTP_204_NO_CONTENT)
+# # rank 수정, 삭제
+# @api_view(['PUT', 'DELETE'])
+# @authentication_classes([JSONWebTokenAuthentication])
+# @permission_classes([IsAuthenticated])
+# def rate_update_delete(request, rate_pk):
+#     rate = get_object_or_404(Rate, pk=rate_pk)
+#     if request.method == 'PUT':
+#         serializer = RateSerializer(rate, data=request.data)
+#         if not request.user.rates.filter(pk=rate_pk).exists():
+#             return Response({'detail': '권한이 없습니다.'}, status=status.HTTP_403_FORBIDDEN)
+#         if serializer.is_valid(raise_exception=True):
+#             serializer.save()
+#             return Response(serializer.data)
+#     elif request.method == 'DELETE':
+#         if not request.user.rates.filter(pk=rate_pk).exists():
+#             return Response({'detail': '권한이 없습니다.'}, status=status.HTTP_403_FORBIDDEN)
+#         rate.delete()
+#         data = {
+#             'id': rate_pk,
+#             'delete': f'data {rate_pk} is deleted!!',
+#         }
+#         return Response(data, status=status.HTTP_204_NO_CONTENT)

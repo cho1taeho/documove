@@ -15,18 +15,18 @@ class Keyword(models.Model):
 
 
 class User(AbstractUser):
-    # genre_dict = models.JSONField(default=genre_default)
+    genre_dict = models.JSONField(default=genre_default)
     point = models.IntegerField(default = 0)
     badge = models.ImageField(upload_to='badges/', blank=True, null=True)
-    keywords = models.ManyToManyField(Keyword, relatedName='accounts')
+    keywords = models.ManyToManyField(Keyword, related_name='accountuser')
 
     def get_environment_keywords(self):
         return settings.ENVIRONMENT_KEYWORDS
     
 
     # default 값이 이거라서 변하는게 없는 것.
-    # def __str__(self):
-    #     return self.username
+    def __str__(self):
+        return self.username
 
 
 
@@ -34,7 +34,7 @@ class Wishlist(models.Model):
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete= models.CASCADE)
     movies = models.ManyToManyField('movies.Movie', related_name='wishlists')
     created_at = models.DateTimeField(auto_now= True)
-    keywords = models.ManyToManyField(Keyword, relatedName='accounts')
+    keywords = models.ManyToManyField(Keyword, related_name='wishlist')
 
     def get_environment_keywords(self):
         return settings.ENVIRONMENT_KEYWORDS

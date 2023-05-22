@@ -27,7 +27,7 @@ class URLMaker:
         url = f'{self.url}/genre/movie/list?api_key={self.key}'
         return url
 
-TMDB_KEY = '234c446afa7c9156e6c9a101b724f5ae'
+TMDB_KEY = 'db62ad7757737f4cf7101493c0bccdf2'
 url = URLMaker(TMDB_KEY)
 
 def create_genre_data():

@@ -29,7 +29,7 @@ class Movie(models.Model):
     popularity = models.FloatField(null=True, blank=True)
     vote_count = models.IntegerField(null=True, blank=True)
     vote_average = models.FloatField(null=True, blank=True)
-    keywords = models.ManyToManyField(Keyword, relatedName='moives')
+    # keywords = models.ManyToManyField(Keyword, related_name='moives')
 
-    def get_environment_keywords(self):
-        return settings.ENVIRONMENT_KEYWORDS
+    # def get_environment_keywords(self):
+    #     return settings.ENVIRONMENT_KEYWORDS

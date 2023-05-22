@@ -30,19 +30,13 @@ class Comment(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
-# class Rate(models.Model):
-#     review = models.ForeignKey(Review, on_delete=models.CASCADE, related_name='rates')
-#     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='rates')
-#     score = models.IntegerField(validators= [
-#         MaxValueValidator(10),
-#         MinValueValidator(1)
-#     ])
+
 
 class Donation(models.Model):
-    review = models.ForeignKey(Review, on_delete=models.CASCADE, related_name='donations')
-    users = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='donations')
+    review = models.ForeignKey(Review, on_delete=models.CASCADE, related_name='donation_review')
+    users = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='donation_users')
     points = models.IntegerField()
-    keywords = models.ManyToManyField(Keyword, relatedName='community')
+    keywords = models.ManyToManyField(Keyword, related_name='donation_keywords')
 
     def get_environment_keywords(self):
         return settings.ENVIRONMENT_KEYWORDS
