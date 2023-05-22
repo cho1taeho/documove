@@ -8,11 +8,11 @@
     </v-expansion-panel-header>
 
     <v-expansion-panel-content>
-      영화 : {{ review.movie_title }}</v-expansion-panel-content>
+      후원 : {{ review.movie_title }}</v-expansion-panel-content>
     <v-expansion-panel-content>
       <textarea name="reviewContent" cols="30" rows="10" v-model="reviewItem.content" placeholder="내용"></textarea>
       </v-expansion-panel-content>
-    <v-expansion-panel-content>별점 :
+    <v-expansion-panel-content>포인트 :
       <v-rating
         v-model="reviewItem.rank"
         color="yellow darken-3"
@@ -30,8 +30,8 @@
     </v-expansion-panel-content>
     <v-expansion-panel-content>
       <div class="buttons">
-        <button class="btn btn-modify" @click="updateReview">리뷰 수정</button>
-        <button class="btn btn-delete" @click="deleteReview">리뷰 삭제</button>
+        <button class="btn btn-modify" @click="updateReview">후원 수정</button>
+        <button class="btn btn-delete" @click="deleteReview">후원 삭제</button>
       </div>
     </v-expansion-panel-content>
   </div>

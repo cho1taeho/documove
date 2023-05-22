@@ -21,7 +21,7 @@
                 item-text="name"
                 item-value="value"
                 v-model="reviewItem.movie_title"
-                label="영화 선택"
+                label="후원 선택"
                 required
               ></v-autocomplete>
               <v-col cols="12">
@@ -57,7 +57,7 @@
               </v-col>
             </v-row>
           </v-container>
-          <small>*영화와 상관없는 리뷰 글의 경우 사전 고지 없이 삭제 될 수 있습니다.</small>
+          <small>*후원과 상관없는 리뷰 글의 경우 사전 고지 없이 삭제 될 수 있습니다.</small>
         </v-card-text>
         <v-card-actions>
           <v-spacer></v-spacer>

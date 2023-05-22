@@ -1,7 +1,7 @@
 <template>
   <div class="community">
     <header>
-      <h2>리뷰 게시판</h2>
+      <h2>후원 게시판</h2>
     </header>
     <ReviewForm/>
     <ReviewList/>

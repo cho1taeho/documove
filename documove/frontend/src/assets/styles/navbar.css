@@ -19,12 +19,12 @@
 .navbar-brand {
   font-family: 'Anton', sans-serif;
   font-size: 2rem;
-  color: #db0000;
+  color: green;
   letter-spacing: 2px;
 }
 
 .navbar-brand:hover {
-  color: #db0000;
+  color: green;
 }
 
 .nav-link {
