@@ -154,4 +154,4 @@ JWT_AUTH = {
     'JWT_EXPIRATION_DELTA': datetime.timedelta(days=1),
 }
 
-ENVIRONMENT_KEYWORDS = ['대기오염', '수질오염', '폐기물','화학물질', '환경파괴','지구온난화','자연자원 과소비','생태계 파괴','기후변화','환경규제','재활용','친환경']
+ENVIRONMENT_KEYWORDS = ['Pollution', 'Environmental Conservation', 'Renewable Energy','Sustainability', 'Climate Change','Natural Resources','Ecosystem Preservation','Green Technology','Waste Management','Clean Air','Water Conservation','Biodiversity']

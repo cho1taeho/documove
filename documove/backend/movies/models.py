@@ -8,11 +8,11 @@ class Genre(models.Model):
     like_users = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='like_genres')
 
 
-class Keyword(models.Model):
-    name = models.CharField(max_length=50)
+# class Keyword(models.Model):
+#     name = models.CharField(max_length=50)
 
-    def __str__(self):
-        return self.name
+#     def __str__(self):
+#         return self.name
 
 class Movie(models.Model):
     like_users = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='like_movies')

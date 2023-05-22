@@ -25,8 +25,8 @@ class User(AbstractUser):
     
 
     # default 값이 이거라서 변하는게 없는 것.
-    def __str__(self):
-        return self.username
+    # def __str__(self):
+    #     return self.username
 
 
 
