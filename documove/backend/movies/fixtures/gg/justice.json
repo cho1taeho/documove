@@ -1,0 +1,1759 @@
+[
+    {
+        "id": 8967,
+        "organization": {
+            "id": 9133,
+            "name": "Population Council",
+            "ein": "13-1687001",
+            "addressLine1": "One Dag Hammarskjold Plaza",
+            "addressLine2": "",
+            "city": "New York",
+            "state": "NY",
+            "postal": "10017",
+            "iso3166CountryCode": "US",
+            "url": "http://www.popcouncil.org",
+            "logoUrl": "https://www.globalgiving.org/pfil/organ/9133/orglogo.jpg",
+            "mission": "The Population Council is an international, nonprofit, nongovernmental organization that seeks to improve the well-being and reproductive health of current and future generations around the world and to help achieve a humane, equitable, and sustainable balance between people and resources.",
+            "totalProjects": 3,
+            "activeProjects": 1,
+            "themes": {
+                "theme": [
+                    {
+                        "id": "edu",
+                        "name": "Education"
+                    },
+                    {
+                        "id": "gender",
+                        "name": "Gender Equality"
+                    },
+                    {
+                        "id": "health",
+                        "name": "Physical Health"
+                    },
+                    {
+                        "id": "rights",
+                        "name": "Justice and Human Rights"
+                    }
+                ]
+            },
+            "countries": {
+                "country": [
+                    {
+                        "name": "Bangladesh",
+                        "iso3166CountryCode": "BD"
+                    },
+                    {
+                        "name": "Bolivia",
+                        "iso3166CountryCode": "BO"
+                    },
+                    {
+                        "name": "Brazil",
+                        "iso3166CountryCode": "BR"
+                    },
+                    {
+                        "name": "Burkina Faso",
+                        "iso3166CountryCode": "BF"
+                    },
+                    {
+                        "name": "Cambodia",
+                        "iso3166CountryCode": "KH"
+                    },
+                    {
+                        "name": "Cameroon",
+                        "iso3166CountryCode": "CM"
+                    },
+                    {
+                        "name": "China",
+                        "iso3166CountryCode": "CN"
+                    },
+                    {
+                        "name": "Dominican Republic",
+                        "iso3166CountryCode": "DO"
+                    },
+                    {
+                        "name": "Egypt",
+                        "iso3166CountryCode": "EG"
+                    },
+                    {
+                        "name": "Ethiopia",
+                        "iso3166CountryCode": "ET"
+                    },
+                    {
+                        "name": "Ghana",
+                        "iso3166CountryCode": "GH"
+                    },
+                    {
+                        "name": "Guatemala",
+                        "iso3166CountryCode": "GT"
+                    },
+                    {
+                        "name": "Honduras",
+                        "iso3166CountryCode": "HN"
+                    },
+                    {
+                        "name": "India",
+                        "iso3166CountryCode": "IN"
+                    },
+                    {
+                        "name": "Jordan",
+                        "iso3166CountryCode": "JO"
+                    },
+                    {
+                        "name": "Kenya",
+                        "iso3166CountryCode": "KE"
+                    },
+                    {
+                        "name": "Malawi",
+                        "iso3166CountryCode": "MW"
+                    },
+                    {
+                        "name": "Mauritius",
+                        "iso3166CountryCode": "MU"
+                    },
+                    {
+                        "name": "Mexico",
+                        "iso3166CountryCode": "MX"
+                    },
+                    {
+                        "name": "Morocco",
+                        "iso3166CountryCode": "MA"
+                    },
+                    {
+                        "name": "Myanmar",
+                        "iso3166CountryCode": "MM"
+                    },
+                    {
+                        "name": "Nepal",
+                        "iso3166CountryCode": "NP"
+                    },
+                    {
+                        "name": "Nicaragua",
+                        "iso3166CountryCode": "NI"
+                    },
+                    {
+                        "name": "Nigeria",
+                        "iso3166CountryCode": "NG"
+                    },
+                    {
+                        "name": "Pakistan",
+                        "iso3166CountryCode": "PK"
+                    },
+                    {
+                        "name": "Peru",
+                        "iso3166CountryCode": "PE"
+                    },
+                    {
+                        "name": "Senegal",
+                        "iso3166CountryCode": "SN"
+                    },
+                    {
+                        "name": "Sierra Leone",
+                        "iso3166CountryCode": "SL"
+                    },
+                    {
+                        "name": "South Africa",
+                        "iso3166CountryCode": "ZA"
+                    },
+                    {
+                        "name": "Sudan",
+                        "iso3166CountryCode": "SD"
+                    },
+                    {
+                        "name": "Eswatini",
+                        "iso3166CountryCode": "SZ"
+                    },
+                    {
+                        "name": "Tanzania, United Republic of",
+                        "iso3166CountryCode": "TZ"
+                    },
+                    {
+                        "name": "Thailand",
+                        "iso3166CountryCode": "TH"
+                    },
+                    {
+                        "name": "Uganda",
+                        "iso3166CountryCode": "UG"
+                    },
+                    {
+                        "name": "United States",
+                        "iso3166CountryCode": "US"
+                    },
+                    {
+                        "name": "Vietnam",
+                        "iso3166CountryCode": "VN"
+                    },
+                    {
+                        "name": "Zambia",
+                        "iso3166CountryCode": "ZM"
+                    },
+                    {
+                        "name": "Zimbabwe",
+                        "iso3166CountryCode": "ZW"
+                    }
+                ]
+            },
+            "country": "United States"
+        },
+        "active": true,
+        "title": "Supporting indigenous mentors to reach more girls",
+        "summary": "Abriendo Oportunidades (Creating Opportunities) is a program designed and implemented by the Population Council. The program identifies young indigenous women with potential to become mentors of safe spaces where girls ares organized in age appropriate groups and relevant content on topics like education, life skills, sexual and reproductive health, food sovereignty and prevention of all forms of violence is delivered.",
+        "contactName": "Angel del Valle",
+        "contactAddress": "19 avenida 0-35 zona 15",
+        "contactAddress2": "Vista Hermosa 2",
+        "contactCity": "Guatemala City",
+        "contactState": "Guatemala",
+        "contactPostal": "",
+        "contactCountry": "Guatemala",
+        "contactUrl": "http://www.popcouncil.org/research/abriendo-oportunidades-opening-opportunities",
+        "projectLink": "https://www.globalgiving.org/projects/abriendo-oportunidades/",
+        "progressReportLink": "https://www.globalgiving.org/projects/abriendo-oportunidades/updates/",
+        "themeName": "Racial Justice",
+        "country": "Guatemala",
+        "iso3166CountryCode": "GT",
+        "region": "South/Central America and the Caribbean",
+        "goal": 120000.0,
+        "funding": 91779.12,
+        "remaining": 28220.88,
+        "numberOfDonations": 1449,
+        "status": "unsearchable",
+        "need": "Rural indigenous girls have to grow-up facing high levels of poverty, severe lack of educational opportunities and lack of female role models. One-in-five children in Guatemala is born to an adolescent girl mother (aged 15-19 years) and most of these \"child mothers\" are indigenous girls living in poverty.",
+        "longTermImpact": "Young indigenous mentors come from the same communities as girls and have started to build their own organizations, focusing on sustaining their livelihoods through female empowerment. A recent impact evaluation of the program showed positive reductions in girls' experience of physical violence at home and promise to reduce child marriage significantly.",
+        "activities": "Abriendo Oportunidades is part of a generation of programs anchored in communities that face social and economic exclusion. The program organizes girls in groups and brings them together in safe spaces to build their life skills and offer them mentoring. The program invests in educational resources for girls, stipends for mentors and, since 2018, in seed funding for mentors to develop productive projects.",
+        "additionalDocumentation": "https://www.globalgiving.org/pfil/8967/projdoc.pdf",
+        "imageLink": "https://www.globalgiving.org/pfil/8967/pict.jpg",
+        "imageGallerySize": 9,
+        "videos": {
+            "video": [
+                {
+                    "url": "http://www.youtube.com/v/bgQOCjct3ec"
+                }
+            ]
+        },
+        "longitude": -91.13433837890625,
+        "latitude": 14.743924140930176,
+        "approvedDate": "2011-10-15T00:00:00-04:00",
+        "donationOptions": {
+            "donationOption": [
+                {
+                    "amount": 25,
+                    "description": "Supports educational materials for the AO program"
+                },
+                {
+                    "amount": 30,
+                    "description": "Supports girls to receive radio education as a response to the current COVID-19 crisis"
+                },
+                {
+                    "amount": 50,
+                    "description": "Covers the cost of training materials for mentors for 6 months."
+                },
+                {
+                    "amount": 500,
+                    "description": "Covers the stipend for 1 mentor for 6 months to lead sessions with 25 girls."
+                },
+                {
+                    "amount": 1000,
+                    "description": "Covers the stipend for 1 mentor for 12 months to lead sessions with 25 girls."
+                },
+                {
+                    "amount": 2500,
+                    "description": "Provides food for 1,800 chickens for one month for mentor's Productive House."
+                }
+            ]
+        },
+        "modifiedDate": "2023-05-23T01:34:00-04:00",
+        "numberOfReports": 67,
+        "dateOfMostRecentReport": "2022-08-16T13:46:30-04:00",
+        "themes": {
+            "theme": [
+                {
+                    "id": "justice",
+                    "name": "Racial Justice"
+                },
+                {
+                    "id": "democ",
+                    "name": "Peace and Reconciliation"
+                },
+                {
+                    "id": "edu",
+                    "name": "Education"
+                },
+                {
+                    "id": "rights",
+                    "name": "Justice and Human Rights"
+                },
+                {
+                    "id": "reproductive",
+                    "name": "Reproductive Health"
+                }
+            ]
+        },
+        "image": {
+            "title": "Supporting indigenous mentors to reach more girls",
+            "imagelink": [
+                {
+                    "url": "https://www.globalgiving.org/pfil/8967/pict_grid1.jpg",
+                    "size": "small"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/8967/pict_thumbnail.jpg",
+                    "size": "thumbnail"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/8967/pict_med.jpg",
+                    "size": "medium"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/8967/pict_grid7.jpg",
+                    "size": "large"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/8967/pict_large.jpg",
+                    "size": "extraLarge"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/8967/pict_original.jpg",
+                    "size": "original"
+                }
+            ],
+            "id": 0
+        },
+        "countries": {
+            "country": [
+                {
+                    "name": "Guatemala",
+                    "iso3166CountryCode": "GT"
+                }
+            ]
+        },
+        "type": "project"
+    },
+    {
+        "id": 44363,
+        "organization": {
+            "id": 9128,
+            "name": "Story Tapestries Inc.",
+            "ein": "27-3352560",
+            "addressLine1": "19301 Hempstone Ave",
+            "addressLine2": "",
+            "city": "Poolesville",
+            "state": "MD",
+            "postal": "20837",
+            "iso3166CountryCode": "US",
+            "url": "https://www.storytapestries.org/",
+            "logoUrl": "https://www.globalgiving.org/pfil/organ/9128/orglogo.jpg",
+            "mission": "Mission:\nTo use the arts as a powerful tool to create accessible, open spaces and opportunities for individuals to reach their highest potential and to work together for a more inclusive community. \n \nStory Tapestries accomplishes this by: \nproviding innovative, custom-designed performances, workshops and hands-on community and educational experiences; \ndesigning programs that develop skills, connect individuals, elevate diverse voices and celebrate youth, families, adults, and seniors; and\nengaging and impacting individuals where they live, work and thrive.\n\nVision:\nTo give individuals access to tools and resources that use the arts as a vital form of communication for expression, skills development, enhancement of community connections and celebration of unique voices and stories.\n\nValue Statement: \nWith a respect for the needs of those supporting and collaborating with the organization, Story Tapestries strives to bring fiscally responsible, innovative, culturally-sensitive programming to all generations.",
+            "totalProjects": 8,
+            "activeProjects": 4,
+            "themes": {
+                "theme": [
+                    {
+                        "id": "children",
+                        "name": "Child Protection"
+                    },
+                    {
+                        "id": "edu",
+                        "name": "Education"
+                    },
+                    {
+                        "id": "gender",
+                        "name": "Gender Equality"
+                    },
+                    {
+                        "id": "rights",
+                        "name": "Justice and Human Rights"
+                    },
+                    {
+                        "id": "tech",
+                        "name": "Digital Literacy"
+                    },
+                    {
+                        "id": "art",
+                        "name": "Arts and Culture"
+                    },
+                    {
+                        "id": "mentalhealth",
+                        "name": "Mental Health"
+                    },
+                    {
+                        "id": "justice",
+                        "name": "Racial Justice"
+                    }
+                ]
+            },
+            "countries": {
+                "country": [
+                    {
+                        "name": "United States",
+                        "iso3166CountryCode": "US"
+                    }
+                ]
+            },
+            "country": "United States"
+        },
+        "active": true,
+        "title": "Amplifying Voices for Racial Equity in MD-DC-VA",
+        "summary": "In 2017 Montgomery County's Police reported an 26% increase in bias incidents compared to the prior year. Of the incidents reported, roughly half were motivated by bias toward religion and half were motivated by bias toward a race or ethnicity. Story Tapestries took this report as a call to action and collaborated with other local organizations, including the Strathmore and Impact Silver Spring, to call upon our wide networks of concerned individuals to begin meeting and form a Task Force.",
+        "contactName": "Arianna Ross",
+        "contactAddress": "13641 Winterspoon Lane",
+        "contactCity": "Germantown",
+        "contactState": "MD",
+        "contactPostal": "20874",
+        "contactCountry": "United States",
+        "contactUrl": "http://www.storytapestries.org/",
+        "projectLink": "https://www.globalgiving.org/projects/amplify-us/",
+        "progressReportLink": "https://www.globalgiving.org/projects/amplify-us/updates/",
+        "themeName": "Racial Justice",
+        "country": "United States",
+        "iso3166CountryCode": "US",
+        "region": "North America",
+        "goal": 15000.0,
+        "funding": 7568.21,
+        "remaining": 7431.79,
+        "numberOfDonations": 101,
+        "status": "active",
+        "need": "An increase in bias incidents and hate crimes, in particular related to youth, has created a volatile environment in Montgomery County schools and communities. Children and adults alike live in fear of sharing their own stories and struggle to advocate for themselves and those they care about. Language, cultural and economic barriers can create a sensation of distance and separation. The arts break down these barriers, honoring our uniqueness while connecting us, highlighting our commonalities.",
+        "longTermImpact": "Workshops create a non-judgmental space in which participants are comfortable to share their experiences, perspectives and feelings. The facilitator and teaching artist give children and adults tools to appropriately handle conflicts, advocate for their needs and become more compassionate listeners. Art breaks down barriers and creates safe spaces to express emotions in ways that other strategies do not. Art becomes a part of the solution to the social-emotional problems communities are facing.",
+        "activities": "Free workshops are offered in accessible public spaces in communities facing high rates of bias incidents and in spaces with existing programs addressing social justice issues - leveraging their existing audience and augmenting their programs. Workshop participants work with artists in multiple art forms to share their stories and hone their ability to share them with an audience. They then have opportunities to perform in free public performances alongside professionals, amplifying their story.",
+        "additionalDocumentation": "https://www.globalgiving.org/pfil/44363/projdoc.pdf",
+        "imageLink": "https://www.globalgiving.org/pfil/44363/pict.jpg",
+        "imageGallerySize": 4,
+        "videos": {
+            "video": [
+                {
+                    "url": "http://www.youtube.com/v/gt__AgBjNVE"
+                }
+            ]
+        },
+        "approvedDate": "2020-01-02T10:16:31-05:00",
+        "donationOptions": {
+            "donationOption": [
+                {
+                    "amount": 25,
+                    "description": "a community member attends a 2-hour arts-based workshop for free"
+                },
+                {
+                    "amount": 50,
+                    "description": "a community artist receives coaching from a master artist to polish their performance"
+                },
+                {
+                    "amount": 150,
+                    "description": "an interpreter will support a community workshop to include every participant in the dialogue"
+                },
+                {
+                    "amount": 300,
+                    "description": "closed captioning provided to make a public performance more accessible"
+                },
+                {
+                    "amount": 1000,
+                    "description": "provides 20-30 youth ages 12-18 years old with an intensive 3-day Leadership Institute led by master teaching artists and conflict-resolution and trauma-response trained facilitators"
+                },
+                {
+                    "amount": 2500,
+                    "description": "produces a 15-minute documentary-style film to share the process and the stories with a wide audience"
+                }
+            ]
+        },
+        "modifiedDate": "2023-05-23T01:36:29-04:00",
+        "numberOfReports": 14,
+        "dateOfMostRecentReport": "2023-02-27T16:17:23-05:00",
+        "themes": {
+            "theme": [
+                {
+                    "id": "justice",
+                    "name": "Racial Justice"
+                },
+                {
+                    "id": "rights",
+                    "name": "Justice and Human Rights"
+                }
+            ]
+        },
+        "image": {
+            "title": "Amplifying Voices for Racial Equity in MD-DC-VA",
+            "imagelink": [
+                {
+                    "url": "https://www.globalgiving.org/pfil/44363/pict_grid1.jpg",
+                    "size": "small"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/44363/pict_thumbnail.jpg",
+                    "size": "thumbnail"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/44363/pict_med.jpg",
+                    "size": "medium"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/44363/pict_grid7.jpg",
+                    "size": "large"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/44363/pict_large.jpg",
+                    "size": "extraLarge"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/44363/pict_original.jpg",
+                    "size": "original"
+                }
+            ],
+            "id": 0
+        },
+        "countries": {
+            "country": [
+                {
+                    "name": "United States",
+                    "iso3166CountryCode": "US"
+                }
+            ]
+        },
+        "type": "project"
+    },
+    {
+        "id": 50327,
+        "organization": {
+            "id": 7157,
+            "name": "Boys and Girls Clubs of Canada",
+            "addressLine1": "2005 Sheppard Ave. E.",
+            "addressLine2": "Suite 400",
+            "city": "Toronto",
+            "state": "Ontario",
+            "postal": "M2J5B4",
+            "iso3166CountryCode": "CA",
+            "url": "http://www.bgccan.com",
+            "logoUrl": "https://www.globalgiving.org/pfil/organ/7157/orglogo.png",
+            "mission": "To provide a safe, supportive place where children and youth can go to experience new opportunities, overcome barriers, build positive relationships and develop confidence and skills for life.\n\nAt 87 Clubs and 775 service locations in every province in Canada, through life-changing programs, community-based services, and relationships with peers and caring adults, BGC Canada helps kids and teens develop the skills they need to succeed.",
+            "totalProjects": 8,
+            "activeProjects": 3,
+            "themes": {
+                "theme": [
+                    {
+                        "id": "democ",
+                        "name": "Peace and Reconciliation"
+                    },
+                    {
+                        "id": "edu",
+                        "name": "Education"
+                    },
+                    {
+                        "id": "gender",
+                        "name": "Gender Equality"
+                    },
+                    {
+                        "id": "health",
+                        "name": "Physical Health"
+                    },
+                    {
+                        "id": "sport",
+                        "name": "Sport"
+                    },
+                    {
+                        "id": "tech",
+                        "name": "Digital Literacy"
+                    },
+                    {
+                        "id": "hunger",
+                        "name": "Food Security"
+                    },
+                    {
+                        "id": "art",
+                        "name": "Arts and Culture"
+                    },
+                    {
+                        "id": "lgbtq",
+                        "name": "LGBTQIA+ Equality"
+                    },
+                    {
+                        "id": "mentalhealth",
+                        "name": "Mental Health"
+                    },
+                    {
+                        "id": "justice",
+                        "name": "Racial Justice"
+                    }
+                ]
+            },
+            "countries": {
+                "country": [
+                    {
+                        "name": "Canada",
+                        "iso3166CountryCode": "CA"
+                    }
+                ]
+            },
+            "country": "Canada"
+        },
+        "active": true,
+        "title": "National Anti-Racism Initiative",
+        "summary": "As Canada's largest charitable organization serving kids and teens, our Clubs open their doors to all young people, of all backgrounds, in 77 diverse communities across the country.  We want to help our Clubs create even more safe spaces and empower even more youth  that identify as BIPOC (Black, Indigenous, People of Colour).",
+        "contactName": "Josh Lopez",
+        "contactAddress": "2005 Sheppard Ave. E.",
+        "contactAddress2": "Suite 400",
+        "contactCity": "Toronto",
+        "contactState": "Ontario",
+        "contactPostal": "M2J5B4",
+        "contactCountry": "Canada",
+        "contactUrl": "http://www.bgccan.com",
+        "projectLink": "https://www.globalgiving.org/projects/national-anti-racism-initiative/",
+        "progressReportLink": "https://www.globalgiving.org/projects/national-anti-racism-initiative/updates/",
+        "themeName": "Racial Justice",
+        "country": "Canada",
+        "iso3166CountryCode": "CA",
+        "region": "North America",
+        "goal": 1000000.0,
+        "funding": 1939.41,
+        "remaining": 998060.59,
+        "numberOfDonations": 41,
+        "status": "unsearchable",
+        "need": "Our core values-Belonging, Respect, Encouragement and Support, Working Together, Speaking Out-are built around inclusion and we are proud of the work we do. We stand against systemic racism, prejudice, discrimination, injustice. We believe Black Lives Matter.  BGC Canada is committed to change. We will continue to uphold our core values. We will continue to open our doors to all young people.",
+        "longTermImpact": "This work will impact and support all the kids and teens, of all backgrounds, in 775 diverse communities across the country. We want to help our Clubs create even more safe spaces and empower even more youth that identify as BIPOC. We need to provide training and tools that will help white staff and youth recognize their privilege and learn how to be effective allies.",
+        "activities": "- Creating a national anti-racism program for youth that can be run at every Club across the country  - Establishing micro grants for Black youth that want to create programs, initiatives, or events that support Black communities and combat racism and discrimination.    - Developing anti-racism training and resources for our national team and Club staff that will ensure we incorporate anti-racism practices into all national initiatives and programs.    - Running youth-led anti-racism workshops",
+        "additionalDocumentation": "https://www.globalgiving.org/pfil/50327/projdoc.pdf",
+        "imageLink": "https://www.globalgiving.org/pfil/50327/pict.jpg",
+        "imageGallerySize": 1,
+        "approvedDate": "2020-11-23T16:59:43-05:00",
+        "donationOptions": {
+            "donationOption": [
+                {
+                    "amount": 25,
+                    "description": "Support all BGC Canada EDI initiatives"
+                },
+                {
+                    "amount": 50,
+                    "description": "Support all BGC Canada EDI initiatives"
+                },
+                {
+                    "amount": 75,
+                    "description": "Support all BGC Canada EDI initiatives"
+                },
+                {
+                    "amount": 100,
+                    "description": "Support all BGC Canada EDI initiatives"
+                },
+                {
+                    "amount": 125,
+                    "description": "Support all BGC Canada EDI initiatives"
+                },
+                {
+                    "amount": 150,
+                    "description": "Support all BGC Canada EDI initiatives"
+                },
+                {
+                    "amount": 175,
+                    "description": "Support all BGC Canada EDI initiatives"
+                },
+                {
+                    "amount": 200,
+                    "description": "Support all BGC Canada EDI initiatives"
+                }
+            ]
+        },
+        "modifiedDate": "2023-05-23T01:36:56-04:00",
+        "numberOfReports": 5,
+        "dateOfMostRecentReport": "2021-11-29T12:49:41-05:00",
+        "themes": {
+            "theme": [
+                {
+                    "id": "justice",
+                    "name": "Racial Justice"
+                }
+            ]
+        },
+        "image": {
+            "title": "National Anti-Racism Initiative",
+            "imagelink": [
+                {
+                    "url": "https://www.globalgiving.org/pfil/50327/pict_grid1.jpg",
+                    "size": "small"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/50327/pict_thumbnail.jpg",
+                    "size": "thumbnail"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/50327/pict_med.jpg",
+                    "size": "medium"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/50327/pict_grid7.jpg",
+                    "size": "large"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/50327/pict_large.jpg",
+                    "size": "extraLarge"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/50327/pict_original.jpg",
+                    "size": "original"
+                }
+            ],
+            "id": 0
+        },
+        "countries": {
+            "country": [
+                {
+                    "name": "Canada",
+                    "iso3166CountryCode": "CA"
+                }
+            ]
+        },
+        "type": "project"
+    },
+    {
+        "id": 50385,
+        "organization": {
+            "id": 48089,
+            "name": "Feedback Labs, Inc.",
+            "ein": "82-2145977",
+            "addressLine1": "1100 13th St NW",
+            "addressLine2": "Suite 800",
+            "city": "Washington",
+            "state": "DC",
+            "postal": "20005",
+            "iso3166CountryCode": "US",
+            "url": "http://www.feedbacklabs.org",
+            "logoUrl": "https://www.globalgiving.org/pfil/organ/48089/orglogo.png",
+            "mission": "Feedback Labs (FBL) believes that listening to the people we seek to serve isn't just the right thing to do morally and ethically; it's also often the smart thing to do in terms of impact. Working to create new norms in the philanthropy, aid, and governance sectors that put regular people in the driver's seat - with experts in a supporting role during program selection, design, implementation, and evaluation - we ask three driving questions: What do regular people want to make their lives better? Are we helping them get it? If not, what should we do differently?",
+            "totalProjects": 6,
+            "activeProjects": 1,
+            "themes": {
+                "theme": [
+                    {
+                        "id": "democ",
+                        "name": "Peace and Reconciliation"
+                    }
+                ]
+            },
+            "countries": {
+                "country": [
+                    {
+                        "name": "United Kingdom",
+                        "iso3166CountryCode": "GB"
+                    },
+                    {
+                        "name": "United States",
+                        "iso3166CountryCode": "US"
+                    }
+                ]
+            },
+            "country": "United States"
+        },
+        "active": false,
+        "title": "Support feedback in the fight for racial justice",
+        "summary": "Feedback Labs believes that nonprofits, foundations and governments should listen to the communities they serve and act on feedback. We are highlighting the amazing ways that BIPOC (Black, Indigenous, People of Color) activists and leaders are listening to communities in a blog series called \"Listening for Justice.\" These funds will allow us to compensate these activists for their time and thoughts as they contribute to this conversation.",
+        "contactName": "Margaret VanDeusen",
+        "contactAddress": "1110 Vermont Ave NW",
+        "contactAddress2": "Suite 500",
+        "contactCity": "Washington",
+        "contactState": "DC",
+        "contactPostal": "20005",
+        "contactCountry": "United States",
+        "contactUrl": "http://www.feedbacklabs.org",
+        "projectLink": "https://www.globalgiving.org/projects/support-feedback-in-the-fight-for-racial-justice/",
+        "progressReportLink": "https://www.globalgiving.org/projects/support-feedback-in-the-fight-for-racial-justice/updates/",
+        "themeName": "Racial Justice",
+        "country": "United States",
+        "iso3166CountryCode": "US",
+        "region": "North America",
+        "goal": 5000.0,
+        "funding": 1315.0,
+        "remaining": 3685.0,
+        "numberOfDonations": 22,
+        "status": "funded",
+        "need": "Feedback Labs believes that governments, nonprofits and philanthropy need to do a better job of listening to the people they aim to serve. Many leaders in the fight for racial justice are on the frontlines listening and acting on feedback from communities, and others can learn a lot from the work they're doing. We aim to highlight those efforts in a \"Listening for Social Justice\" series on our website, and believe that the activists who contribute to this work should be compensated.",
+        "longTermImpact": "We hope that those working in philanthropy, nonprofits, and government will learn from (and emulate) the work these BIPOC activists are doing to represent and be responsive to the desires of communities fighting for racial justice.",
+        "activities": "Through our \"Listening for Justice\" blog series we aim to highlight the work that BIPOC activists are doing to listen and act on feedback from communities in the fight for racial justice. We believe these activists should be compensated for their time to share their thoughts to create these blog posts.",
+        "imageLink": "https://www.globalgiving.org/pfil/50385/pict.jpg",
+        "imageGallerySize": 1,
+        "approvedDate": "2020-11-24T12:51:12-05:00",
+        "donationOptions": {
+            "donationOption": [
+                {
+                    "amount": 25,
+                    "description": "Will support BIPOC activists who are listening and acting on feedback"
+                },
+                {
+                    "amount": 150,
+                    "description": "Will support the creation of one 'Listening for Justice' blog postfor Justice blog post"
+                },
+                {
+                    "amount": 300,
+                    "description": "Will support two activists to create \"Listening for Justice\" pieces"
+                },
+                {
+                    "amount": 1000,
+                    "description": "Will support six months of content related to feedback and racial justice"
+                },
+                {
+                    "amount": 2000,
+                    "description": "Will support a year of 'Listening for Justice' content"
+                },
+                {
+                    "amount": 5000,
+                    "description": "Will support Feedback Lab's overall feedback and equity efforts"
+                }
+            ]
+        },
+        "modifiedDate": "2023-05-23T01:36:56-04:00",
+        "numberOfReports": 4,
+        "dateOfMostRecentReport": "2022-03-18T14:30:50-04:00",
+        "themes": {
+            "theme": [
+                {
+                    "id": "justice",
+                    "name": "Racial Justice"
+                }
+            ]
+        },
+        "image": {
+            "title": "Support feedback in the fight for racial justice",
+            "imagelink": [
+                {
+                    "url": "https://www.globalgiving.org/pfil/50385/pict_grid1.jpg",
+                    "size": "small"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/50385/pict_thumbnail.jpg",
+                    "size": "thumbnail"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/50385/pict_med.jpg",
+                    "size": "medium"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/50385/pict_grid7.jpg",
+                    "size": "large"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/50385/pict_large.jpg",
+                    "size": "extraLarge"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/50385/pict_original.jpg",
+                    "size": "original"
+                }
+            ],
+            "id": 0
+        },
+        "countries": {
+            "country": [
+                {
+                    "name": "United States",
+                    "iso3166CountryCode": "US"
+                }
+            ]
+        },
+        "type": "project"
+    },
+    {
+        "id": 50892,
+        "active": false,
+        "title": "Capacity building and Youth engagement on rights",
+        "contactName": "Bikeke Saimon",
+        "contactAddress": "Kasese District, Rwenzori Sub region, Western Part of Uganda",
+        "contactCity": "Kasese",
+        "contactState": "",
+        "contactPostal": "",
+        "contactCountry": "Uganda",
+        "contactUrl": "",
+        "projectLink": "https://www.globalgiving.org/projects/50892/",
+        "progressReportLink": "https://www.globalgiving.org/projects/50892/updates/",
+        "themeName": "Racial Justice",
+        "goal": 1000.0,
+        "funding": 1.58,
+        "remaining": 998.42,
+        "numberOfDonations": 2,
+        "status": "retired",
+        "imageLink": "https://www.globalgiving.org/pfil/50892/pict.jpg",
+        "imageGallerySize": 1,
+        "modifiedDate": "2023-05-23T01:36:59-04:00",
+        "numberOfReports": 0,
+        "themes": {
+            "theme": [
+                {
+                    "id": "justice",
+                    "name": "Racial Justice"
+                }
+            ]
+        },
+        "image": {
+            "title": "Capacity building and Youth engagement on rights",
+            "imagelink": [
+                {
+                    "url": "https://www.globalgiving.org/pfil/50892/pict_grid1.jpg",
+                    "size": "small"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/50892/pict_thumbnail.jpg",
+                    "size": "thumbnail"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/50892/pict_med.jpg",
+                    "size": "medium"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/50892/pict_grid7.jpg",
+                    "size": "large"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/50892/pict_large.jpg",
+                    "size": "extraLarge"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/50892/pict_original.jpg",
+                    "size": "original"
+                }
+            ],
+            "id": 0
+        },
+        "type": "project"
+    },
+    {
+        "id": 51085,
+        "organization": {
+            "id": 60807,
+            "name": "Figure Skating In Harlem Inc",
+            "ein": "13-3945168",
+            "addressLine1": "361 West 125th Street, 4th Floor",
+            "addressLine2": "",
+            "city": "NEW YORK",
+            "state": "NY",
+            "postal": "10027",
+            "iso3166CountryCode": "US",
+            "url": "https://figureskatinginharlem.org",
+            "logoUrl": "https://www.globalgiving.org/pfil/organ/60807/orglogo.jpg",
+            "mission": "Figure Skating in Harlem (FSH) is the first organization of its kind in the world to provide access to the sport and artistic discipline of figure skating combined with rigorous educational support to empower girls to thrive and become strong leaders. Our programs have supported thousands of girls of color ages 6 - 18 from under-resourced communities in New York City to reach their fullest potentials. Our mission is to help girls transform their lives and grow in confidence, leadership, and academic achievement.  Our vision is for every student, regardless of socio-economic background, to develop the foundational academic, social and leadership skills to achieve her dreams. She will be a powerful speaker, an effective leader, live a healthy lifestyle and be a global citizen.  In 2017, we launched our first chapter in Detroit, bringing effective programming to a whole new community and expanding our impact.",
+            "totalProjects": 1,
+            "activeProjects": 1,
+            "themes": {
+                "theme": [
+                    {
+                        "id": "children",
+                        "name": "Child Protection"
+                    },
+                    {
+                        "id": "edu",
+                        "name": "Education"
+                    },
+                    {
+                        "id": "gender",
+                        "name": "Gender Equality"
+                    },
+                    {
+                        "id": "health",
+                        "name": "Physical Health"
+                    },
+                    {
+                        "id": "sport",
+                        "name": "Sport"
+                    },
+                    {
+                        "id": "tech",
+                        "name": "Digital Literacy"
+                    },
+                    {
+                        "id": "art",
+                        "name": "Arts and Culture"
+                    }
+                ]
+            },
+            "countries": {
+                "country": [
+                    {
+                        "name": "United States",
+                        "iso3166CountryCode": "US"
+                    }
+                ]
+            },
+            "country": "United States"
+        },
+        "active": true,
+        "title": "Empower 200 Girls in NYC with Education and Sport",
+        "summary": "OUR MISSION: Figure Skating in Harlem helps girls transform their lives and grow in confidence, leadership and academic achievement. We are the only organization in the world for girls of color that combines the power of education with access to the artistic discipline of figure skating to build champions in life.   OUR VISION: To empower every young girl with the skills and foundation to achieve her dreams.",
+        "contactName": "Naomi West",
+        "contactAddress": "361 West 125th Street, 4th Floor",
+        "contactCity": "NEW YORK",
+        "contactState": "NY",
+        "contactPostal": "10027",
+        "contactCountry": "United States",
+        "contactUrl": "https://figureskatinginharlem.org",
+        "projectLink": "https://www.globalgiving.org/projects/empower-girls-of-color-with-education-and-sport/",
+        "progressReportLink": "https://www.globalgiving.org/projects/empower-girls-of-color-with-education-and-sport/updates/",
+        "themeName": "Racial Justice",
+        "country": "United States",
+        "iso3166CountryCode": "US",
+        "region": "North America",
+        "goal": 25000.0,
+        "funding": 1631.22,
+        "remaining": 23368.78,
+        "numberOfDonations": 34,
+        "status": "active",
+        "need": "The majority of our students reside in Central and East Harlem and the South Bronx, some of New York City's poorest neighborhoods. About two-thirds come from low-income families, whose annual income is less than $45,000. Generally, around 70% of our students identify as Black, 15% as Latina, and 15% as Multiracial. About 60% of our students qualify to participate in NYC's Free Lunch Program. Our students face multiple challenges as girls growing up within a culture of generational poverty.",
+        "longTermImpact": "Figure Skating in Harlem has a 25+year track record of success. As a result of participating, Figure Skating in Harlem girls grow academically, physically and emotionally over time. The vast majority of our students maintain a \"B\" average or higher in school. We can boast 100% graduation rate among our high school seniors, who have gone on to attend great colleges. This project will impact 200 girls in our program this year and many more in the future.",
+        "activities": "Figure Skating in Harlem's primary goal is for each of young woman of color in our program to develop the foundational academic, social and leadership skills to achieve her dreams. The long-term objectives of participating in the program are that our girls will: have the academic foundation to graduate from high school and succeed at a four-year college, possess positive social and emotional skills, and have confidence in their ability to achieve their personal goals.",
+        "additionalDocumentation": "https://www.globalgiving.org/pfil/51085/projdoc.pdf",
+        "imageLink": "https://www.globalgiving.org/pfil/51085/pict.png",
+        "imageGallerySize": 4,
+        "videos": {
+            "video": [
+                {
+                    "url": "http://www.youtube.com/v/L3oX-tsdD-E"
+                }
+            ]
+        },
+        "longitude": -73.95301818847656,
+        "latitude": 40.81120300292969,
+        "approvedDate": "2021-02-10T14:03:46-05:00",
+        "donationOptions": {
+            "donationOption": [
+                {
+                    "amount": 25,
+                    "description": "Provides a partial tuition scholarship for one student"
+                },
+                {
+                    "amount": 50,
+                    "description": "Helps support our ice time expenses"
+                },
+                {
+                    "amount": 100,
+                    "description": "Provides educational materials for one student in our STEAM and financial literacy programs"
+                },
+                {
+                    "amount": 250,
+                    "description": "Sponsors a tuition scholarship for one student in our I Can Excel (ICE): Afterschool Program"
+                },
+                {
+                    "amount": 500,
+                    "description": "Sponsors a skater in our I Can Excel (ICE): Afterschool Program to provide: a pair of skates, warm up uniforms, skate bag and blade covers, and costumes for our year-end performance"
+                },
+                {
+                    "amount": 1000,
+                    "description": "Sponsors one student to take part in our 2021 Summer Dreams Camp or Leaders Cafe Summer College Access Program"
+                },
+                {
+                    "amount": 2500,
+                    "description": "Provides technology required for our virtual education and fitness programs for five students"
+                },
+                {
+                    "amount": 5000,
+                    "description": "Sponsors a skating coach or academic tutor for the full school year"
+                }
+            ]
+        },
+        "modifiedDate": "2023-05-23T01:36:59-04:00",
+        "numberOfReports": 5,
+        "dateOfMostRecentReport": "2023-04-07T08:56:47-04:00",
+        "themes": {
+            "theme": [
+                {
+                    "id": "justice",
+                    "name": "Racial Justice"
+                },
+                {
+                    "id": "edu",
+                    "name": "Education"
+                }
+            ]
+        },
+        "image": {
+            "title": "Empower 200 Girls in NYC with Education and Sport",
+            "imagelink": [
+                {
+                    "url": "https://www.globalgiving.org/pfil/51085/pict_grid1.png",
+                    "size": "small"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/51085/pict_thumbnail.png",
+                    "size": "thumbnail"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/51085/pict_med.png",
+                    "size": "medium"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/51085/pict_grid7.png",
+                    "size": "large"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/51085/pict_large.png",
+                    "size": "extraLarge"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/51085/pict_original.png",
+                    "size": "original"
+                }
+            ],
+            "id": 0
+        },
+        "countries": {
+            "country": [
+                {
+                    "name": "United States",
+                    "iso3166CountryCode": "US"
+                }
+            ]
+        },
+        "type": "project"
+    },
+    {
+        "id": 51218,
+        "organization": {
+            "id": 91861,
+            "name": "Educacion contra el racismo A.C.",
+            "addressLine1": "Plaza Necaxa #18 PH2",
+            "addressLine2": "Colonia Cuauhtemoc",
+            "city": "Cuauhtemoc",
+            "state": "CDMX",
+            "postal": "06500",
+            "iso3166CountryCode": "MX",
+            "url": "https://racismo.mx/",
+            "logoUrl": "https://www.globalgiving.org/pfil/organ/91861/orglogo.png",
+            "mission": "RacismoMX (https://racismo.mx) is a citizens' initiative whose work has mainly focused on digital activism. This initiative is part of the civil organisation \"Educacion contra el racismo, A.C.\", whose members are all experts on non-discrimination and education. Taking into account the expertise and vision of its members, RacismoMX has designed and implemented education programs to help erradicate discrimination, gender violence, homophobia, transphobia and racism within society with an intersectional approach.",
+            "totalProjects": 1,
+            "activeProjects": 1,
+            "themes": {
+                "theme": [
+                    {
+                        "id": "rights",
+                        "name": "Justice and Human Rights"
+                    },
+                    {
+                        "id": "justice",
+                        "name": "Racial Justice"
+                    }
+                ]
+            },
+            "countries": {
+                "country": [
+                    {
+                        "name": "Mexico",
+                        "iso3166CountryCode": "MX"
+                    }
+                ]
+            },
+            "country": "Mexico"
+        },
+        "active": true,
+        "title": "Young Antiracist Leadership Project (YALP)",
+        "summary": "In Mexico, racism is another variable to the huge inequalities that racialized people (Indigenous, AfroMexican, and brown-skinned) still experience, although racism has been historically swept under the rug due to our colonial past. This has prevented a unified antiracist movement, so our project aims to provide young leaders the necessary tools to help them develop their own creative solutions to promote racial justice in their communities and to create a network of future antiracist activists.",
+        "contactName": "Jos\u00e9 Antonio Aguilar",
+        "contactAddress": "Plaza Necaxa #18 PH2",
+        "contactAddress2": "Colonia Cuauhtemoc",
+        "contactCity": "Cuauhtemoc",
+        "contactState": "CDMX",
+        "contactPostal": "06500",
+        "contactCountry": "Mexico",
+        "contactUrl": "https://racismo.mx/",
+        "projectLink": "https://www.globalgiving.org/projects/young-anti-racist-leadership-project-yalp/",
+        "progressReportLink": "https://www.globalgiving.org/projects/young-anti-racist-leadership-project-yalp/updates/",
+        "themeName": "Racial Justice",
+        "country": "Mexico",
+        "iso3166CountryCode": "MX",
+        "region": "North America",
+        "goal": 12000.0,
+        "funding": 9928.11,
+        "remaining": 2071.89,
+        "numberOfDonations": 145,
+        "status": "active",
+        "need": "According to several studies, in Mexico, 60% of the people feel discriminated by their skin tone, when more than 80% of the Mexican population is racialized. Given our historical background, talking about Mexican racism results uncomfortable which makes it difficult to coordinate a strong antiracist movement and find creative solutions to fight this historical oppression.",
+        "longTermImpact": "YALP's team will give each student the proper follow-up with their projects for six months to make sure they have the right support during that time. These projects will have a positive ripple effect to erradicate racism in Mexico. The student will also find in their classmates a long-life network of other new generation activists in order to consolidate the antiracist movement in Mexico.",
+        "activities": "YALP will provide ten (10) Mexican young leaders from racialized backgrounds the tools to boost their leadership skills and knowledge on racism, through workshops and masterclasses with specialists and activists. Also, the YALP will help them implement their own racial justice projects within their communities.",
+        "imageLink": "https://www.globalgiving.org/pfil/51218/pict.jpg",
+        "imageGallerySize": 2,
+        "videos": {
+            "video": [
+                {
+                    "url": "http://www.youtube.com/v/2EsHv2tgVAI"
+                }
+            ]
+        },
+        "longitude": -99.16658782958984,
+        "latitude": 19.430912017822266,
+        "approvedDate": "2021-04-05T08:58:53-04:00",
+        "donationOptions": {
+            "donationOption": [
+                {
+                    "amount": 10,
+                    "description": "Materials for one session"
+                },
+                {
+                    "amount": 15,
+                    "description": "One day student meal"
+                },
+                {
+                    "amount": 25,
+                    "description": "Book to study"
+                },
+                {
+                    "amount": 50,
+                    "description": "One specialized workshop"
+                },
+                {
+                    "amount": 100,
+                    "description": "Kit material for one student"
+                },
+                {
+                    "amount": 125,
+                    "description": "Half Student scholarship"
+                },
+                {
+                    "amount": 250,
+                    "description": "Full Student scholarship"
+                },
+                {
+                    "amount": 1250,
+                    "description": "25 hours (one week) of content of specialized content"
+                }
+            ]
+        },
+        "modifiedDate": "2023-05-23T01:37:00-04:00",
+        "numberOfReports": 6,
+        "dateOfMostRecentReport": "2023-03-16T03:45:57-04:00",
+        "themes": {
+            "theme": [
+                {
+                    "id": "justice",
+                    "name": "Racial Justice"
+                },
+                {
+                    "id": "rights",
+                    "name": "Justice and Human Rights"
+                }
+            ]
+        },
+        "image": {
+            "title": "Young Antiracist Leadership Project (YALP)",
+            "imagelink": [
+                {
+                    "url": "https://www.globalgiving.org/pfil/51218/pict_grid1.jpg",
+                    "size": "small"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/51218/pict_thumbnail.jpg",
+                    "size": "thumbnail"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/51218/pict_med.jpg",
+                    "size": "medium"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/51218/pict_grid7.jpg",
+                    "size": "large"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/51218/pict_large.jpg",
+                    "size": "extraLarge"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/51218/pict_original.jpg",
+                    "size": "original"
+                }
+            ],
+            "id": 0
+        },
+        "countries": {
+            "country": [
+                {
+                    "name": "Mexico",
+                    "iso3166CountryCode": "MX"
+                }
+            ]
+        },
+        "type": "project"
+    },
+    {
+        "id": 51291,
+        "organization": {
+            "id": 33314,
+            "name": "PARTI Program",
+            "ein": "76-0832431",
+            "addressLine1": "2576 Gumdrop Dr",
+            "addressLine2": "",
+            "city": "San Jose",
+            "state": "CA",
+            "postal": "95148",
+            "iso3166CountryCode": "US",
+            "url": "http://www.partiprogram.com",
+            "logoUrl": "https://www.globalgiving.org/pfil/organ/33314/orglogo.png",
+            "mission": "The P.A.R.T.I. (Positive Alternative Recreation Teambuilding Impact) Program believes that our children are our community's greatest assets. Every day we work to change the lives of youth who suffer from bullying, depression, violent lifestyles, unhealthy relationships and unstable families. We provide support activities for many low-income and underrepresented youth who otherwise never receive an opportunity to be heard or get placed in leadership roles in their school. PARTI Program believes leadership and service should be the common expectation and experience of all young people.",
+            "totalProjects": 9,
+            "activeProjects": 5,
+            "themes": {
+                "theme": [
+                    {
+                        "id": "edu",
+                        "name": "Education"
+                    },
+                    {
+                        "id": "gender",
+                        "name": "Gender Equality"
+                    },
+                    {
+                        "id": "health",
+                        "name": "Physical Health"
+                    },
+                    {
+                        "id": "sport",
+                        "name": "Sport"
+                    },
+                    {
+                        "id": "art",
+                        "name": "Arts and Culture"
+                    }
+                ]
+            },
+            "countries": {
+                "country": [
+                    {
+                        "name": "United States",
+                        "iso3166CountryCode": "US"
+                    }
+                ]
+            },
+            "country": "United States"
+        },
+        "active": true,
+        "title": "Youth - Civic Action for Racial and Social Equity",
+        "summary": "PARTI will create platforms for BIPOC youths to have equality and inclusion in civic, social, and service leadership. Every day we transform the lives of youths who suffer from adversities such as bullying, depression, violent lifestyles, unhealthy relationships, and unstable families. PARTI supports thousands of students of color with a strong and proven youth development program addressing safety, equity, and anti-violence, helping to build conflict-free environments that builds diversity.",
+        "contactName": "Winston Ashby",
+        "contactAddress": "2576 Gumdrop Dr",
+        "contactCity": "San Jose",
+        "contactState": "CA",
+        "contactPostal": "95148",
+        "contactCountry": "United States",
+        "contactUrl": "http://www.partiprogram.com",
+        "projectLink": "https://www.globalgiving.org/projects/youth-civic-action-for-racial-and-social-equity/",
+        "progressReportLink": "https://www.globalgiving.org/projects/youth-civic-action-for-racial-and-social-equity/updates/",
+        "themeName": "Racial Justice",
+        "country": "United States",
+        "iso3166CountryCode": "US",
+        "region": "North America",
+        "goal": 100000.0,
+        "funding": 83055.96,
+        "remaining": 16944.04,
+        "numberOfDonations": 436,
+        "status": "active",
+        "need": "An Association for Supervision and Curriculum Development (ASCD) report in 2020 states, \"Schools are experiencing 'an intensification' of racial and ethnic disputes between students\". In October 2020, a 18 year old African American San Jose youth committed suicide because of the mental and socio-emotional impact of Covid-19. As a response, we communicated with the African American youth, the child's mother, with a promise to provide additional covid-19 socio-emotional support to youth.",
+        "longTermImpact": "KEY PROGRAM COMPONENTS:  o CIVICS ACTION YOUTH COUNCIL: 2 YOUTH FROM PARTICIPATING  CITIES , TOTAL OF 40 YOUTH AGES 14-18 o ORGANIZE, PLAN AND PROMOTE YOUTH CAREER DAYS, D&I ACTIVITIES, AND EVENTS HOSTED BY YOUTH LEADERS o DEVELOP A YOUTH PLATFORM FOR EQUITY  THROUGH SERVICE",
+        "activities": "Leadership, Mentorship and Civic Action project is a year-round program designed to engage youth, ages 12-18, in historically under-served youth in Santa Clara County.  Programming takes place in person and/or virtually. Activities:1. Leadership and Civic Action Development 2. Service Learning/Community Involvement. 3. Planning and engaging in Social Action Events.",
+        "imageLink": "https://www.globalgiving.org/pfil/51291/pict.jpg",
+        "imageGallerySize": 3,
+        "videos": {
+            "video": [
+                {
+                    "url": "http://www.youtube.com/v/MABz-82cQkY"
+                }
+            ]
+        },
+        "longitude": -121.77230072021484,
+        "latitude": 37.15001678466797,
+        "approvedDate": "2021-03-01T16:09:20-05:00",
+        "donationOptions": {
+            "donationOption": [
+                {
+                    "amount": 10,
+                    "description": "will recognize 1 youth voice by providing recognition through a snack."
+                },
+                {
+                    "amount": 25,
+                    "description": "will support 1 youth to have a conversation to help them action plan and/or provide self care support in a time of conflict."
+                },
+                {
+                    "amount": 50,
+                    "description": "will support 1 child to engage 1 in service project in their community."
+                },
+                {
+                    "amount": 100,
+                    "description": "Will support 3 children to engage in 1 service project."
+                },
+                {
+                    "amount": 250,
+                    "description": "will support 5 youth to receive recognition for their voice, support them on action planning on creating a youth led service project or help them deal with conflict and/or support others who are."
+                },
+                {
+                    "amount": 500,
+                    "description": "Will support 25 youth to organize, plan, and lead a service project to engage or reach 100 people."
+                },
+                {
+                    "amount": 1000,
+                    "description": "Will support 25 youth to lead a 3 service projects in a year, reach 100 people or more, and provide recognition for youth participation."
+                },
+                {
+                    "amount": 2500,
+                    "description": "Will support 100 youth to lead 7 service projects and engage 500 youth and adults in service and provide a recognition and reflection activity for youth, families and caring adults."
+                }
+            ]
+        },
+        "modifiedDate": "2023-05-23T01:37:01-04:00",
+        "numberOfReports": 7,
+        "dateOfMostRecentReport": "2023-03-06T15:10:13-05:00",
+        "themes": {
+            "theme": [
+                {
+                    "id": "justice",
+                    "name": "Racial Justice"
+                }
+            ]
+        },
+        "image": {
+            "title": "Youth - Civic Action for Racial and Social Equity",
+            "imagelink": [
+                {
+                    "url": "https://www.globalgiving.org/pfil/51291/pict_grid1.jpg",
+                    "size": "small"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/51291/pict_thumbnail.jpg",
+                    "size": "thumbnail"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/51291/pict_med.jpg",
+                    "size": "medium"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/51291/pict_grid7.jpg",
+                    "size": "large"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/51291/pict_large.jpg",
+                    "size": "extraLarge"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/51291/pict_original.jpg",
+                    "size": "original"
+                }
+            ],
+            "id": 0
+        },
+        "countries": {
+            "country": [
+                {
+                    "name": "United States",
+                    "iso3166CountryCode": "US"
+                }
+            ]
+        },
+        "type": "project"
+    },
+    {
+        "id": 51564,
+        "organization": {
+            "id": 89974,
+            "name": "Freedom Fighting Missionaries Inc",
+            "ein": "85-2791045",
+            "addressLine1": "1635 Waybridge Ln",
+            "addressLine2": "",
+            "city": "Charlotte",
+            "state": "NC",
+            "postal": "28210",
+            "iso3166CountryCode": "US",
+            "url": "http://www.freedomfightingmissionaries.org",
+            "logoUrl": "https://www.globalgiving.org/pfil/organ/89974/orglogo.png",
+            "mission": "We provide services and resources to the formerly incarcerated and criminal justice involved that lead to self sufficiency. I started Freedom Fighting Missionaries because I didn't want those returning from jails and prisons to face the struggles that I did. I served a 10 year federal sentence and was released in 2012 . I  struggled to find a job because of my background and even though I went to over a dozen non profits I was still refused a job 40 times in a row before finally being hired by Goodwill making $7.25 per hour with 5 children to take care of. I continued to press forward until I was given an opportunity in automotive industry as a car salesman at a Mazda store and I quickly grew to top sales man and over the course of 7 years I was promoted to finance manager and then sales manager. I was able to take care of my now 6 children. I continued to support those like myself along the way and in January I decided to launch my own non profit. I was given a great opportunity to work with a non profit in Charlotte and they were gracious enough to teach what I needed to know to go on my own. I had a plan and then Covid-19 followed by the murder of George Floyd. My workload increased by 90% and with limited resources I was forced to spring into action and start operating 24/7 and expanding our services to assist the elderly , homeless and those with criminal backgrounds coupled with a disability.\nWe focus our efforts on supporting those who have been incarcerated in jails and prisons by connecting them with services and resources that are specific to them. Our team of professionals all have lived experience and have successfully transitioned from prison to self sufficiency. Our unique approach is driven by our desire to see barriers broken down. The journey to self sufficiency from poverty is difficult in any city but it is especially difficult for those who have a criminal background and in many cases a documented disability. Our most vulnerable populations are in need of advocates as they try to navigate through technological changes . Through our experience working with and assisting those who have been in prison, chronically houseless, live below the poverty line and the elderly we have discovered that they need assistance filling out online forms, someone to speak on their behalf and lessons with using the internet or a cell phone. We encourage our community to support us by using the skills, time and resources they have to help those returning from prisons which in turn provides community safety as well as relief to taxes as our peers and their children are no longer dependent upon the government for assistance. We have developed a system that allows us as a community to assist men and women who have struggled with housing due to having a criminal background obtain housing. Finding suitable housing with a background is difficult but with community support it has proven to be possible. Our mission is to help make the best out of a secong chance.\nFreedom Fighting Missionaries Inc has recently partnered with Home Again Foundation to bring affordable housing solutions to vulnerable populations experiencing homelessness. I was working with another non profit Crisis Assistance trying to secure housing for one of my clients and I was  referred to Home Again Foundations Vickie Craighead-Davis and once I learned that they would accept those with a background I immediately put my full support behind them and we formed a partnership. They allowed two of my clients who I had been struggling to get housing into their housing program. We are currently working together to obtain funding to build 300 affordable units in the next 2-3 years. We currently have the support of Our County , City and local churches, with the support of Global Giving we can help change some lives.",
+            "totalProjects": 1,
+            "activeProjects": 1,
+            "themes": {
+                "theme": [
+                    {
+                        "id": "democ",
+                        "name": "Peace and Reconciliation"
+                    },
+                    {
+                        "id": "ecdev",
+                        "name": "Economic Growth"
+                    },
+                    {
+                        "id": "edu",
+                        "name": "Education"
+                    },
+                    {
+                        "id": "gender",
+                        "name": "Gender Equality"
+                    },
+                    {
+                        "id": "rights",
+                        "name": "Justice and Human Rights"
+                    },
+                    {
+                        "id": "tech",
+                        "name": "Digital Literacy"
+                    },
+                    {
+                        "id": "lgbtq",
+                        "name": "LGBTQIA+ Equality"
+                    },
+                    {
+                        "id": "covid-19",
+                        "name": "COVID-19"
+                    },
+                    {
+                        "id": "disability",
+                        "name": "Disability Rights"
+                    },
+                    {
+                        "id": "justice",
+                        "name": "Racial Justice"
+                    },
+                    {
+                        "id": "housing",
+                        "name": "Safe Housing"
+                    }
+                ]
+            },
+            "countries": {
+                "country": [
+                    {
+                        "name": "United States",
+                        "iso3166CountryCode": "US"
+                    }
+                ]
+            },
+            "country": "United States"
+        },
+        "active": true,
+        "title": "Help us Assist The Formerly Incarcerated 2ndchance",
+        "summary": "This project will provide backpacks filled with essential items needed upon release from jail or prison. As a formerly incarcerated individual I know firsthand the importance of having basic items upon release so we are including a cell phone with 3 months of service included, gift card for uber/Lfyt rides, bus and train passed, preloaded employment and housing information. The backpacks will also contain basic cosmetics like toothbrush , deodorant , soap , new socks and other basic essentials.",
+        "contactName": "Kenneth Robinson",
+        "contactAddress": "1635 Waybridge Ln",
+        "contactCity": "Charlotte",
+        "contactState": "NC",
+        "contactPostal": "28210",
+        "contactCountry": "United States",
+        "contactUrl": "http://www.freedomfightingmissionaries.org",
+        "projectLink": "https://www.globalgiving.org/projects/assisting-those-with-a-disability-and-background/",
+        "progressReportLink": "https://www.globalgiving.org/projects/assisting-those-with-a-disability-and-background/updates/",
+        "themeName": "Racial Justice",
+        "country": "United States",
+        "iso3166CountryCode": "US",
+        "region": "North America",
+        "goal": 15000.0,
+        "funding": 9335.31,
+        "remaining": 5664.69,
+        "numberOfDonations": 116,
+        "status": "active",
+        "need": "Charlotte NC ranks close to last in economic mobility and struggles to move people from poverty to self sufficiency .Those who have been impacted by the criminal justice system and have a disability are the most vulnerable and experience chronic homelessness the most. The high cost of housing in Charlotte along with a having a background makes it almost impossible to move this population forward. We plan to provide backpacks with essentials to help with this process.",
+        "longTermImpact": "The long term impact will provide a better pathway to self sufficiency for those who we serve, having stable housing , employment and healthcare are essential to true self sufficiency.",
+        "activities": "Our project will help those we serve avoid returning back to jail or prison by providing them with resources that they currently do not receive. Our essentials in the back pack which includes information for housing and employment automatically reduces the chances they will return.",
+        "additionalDocumentation": "https://www.globalgiving.org/pfil/51564/projdoc.pdf",
+        "imageLink": "https://www.globalgiving.org/pfil/51564/pict.jpg",
+        "imageGallerySize": 7,
+        "videos": {
+            "video": [
+                {
+                    "url": "http://www.youtube.com/v/aNvAiBATmB0"
+                }
+            ]
+        },
+        "longitude": -80.87362670898438,
+        "latitude": 35.11543655395508,
+        "approvedDate": "2021-04-05T08:58:56-04:00",
+        "donationOptions": {
+            "donationOption": [
+                {
+                    "amount": 10,
+                    "description": "will pay for 2 bus passes or 2 train passes"
+                },
+                {
+                    "amount": 25,
+                    "description": "will pay for Uber/ Lyft ride home"
+                },
+                {
+                    "amount": 50,
+                    "description": "will pay for 2 gift cards for food"
+                },
+                {
+                    "amount": 75,
+                    "description": "will buy a cell phone"
+                },
+                {
+                    "amount": 100,
+                    "description": "will pay for 3 months of cell phone service"
+                },
+                {
+                    "amount": 150,
+                    "description": "will pay for cosmetics and clothing for 2 people"
+                },
+                {
+                    "amount": 500,
+                    "description": "will pay for job training for one person"
+                },
+                {
+                    "amount": 1000,
+                    "description": "will provide training or employment stipends for one individual"
+                }
+            ]
+        },
+        "modifiedDate": "2023-05-23T01:37:02-04:00",
+        "numberOfReports": 5,
+        "dateOfMostRecentReport": "2022-11-28T05:39:11-05:00",
+        "themes": {
+            "theme": [
+                {
+                    "id": "justice",
+                    "name": "Racial Justice"
+                },
+                {
+                    "id": "rights",
+                    "name": "Justice and Human Rights"
+                }
+            ]
+        },
+        "image": {
+            "title": "Help us Assist The Formerly Incarcerated 2ndchance",
+            "imagelink": [
+                {
+                    "url": "https://www.globalgiving.org/pfil/51564/pict_grid1.jpg",
+                    "size": "small"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/51564/pict_thumbnail.jpg",
+                    "size": "thumbnail"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/51564/pict_med.jpg",
+                    "size": "medium"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/51564/pict_grid7.jpg",
+                    "size": "large"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/51564/pict_large.jpg",
+                    "size": "extraLarge"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/51564/pict_original.jpg",
+                    "size": "original"
+                }
+            ],
+            "id": 0
+        },
+        "countries": {
+            "country": [
+                {
+                    "name": "United States",
+                    "iso3166CountryCode": "US"
+                }
+            ]
+        },
+        "type": "project"
+    },
+    {
+        "id": 51637,
+        "active": false,
+        "title": "The Cultural Imperative Program",
+        "summary": "CIP increases cultural awareness and enhances critical thinking skills for students of color. Critical thinking skills are essential to academic success and also influence how students navigate their daily activities. A foundation of cultural awareness for people of African ancestry is built upon accurate interpretations of African history and culture, which will positively impact students' self-image and behavior, and strengthen their connection to Africa.",
+        "contactName": "Shaba Kojo Jua Kanuri",
+        "contactAddress": "17007 SW 142ND PL",
+        "contactCity": "MIAMI",
+        "contactState": "FL",
+        "contactPostal": "33177-2719",
+        "contactCountry": "United States",
+        "contactUrl": "https://shoolay.com",
+        "projectLink": "https://www.globalgiving.org/projects/the-cultural-imperative-program/",
+        "progressReportLink": "https://www.globalgiving.org/projects/the-cultural-imperative-program/updates/",
+        "themeName": "Racial Justice",
+        "country": "United States",
+        "iso3166CountryCode": "US",
+        "region": "North America",
+        "goal": 5500.0,
+        "funding": 158.0,
+        "remaining": 5342.0,
+        "numberOfDonations": 1,
+        "status": "retired",
+        "need": "For information to motivate, it must be relatable or personally relevant.  Studies confirm that relatedness, connectedness, and sense of belonging are integral aspects of wellbeing. These are innate, essential, and universal needs. Unfortunately, these needs go unmet in the American educational experience for children of color, particularly African ancestry. With our children's wellbeing compromised, their ability to learn is hindered, and willingness to engage limited.",
+        "longTermImpact": "Completion of Shoolay programs increases likelihood of completing primary education and raises aspirations to enroll in college. Increased rates of graduation lead to more productive members of society.",
+        "activities": "To counter these debilitating factors, Shoolay reshapes the public educational experience by facilitating guided discussions on African and race history, which enriches the general curriculum and strengthens students' academic performance. Increased interest, improved grades, and confidence are among the equity metrics used to gauge our programs' impact.",
+        "imageLink": "https://www.globalgiving.org/pfil/51637/pict.jpg",
+        "imageGallerySize": 15,
+        "approvedDate": "2021-04-05T08:58:56-04:00",
+        "donationOptions": {
+            "donationOption": [
+                {
+                    "amount": 25,
+                    "description": "will cover the cost of program literature for a student"
+                },
+                {
+                    "amount": 45,
+                    "description": "will cover 1 month of a 6 month long program for a student"
+                },
+                {
+                    "amount": 100,
+                    "description": "covers program literature for 4 students"
+                },
+                {
+                    "amount": 135,
+                    "description": "will cover 1 month of a 6 long program for 3 students"
+                },
+                {
+                    "amount": 200,
+                    "description": "covers program literature for 8 students"
+                },
+                {
+                    "amount": 500,
+                    "description": "will cover 1 month of a 6 long program for 11 students"
+                },
+                {
+                    "amount": 2750,
+                    "description": "covers books and program for 10 students"
+                },
+                {
+                    "amount": 5500,
+                    "description": "covers books and program for 20 students"
+                }
+            ]
+        },
+        "modifiedDate": "2023-05-23T01:37:02-04:00",
+        "numberOfReports": 0,
+        "themes": {
+            "theme": [
+                {
+                    "id": "justice",
+                    "name": "Racial Justice"
+                },
+                {
+                    "id": "edu",
+                    "name": "Education"
+                }
+            ]
+        },
+        "image": {
+            "title": "The Cultural Imperative Program",
+            "imagelink": [
+                {
+                    "url": "https://www.globalgiving.org/pfil/51637/pict_grid1.jpg",
+                    "size": "small"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/51637/pict_thumbnail.jpg",
+                    "size": "thumbnail"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/51637/pict_med.jpg",
+                    "size": "medium"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/51637/pict_grid7.jpg",
+                    "size": "large"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/51637/pict_large.jpg",
+                    "size": "extraLarge"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/51637/pict_original.jpg",
+                    "size": "original"
+                }
+            ],
+            "id": 0
+        },
+        "countries": {
+            "country": [
+                {
+                    "name": "United States",
+                    "iso3166CountryCode": "US"
+                }
+            ]
+        },
+        "type": "project"
+    }
+]

@@ -1,0 +1,4062 @@
+[
+  {
+      "model": "movies.genre",
+      "pk": 28,
+      "fields": {
+          "name": "Action"
+      }
+  },
+  {
+      "model": "movies.genre",
+      "pk": 12,
+      "fields": {
+          "name": "Adventure"
+      }
+  },
+  {
+      "model": "movies.genre",
+      "pk": 16,
+      "fields": {
+          "name": "Animation"
+      }
+  },
+  {
+      "model": "movies.genre",
+      "pk": 35,
+      "fields": {
+          "name": "Comedy"
+      }
+  },
+  {
+      "model": "movies.genre",
+      "pk": 80,
+      "fields": {
+          "name": "Crime"
+      }
+  },
+  {
+      "model": "movies.genre",
+      "pk": 99,
+      "fields": {
+          "name": "Documentary"
+      }
+  },
+  {
+      "model": "movies.genre",
+      "pk": 18,
+      "fields": {
+          "name": "Drama"
+      }
+  },
+  {
+      "model": "movies.genre",
+      "pk": 10751,
+      "fields": {
+          "name": "Family"
+      }
+  },
+  {
+      "model": "movies.genre",
+      "pk": 14,
+      "fields": {
+          "name": "Fantasy"
+      }
+  },
+  {
+      "model": "movies.genre",
+      "pk": 36,
+      "fields": {
+          "name": "History"
+      }
+  },
+  {
+      "model": "movies.genre",
+      "pk": 27,
+      "fields": {
+          "name": "Horror"
+      }
+  },
+  {
+      "model": "movies.genre",
+      "pk": 10402,
+      "fields": {
+          "name": "Music"
+      }
+  },
+  {
+      "model": "movies.genre",
+      "pk": 9648,
+      "fields": {
+          "name": "Mystery"
+      }
+  },
+  {
+      "model": "movies.genre",
+      "pk": 10749,
+      "fields": {
+          "name": "Romance"
+      }
+  },
+  {
+      "model": "movies.genre",
+      "pk": 878,
+      "fields": {
+          "name": "Science Fiction"
+      }
+  },
+  {
+      "model": "movies.genre",
+      "pk": 10770,
+      "fields": {
+          "name": "TV Movie"
+      }
+  },
+  {
+      "model": "movies.genre",
+      "pk": 53,
+      "fields": {
+          "name": "Thriller"
+      }
+  },
+  {
+      "model": "movies.genre",
+      "pk": 10752,
+      "fields": {
+          "name": "War"
+      }
+  },
+  {
+      "model": "movies.genre",
+      "pk": 37,
+      "fields": {
+          "name": "Western"
+      }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 665492,
+    "fields": {
+        "adult": false,
+        "genre_ids": [],
+        "original_language": "fr",
+        "original_title": "Apartheid",
+        "overview": "",
+        "popularity": 0.6,
+        "poster_path": "/wlQyLGIXD2cOi4h5Wok4nTtj5uc.jpg",
+        "release_date": "1997-09-01",
+        "title": "Apartheid",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "like_users": [],
+        "theme_id": "justice"
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 301423,
+    "fields": {
+        "adult": false,
+        "genre_ids": [
+            99
+        ],
+        "original_language": "en",
+        "original_title": "Roadmap to Apartheid",
+        "overview": "In this award-winning documentary, the first time directors take a detailed looks at the apartheid analogy commonly used to describe the Israeli-Palestinian conflict. Narrated by Alice Walker (author of The Color Purple), Roadmap to Apartheid is as much a historical document of the rise and fall of apartheid in South Africa, as it is a film about why many Palestinians feel they are living in an apartheid system today, and why an increasing number of people around the world agree with them. While not perfect, the apartheid analogy is a useful framework by which to educate people on the complex issues facing Israelis and Palestinians.",
+        "popularity": 0.724,
+        "poster_path": "/yx2UtXt4wYPzgH1Hd7b6NQy63sb.jpg",
+        "release_date": "2012-12-06",
+        "title": "Roadmap to Apartheid",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "like_users": [],
+        "theme_id": "justice"
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 392326,
+    "fields": {
+        "adult": false,
+        "genre_ids": [
+            99
+        ],
+        "original_language": "en",
+        "original_title": "Apartheid Did Not Die",
+        "overview": "An analysis of South Africa's new, democratic regime.",
+        "popularity": 0.6,
+        "poster_path": "/jP3BpcDW7G82JkihEDMcsWdL7AU.jpg",
+        "release_date": "1998-01-01",
+        "title": "Apartheid Did Not Die",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "like_users": [],
+        "theme_id": "justice"
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 314521,
+    "fields": {
+        "adult": false,
+        "genre_ids": [
+            36,
+            99
+        ],
+        "original_language": "en",
+        "original_title": "The Other Man: F.W. de Klerk and the End of Apartheid",
+        "overview": "F.W. de Klerk was the last President of apartheid-era South Africa. In less than 4 years he went from being Mandela's jailor to his deputy president. Together they changed history for the better and may have prevented a civil war, yet little is known about de Klerk. Through his probing lens, Rossier explores the fascinating political journey and legacy of this complicated figure.",
+        "popularity": 0.6,
+        "poster_path": "/4ObBYTzqscIDtO0kAk6wBj9v5ml.jpg",
+        "release_date": "2014-06-01",
+        "title": "The Other Man: F.W. de Klerk and the End of Apartheid",
+        "vote_average": 6.3,
+        "vote_count": 3,
+        "like_users": [],
+        "theme_id": "justice"
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 343449,
+    "fields": {
+        "adult": false,
+        "genre_ids": [
+            10770,
+            99
+        ],
+        "original_language": "en",
+        "original_title": "Death of Apartheid",
+        "overview": "The secret history of the negotiations that led to Mandela's release from prison, the ANC becoming the government of South Africa, and the end of apartheid.",
+        "popularity": 0.6,
+        "poster_path": "/3WpfMDuAPzp17u6IjkqpK8Q1HG.jpg",
+        "release_date": "1995-07-03",
+        "title": "Death of Apartheid",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "like_users": [],
+        "theme_id": "justice"
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 607149,
+    "fields": {
+        "adult": false,
+        "genre_ids": [
+            99
+        ],
+        "original_language": "en",
+        "original_title": "In Darkest Hollywood: Cinema and Apartheid",
+        "overview": "A documentary overview and ideological critique of the South African film industry and cinema's historical relationship with apartheid.",
+        "popularity": 0.6,
+        "poster_path": "/wq8RMuC2WRixqL8yEewU9eBY5XN.jpg",
+        "release_date": "1994-02-18",
+        "title": "In Darkest Hollywood: Cinema and Apartheid",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "like_users": [],
+        "theme_id": "justice"
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 46673,
+    "fields": {
+        "adult": false,
+        "genre_ids": [],
+        "original_language": "en",
+        "original_title": "Have You Heard from Johannesburg?: Apartheid and the Club of the West",
+        "overview": "This story traces the complex and fascinating drama of the anti-apartheid movement in one of South Africa's most important allies, the United States. The US is a key battleground, with African-Americans at the center of the struggle. The campaigns take place in boardrooms, universities, embassies, and finally in the US Congress itself, where a stunning victory is won against the formidable opposition of President Ronald Reagan. African-Americans, for the first time in history, have turned the tide and altered the direction of US foreign policy. The US, once the backbone of support for the apartheid regime as her ally in the Cold War, finally imposes sanctions on Pretoria. This is part 4 of a 6 part series on the global anti-apartheid movements, stretching from 1946-1990.",
+        "popularity": 0.6,
+        "poster_path": "/6OufuXepPAid0KuhDDBx6EY5R2v.jpg",
+        "release_date": "2006-10-14",
+        "title": "Have You Heard from Johannesburg?: Apartheid and the Club of the West",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "like_users": [],
+        "theme_id": "justice"
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 558115,
+    "fields": {
+        "adult": false,
+        "genre_ids": [],
+        "original_language": "en",
+        "original_title": "Victims of Apartheid",
+        "overview": "George, a black South African, finds it hard to settle down in London after his experiences in South Africa.",
+        "popularity": 0.6,
+        "poster_path": "/iDyBXKliehlw8t8GHmt6XUPpEps.jpg",
+        "release_date": "1978-10-24",
+        "title": "Victims of Apartheid",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "like_users": [],
+        "theme_id": "justice"
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 580900,
+    "fields": {
+        "adult": false,
+        "genre_ids": [],
+        "original_language": "en",
+        "original_title": "Property of the State: Gay Men in the Apartheid Military",
+        "overview": "This documentary deals with the contradictory experience of gay men in the military during apartheid in South Africa - an environment in which homosexuals sometimes found erotic space, but mostly encountered hostility. It draws on a literary exploration of gay experience in the military in the 'grensverhaal' (border story) genre of the 1980s as well as interviews with conscripts who served in the South African Defense Force and anti-military activists. The film paints a harrowing picture of forced conscription in the 1970s and 1980s and brings to light a hidden history of persecution, which was an integral aspect of the brutality of apartheid.",
+        "popularity": 0.6,
+        "poster_path": "/1aM5ule9PmjM2KsaNc4hkhthyq6.jpg",
+        "release_date": "2003-03-08",
+        "title": "Property of the State: Gay Men in the Apartheid Military",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "like_users": [],
+        "theme_id": "justice"
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 832267,
+    "fields": {
+        "adult": false,
+        "genre_ids": [
+            99
+        ],
+        "original_language": "fr",
+        "original_title": "Mandela, un symbole contre l'apartheid",
+        "overview": "Mandela’s legend is built on his absence, during his 27- year incarceration. In 1990, when Nelson Mandela is released, South Africa is waiting for their Messiah. But he doesn’t know it yet, he is the most famous political prisoner of the Planet. Will he be up to the challenge?",
+        "popularity": 0.6,
+        "poster_path": "/g4aPH0eQqsjFH4UOaDQOLnOIbOX.jpg",
+        "release_date": "2019-10-26",
+        "title": "Nelson Mandela, Beyond the Myth",
+        "vote_average": 8.0,
+        "vote_count": 1,
+        "like_users": [],
+        "theme_id": "justice"
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 846723,
+    "fields": {
+        "adult": false,
+        "genre_ids": [
+            99
+        ],
+        "original_language": "en",
+        "original_title": "Glasgow, Love and Apartheid",
+        "overview": "In the year of Nelson Mandela’s centenary, Glasgow, Love and Apartheid is the story of one family’s fight against apartheid from Scotland and South Africa. Director, Dhivya Kate Chetty, follows her parents – a mixed, and once ‘illegal’, couple – on a trip back to South Africa where the family stories begin to unfold – protests, an uncle in jail, an ANC arms cache, a doctor on the run and a surprise connection with Mandela in hiding.",
+        "popularity": 0.6,
+        "poster_path": "/3ekaRmlbdbikRa7CXNrm7CF8ppd.jpg",
+        "release_date": "2018-10-09",
+        "title": "Glasgow, Love and Apartheid",
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "like_users": [],
+        "theme_id": "justice"
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 300091,
+    "fields": {
+        "adult": false,
+        "genre_ids": [
+            18
+        ],
+        "original_language": "en",
+        "original_title": "Female Slaves Revenge",
+        "overview": "After a slave uprising, 10 black mistresses of a white landowner decide to capture their master after he refuses to turn over his ill-gained wealth. A trial to decide his fate ensues.",
+        "popularity": 0.6,
+        "poster_path": "/ecNvihVhUOtU3ojrdMlOYAeaTZ4.jpg",
+        "release_date": "1997-01-01",
+        "title": "Female Slaves Revenge",
+        "vote_average": 1.7,
+        "vote_count": 3,
+        "like_users": [],
+        "theme_id": "justice"
+    }
+},
+{
+  "model": "movies.movie",
+  "pk": 305085,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          10749,
+          18,
+          35,
+          99,
+          10402
+      ],
+      "original_language": "en",
+      "original_title": "Stories on Human Rights",
+      "overview": "세계인권선언 60주년을 맞아 유엔 인권고등판무관실(UNCHR)이 제안하고 ART for The World(NGO)가 제작한 인권에 관한 옴니버스 영화. 문화, 개발, 존엄과 정의, 환경, 젠더, 분배라는 6개의 테마로 한 22편의 단편으로 구성되어 있다. 세계적으로 유명한 영화감독, 예술가, 작가가 함께 작업한 대규모 프로젝트로 참여자들의 개성과 인권에 대한 시각을 엿볼 수 있다.",
+      "popularity": 0.682,
+      "poster_path": "/64pPk3hhTIlu5oKpDOOxvTUeyOa.jpg",
+      "release_date": "2008-10-23",
+      "title": "인권에 관한 이야기",
+      "vote_average": 2.7,
+      "vote_count": 3,
+      "like_users": [],
+      "theme_id": "justice"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 707715,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          18
+      ],
+      "original_language": "it",
+      "original_title": "All Human Rights for All",
+      "overview": "Collective film for the 60th anniversary of the Universal Declaration of Human Rights, with 30 directors each helming a segment about one of the 30 articles of the Declaration.",
+      "popularity": 0.71,
+      "poster_path": "/oBJAN9XJW2QPZJ8KDDCe0UeF48a.jpg",
+      "release_date": "2008-12-01",
+      "title": "All Human Rights for All",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "justice"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 249143,
+  "fields": {
+      "adult": false,
+      "genre_ids": [],
+      "original_language": "en",
+      "original_title": "Human Rights Now 25th Anniversary",
+      "overview": "Human rights now concert from Argentina, Estadio River Plate, Buenos Aires",
+      "popularity": 0.6,
+      "poster_path": "/zX9evzFlAnX7YbFUEAGRrmX4rcL.jpg",
+      "release_date": "1988-10-14",
+      "title": "Human Rights Now 25th Anniversary",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "justice"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 66832,
+  "fields": {
+      "adult": false,
+      "genre_ids": [],
+      "original_language": "fr",
+      "original_title": "Bruce Springsteen - Human Rights Final - Buenos Aires",
+      "overview": "",
+      "popularity": 0.6,
+      "poster_path": "/yFIOa9GVaqgcF1GtWR5tv212efU.jpg",
+      "release_date": "1988-10-15",
+      "title": "Bruce Springsteen - Human Rights Final - Buenos Aires",
+      "vote_average": 8.0,
+      "vote_count": 1,
+      "like_users": [],
+      "theme_id": "justice"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 1009618,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          99
+      ],
+      "original_language": "tl",
+      "original_title": "Bayi: Stories of Women Human Rights Defenders",
+      "overview": "Filipino human rights defenders Zara Alvarez, Anna Mariz Evangelista, and Elisa Badayos were among the 62 women killed in the Duterte administration's counterinsurgency campaign. Their loved ones remember the lives they led and the legacies they left behind. The documentary is a salute to the brave Filipinas who are considered heroes by women’s and people’s movements in the Philippines.",
+      "popularity": 0.6,
+      "poster_path": "/7se5kymoNynRttu16F7a7zBesev.jpg",
+      "release_date": "2022-08-06",
+      "title": "Bayi: Stories of Women Human Rights Defenders",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "justice"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 834035,
+  "fields": {
+      "adult": false,
+      "genre_ids": [],
+      "original_language": "en",
+      "original_title": "The Human Rights Concerts - A Conspiracy of Hope 2",
+      "overview": "A Conspiracy of Hope was a short tour of six benefit concerts on behalf of Amnesty International that took place in the United States during June 1986.",
+      "popularity": 0.6,
+      "poster_path": "/gNaik7RIrIdCrqbRoTxTkT3wjex.jpg",
+      "release_date": null,
+      "title": "The Human Rights Concerts - A Conspiracy of Hope 2",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "justice"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 834036,
+  "fields": {
+      "adult": false,
+      "genre_ids": [],
+      "original_language": "en",
+      "original_title": "The Human Rights Concerts - A Conspiracy of Hope 1",
+      "overview": "A Conspiracy of Hope was a short tour of six benefit concerts on behalf of Amnesty International that took place in the United States during June 1986.",
+      "popularity": 0.6,
+      "poster_path": "/a2MKtgHyd6Cm8YG5BPvde5PVezD.jpg",
+      "release_date": null,
+      "title": "The Human Rights Concerts - A Conspiracy of Hope 1",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "justice"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 859002,
+  "fields": {
+      "adult": false,
+      "genre_ids": [],
+      "original_language": "th",
+      "original_title": "To Stride with Pride: A Human Rights Movement in Thailand",
+      "overview": "A short film about about brave Thai people who are striving toward attaining civic equity and societal equality. This is in a country where social activism is largely forbidden and can be quite dangerous. With a blending of seriousness and light-heartedness, this film brings you to the lively streets of Chiang Mai, Thailand. There, you stride with pride in the 2020 Chiang Mai Pride Parade, with hundreds of others who are standing up for human rights.",
+      "popularity": 0.6,
+      "poster_path": "/bkzWm3mzLgk4G38VlKM2zVMEhna.jpg",
+      "release_date": "2021-02-13",
+      "title": "To Stride with Pride: A Human Rights Movement in Thailand",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "justice"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 826174,
+  "fields": {
+      "adult": false,
+      "genre_ids": [],
+      "original_language": "fr",
+      "original_title": "Droits de l'homme",
+      "overview": "This documentary follows the testimonies of 7 LGBT people who left their countries to flee discrimination and live in Spain. Their testimony is strong, moving. The director steps aside to give them full voice in a sober setting that allows them to give their stories full attention.",
+      "popularity": 0.6,
+      "poster_path": "/rk7CyftZdT0fYWjr7S4JFmmT3y8.jpg",
+      "release_date": "2021-05-22",
+      "title": "Human Rights",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "justice"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 591137,
+  "fields": {
+      "adult": false,
+      "genre_ids": [],
+      "original_language": "it",
+      "original_title": "Planeta Humra",
+      "overview": "",
+      "popularity": 0.6,
+      "poster_path": "/cD3oTI7tYoTF3kKXI8Y8gDl8Q5M.jpg",
+      "release_date": "2019-04-11",
+      "title": "Planeta Humra",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "justice"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 566666,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          99
+      ],
+      "original_language": "de",
+      "original_title": "Unantastbar - Der Kampf für Menschenrechte",
+      "overview": "",
+      "popularity": 0.6,
+      "poster_path": "/jHwGLf3pLnEPm5aLz97YhId4wCl.jpg",
+      "release_date": "2018-10-24",
+      "title": "Unantastbar - Der Kampf für Menschenrechte",
+      "vote_average": 6.0,
+      "vote_count": 1,
+      "like_users": [],
+      "theme_id": "justice"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 37739,
+  "fields": {
+      "name": "인종차별의 진실",
+      "original_name": "Racism: A History",
+      "overview": "Racism: A History is a three-part British documentary series originally broadcast on BBC Four in March 2007.\n\nIt was part of the season of programmes broadcast on the BBC marking the 200th anniversary of the Slave Trade Act 1807, a landmark piece of legislation which abolished the slave trade in the British Empire. The series explores the impact of racism on a global scale and chronicles the shifts in the perception of race and the history of racism in Europe, the Americas, Australia and Asia. The series was narrated by Sophie Okonedo.",
+      "poster_path": "/1KqxIP55wkFzu5UZBJg1zjMUM21.jpg",
+      "first_air_date": "2007-03-21",
+      "popularity": 0.94,
+      "vote_average": 6.0,
+      "vote_count": 3,
+      "like_users": [],
+      "theme_id": "justice"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 105277,
+  "fields": {
+      "name": "The School That Tried To End Racism",
+      "original_name": "The School That Tried To End Racism",
+      "overview": "Documentary about a pioneering British school helping 11 and 12-year-old pupils uncover and eradicate hidden racial biases by giving them a series of activities designed to challenge everything they thought they knew about race.",
+      "poster_path": "/whycAV2I5Q43bjK8IS2FTwIFZsM.jpg",
+      "first_air_date": "2020-06-25",
+      "popularity": 0.974,
+      "vote_average": 8.0,
+      "vote_count": 1,
+      "like_users": [],
+      "theme_id": "justice"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 133363,
+  "fields": {
+      "name": "The School That Tried to End Racism",
+      "original_name": "The School That Tried to End Racism",
+      "overview": "Marc Fennell explores a ground-breaking school program designed to provide a class of primary school students with the tools to identify racial bias and make positive change.",
+      "poster_path": "/9qTKGtMYqV5zUjjqMZ3hAbZYZPU.jpg",
+      "first_air_date": "2021-09-21",
+      "popularity": 1.4,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "justice"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 70696,
+  "fields": {
+      "name": "The Truth About Racism",
+      "original_name": "The Truth About Racism",
+      "overview": "Host Yassmin Abdel-Magied, a Sudanese-born Muslim-Australian, along with four volunteers from different ethnic backgrounds, undergo a series of scientific psychological tests during the documentary, including experiment involving facial recognition empathy and pain, and split second fear responses to try and find out if racial bias is inevitable, if it can be consciously overridden, and if brains can even be re-trained. Arabic and Simplified Chinese subtitles available via closed captions.",
+      "poster_path": "/ngsBZlGZHP28srpki0Q87mOeIuw.jpg",
+      "first_air_date": "2017-03-01",
+      "popularity": 0.6,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "justice"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 87720,
+  "fields": {
+      "name": "Mao's Great Famine",
+      "original_name": "La grande famine de Mao",
+      "overview": "Between 1958 and 1962, China lived through tragedy on an epic scale. The Great Leap Forward conceived by Mao so that China could drive industrial output ahead of Great Britain and achieve autonomy from the might of the neighbouring USSR  led to a catastrophic famine resulting in the death of between 36 and 55 million people.\n\nBut the tragedy was masked by an official lie, because while China was starving to death, the grain stores were full.\n\nBased on previously unheard testimony by survivors, rare archive footage, secret documents and interviews with the leading historians on this catastrophe, this film provides, for the first time, an insight into the folly of the Great Leap Forward. It examines the mechanisms and political decisions that led to famine, stripping away the incredible secrecy surrounding the campaign, and exposing the lie which continues even today as to who was responsible, and the true human cost",
+      "poster_path": "/c8cy34oJ7csNsYb2UZuUEcY1OQl.jpg",
+      "first_air_date": "2012-03-08",
+      "popularity": 0.6,
+      "vote_average": 8.0,
+      "vote_count": 2,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 115561,
+  "fields": {
+      "name": "The Hunger: The Story of the Irish Famine",
+      "original_name": "The Hunger: The Story of the Irish Famine",
+      "overview": "In the 1840s, a catastrophic famine brought about the decimation of Ireland’s poor and the exodus of millions from the island. This major, ground-breaking documentary, narrated by Liam Neeson, explores the famine’s international origins and development in Europe, Britain and Ireland and charts its long-term legacy as it plays out for much of the century that follows. Today the Irish famine is recognised as the worst humanitarian disaster of the 19th Century but what is less recognised is that the crisis impacted far beyond Ireland’s shores. The story of the Blight pathogen that killed the potato crop, starts in the Andes of South America and then reaches into the heart of northern Europe where the collapse of potato crops causes the deaths of 100,000 people adding further fuel to social tensions that lead to Europe’s year of revolutions in 1848.",
+      "poster_path": "/4DSciXArDL5naA8gKbg2d2yUheY.jpg",
+      "first_air_date": "2020-11-30",
+      "popularity": 0.6,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 214471,
+  "fields": {
+      "name": "The Great Famine",
+      "original_name": "The Great Famine",
+      "overview": "In September 1845, a devastating new plant disease swept across Ireland, destroying the potato crops on which the majority of the people depended. Aid from the British government was too little and too late. Over the subsequent six years, a million Irish people died of starvation and a more than a million others fled abroad in order to escape the ravages of hunger and disease.",
+      "poster_path": "/7uY8fqa1AmtaBq0sX67XsagNchX.jpg",
+      "first_air_date": "1995-09-04",
+      "popularity": 0.6,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 166231,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          18,
+          10402,
+          10749
+      ],
+      "original_language": "hi",
+      "original_title": "Refugee",
+      "overview": "The films tells the story of an un-named Indian Muslim, who helps illegal refugees from both India and Pakistan to cross the border through the Great Rann of Kutch. The film is attributed to have been inspired by the short story \"Love Across the Salt Desert\" by Keki N. Daruwalla.",
+      "popularity": 3.306,
+      "poster_path": "/gr8xmJPVUzNRpoIijXco6FMUjbK.jpg",
+      "release_date": "2000-06-30",
+      "title": "Refugee",
+      "vote_average": 5.9,
+      "vote_count": 14,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 453316,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          99
+      ],
+      "original_language": "en",
+      "original_title": "Refugee",
+      "overview": "Five acclaimed photographers travel the world to provide detailed insight into the difficult conditions faced by refugees who dream of a better life.",
+      "popularity": 1.468,
+      "poster_path": "/pYPRO49tVUUeyzXXTHIDDBi8XhY.jpg",
+      "release_date": "2016-04-23",
+      "title": "Refugee",
+      "vote_average": 5.5,
+      "vote_count": 1,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 636744,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          99
+      ],
+      "original_language": "en",
+      "original_title": "Refugee",
+      "overview": "Mike Siv has a plan: go to Cambodia with his buddies Paul and David, see the sights, have fun and reunite with his father and younger brother, whom he hasn't seen in 22 years. Harsh reality sets in before the journey even begins, however, as Mike, Paul and David have never been out of the U.S., and are the first in their families to visit Cambodia since fleeing the bloody regime of Pol Pot in the late 1970s.",
+      "popularity": 0.6,
+      "poster_path": "/tXTWQhP72fiCe5SOJWkDvhixli8.jpg",
+      "release_date": "2003-10-03",
+      "title": "Refugee",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 656191,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          18
+      ],
+      "original_language": "en",
+      "original_title": "Refugee",
+      "overview": "A Syrian doctor attempts to escape her war-ravaged homeland with her young daughter.",
+      "popularity": 0.6,
+      "poster_path": "/6W8DpgrYwmsPmJkFUVoNacYdCRa.jpg",
+      "release_date": "2020-05-17",
+      "title": "Refugee",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 609949,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          28,
+          18
+      ],
+      "original_language": "bn",
+      "original_title": "Refugee",
+      "overview": "Estranged from his family, Shiva grows up to become a refugee and helps the needy. One day he comes across his family only to learn that his jealous brother doesn't want him back. It is a remake of the Telugu blockbuster film Chatrapathi.",
+      "popularity": 0.805,
+      "poster_path": "/3vGsU94JGA0pxxvzKfYdwB8ECO8.jpg",
+      "release_date": "2006-06-23",
+      "title": "Refugee",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 790863,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          99
+      ],
+      "original_language": "en",
+      "original_title": "Refugee",
+      "overview": "A harrowing account of Europe's migrant crisis. A family of Syrian refugees separated by the borders of Europe, fight to be reunited as they migrant from Syria to Germany.",
+      "popularity": 0.6,
+      "poster_path": "/pPCNqpBUe6o6AAgRnmTC5CsZmTs.jpg",
+      "release_date": "2018-11-11",
+      "title": "Refugee",
+      "vote_average": 8.0,
+      "vote_count": 1,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 827315,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          27,
+          53
+      ],
+      "original_language": "en",
+      "original_title": "American Refugee",
+      "overview": "A story of a family seeking shelter in a neighbor’s bunker while the American economy is in collapse and the nation under martial law. There they find the danger inside is potentially greater than the danger outside.",
+      "popularity": 7.195,
+      "poster_path": "/pslX7CSq8eYmUNtnNYWZgZY3Ih2.jpg",
+      "release_date": "2021-12-10",
+      "title": "American Refugee",
+      "vote_average": 5.743,
+      "vote_count": 37,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 72480,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          18
+      ],
+      "original_language": "fr",
+      "original_title": "La Faute à Voltaire",
+      "overview": "Like a Candide dreaming of Eldorado, Jallel lands in France, hoping to try his luck. From encounter to encounter, hostel to social welfare group, Jallel will make his way through a Paris of outcasts. Although failing to achieve his hopes, he discovers and shares in the solidarity felt by the destitute. –uniFrance",
+      "popularity": 2.685,
+      "poster_path": "/8a1o31b6c5rMdX0aCjwmOqKINUr.jpg",
+      "release_date": "2001-02-14",
+      "title": "Poetical Refugee",
+      "vote_average": 6.569,
+      "vote_count": 29,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 116515,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          99
+      ],
+      "original_language": "en",
+      "original_title": "Climate Refugees",
+      "overview": "A documentary examining climate change and its impact on mass migration of people.",
+      "popularity": 0.635,
+      "poster_path": "/cUqmkvWFiEcfPGzgNFjUlYv5n63.jpg",
+      "release_date": "2010-01-29",
+      "title": "Climate Refugees",
+      "vote_average": 8.0,
+      "vote_count": 1,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 557731,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          18
+      ],
+      "original_language": "pa",
+      "original_title": "Ranjha Refugee",
+      "overview": "After being exiled from his village, a Punjabi man discovers that he has a long lost twin brother who was raised Muslim.",
+      "popularity": 0.85,
+      "poster_path": "/sAvEatAaN3Et9Da1DcjgDy5Ag3o.jpg",
+      "release_date": "2018-10-26",
+      "title": "Ranjha Refugee",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 493114,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          99
+      ],
+      "original_language": "ar",
+      "original_title": "This Is Home: A Refugee Story",
+      "overview": "The lives of four Syrian families, resettled in Baltimore and under a deadline to become self-sufficient in eight months.",
+      "popularity": 0.725,
+      "poster_path": "/dTyHKPV7cAH1qNh5ZLFvX1V1y7I.jpg",
+      "release_date": "2018-01-20",
+      "title": "디스 이즈 홈: 어 레퓨지 스토리",
+      "vote_average": 6.3,
+      "vote_count": 3,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 449702,
+  "fields": {
+      "adult": false,
+      "genre_ids": [],
+      "original_language": "cn",
+      "original_title": "The Daring Kung Fu Refugee",
+      "overview": "Hong Kong cops investigate a jewelry heist.",
+      "popularity": 0.62,
+      "poster_path": "/oZUezYNiorhVoOLsxCIi2BSZbxU.jpg",
+      "release_date": "1984-06-07",
+      "title": "The Daring Kung Fu Refugee",
+      "vote_average": 4.0,
+      "vote_count": 1,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 294422,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          18
+      ],
+      "original_language": "ja",
+      "original_title": "東京難民",
+      "overview": "When his father flees from debt, carefree college student Osamu sees his life turn upside-down. Expelled from school and evicted from his apartment, he becomes one of Japan’s many ‘net cafe refugees’, barely scraping by each day with temporary and part-time work. Even though he’s still in Tokyo, his circumstances drive him to see and experience his home city in new ways. Trying to survive, Osamu gradually acquaints himself with the ‘invisible’ spaces occupied by the wanderers and homeless of Tokyo… people just like himself.",
+      "popularity": 1.894,
+      "poster_path": "/iSpMUtBriVdl1QRdu2iqLuqAORV.jpg",
+      "release_date": "2014-02-22",
+      "title": "Tokyo Refugees",
+      "vote_average": 6.0,
+      "vote_count": 4,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 370526,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          99
+      ],
+      "original_language": "en",
+      "original_title": "Refugee: The Eritrean Exodus",
+      "overview": "Follow Chris Cotter, an American traveler, as he explores a common migration path through Ethiopia and into Israel, tracking the plight of Eritrean refugees. Chris and his crew visit several refugee camps, including the never-before-documented Afar region. The refugees tell stories of oppression, torture, and survival. Searching for solutions, Chris speaks to various NGOs and experts, including Assistant Secretary of State, Anne Richard. The outlook is bleak, but the spirit of the Eritrean refugees is hard to ignore.",
+      "popularity": 0.6,
+      "poster_path": "/xZw86uq19mvk34heOtknrsg5sJw.jpg",
+      "release_date": "2015-11-29",
+      "title": "Refugee: The Eritrean Exodus",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 364624,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          99
+      ],
+      "original_language": "en",
+      "original_title": "Refugee Here I am",
+      "overview": "Refugee here I am, is a musical documentary based on the life of a Congolese Musician Enzo Ikah, a refugee and a renown reggae artist living in Istanbul.",
+      "popularity": 0.6,
+      "poster_path": "/dAMVnm10RQErJqBnSlTj8gOcHgt.jpg",
+      "release_date": "2015-05-31",
+      "title": "Refugee Here I am",
+      "vote_average": 5.0,
+      "vote_count": 3,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 602881,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          99
+      ],
+      "original_language": "de",
+      "original_title": "Refugees under the Rainbow",
+      "overview": "\"At the end of the rainbow you will find a treasure – it will completely change your life.“ Whoever tries to find the end of the rainbow will realise things are not that easy - the end of the rainbow is not a fixed point. Also, Yusuf, Ritah and William had to make this experience in their lives – just like many LGBT* refugees. The film tells the story of their journey. A journey from Uganda to Germany, a story of violence, hope, disappointments, and everyone's personal rainbow.",
+      "popularity": 0.6,
+      "poster_path": "/uH0B23FUYKodV87GOyzyDWiLtTC.jpg",
+      "release_date": "2018-03-24",
+      "title": "Refugees under the Rainbow",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 891400,
+  "fields": {
+      "adult": false,
+      "genre_ids": [],
+      "original_language": "en",
+      "original_title": "The History Of Vietnamese Refugees To Australia",
+      "overview": "Discover the incredible story of how the Vietnamese have become the sixth largest migrant community in the country.",
+      "popularity": 0.6,
+      "poster_path": "/4GJNDLlWMfHuJjUw7R0c7UUKEcV.jpg",
+      "release_date": null,
+      "title": "The History Of Vietnamese Refugees To Australia",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 642575,
+  "fields": {
+      "adult": false,
+      "genre_ids": [],
+      "original_language": "en",
+      "original_title": "National Archives Microfilm Publication M999 Roll 34: Bureau of Refugees, Freedmen and Abandoned Lands: Six Miles from Springfield on the Franklin Road",
+      "overview": "This film by Kara Walker takes its title and narrative from documents in the Freedman Bureau’s archive and uses her trademark cut-paper silhouettes to animate the disturbing story of an African American family. Controlled by the sticks and strings of their human operators, including the artist herself, the figures moving within a shadow puppet-like theater space remind us of the manipulation of historical oppression and the powerlessness of the oppressed while also emphasizing the theatricality of the film itself. Themes of race, gender, sexuality, and violence intersect and unfold on Kara Walker’s multi-colored stage.",
+      "popularity": 0.6,
+      "poster_path": "/bnxjA3toIBj1qo5eOyRC1tu2NZg.jpg",
+      "release_date": "2009-01-01",
+      "title": "National Archives Microfilm Publication M999 Roll 34: Bureau of Refugees, Freedmen and Abandoned Lands: Six Miles from Springfield on the Franklin Road",
+      "vote_average": 10.0,
+      "vote_count": 1,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 647004,
+  "fields": {
+      "adult": false,
+      "genre_ids": [],
+      "original_language": "ar",
+      "original_title": "My Refugee Story",
+      "overview": "A collection of heartbreaking tales narrating the violence, discrimination and rejection that many LGBTIQ+ refugees face, co-directed and edited by the survivors themselves.",
+      "popularity": 0.6,
+      "poster_path": "/8DVqrwrgaymZsXSa9n3fZQiQHo3.jpg",
+      "release_date": "2015-12-01",
+      "title": "My Refugee Story",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 641337,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          99
+      ],
+      "original_language": "en",
+      "original_title": "The Refugees of Shangri-La",
+      "overview": "After twenty years surviving refugee camps in Nepal, the Kingdom of Bhutan's forgotten exiles abandon hopes of returning to their lost land and seek a new life in a place called America.",
+      "popularity": 0.6,
+      "poster_path": "/7YK3h2WNcUFLVrcZoNA2fjU0aqs.jpg",
+      "release_date": "2015-01-01",
+      "title": "The Refugees of Shangri-La",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 652504,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          99,
+          10402
+      ],
+      "original_language": "en",
+      "original_title": "Amir: An Afghan Refugee Musician's Life in Peshawar, Pakistan",
+      "overview": "Amir, shot during the height of the Afghan civil war in the 1980s, investigates and portrays the life of Afghan refugees living in and around the city of Peshawar in northern Pakistan through the experiences of the musician Amir. The aspirations of Afghan refugees are expressed through their political songs dealing with the civil war in Afghanistan, with exile, with Afghan nationalism and with the Islamic revolution. In highly charged and tragic circumstances, music can be used in very direct ways, both to promote solidarity and as an agent of catharsis.",
+      "popularity": 0.6,
+      "poster_path": "/oy1BkyUCTuv7CXpJcP2eL3kzwq2.jpg",
+      "release_date": "1985-01-01",
+      "title": "Amir: An Afghan Refugee Musician's Life in Peshawar, Pakistan",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 960603,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          99
+      ],
+      "original_language": "en",
+      "original_title": "This Is Exile: Diaries of Child Refugees",
+      "overview": "'This is Exile' is an extraordinary, intimate portrait of child refugees forced to flee from the violence of Syria's civil war to neighbouring Lebanon. Filmed over a year by the Emmy-award winning director Mani, the documentary tells the stories of the children's lives in their own words and captures the moving truth of how they deal with loss, hardship and the poignancy of dashed hopes.",
+      "popularity": 0.6,
+      "poster_path": "/jExM5ZndVxuMYjtDAm1nfnTmYX3.jpg",
+      "release_date": "2015-06-28",
+      "title": "This Is Exile: Diaries of Child Refugees",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 679757,
+  "fields": {
+      "adult": false,
+      "genre_ids": [],
+      "original_language": "en",
+      "original_title": "Refugees Welcome Here",
+      "overview": "Helen Matthews is a proud Londoner and even prouder mother. Cultured, generous and inclusive, Helen believes in the EU, farmers' markets and the healing powers of a good brew. But above all else, Helen Matthews believes refugees are welcome here...in theory anyway.",
+      "popularity": 0.6,
+      "poster_path": "/bH2dYsQAlXegVenqYfGCdjUA5Tt.jpg",
+      "release_date": "2019-04-04",
+      "title": "Refugees Welcome Here",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 714042,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          99
+      ],
+      "original_language": "sv",
+      "original_title": "Beauty Refugee",
+      "overview": "Twenty-eight of my family members and relatives have been operated at least once by my brother who is a plastic surgeon in Belo Horizonte, Brazil. Having grown up as a 'work-in-progress' where the premise, myself, was constantly questioned, as an adult I had to ask my family: could that premise be changed?",
+      "popularity": 0.6,
+      "poster_path": "/ivH63FvtiXb75LRaZp6Q50KGi02.jpg",
+      "release_date": "2010-01-31",
+      "title": "Beauty Refugee",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 1007229,
+  "fields": {
+      "adult": false,
+      "genre_ids": [],
+      "original_language": "en",
+      "original_title": "Refugee Arrival",
+      "overview": "For those seeking asylum, stepping foot on new soil is the first of many forms of arrival they will negotiate.",
+      "popularity": 0.6,
+      "poster_path": "/tJJn1J756YZfzZTOzuGOaGG7Ce0.jpg",
+      "release_date": "2022-08-28",
+      "title": "Refugee Arrival",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 969325,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          99
+      ],
+      "original_language": "en",
+      "original_title": "A Queer Refugee’s Suitcase",
+      "overview": "The story of a young gay man who faced persecution due to his sexuality and made a frightening journey to the UK with just a suitcase.",
+      "popularity": 0.6,
+      "poster_path": "/xiKsMPaElndSpbqIA0DHv6IyXrk.jpg",
+      "release_date": "2019-09-17",
+      "title": "A Queer Refugee’s Suitcase",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 469329,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          18
+      ],
+      "original_language": "xx",
+      "original_title": "Refugee Camp",
+      "overview": "Immigration? Yes or no?  In Search of a better life...  Is there another way? Please wait...",
+      "popularity": 0.6,
+      "poster_path": "/bw9Eg5APBqdYZ7v8X2FbjPDUuiR.jpg",
+      "release_date": "2016-06-16",
+      "title": "Refugee Camp",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 497529,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          18,
+          35
+      ],
+      "original_language": "fi",
+      "original_title": "Wendy and the Refugee Neverland",
+      "overview": "Story about 29-year-old Krisu, who is quite lost in her life. Luckily, she has a indie band called Wendy and the Refugee Neverland.",
+      "popularity": 0.6,
+      "poster_path": "/d19YZ4kD4LKJ3vUKCUnkf7Otg27.jpg",
+      "release_date": "2017-07-21",
+      "title": "Wendy and the Refugee Neverland",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 543660,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          99
+      ],
+      "original_language": "de",
+      "original_title": "Welcome to Refugeestan",
+      "overview": "",
+      "popularity": 0.6,
+      "poster_path": "/q1FXOLr9KoqcKclPSK0XYur9Ale.jpg",
+      "release_date": "2016-09-01",
+      "title": "Welcome to Refugeestan",
+      "vote_average": 6.0,
+      "vote_count": 1,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 527065,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          18
+      ],
+      "original_language": "en",
+      "original_title": "Refugees",
+      "overview": "Three friends who's dreams is to escape their bleak world and break the chains of poverty, with their gift of African music (Afro-vibe.) In their desperation to succeed, they must learn to survive the unstoppable, as they embark on a perilous journey by sea.",
+      "popularity": 0.6,
+      "poster_path": "/ropygj6IorEwaF65cPhwLTbNp4D.jpg",
+      "release_date": "2015-02-27",
+      "title": "Refugees",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 1043051,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          99
+      ],
+      "original_language": "en",
+      "original_title": "Elephant Refugees",
+      "overview": "When Botswana banned elephant poaching in 2014, something incredible happened: the news of the safe haven spread among herds, prompting a mass elephant migration into Botswana from neighboring countries.\r Now, with nearly 60% of the world’s elephants residing in Botswana, the ecosystem is buckling under the pressure of supporting them. Climate change and unprecedented drought have created a water crisis for the masses of elephant refugees.",
+      "popularity": 0.6,
+      "poster_path": "/X14o4zBW6FAjkIEtadRrGEVqnz.jpg",
+      "release_date": null,
+      "title": "Elephant Refugees",
+      "vote_average": 9.0,
+      "vote_count": 1,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 261929,
+  "fields": {
+      "adult": false,
+      "genre_ids": [],
+      "original_language": "en",
+      "original_title": "The Refugees of the Blue Planet",
+      "overview": "For around ten years, natural disasters have been occurring more frequently, causing widespread destruction; yet industrialized countries still refuse to implement or persist in doubting the actions they must take to reduce greenhouse gas emissions, and fail to revise their policies for economic growth. Decisions taken high up directly affect the way of life of thousands of people, in Canada and elsewhere. In 2003, the United Nations indicated that for the first time in history, environmental refugees (25 million) outnumbered those fleeing from war or political persecution (23 million). And their numbers keep on increasing.",
+      "popularity": 0.6,
+      "poster_path": "/fj1eNIruh26rfOKf3yMqUhyV8Fe.jpg",
+      "release_date": "2006-11-14",
+      "title": "The Refugees of the Blue Planet",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 790319,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          99
+      ],
+      "original_language": "ar",
+      "original_title": "Exodus of a Refugee",
+      "overview": "",
+      "popularity": 0.6,
+      "poster_path": "/6wR5Ujv5bF9SDxtR1UPeTQxyQJN.jpg",
+      "release_date": "2015-01-01",
+      "title": "Exodus of a Refugee",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 822892,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          99
+      ],
+      "original_language": "en",
+      "original_title": "Refugee Class of 2000",
+      "overview": "Refugee Class of 2000 is a series of three TV ads produced as part of the Unite Against Racism campaign mounted by the Canadian Race Relations Foundation. These ads started airing nationally on Jan. 15, 2000. The central subjects are thirty four Grade 12 students from the graduating class of 2000 of Sir Charles Tupper Secondary School. Tupper is in a working class culturally diverse neighbourhood in Vancouver. Many of the students are first generation born Canadians. Grad students were chosen as the demographic group, they straddle two centuries, the violent racist past and representing the hopes and dreams of a better future in the new multicultural world.",
+      "popularity": 0.6,
+      "poster_path": "/6fpzRcMYEpMbAbsZWXA8ft9l5q4.jpg",
+      "release_date": "2000-01-15",
+      "title": "Refugee Class of 2000",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 297601,
+  "fields": {
+      "adult": false,
+      "genre_ids": [],
+      "original_language": "en",
+      "original_title": "A Requiem for Syrian Refugees",
+      "overview": "Scored to Gabriel Fauré’s well-known Requiem in D-Minor and shot in stark black and white with a crew of refugees who felt the urgency to convey their situation to the world, A REQUIEM FOR SYRIAN REFUGEES is a wrenching portrait of survival, resilience and empowerment in the camps of Northern Iraq. An intimate perspective on the daily lives and emotions of their fellow refugees, REQUIEM is also a poignant reminder of the civilian toll and trauma of 21st Century wars and an alarm sounded against indifference to the suffering and courage of millions, a non-partisan call for humanity and compassion.",
+      "popularity": 0.6,
+      "poster_path": "/rXYeOhiVT7QML1Pkn4EDv8cUgT6.jpg",
+      "release_date": "2014-10-17",
+      "title": "A Requiem for Syrian Refugees",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 293491,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          35
+      ],
+      "original_language": "sv",
+      "original_title": "Vadelmavenepakolainen",
+      "overview": "Mikko Virtanen feels like a Swedish soul trapped in a Finnish body. Full of disgust for everything Finnish, he sees Sweden as heaven. Upon meeting a suicidal Swedish psychologist Mikael Anderson, he seizes an opportunity for an identity switch. Raspberry Boat Refugee is a comedy about cultural differences in the Nordic countries, their nationalism and, not least, prejudices about our neighbours. It also proves how futile it is to try to escape oneself.",
+      "popularity": 2.359,
+      "poster_path": "/enDEY6Ye0BWyFxYNki9hBtZ1Emd.jpg",
+      "release_date": "2014-08-19",
+      "title": "Raspberry Boat Refugee",
+      "vote_average": 5.1,
+      "vote_count": 10,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 286126,
+  "fields": {
+      "adult": false,
+      "genre_ids": [],
+      "original_language": "en",
+      "original_title": "Benyamin Koboi Ngungsi",
+      "overview": "Directed by Nawi Ismail.",
+      "popularity": 0.6,
+      "poster_path": "/cogsczL3MxDWZAOR6GFdwgLlpIW.jpg",
+      "release_date": "1975-01-02",
+      "title": "Refugee Cowboy",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 1117712,
+  "fields": {
+      "adult": false,
+      "genre_ids": [],
+      "original_language": "en",
+      "original_title": "About Face: The Story of the Jewish Refugee Soldiers of World War II",
+      "overview": "About Face: The Story of the Jewish Refugee Soldiers of World War II  Documents the as-yet-untold World War II story of young Jewish men who escaped certain danger at the hands of the Nazis and returned to fight them in Europe and North Africa. Told through the eyes of these men, the film chronicles the journey from Nazi victim to refugee and, finally, to Allied soldier.",
+      "popularity": 0.6,
+      "poster_path": "/AjJYDRYy8pvQm2V61EtcAV3RpLO.jpg",
+      "release_date": null,
+      "title": "About Face: The Story of the Jewish Refugee Soldiers of World War II",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 395806,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          18
+      ],
+      "original_language": "el",
+      "original_title": "Ο πρόσφυγας",
+      "overview": "The adoptive son of a lawyer, with the help of a girl who loves him, healed from amnesia, which was caused because of a childhood trauma. He remembers that he has a twin brother. When he discovers, he sees with surprise that his brother has become a successful lawyer, but who will draw him to court, accusing him of burglary.",
+      "popularity": 0.6,
+      "poster_path": "/ysvSsmJztasPNTUqOJkzLMfmHDJ.jpg",
+      "release_date": "1969-01-01",
+      "title": "The Refugee",
+      "vote_average": 4.0,
+      "vote_count": 1,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 622180,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          18
+      ],
+      "original_language": "cs",
+      "original_title": "Jiří pes uprchlík",
+      "overview": "",
+      "popularity": 1.4,
+      "poster_path": "/nhv4ZOXX7OJTFxiHvVkXdGND7UM.jpg",
+      "release_date": "2019-06-13",
+      "title": "George the Dog, Refugee",
+      "vote_average": 7.0,
+      "vote_count": 1,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 888179,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          99
+      ],
+      "original_language": "pt",
+      "original_title": "Adelante - A luta das venezuelanas refugiadas no Brasil",
+      "overview": "Adelante is an invitation to immerse ourselves in the stories of eight refugee Venezuelan women. The documentary is an intimate description of the consequences of a political situation affecting an entire country.  By bus, hitch-hiking, on foot, these women have travelled 214 kilometers with the dream of leaving hunger, lack of medicines, homophobia, sexism and political confrontations behind.  Yuleima, Maritza, Juling, Ruth, Daynelis, Jennifer, Nairobis and Yalsy narrate, in their own words, what it is like to be an e’chapalante woman. They continue to look for a better life, beginning their stories from scratch.",
+      "popularity": 0.6,
+      "poster_path": "/eKJcTa7Hvc4qhqk20Qg32CjeNGg.jpg",
+      "release_date": "2020-04-01",
+      "title": "Adelante: The struggle of the Venezuelan refugees woman in Brazil",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 752641,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          18
+      ],
+      "original_language": "tr",
+      "original_title": "Küçük Mülteci",
+      "overview": "In 2015, the Syrian boy Aylan appeared dead on the beach in Bodrum, Turkey. The image shocked and alerted the world to the refugee crisis. The film imagines what would have happened to this child until the day of his death, when the boat in which he was with a family heading to Greece turned on the high seas. The story arises from a moment of magical realism, in which Aylan's spirit emerges from his body and wanders back to the world of refugees and those provoked by war, who escape to escape for a better life.",
+      "popularity": 0.6,
+      "poster_path": "/qFhZcYkuTMxZdfGNFeKMG1xiyt8.jpg",
+      "release_date": "2020-10-22",
+      "title": "The Little Refugee",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 755007,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          99
+      ],
+      "original_language": "ja",
+      "original_title": "ふたつの故郷を生きる",
+      "overview": "",
+      "popularity": 0.6,
+      "poster_path": "/zJva32UzbKdbJImSjgeScoWkvNH.jpg",
+      "release_date": "2020-10-17",
+      "title": "Atomic Refugee Moms",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 753360,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          28,
+          18
+      ],
+      "original_language": "fa",
+      "original_title": "پناهنده",
+      "overview": "After ten years Banafshe and Saeed scape back to Iran but Zapata is after them...",
+      "popularity": 0.6,
+      "poster_path": "/mSqAT6irMv1KoCXaAlScvZYbAE9.jpg",
+      "release_date": "1993-02-03",
+      "title": "Refugee",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 706524,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          99
+      ],
+      "original_language": "fi",
+      "original_title": "Pakolaiskeskusteluja",
+      "overview": "REFUGEE CONVERSATIONS / PAKOLAISKESKUSTELUJA is a 90-minute documentary film. Its themes are: refugees, racism, xenophobia, Islam, Christianity and compassion — or the lack of it.  What is the meaning and role of these in Finland, a country which according to many studies is the happiest country in the world?",
+      "popularity": 0.6,
+      "poster_path": "/fvojxkDgpg8WZ2xnfqKZAjAYMHd.jpg",
+      "release_date": "2020-05-19",
+      "title": "Refugee Conversations",
+      "vote_average": 10.0,
+      "vote_count": 1,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 706567,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          99
+      ],
+      "original_language": "it",
+      "original_title": "Profughi a Cinecittà",
+      "overview": "Cinecitta, the great movie studio built by Mussolini, became universally known as 'Hollywood on the Tiber' and as Fellini's second home. But in an interim period (1944-50) it served very different functions, quite unlike that of a dream factory. Under the Nazi occupation of Rome it was a transit camp for deportees, then following the liberation, it was transformed by the Allies into one of the largest displaced persons camps in Italy.",
+      "popularity": 0.6,
+      "poster_path": "/mLG4M98duGxgdkCwFj5NU8neURn.jpg",
+      "release_date": "2012-07-05",
+      "title": "Refugees in Cinecittà",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 735575,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          99
+      ],
+      "original_language": "es",
+      "original_title": "No nacimos refugiados",
+      "overview": "Eight people from very different backgrounds cross paths in Barcelona, Spain. Lawyers, musicians, translators, security guards, call center agents. They are all immigrants. Some have just arrived, others arrived years ago, leaving behind a war, a dictatorship or some sort of social or cultural discrimination. They all chose exile over submission.",
+      "popularity": 0.6,
+      "poster_path": "/1EnouGkyTnAkO50ZEVukVsM8BN2.jpg",
+      "release_date": "2020-07-27",
+      "title": "We Were Not Born Refugees",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 489314,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          18
+      ],
+      "original_language": "ko",
+      "original_title": "장례난민",
+      "overview": "Fourteen-year old girl, Da-bin and her family can’t afford a proper funeral for her mother. When the family finds out that the cremation cost is cheaper if they cremate her in the precinct of her mother’s old registered address, the family goes on a journey to give her a proper burial, but the journey proves to be difficult.",
+      "popularity": 0.6,
+      "poster_path": "/tTbZOEDT02xbSZlZbhhg0cAnTBF.jpg",
+      "release_date": "2017-04-28",
+      "title": "장례난민",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 497852,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          18
+      ],
+      "original_language": "ja",
+      "original_title": "亡命記",
+      "overview": "A Chinese medical student named Gan Shosho finds himself cut off from his homeland as he is studying in Japan during the outbreak of the war. Despite his difficult circumstances, he finds love in the form of Sachiko and the two marry. They later travel to Nanjing to live a new life together where Sachiko and Shaochang cooperate with the Japanese-backed government. Their ultimate hope is to secure peace but their idealism is not enough to keep them together through brutal times and with the end of the war the two find themselves facing a divorce... --Osaka Asian Film Festival",
+      "popularity": 0.6,
+      "poster_path": "/ckC0urDF4yd5YfrVfjDUW8yliGD.jpg",
+      "release_date": "1955-05-03",
+      "title": "The Refugee",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 489696,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          18
+      ],
+      "original_language": "sv",
+      "original_title": "Flykting 532",
+      "overview": "The unaccompanied refugee Sevko, 12, tries to cope with his new life in Sweden. He is struggling between hope and despair, waiting for news from the war zone in Bosnia. Being bullied by the other young refugees, he decides to throw a party his own way.",
+      "popularity": 0.6,
+      "poster_path": "/7PLM4Pb89O2uNTVcqputizmfi3F.jpg",
+      "release_date": "2015-10-20",
+      "title": "Refugee 532",
+      "vote_average": 1.0,
+      "vote_count": 1,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 519055,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          18
+      ],
+      "original_language": "el",
+      "original_title": "Κυνηγημένη προσφυγοπούλα",
+      "overview": "After the death of her kind stepfather and Pontian Greek refugee, a young woman arrives in Athens to track down her biological father who is missing since the blood-drenched Pontic genocide in Asia Minor. Will she ever find him?",
+      "popularity": 0.6,
+      "poster_path": "/hb1bVuHKm19cVPb4ydVKO9I9sYP.jpg",
+      "release_date": "1969-10-07",
+      "title": "Refugee Girl on the Run",
+      "vote_average": 4.0,
+      "vote_count": 1,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 583974,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          18
+      ],
+      "original_language": "fr",
+      "original_title": "Einstein était un réfugié",
+      "overview": "The story of an intuition; that of a lawyer to whom her client has lied and who, despite that, decides to help her. 'Einstein was a refugee' is the story of two women who have the good fortune to meet.",
+      "popularity": 0.6,
+      "poster_path": "/qdPifIxyLwl7s7MtlQZte8y18EP.jpg",
+      "release_date": "2010-01-01",
+      "title": "Einstein Was A Refugee",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 1095253,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          99
+      ],
+      "original_language": "is",
+      "original_title": "Fit Hostel",
+      "overview": "In Fit Hostel near Keflavik airport in Iceland is a refugee camp for asylum seekers in Iceland. Many have been there for years while their cases are being processed.",
+      "popularity": 0.6,
+      "poster_path": "/92alQoZXpYzzSfYkZbZHJBBKcfu.jpg",
+      "release_date": "2013-03-13",
+      "title": "Fit Hostel Refugee Camp Iceland",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 486337,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          99
+      ],
+      "original_language": "de",
+      "original_title": "Ein Vietnamflüchtling",
+      "overview": "After becoming notorious world-wide for a bloody killing, Nguyen Ngoc Loan, former general and chief of the South Vietnamese police, moved to the United States and opened a restaurant outside of Washington, D.C. Contrasting images from these two phases of his life are intercut.",
+      "popularity": 0.6,
+      "poster_path": "/kmCQKRbtCiNPfpCoPjiRuJ8w2LL.jpg",
+      "release_date": "1979-04-27",
+      "title": "A Refugee from Vietnam",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 140985,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          53,
+          28,
+          18
+      ],
+      "original_language": "cn",
+      "original_title": "打蛇",
+      "overview": "Determined to escape from the harsh regime of China to the freedom of Hong Kong, three youths are captured by Mr. Hok, a sadistic human smuggler who subjects them to an unrelenting assault of degradation. Pushed to the limits of human endurance, the prisoners must fight for their lives in an unforgettable, action-packed climax.",
+      "popularity": 2.462,
+      "poster_path": "/4QPs9t1gzmHcLCXBkrAfr7jR6Pk.jpg",
+      "release_date": "1980-11-26",
+      "title": "Lost Souls",
+      "vote_average": 5.3,
+      "vote_count": 9,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 116960,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          99
+      ],
+      "original_language": "ja",
+      "original_title": "フタバから遠く離れて",
+      "overview": "After the 11 March 2011 tsunami and nuclear disaster, residents of Futaba, a town in Fukushima Prefecture, are relocated to an abandoned high school in a suburb of Tokyo, 150 miles south. With a clear and compassionate eye, filmmaker Atsushi Funahashi follows the displaced people as they struggle to adapt to their new environment. Among the vivid personalities who emerge are the town mayor, a Moses without a Promised Land; and a farmer who would rather defy the government than abandon his cows to certain starvation.",
+      "popularity": 0.6,
+      "poster_path": "/dDfe50pINMaqv9h1CojT8S4LIBJ.jpg",
+      "release_date": "2012-06-22",
+      "title": "Nuclear Nation",
+      "vote_average": 6.3,
+      "vote_count": 3,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 855178,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          99,
+          36
+      ],
+      "original_language": "en",
+      "original_title": "Cake",
+      "overview": "This documentary is about courage and survival and having the will and perseverance to succeed despite considerable obstacles. The story of Mitchell Pham's remarkable journey is told through the evocative use of stop-frame animation, created from a Vietnamese traditional folded paper craft, mixed with live action to show an innovative account of his harrowing but ultimately inspirational journey from Vietnamese prison camp, to a life in New Zealand after the Vietnam war.",
+      "popularity": 0.6,
+      "poster_path": "/qSBL9odYmQGpF3HD771clVPiUeb.jpg",
+      "release_date": "2012-08-11",
+      "title": "Cake",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 209297,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          18,
+          10752,
+          12
+      ],
+      "original_language": "de",
+      "original_title": "Flüchtlinge",
+      "overview": "Propaganda film detailing the plight of ethnic Germans, known as \"Volga Germans\", in the Soviet province of Manchuria.",
+      "popularity": 0.6,
+      "poster_path": "/7qXlQRK7nPmCNThGEYrlfRSrt7P.jpg",
+      "release_date": "1933-12-07",
+      "title": "Flüchtlinge",
+      "vote_average": 5.7,
+      "vote_count": 3,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 487399,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          18
+      ],
+      "original_language": "el",
+      "original_title": "Η προσφυγοπούλα",
+      "overview": "A wealthy man, Luke, lives happily with his wife, a refugee from the Caucasus, and their daughter. When a cousin, accompanied by a charming woman, visits them, the family man will fall into the trap and give up his wife. She will leave their daughter together, and she will become a singer. Luke, having suffered the extortion of his cousin and given him a large sum of money, will seek his wife and ask her to forgive him.",
+      "popularity": 0.621,
+      "poster_path": "/t1nYJPDPCAo2XCsmpG0tDLEfNM4.jpg",
+      "release_date": "1938-11-16",
+      "title": "I Prosfugopoula",
+      "vote_average": 6.0,
+      "vote_count": 1,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 1042352,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          18,
+          53
+      ],
+      "original_language": "fr",
+      "original_title": "La cassette de l'émigrée",
+      "overview": "",
+      "popularity": 0.6,
+      "poster_path": "/asVISGE2JqxCrcoQY60DCIvAG8T.jpg",
+      "release_date": "1912-05-01",
+      "title": "La cassette de l'émigrée",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 261479,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          80
+      ],
+      "original_language": "cn",
+      "original_title": "撈過界",
+      "overview": "Hong Kong crime movie from 1978",
+      "popularity": 0.6,
+      "poster_path": "/yhfWX9nnqhh7EnC7XdZ77VXqRLP.jpg",
+      "release_date": "1978-12-13",
+      "title": "Bank Busters",
+      "vote_average": 6.5,
+      "vote_count": 1,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 1112191,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          18
+      ],
+      "original_language": "zh",
+      "original_title": "逃亡",
+      "overview": "",
+      "popularity": 0.655,
+      "poster_path": "/rUjvhn5kZN2x00fgtnbfRwM36JP.jpg",
+      "release_date": "1935-01-01",
+      "title": "逃亡",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "hunger"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 120150,
+  "fields": {
+      "name": "Malawi Wildlife Rescue",
+      "original_name": "Malawi Wildlife Rescue",
+      "overview": "Follows the adventures of the dedicated staff behind the Lilongwe Wildlife Centre, Malawi’s only wildlife sanctuary. Dr. Amanda Salb and her team as they go above and beyond to save injured and orphaned animals and get them back to the wild, where they belong.",
+      "poster_path": "/22RUfXPvb6YDKWQhZsc4CBsBGPm.jpg",
+      "first_air_date": "2021-05-19",
+      "popularity": 1.156,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "wildlife"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 105185,
+  "fields": {
+      "name": "Ted Sieger's Wildlife",
+      "original_name": "Ted Sieger's Wildlife",
+      "overview": "",
+      "poster_path": "/pSiyhQuqvlVDXAZFFs7MOujWIib.jpg",
+      "first_air_date": "1999-01-01",
+      "popularity": 1.241,
+      "vote_average": 10.0,
+      "vote_count": 1,
+      "like_users": [],
+      "theme_id": "wildlife"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 91957,
+  "fields": {
+      "name": "Leo the Wildlife Ranger",
+      "original_name": "Leo the Wildlife Ranger",
+      "overview": "Leo the Wildlife Ranger",
+      "poster_path": "/94QatU8tzirRT1uw8C9Ihy347ZQ.jpg",
+      "first_air_date": "2015-11-02",
+      "popularity": 0.933,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "wildlife"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 8681,
+  "fields": {
+      "name": "Wildlife Specials",
+      "original_name": "Wildlife Specials",
+      "overview": "The BBC Wildlife Specials are a series of nature documentary programmes commissioned by BBC Television. The Wildlife Specials began with a pilot episode in 1995. 20 programmes have been made to date, with three of the recent ones being in multi parts. The earlier programmes were produced in-house by the BBC's specialist Natural History Unit, but the more recent Spy in the... titles were made by the independent John Downer Productions. The first 18 programmes, up to 2008, were narrated by David Attenborough. The most recent two were narrated by David Tennant.\n\n\"The world's leading natural history filmmakers meet the world's most charismatic animals\"\n\n— BBC tagline",
+      "poster_path": "/yxgNE8ybGweNO14jtRw5Ctur6vY.jpg",
+      "first_air_date": "1995-04-14",
+      "popularity": 2.293,
+      "vote_average": 8.4,
+      "vote_count": 5,
+      "like_users": [],
+      "theme_id": "wildlife"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 101060,
+  "fields": {
+      "name": "Hope for Wildlife",
+      "original_name": "Hope for Wildlife",
+      "overview": "Wildlife rehabilitation expert Hope Swinimer and her dedicated team rescue and heal injured and orphaned animals of all kinds. Hope's passion for wildlife conservation shines through everything she does as she and her team go on difficult missions to care for and return each animal to the wild.",
+      "poster_path": "/a6uG3FrHjjvumUk3lcZMHsygvR3.jpg",
+      "first_air_date": "2010-09-07",
+      "popularity": 1.4,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "wildlife"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 219014,
+  "fields": {
+      "name": "Wildlife ER",
+      "original_name": "Wildlife ER",
+      "overview": "Follows a range of dedicated professionals and volunteers as they look after unwell animals and carefully nurse them back to health at the RSPCA Wildlife Hospital in Brisbane, Australia.",
+      "poster_path": "/3FJKzYeBuQU7055WSH7cYjxEmgw.jpg",
+      "first_air_date": "2023-01-06",
+      "popularity": 0.6,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "wildlife"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 90142,
+  "fields": {
+      "name": "Islands in Time: A Wildlife Odyssey",
+      "original_name": "Islands in Time: A Wildlife Odyssey",
+      "overview": "Southeast Asia is the most diverse region on our planet. Nature’s most powerful forces have combined to create islands of fire, a water world driven by the sway of the moon and rich forests fuelled by the tropical sun. An extraordinary array of plants and animals live here; many of which are found nowhere else on Earth.",
+      "poster_path": "/pKg7bOeqsvnsaVIFOgziCI0FGu8.jpg",
+      "first_air_date": "2017-03-01",
+      "popularity": 0.6,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "wildlife"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 17339,
+  "fields": {
+      "name": "Wildlife on One",
+      "original_name": "Wildlife on One",
+      "overview": "Wildlife on One was, for nearly thirty years, the BBC's flagship natural history programme.\n\nFirst broadcast in 1977, each edition ran for half an hour. The narrator was David Attenborough. When repeated on BBC2, the programmes were retitled Wildlife on Two. The series came to an end in 2005.",
+      "poster_path": "/gZMZbaDj5YDerJsyZYrmYeBxrgu.jpg",
+      "first_air_date": "1977-01-06",
+      "popularity": 0.6,
+      "vote_average": 8.0,
+      "vote_count": 1,
+      "like_users": [],
+      "theme_id": "wildlife"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 208612,
+  "fields": {
+      "name": "Wildlife Rescue Australia",
+      "original_name": "Wildlife Rescue Australia",
+      "overview": "Wildlife Rescue Australia",
+      "poster_path": "/m65gVRBFcQX1EM2GAi28GCMt4vP.jpg",
+      "first_air_date": "2022-06-11",
+      "popularity": 1.161,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "wildlife"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 77851,
+  "fields": {
+      "name": "Mark Emery's American Wildlife",
+      "original_name": "Mark Emery's American Wildlife",
+      "overview": "Iconic American wildlife captured in their beautiful natural surroundings in Florida and Alaska.",
+      "poster_path": "/eiQ8XfzJH5jZh13mcCPK3MRAfga.jpg",
+      "first_air_date": "2016-01-01",
+      "popularity": 0.626,
+      "vote_average": 2.0,
+      "vote_count": 1,
+      "like_users": [],
+      "theme_id": "wildlife"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 76854,
+  "fields": {
+      "name": "Wildlife Warriors",
+      "original_name": "Wildlife Warriors",
+      "overview": "Wildlife Warriors tracks wildlife in Africa and how they interact with humans and tourists.The show consists of trips/Safaris around the various national parks across Africa and interviews with wardens and tourists.",
+      "poster_path": "/u4un0ykzHC4RKHKwyugx7kVv7B6.jpg",
+      "first_air_date": "2018-03-01",
+      "popularity": 0.6,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "wildlife"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 86114,
+  "fields": {
+      "name": "Britain's Big Wildlife Revival",
+      "original_name": "Britain's Big Wildlife Revival",
+      "overview": "Britain's Big Wildlife Revival brings together some of the BBC's most respected wildlife experts to highlight the plight of Britain's most at-risk animals.",
+      "poster_path": "/rAOY4FPAMjWWmErdHxdGATJQBtJ.jpg",
+      "first_air_date": "2013-08-18",
+      "popularity": 0.6,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "wildlife"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 26671,
+  "fields": {
+      "name": "Australian Wildlife",
+      "original_name": "Australian Wildlife",
+      "overview": "",
+      "poster_path": "/kMBSjgde81GN3SBR7PlcVbOoWqZ.jpg",
+      "first_air_date": "2017-03-13",
+      "popularity": 0.6,
+      "vote_average": 8.0,
+      "vote_count": 1,
+      "like_users": [],
+      "theme_id": "wildlife"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 136297,
+  "fields": {
+      "name": "Wildlife Südafrika",
+      "original_name": "Wildlife Südafrika",
+      "overview": "",
+      "poster_path": "/5RinMmFl5vpavLpHYB6ZtH1dDqC.jpg",
+      "first_air_date": "2012-05-01",
+      "popularity": 0.6,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "wildlife"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 113334,
+  "fields": {
+      "name": "Kenya Wildlife Diaries",
+      "original_name": "Kenya Wildlife Diaries",
+      "overview": "A behind-the-scenes look at Lewa Wildlife Conservancy's conservation work in Northern Kenya.",
+      "poster_path": "/57u8t93rSM3DwuTyvwzTV0cNo0z.jpg",
+      "first_air_date": "2016-01-05",
+      "popularity": 0.6,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "wildlife"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 122252,
+  "fields": {
+      "name": "Wildlife Heroes",
+      "original_name": "Wildlife Heroes",
+      "overview": "Wildlife Heroes celebrates inspirational men and women from all walks of life who have dedicated their lives to the protection and conservation of wildlife.\n\nEach amazing individual has been chosen for their dedication, courage and support for wildlife conservation. Many are well-known, but others are unsung heroes who are well overdue the public recognition they deserve for their tireless work.",
+      "poster_path": "/7xPe2RdA4kjyYxgtqQlWySr3qAn.jpg",
+      "first_air_date": "2019-09-30",
+      "popularity": 0.6,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "wildlife"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 120773,
+  "fields": {
+      "name": "Wildlife Icons",
+      "original_name": "Wildlife Icons",
+      "overview": "A number of iconic species call the vast biodiversity of Africa home. From close-knit communities of hamadryas baboons to graceful herds of springbok, get a closer look at the some of the remarkable wildlife within the continent's mighty ecosystem.",
+      "poster_path": "/mP3QreKui6D7xMpiRA1xBbRuGcN.jpg",
+      "first_air_date": "2015-11-16",
+      "popularity": 0.6,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "wildlife"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 84918,
+  "fields": {
+      "name": "은밀하고 위대한 동물의 사생활",
+      "original_name": "은밀하고 위대한 동물의 사생활",
+      "overview": "스타가 자연 다큐멘터리의 감독이 되어 경이롭고 신비한 대자연의 아름다움과 그 속에 살고 있는 동물의 특별한 이야기를 촬영해 미니 다큐멘터리를 완성시키는 프로그램",
+      "poster_path": "/gClxmY1XBNR1XXd7nM90D6jT4Ll.jpg",
+      "first_air_date": "2018-11-23",
+      "popularity": 0.938,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "wildlife"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 223607,
+  "fields": {
+      "name": "Masai Mara Wildlife Crossover",
+      "original_name": "Masai Mara Wildlife Crossover",
+      "overview": "",
+      "poster_path": "/wOy25H4cGy7xZ5zQAePwzDnKhfc.jpg",
+      "first_air_date": "2020-09-17",
+      "popularity": 0.6,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "wildlife"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 223807,
+  "fields": {
+      "name": "Americaʻs Wildlife Survivors",
+      "original_name": "Americaʻs Wildlife Survivors",
+      "overview": "Wildlife Wars by Daryl Hannah\n\nReturn of the Eagle hosted by Billy Ray Cyrus\n\nEl Lobo: The Song of the Wolf hosted by Kenny Loggins\n\nCoyote: Americaʻs Top Dog hosted by James Avery\n\nA Tale of Two Turtles hosted by Sophie B. Hawkins\n\nDolphins in Danger hosted by Bridget Fonda\n\nBear Wars hosted by Pam Houston\n\nWildlife Vet hosted by Alicia Silverstone",
+      "poster_path": "/wY5zBQH5TeIqctP6OsW5DMKLS9i.jpg",
+      "first_air_date": null,
+      "popularity": 0.6,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "wildlife"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 69779,
+  "fields": {
+      "name": "Earth From Above",
+      "original_name": "Vu du ciel",
+      "overview": "Earth From Above is a documentary series dedicated to the major challenges faced by our planet, bringing the viewer beautiful High Definition images of the Earth. Each episodes talks about one particular environmental challenge.",
+      "poster_path": "/ypUwIDC5mz0vV77aC5THeXPFGSz.jpg",
+      "first_air_date": "2006-10-31",
+      "popularity": 1.305,
+      "vote_average": 9.0,
+      "vote_count": 4,
+      "like_users": [],
+      "theme_id": "wildlife"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 64821,
+  "fields": {
+      "name": "Rugged Justice",
+      "original_name": "Rugged Justice",
+      "overview": "Follows WSDFW Law Enforcement Program as they police the Evergreen State's unforgiving mountain terrains, twisted rain forest back roads and densely populated coastal areas. Each day brings new challenges and extreme danger.",
+      "poster_path": "/dmpfHgJ5qEOY6GNWbGR5pWS4W6x.jpg",
+      "first_air_date": "2015-01-18",
+      "popularity": 0.6,
+      "vote_average": 10.0,
+      "vote_count": 1,
+      "like_users": [],
+      "theme_id": "wildlife"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 67476,
+  "fields": {
+      "name": "A Láthatatlan Madárfotós",
+      "original_name": "A Láthatatlan Madárfotós",
+      "overview": "",
+      "poster_path": "/yYcunwzrKUzdGo8fhYNeZa575mD.jpg",
+      "first_air_date": "2011-12-26",
+      "popularity": 1.4,
+      "vote_average": 4.5,
+      "vote_count": 2,
+      "like_users": [],
+      "theme_id": "wildlife"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 69140,
+  "fields": {
+      "name": "SENGOKUCHOJYUGIGA",
+      "original_name": "戦国鳥獣戯画",
+      "overview": "",
+      "poster_path": "/rlZVmSYrdRDqbmaDPTw5eckD1VG.jpg",
+      "first_air_date": "2016-10-09",
+      "popularity": 2.885,
+      "vote_average": 5.3,
+      "vote_count": 3,
+      "like_users": [],
+      "theme_id": "wildlife"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 33222,
+  "fields": {
+      "name": "Willa's Wild Life",
+      "original_name": "Willa's Wild Life",
+      "overview": "Willa's Wild Life is a French/Canadian/American animated television series that first aired on ABC2 in 2008, then on Qubo and Nickelodeon Canada in 2009. The show is based on Dan Yaccarino's book An Octopus Followed Me Home. It is about a 9 year old girl named Willa who has some very unusual pets. She has, so far, acquired a giraffe, two elephants, an alligator, and many more exotic animals. The show airs on Qubo at 5:00 pm and 10:00 pm Monday - Sunday, and 9:30 am on Fridays at ION Television.",
+      "poster_path": "/yzFjS84em9P3ib5lBL7Ha6pWX8V.jpg",
+      "first_air_date": "2008-09-21",
+      "popularity": 0.6,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "wildlife"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 212029,
+  "fields": {
+      "name": "最美华夏：中国的野生国宝",
+      "original_name": "最美华夏：中国的野生国宝",
+      "overview": "",
+      "poster_path": "/xfNUEN0TzWms2yxOIpBIRWoK0Z1.jpg",
+      "first_air_date": "2021-01-01",
+      "popularity": 0.6,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "wildlife"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 57123,
+  "fields": {
+      "name": "Discover Planet Ocean",
+      "original_name": "Discover Planet Ocean",
+      "overview": "Dive into our planet's greatest mysteries with a team of international underwater cinematographers as they explore the breathtaking bond between humanity and the ocean.",
+      "poster_path": "/itS4QNbRDShRLZKnp3fejVFqveI.jpg",
+      "first_air_date": "2009-01-01",
+      "popularity": 0.6,
+      "vote_average": 7.5,
+      "vote_count": 1,
+      "like_users": [],
+      "theme_id": "wildlife"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 152113,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          99
+      ],
+      "original_language": "fr",
+      "original_title": "Planète Océan",
+      "overview": "Dive into our planet's greatest mysteries with a team of international underwater cinematographers as they explore the breathtaking bond between humanity and the ocean.",
+      "popularity": 4.43,
+      "poster_path": "/kukf6NNxQF1wLykdC2e0jlVELig.jpg",
+      "release_date": "2012-06-18",
+      "title": "Planet Ocean",
+      "vote_average": 7.4,
+      "vote_count": 53,
+      "like_users": [],
+      "theme_id": "wildlife"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 243392,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          99
+      ],
+      "original_language": "en",
+      "original_title": "Planet Ocean",
+      "overview": "Planet Ocean is a 1974 short documentary. It takes us on a beautiful adventure into the strangest domains of our planet – the oceans. The documentary pivots around the relationship between the Earth’s oceans and the entire planet’s ecosystem. The film was nominated for an Oscar for Best Live Action Short Film.",
+      "popularity": 0.6,
+      "poster_path": "/3eLIlBTMmnjAsyHdFI8qM5eSuSE.jpg",
+      "release_date": "1974-01-01",
+      "title": "Planet Ocean",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "wildlife"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 1104224,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          16,
+          878
+      ],
+      "original_language": "ro",
+      "original_title": "Planeta Oceanelor",
+      "overview": "Short film from the Delta Space Mission film series.",
+      "popularity": 0.6,
+      "poster_path": "/y203qZnmOqr0TXhf6hlJc9KnYkh.jpg",
+      "release_date": "1981-01-01",
+      "title": "The Planet of the Oceans",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "wildlife"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 814196,
+  "fields": {
+      "adult": false,
+      "genre_ids": [
+          99
+      ],
+      "original_language": "en",
+      "original_title": "Perpetual Planet: Heroes of the Oceans",
+      "overview": "Oceanographer Sylvia Earle and a cast of marine scientists tell the story of the incredible work being done to protect our oceans fragile ecosystem.",
+      "popularity": 1.4,
+      "poster_path": "/lNXc3hNltmfYyXrfpq7QrDrnTSg.jpg",
+      "release_date": "2021-04-22",
+      "title": "Perpetual Planet: Heroes of the Oceans",
+      "vote_average": 7.5,
+      "vote_count": 4,
+      "like_users": [],
+      "theme_id": "wildlife"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 68157,
+  "fields": {
+      "name": "삼시세끼 어촌편",
+      "original_name": "삼시세끼 어촌편",
+      "overview": "2015년 1월 tvN에서 방영을 시작한 리얼리티쇼. 나영석 PD가 연출을 맡았다. 농촌을 벗어난 삼시세끼, 이번엔 어촌이다. 자급자족 어부 라이프를 슬로건으로 전라남도 신안군 흑산면 만재도와 전라남도 고흥군 도양읍 득량도를 오가며 정성스러운 한 끼를 찾아 떠나는출연진들의 고군분투 생존기를 그린다. 전작에 이어 환상의 케미를 자랑하는 차승원과 유해진 콤비, 이서진과 에릭, 윤균상 삼형제들과 그들을 찾아오는 게스트들이 등장하며, 전작보다 더욱 더 업그레이드된 요리들이 시청자의 눈을 현혹한다.",
+      "poster_path": "/qBxRxDnWE3I4FL2pFXD3UavlzEy.jpg",
+      "first_air_date": "2015-01-23",
+      "popularity": 7.51,
+      "vote_average": 8.0,
+      "vote_count": 5,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 61820,
+  "fields": {
+      "name": "Fishing with John",
+      "original_name": "Fishing with John",
+      "overview": "Musician John Lurie knows nothing about fishing, but that doesn't stop him from embarking on fishing in exotic locations with friends.",
+      "poster_path": "/25c0yUBpHLkSVChyiMpw7bZ3s4B.jpg",
+      "first_air_date": "1991-11-20",
+      "popularity": 3.401,
+      "vote_average": 7.5,
+      "vote_count": 26,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 87167,
+  "fields": {
+      "name": "Adventure Guides Fishing",
+      "original_name": "Adventure Guides Fishing",
+      "overview": "Adventure Guides: Fishing Edition features the world's most colorful fly, salt and bass fishing guides. Host John Dietsch, known for doubling for Brad Pitt and supervising the fly fishing scenes in \"A River Runs Through It,\" travels the globe and goes behind-the-scenes of outfitters, lodges and fly shops. As we learn about the waters these guides fish and the techniques they use, we also get insight into the trials and tribulations of the guiding lifestyle as well as the rewards of living life every day close to the fisheries they love and protect.",
+      "poster_path": "/fOKJ7TTL7d4i0YKGZUfUe03cuBJ.jpg",
+      "first_air_date": "2007-12-31",
+      "popularity": 1.4,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 44033,
+  "fields": {
+      "name": "Fisherman Sanpei",
+      "original_name": "釣りキチ三平",
+      "overview": "Mihira Sanpei talks with a Tohou accent and is a down-to-earth boy with a cheerful and optimistic personality. However, when it comes to fishing, he becomes very serious and is a youth who enjoys fishing more than anything else. The village where he lives in is a natural environment which provides different kinds of fishing challenges. Despite his lack of experience, Sanpei has a first-rate sense with regards to fishing and decides to maxmise his potential by entering into different fishing contests. As he faces various challenges, he learns to solve difficult problems and learn from his mistakes to the extent that he is able to fish anything out of the waters. Along the way, he encounters all kinds of rivals and companions who increase his experience points and help him in his growth.",
+      "poster_path": "/lyPk0JtiTle6cEWbUr0oot65pmy.jpg",
+      "first_air_date": "1980-04-07",
+      "popularity": 6.931,
+      "vote_average": 7.25,
+      "vote_count": 4,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 80328,
+  "fields": {
+      "name": "Mortimer & Whitehouse: Gone Fishing",
+      "original_name": "Mortimer & Whitehouse: Gone Fishing",
+      "overview": "Comedians and lifelong friends Bob Mortimer and Paul Whitehouse share their personal and hilarious life experiences while travelling around the UK fishing for elusive species.",
+      "poster_path": "/waxmgbx8g1dUmrYHYRnrhrSUBrf.jpg",
+      "first_air_date": "2018-06-20",
+      "popularity": 1.71,
+      "vote_average": 7.3,
+      "vote_count": 11,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 80564,
+  "fields": {
+      "name": "바나나 피쉬",
+      "original_name": "バナナフィッシュ",
+      "overview": "1985년 미국 뉴욕을 배경으로 스트리트 키즈의 보스와 일본인 소년이 비합법 약물인 '바나나 피쉬'의 수수께끼를 쫓는 이야기를 그린 애니메이션",
+      "poster_path": "/1UV5di9UIXwrpCW3xQ4RNli5hEV.jpg",
+      "first_air_date": "2018-07-06",
+      "popularity": 29.825,
+      "vote_average": 8.6,
+      "vote_count": 781,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 76847,
+  "fields": {
+      "name": "나만 믿고 따라와, 도시어부",
+      "original_name": "나만 믿고 따라와, 도시어부",
+      "overview": "자타공인 연예계를 대표하는 낚시꾼들이 자신들만의 황금어장으로 함께 떠나는 낚시 여행 버라이어티 프로그램",
+      "poster_path": "/1AVwcMC4UQnlYJSuFps2ADabNQV.jpg",
+      "first_air_date": "2017-09-07",
+      "popularity": 40.191,
+      "vote_average": 2.0,
+      "vote_count": 1,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 23823,
+  "fields": {
+      "name": "Extreme Fishing With Robson Green",
+      "original_name": "Extreme Fishing With Robson Green",
+      "overview": "Extreme Fishing with Robson Green is a factual entertainment show broadcast on Channel 5. The show sees actor and fishing enthusiast Robson Green travel around the world in search of the greatest fishing destinations. There have been five series to date. A spin-off series entitled Robson's Extreme Fishing Challenge began airing on 9 April 2012.",
+      "poster_path": "/mhKrsLtX0jo2Re05wtLdM1KH6AJ.jpg",
+      "first_air_date": "2008-09-01",
+      "popularity": 0.84,
+      "vote_average": 7.2,
+      "vote_count": 4,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 136696,
+  "fields": {
+      "name": "Robson Green: Coastal Fishing",
+      "original_name": "Robson Green: Coastal Fishing",
+      "overview": "Robson Green goes in search of the biggest, wildest and tastiest fish in British waters.",
+      "poster_path": "/3HvkSX5D0B4Eq7BuIj2oUMEiUnB.jpg",
+      "first_air_date": "2021-10-16",
+      "popularity": 0.6,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 196067,
+  "fields": {
+      "name": "Fishing For Giants",
+      "original_name": "Fishing For Giants",
+      "overview": "South African extreme fisherman Andy Coetzee embarks on an epic series of adventures to reel in some of the world's most elusive and iconic fish species.",
+      "poster_path": "/mp7N8mZkEzbmWacrvIUkNzcf0uR.jpg",
+      "first_air_date": "2018-04-24",
+      "popularity": 2.053,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 87341,
+  "fields": {
+      "name": "Fishing with Ladin",
+      "original_name": "Fishing with Ladin",
+      "overview": "Travel with Ladin Langeman and Steve Ronholt as they fly fish fresh water locations around the western U.S. and Canada. Each episode of catch-and-release fishing is perfectly imperfect-casting a humorous light on the world of fly fishing everyone will enjoy!",
+      "poster_path": "/26uyHRiIJt0cGoL2YCoLZkeCFVK.jpg",
+      "first_air_date": "2014-06-01",
+      "popularity": 0.6,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 44722,
+  "fields": {
+      "name": "Robson's Extreme Fishing Challenge",
+      "original_name": "Robson's Extreme Fishing Challenge",
+      "overview": "Robson's Extreme Fishing Challenge is a factual entertainment show broadcast on Channel 5 and a spin-off series to Extreme Fishing with Robson Green. The show sees actor and fishing enthusiast Robson Green travel around the world to some of the greatest fishing destinations, where he challenges local masters of their craft over five rounds of competitive fishing. For both series, the show has aired Mondays at 9pm on Channel 5.",
+      "poster_path": "/skGjIPQsoc4ROEq3xBYiPCG1VTJ.jpg",
+      "first_air_date": "2012-04-09",
+      "popularity": 0.824,
+      "vote_average": 7.0,
+      "vote_count": 1,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 11712,
+  "fields": {
+      "name": "Rich Hall's Fishing Show",
+      "original_name": "Rich Hall's Fishing Show",
+      "overview": "Rich Hall's Fishing Show was a comedy programme written by and starring Rich Hall and Mike Wilmot. It was first broadcast on 11 November 2003 in the United Kingdom on BBC Four. It was repeated in the UK on Dave in 2008. The Fishing with the Corleones sequence involving the late Anita Roddick was omitted from the repeat.\n\nThe show was set in the lochs of Scotland, on which Hall and Wilmot would go fishing. However, very few fish were caught, and the situation instead formed the setting for dialogue between the pair which would be vaguely themed on subjects like love or the Olympic Games. Some episodes featured sketches involving characters such as Bob, a decapitated limousine driver whose head had survived, and Charles Manson, a reclusive salesman who, despite his appearance, was not the convicted serial killer of the same name. Each episode would end with a celebrity guest who was invited on to the boat to talk and fish with the pair.\n\nAt the end of each show, a celebrity guest would appear and talk with Hall and Wilmot. The idea was seen earlier in a pilot the pair had called Rich Hall's Badly Funded Think Tank. In that show, the segment was titled \"Fishing with the Corleones\", but in the Fishing Show these sections are unappended.",
+      "poster_path": "/kFukbBmZmM7pflu64i1OGC9pKfS.jpg",
+      "first_air_date": null,
+      "popularity": 1.4,
+      "vote_average": 7.0,
+      "vote_count": 2,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 215711,
+  "fields": {
+      "name": "The Kayak Fishing Show with Jim Sammons",
+      "original_name": "The Kayak Fishing Show with Jim Sammons",
+      "overview": "전 세계 다양한 낚시 스팟을 방문하여 카약 낚시와 지역의 라이프 문화를 소개하는 프로그램",
+      "poster_path": "/9nRlD7SMtTdPhpwUFoyDJIfipUa.jpg",
+      "first_air_date": "2020-11-17",
+      "popularity": 0.6,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 73339,
+  "fields": {
+      "name": "John Wilson: Go Fishing Special FLOAT FISHING",
+      "original_name": "John Wilson: Go Fishing Special FLOAT FISHING",
+      "overview": "",
+      "poster_path": "/Am0WF5y7OS1D2XHboSRoXQvxH0H.jpg",
+      "first_air_date": "2004-04-16",
+      "popularity": 0.6,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 209601,
+  "fields": {
+      "name": "River Cottage: Gone Fishing!",
+      "original_name": "River Cottage: Gone Fishing!",
+      "overview": "More advice from eco-friendly cook Hugh Fearnley-Whittingstall, as he goes on a coastal tour of the country sampling its seafood dishes in this latest outing from the River Cottage.",
+      "poster_path": "/iINUNzIw8fCFuXcAhXAf7lNmQf3.jpg",
+      "first_air_date": "2007-11-08",
+      "popularity": 0.6,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 137946,
+  "fields": {
+      "name": "Cornwall: This Fishing Life",
+      "original_name": "Cornwall: This Fishing Life",
+      "overview": "As Brexit brings new hope, can a new generation of fishermen save their traditional way of life?",
+      "poster_path": "/rEzCw0QpeNYbdwIzaiJGFvHLKNQ.jpg",
+      "first_air_date": "2020-01-07",
+      "popularity": 1.392,
+      "vote_average": 6.0,
+      "vote_count": 1,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 67783,
+  "fields": {
+      "name": "Fishing Impossible",
+      "original_name": "Fishing Impossible",
+      "overview": "Fishing show, with Charles Butcher, Jason Lewis and Thomas Hird, aka The Blowfish.",
+      "poster_path": "/u6wAVPNztYOIPL5SWSX4GaAeo9j.jpg",
+      "first_air_date": "2016-09-06",
+      "popularity": 1.172,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 202167,
+  "fields": {
+      "name": "A Girl's Guide to Hunting, Fishing and Wild Cooking",
+      "original_name": "A Girl's Guide to Hunting, Fishing and Wild Cooking",
+      "overview": "Join world-renowned chef, Analiese Gregory as she steps out of the restaurant kitchen and in to nature in Tasmania, Australia. Share her journey of discovery as she learns to hunt, fish, forage and live seasonally off the land before the wild southern winter sets in.",
+      "poster_path": "/t7UncOWnUImCsogKRxAwOpEu3vI.jpg",
+      "first_air_date": "2021-11-18",
+      "popularity": 0.887,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 92683,
+  "fields": {
+      "name": "Fishing Allstars",
+      "original_name": "Fishing Allstars",
+      "overview": "Dean Macey is joined by guest anglers as they travel to various venues within the UK and Europe, putting their fishing skills to the test.",
+      "poster_path": "/g8FZrP6sdUcQ8mnQpW80CSEpF9F.jpg",
+      "first_air_date": null,
+      "popularity": 0.6,
+      "vote_average": 8.0,
+      "vote_count": 1,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 211331,
+  "fields": {
+      "name": "The Grand Fishing Adventure",
+      "original_name": "The Grand Fishing Adventure",
+      "overview": "Two close friends, globe-trotting angler Ali Hamidi and ex-pro footballer and avid fisherman Bobby Zamora (England, Spurs, West Ham, Fulham, QPR & Brighton), set off on a fishing bucket list tour around the British Isles 🇬🇧. The boys visit some of Britain’s most iconic and beautiful angling venues while setting themselves tough angling missions along the way.",
+      "poster_path": "/w3Xt82EdULzsza3MgqmuokZ5lL7.jpg",
+      "first_air_date": "2022-10-03",
+      "popularity": 0.84,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 203378,
+  "fields": {
+      "name": "피싱 댄디",
+      "original_name": "ちょい釣りダンディ",
+      "overview": "Adapted from the manga \"Fishing Dandy\" (ちょい釣りダンディ) by Aki Ranta (阿鬼乱太).",
+      "poster_path": "/sQUdj3ZxSxYeHhUbYGN9WNRg7J5.jpg",
+      "first_air_date": "2022-07-05",
+      "popularity": 0.936,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 154861,
+  "fields": {
+      "name": "금붕어 아내",
+      "original_name": "金魚妻",
+      "overview": "행복하지 않은 가정엔 제각각의 이유가 있다고 했던가. 초고층 고급 아파트에 사는 여섯 부부. 아내들이 각자 다른 이유로 선을 넘어 버린다. 불륜이라는 선을. 쿠로사와 R의 동명 만화 원작.",
+      "poster_path": "/2wt5obMk1u0McCiRSL7exFsPmYL.jpg",
+      "first_air_date": "2022-02-14",
+      "popularity": 19.428,
+      "vote_average": 6.625,
+      "vote_count": 16,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 122017,
+  "fields": {
+      "name": "Fish Upon the Sky",
+      "original_name": "ปลาบนฟ้า",
+      "overview": "Pi has a crush on Mueang Nan, one of the hottest students in the Allied Health Sciences Department, but since he is not confident enough about his looks, he is helpless. That is, until Duen and his friends help him get a makeover to boost his confidence. When Pi finally has the guts to approach his crush, he meets his love rival, Mork. Pi has tried to surpass Mork in everything to get Nan's attention but he is not lucky enough to beat him. However, everything changes when Pi starts to feel a different set of feelings towards Mork, making things more complicated.",
+      "poster_path": "/w9gls2JMEnNrCVtLuyGiy62KDGU.jpg",
+      "first_air_date": "2021-04-09",
+      "popularity": 9.754,
+      "vote_average": 6.063,
+      "vote_count": 8,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 105100,
+  "fields": {
+      "name": "아이돌 피싱캠프",
+      "original_name": "아이돌 피싱캠프",
+      "overview": "The new JTBC program “Idol Fishing Camp” will show how idols with a diverse background of fishing experience will go about training for a worldwide fishing competition and get to know the sport.",
+      "poster_path": "/6QUie4f1I6eBvu1rsKor0hFjQzP.jpg",
+      "first_air_date": "2020-06-18",
+      "popularity": 0.857,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 116066,
+  "fields": {
+      "name": "낚시왕 강바다",
+      "original_name": "スーパーフィッシング グランダー武蔵",
+      "overview": "전설적인 낚시왕이 되기 위해 분투하는 소년의 이야기를 그린 애니메이션",
+      "poster_path": "/8b9CO9g4xlOkGhRjlgdOKAjTcXm.jpg",
+      "first_air_date": "1997-04-02",
+      "popularity": 1.091,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 220018,
+  "fields": {
+      "name": "Fisher",
+      "original_name": "Фишер",
+      "overview": "1986. Teenagers are killed one by one in the area of the government dachas on Rublevskoye Shosse. Intelligent investigator Valery Kozyrev, his audacious partner from Rostov Evgeny Bokov and very young investigator Natalia Dobrovolskaya begin the investigation, not even knowing how much it will change the fate of each of them. The only witness capable of identifying the maniac - schoolboy Igor, whose parents are not at all happy about his son's contact with the police.",
+      "poster_path": "/9hhiiKNjUofYdcVbukYYgT5itnn.jpg",
+      "first_air_date": "2023-02-08",
+      "popularity": 10.45,
+      "vote_average": 8.333,
+      "vote_count": 9,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 106154,
+  "fields": {
+      "name": "Fishtronaut",
+      "original_name": "Peixonauta",
+      "overview": "The series tells the story of Fishtronaut, a fish in a spacesuit, similar to reverse scuba gear, which allows him to fly and breathe out of water. He is a secret agent of Secret Environmental Agency who, along with his friends Marina and Zeek, unravel the mysteries occurring in the Smiling Trees Park. They solve the mysteries with the help of a P.O.P. (Primary Objective Pod), a magical multicolored ball containing clues vital to the mission.",
+      "poster_path": "/oJvg6856Iub6wELu5Nx8hwv0OiL.jpg",
+      "first_air_date": "2009-04-20",
+      "popularity": 3.842,
+      "vote_average": 2.0,
+      "vote_count": 1,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 125239,
+  "fields": {
+      "name": "A Lonely Fish",
+      "original_name": "寂寞鱼·听见",
+      "overview": "Jing Xuan (Ying Ying He) locks herself in the world of dancing to escape her often quarreling parents. One day, she attempted to get out of the moving car driven by her father to get away from her parents' quarrel, an accident ensued and she wakes up to find her parents killed. While recovering from the accident, Jing Xuan reunites with her childhood friend Kora and her mother, they slowly help her come out of her grief. She also meets and falls in love with Kris (Ying Ying He). But soon, Jing Xuan starts to hear mysterious voices. As the voices get louder and more frequent, Jing Xuan suspects her parents' accident may be more than meets the eye. She returns to the accident site with Kris and makes a shocking discovery..",
+      "poster_path": "/lEDOTERlIpHo8AdELVNaqRKFE5m.jpg",
+      "first_air_date": "2018-03-01",
+      "popularity": 1.13,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 54405,
+  "fields": {
+      "name": "The Fishermen",
+      "original_name": "Fiskerne",
+      "overview": "A mini series based upon the book by Hans Kirk.",
+      "poster_path": "/yywmjdMlje0jzZlASmTKHThHbNv.jpg",
+      "first_air_date": "1977-02-13",
+      "popularity": 1.4,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 46967,
+  "fields": {
+      "name": "황금물고기",
+      "original_name": "황금물고기",
+      "overview": "지독한 인연으로 얽힌 두 연인의 사랑과 그들을 둘러싼 인물들이 서로의 상처를 치유하고 보듬어가는 과정을 담은 멜로물로 인간이라면 누구나 가지고 있을 선과 악의 이중성에 대해 진지하게 담아낸 드라마",
+      "poster_path": "/cv816DNDUoxhEWE6lF2h024eNNy.jpg",
+      "first_air_date": "2010-05-03",
+      "popularity": 8.666,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 83886,
+  "fields": {
+      "name": "푸른 물고기",
+      "original_name": "푸른 물고기",
+      "overview": "The drama is about a pair of lovers separating due to parental objections and meeting again when the woman is already married.",
+      "poster_path": "/4YPepDaqrTtWnhxL3OykSj3KCOp.jpg",
+      "first_air_date": "2007-07-04",
+      "popularity": 1.092,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 126130,
+  "fields": {
+      "name": "인어 신부",
+      "original_name": "追鱼传奇",
+      "overview": "기이하면서도 감동적인 잉어 요괴와 인간 남자의 사랑 이야기를 그리는 판타지 설화 로맨스",
+      "poster_path": "/r0mpUPiygZEUvNkjiARJ3DDgY96.jpg",
+      "first_air_date": "2013-07-13",
+      "popularity": 2.561,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 105448,
+  "fields": {
+      "name": "슈퍼피쉬",
+      "original_name": "슈퍼피쉬",
+      "overview": "A thorough look into the history of fishing over the past 100,000 years, from fishing techniques to the role of fish in East Asian food and culture.",
+      "poster_path": "/6uKIW39EubTXd8iPW31T4Jq1vQ1.jpg",
+      "first_air_date": "2012-08-18",
+      "popularity": 0.624,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 106771,
+  "fields": {
+      "name": "King Fishers",
+      "original_name": "King Fishers",
+      "overview": "Some Say competitive fishing  is the best sport in the world.  But with so many fishermen and so many fishing disciplines how can we find out who is best of the best?\n\nThis competition isn't just about who catches the most and who catches the biggest.  It's also about who hosts the ultimate fishing trip.  Each competitor will be proficient in a very different fishing discipline: fly fishing, spear fishing, noodling for instance - and they'll be tasked with laying on the perfect experience.  However, one man’s noodling might not be anybody else’s cup of tea.  Each host will have to work hard to convince the others that their type of fishing is the best.",
+      "poster_path": "/qfPL2eOCO5aUsmxy2dYiEjT92nc.jpg",
+      "first_air_date": "2013-04-27",
+      "popularity": 1.882,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 72254,
+  "fields": {
+      "name": "정글피쉬 2",
+      "original_name": "정글피쉬 2",
+      "overview": "A beautiful high school student, who is the top student of her class, mysteriously dies. Six of her friends who graduated from the same elementary school attempts to track down the reasons for her death by communicating in real time. While the six friends dig for the truth behind her death, they face difficulties in their studies, dropping out of school, bullying and boyfriend troubles.",
+      "poster_path": "/gKze2PAkwobrtXS2xuOgNiWDoHH.jpg",
+      "first_air_date": "2010-11-04",
+      "popularity": 1.235,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 128215,
+  "fields": {
+      "name": "Salted Fish",
+      "original_name": "咸鱼哥",
+      "overview": "This is a story of a preserved fish called Mr. Salted Fish who lives at a seafood restaurant on an island and makes a living by working multiple part-time jobs. Due to his unique way of dealing with things, he frequently finds himself in a survival crisis. That's why he takes up a lot of different jobs on the island. In this way, Mr. Salted Fish gets to know the islanders, who are strange at first. But once he learns about their stories, they become friends, and even family. As the annual Fish God Festival approaches, hilarious incidents around Mr. Salted Fish also begin.",
+      "poster_path": "/tjVhtfrM4rUYfp1E2t49gMZA4S2.jpg",
+      "first_air_date": "2021-07-29",
+      "popularity": 0.96,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 92697,
+  "fields": {
+      "name": "Queen of Pickled Fish",
+      "original_name": "ปลาร้าทรงเครื่อง",
+      "overview": "Uptown man who just graduated from an overseas university and hates pickled fish must be involved with a rustic girl who grew up with pickled fish and simple life because his father marry her mother. She doesn't accept her mother because she left her father for a wealthy man and caused her father's death. They go in different ways because her mother loves to be in a luxury life.",
+      "poster_path": "/4lkCw6UprOLrE7M8IrcApiCDqBY.jpg",
+      "first_air_date": "2019-08-15",
+      "popularity": 0.6,
+      "vote_average": 8.0,
+      "vote_count": 1,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 45283,
+  "fields": {
+      "name": "츠리타마",
+      "original_name": "つり球",
+      "overview": "출신도 나이도 전부 다른 4인이 작은섬에서 낚시를 시작하며 벌어지는 이야기를 그린 청춘물 드라마",
+      "poster_path": "/c9mY12KdTpksgqMR5PNKf2arehu.jpg",
+      "first_air_date": "2012-04-13",
+      "popularity": 5.734,
+      "vote_average": 7.0,
+      "vote_count": 1,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 84585,
+  "fields": {
+      "name": "Wild Weather",
+      "original_name": "Wild Weather",
+      "overview": "Donal MacIntyre goes in search of the world's wildest weather.",
+      "poster_path": "/ijyxqEyH5UQzeX33HrtbU1W9wUF.jpg",
+      "first_air_date": "2002-09-25",
+      "popularity": 0.6,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 22567,
+  "fields": {
+      "name": "Wild Weather with Richard Hammond",
+      "original_name": "Wild Weather with Richard Hammond",
+      "overview": "Richard Hammond travels the globe to discover the unexplained and the unexpected, the unbelievable and the just plain unlikely, in an attempt to reveal the hidden world of weather.",
+      "poster_path": "/iGYcQbvemSZKpjNoeVhMeN9zZZq.jpg",
+      "first_air_date": "2014-12-01",
+      "popularity": 3.371,
+      "vote_average": 9.333,
+      "vote_count": 4,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 154424,
+  "fields": {
+      "name": "Wild Canadian Weather",
+      "original_name": "Wild Canadian Weather",
+      "overview": "From award-winning nature filmmaker Jeff Turner comes an epic nature series that follows extreme weather that reshapes the landscape, drives wildlife life cycles and pushes people to their limits. This series explores the ways in which the landscape, wildlife and people of Canada are shaped by four key elements of weather - wind, rain, cold and sun. From polar vortex snowstorms to raging forest fires, the natural world has evolved and adapted to survive in some of the most extreme and dangerous weather conditions on the planet.",
+      "poster_path": "/sfiLsAAhJbA7wEAGzvK1uaD7pcY.jpg",
+      "first_air_date": "2021-01-01",
+      "popularity": 0.6,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "water"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 70242,
+  "fields": {
+      "name": "Tornado",
+      "original_name": "Tornado - en tittarstorm",
+      "overview": "Tornado is a Swedish tv-show produced by the comedy group Galenskaparna and After Shave. It was aired on Swedish Television (SVT) between 11th of september and 13th of november 1993.",
+      "poster_path": "/1eyZlgws0pEiqKiI7bUhhDGPWTs.jpg",
+      "first_air_date": "1993-09-11",
+      "popularity": 1.511,
+      "vote_average": 7.3,
+      "vote_count": 3,
+      "like_users": [],
+      "theme_id": "disaster"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 76940,
+  "fields": {
+      "name": "Tornado - Der Zorn des Himmels",
+      "original_name": "Tornado - Der Zorn des Himmels",
+      "overview": "",
+      "poster_path": "/ctWSnkbtMBr5fdkahXJfIHwx2tY.jpg",
+      "first_air_date": "2006-09-04",
+      "popularity": 1.289,
+      "vote_average": 9.0,
+      "vote_count": 3,
+      "like_users": [],
+      "theme_id": "disaster"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 60853,
+  "fields": {
+      "name": "Tornado Chasers",
+      "original_name": "Tornado Chasers",
+      "overview": "Reed Timmer from the show Storm Chasers shows you the everyday grind chasing tornadoes in the Central United States.",
+      "poster_path": "/tWLDOB35mW6khtMhg7ZcVOhGLCq.jpg",
+      "first_air_date": "2012-09-19",
+      "popularity": 3.842,
+      "vote_average": 2.0,
+      "vote_count": 1,
+      "like_users": [],
+      "theme_id": "disaster"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 69391,
+  "fields": {
+      "name": "Tornado Hunters",
+      "original_name": "Tornado Hunters",
+      "overview": "Greg Johnson, Chris Chittick, and Ricky Forbes are the Tornado Hunters and they’re going to find the biggest, baddest tornadoes in North America, and head straight for them. If they can keep four wheels on the ground, they’ll capture the world’s best, most extreme storm imagery, and turn their passion for storm chasing into one hell of a way to make a living.",
+      "poster_path": "/tUHrz9gD7lvPFhiSbAXISnRDc2D.jpg",
+      "first_air_date": "2014-10-27",
+      "popularity": 1.215,
+      "vote_average": 7.5,
+      "vote_count": 4,
+      "like_users": [],
+      "theme_id": "disaster"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 225041,
+  "fields": {
+      "name": "Taiwan Tornado",
+      "original_name": "台灣龍捲風",
+      "overview": "Chi-Chung Huang is the second son of the Huang family, which owns Taiwan Chao-Lian Group. Chi-Chung and his older brother, Chi-Long Huang, bribe the prosecutor for a death penalty case that his family is involved in. However, the prosecutor changes his mind about the matter. Chi-Chung leads his men to confront the prosecutor, who later falls off an elevated expressway and dies. To lay low for a while, Chi-Chung accepts his brother's arrangement and goes into hiding in the southern region of Taiwan. However, after he arrives there, he is controlled by a crime syndicate. After he is drugged and becomes hardly conscious, he inadvertently rapes Chia-Yi, who is a nice good girl. After the rape, Chia-Yi swears to get Chi-Chung to face up the legal consequences; later, she finds she is impregnated by Chi-Chung, and this strengthens her will to fight a battle between the rich (Chi-Chung) and the poor (herself). As a storm is quietly approaching, who will turn out to be the winner?",
+      "poster_path": "/7CtR5Pe8BqAMCwd109bvT0Tv66m.jpg",
+      "first_air_date": "2004-02-24",
+      "popularity": 8.856,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "disaster"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 96547,
+  "fields": {
+      "name": "Ricochet Rabbit & Droop-a-Long",
+      "original_name": "Ricochet Rabbit & Droop-a-Long",
+      "overview": "Ricochet Rabbit & Droop-a-Long was a segment of Hanna-Barbera's 1964–1966 cartoon The Magilla Gorilla Show, and later appeared on The Peter Potamus Show.",
+      "poster_path": "/4O2NpSaVkj3ROeKzkJc6idOyl7c.jpg",
+      "first_air_date": "1964-01-14",
+      "popularity": 3.129,
+      "vote_average": 7.2,
+      "vote_count": 25,
+      "like_users": [],
+      "theme_id": "disaster"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 99521,
+  "fields": {
+      "name": "Tsunami",
+      "original_name": "Tsunami",
+      "overview": "",
+      "poster_path": "/9tiH6nVA03lOq7o9RnYrfntwA70.jpg",
+      "first_air_date": "2020-02-17",
+      "popularity": 1.626,
+      "vote_average": 10.0,
+      "vote_count": 1,
+      "like_users": [],
+      "theme_id": "disaster"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 131440,
+  "fields": {
+      "name": "Tsunami",
+      "original_name": "Tsunami",
+      "overview": "Dr Xand van Tulleken and Raksha Dave tell the dramatic story of the Boxing Day Tsunami, which killed more than 250,000 people.",
+      "poster_path": "/beNDGFcTWpFphsC3rqE03d5K8gt.jpg",
+      "first_air_date": "2021-08-23",
+      "popularity": 0.824,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "disaster"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 13238,
+  "fields": {
+      "name": "Tsunami: The Aftermath",
+      "original_name": "Tsunami: The Aftermath",
+      "overview": "Tsunami: The Aftermath is a television mini-series that was broadcast in two parts in 2006. It dramatizes the events following the 2004 Indian Ocean earthquake and the resulting tsunami in Thailand. Tsunami: The Aftermath is a joint production of HBO and the BBC and stars Tim Roth, Toni Collette, Sophie Okonedo, Samrit Machielsen, Chiwetel Ejiofor, and Savannah Loney. It was filmed in Phuket and Khao Lak, Thailand from April to June 2006. Phuket and Khao Lak were two of the worst hit areas in the country in the December 26, 2004 disaster.",
+      "poster_path": "/xXrnDhkCah3J9g2AWD8lQGotI6A.jpg",
+      "first_air_date": "2006-12-10",
+      "popularity": 6.93,
+      "vote_average": 6.196,
+      "vote_count": 28,
+      "like_users": [],
+      "theme_id": "disaster"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 35426,
+  "fields": {
+      "name": "Killer Wave",
+      "original_name": "Killer Wave",
+      "overview": "Killer Wave is a 2007 joint American-Canadian action-thriller TV mini-series, directed by Canadian filmmaker Bruce McDonald and written by Tedi Sarafian, George Malko, William Gray.",
+      "poster_path": "/wra50hZXEQqfhiYgEzLere7G9Gd.jpg",
+      "first_air_date": "2007-01-10",
+      "popularity": 3.226,
+      "vote_average": 6.167,
+      "vote_count": 24,
+      "like_users": [],
+      "theme_id": "disaster"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 44439,
+  "fields": {
+      "name": "해운대 연인들 ",
+      "original_name": "해운대 연인들",
+      "overview": "기억을 잃은채 낯선 부산에서 사랑하게 된 전직 조폭의 딸과 검사의 로맨틱 코미디 드라마다.\n\n",
+      "poster_path": "/3og0nT9ajP90cDkrifaaOjgjewr.jpg",
+      "first_air_date": "2012-08-06",
+      "popularity": 4.951,
+      "vote_average": 6.667,
+      "vote_count": 3,
+      "like_users": [],
+      "theme_id": "disaster"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 30941,
+  "fields": {
+      "name": "Lost Land of the Volcano",
+      "original_name": "Lost Land of the Volcano",
+      "overview": "An international team of scientists, cavers and wildlife filmmakers venture deep into the heart of the remote tropical island of New Guinea.",
+      "poster_path": "/pUTIC6Dqg4GfYUenuJZJY4FQfZE.jpg",
+      "first_air_date": "2009-09-08",
+      "popularity": 1.513,
+      "vote_average": 8.0,
+      "vote_count": 1,
+      "like_users": [],
+      "theme_id": "disaster"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 86458,
+  "fields": {
+      "name": "화산 탐험대",
+      "original_name": "Expedition Volcano",
+      "overview": "콩고 민주 공화국의 도시 고마는 가까운 거리에 두 개의 활화산을 두고 있다. 과학자들이 팀을 꾸려 이 마을과 주변의 화산을 조사하고, 주민들이 다음 분출에 대비할 수 있는 방법을 찾는 것과 동시에 화산과 주변 삶의 연관성을 찾아본다.",
+      "poster_path": "/ssaoMmeYkl41sdBfhJ6jXuaXKXh.jpg",
+      "first_air_date": "2017-11-26",
+      "popularity": 1.211,
+      "vote_average": 5.7,
+      "vote_count": 2,
+      "like_users": [],
+      "theme_id": "disaster"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 86474,
+  "fields": {
+      "name": "Kate Humble: Into the Volcano",
+      "original_name": "Kate Humble: Into the Volcano",
+      "overview": "Kate Humble joins a team of geologists at the Vanuatu archipelago to investigate some of the most active volcanoes in the world - and to predict if another major eruption might be imminent.",
+      "poster_path": "/8xFFSZyidf2u84q5KZPWIXJFKC7.jpg",
+      "first_air_date": "2015-01-04",
+      "popularity": 0.855,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "disaster"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 59359,
+  "fields": {
+      "name": "Volcano Live",
+      "original_name": "Volcano Live",
+      "overview": "Find out about the awesome power of volcanoes in some of the most geologically active places on Earth.",
+      "poster_path": "/kIxm02pKI6rzdICRgXJ9e570BM3.jpg",
+      "first_air_date": "2012-07-09",
+      "popularity": 0.6,
+      "vote_average": 6.0,
+      "vote_count": 1,
+      "like_users": [],
+      "theme_id": "disaster"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 77837,
+  "fields": {
+      "name": "The Power Of Volcanos",
+      "original_name": "The Power Of Volcanos",
+      "overview": "Can a local natural disaster impact the global weather, and influence the course of history?  A 6th century volcano may have done just that.",
+      "poster_path": "/m0PHZUXh2WjBgHqCvUOQCGSjNDh.jpg",
+      "first_air_date": "2016-01-01",
+      "popularity": 0.6,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "disaster"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 112808,
+  "fields": {
+      "name": "LIVING WITH VOLCANOS",
+      "original_name": "LIVING WITH VOLCANOS",
+      "overview": "",
+      "poster_path": "/3o8hMRW7UN67JHBv60f2LU9pCdF.jpg",
+      "first_air_date": "2020-10-29",
+      "popularity": 0.6,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "disaster"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 205765,
+  "fields": {
+      "name": "Exploration Volcano",
+      "original_name": "Exploration Volcano",
+      "overview": "Natural history programming is given a shot in the arm as extreme volcano hunter Chris Horsley climbs deep inside some of the world's most active volcanoes to gather new scientific data from the very heart of their active lave filled cores. From Africa's Great Rift Valley to Central America's Volcanic Arc, Chris will take us closer than ever to the bowls of the world's most volatile volcanoes located in some of the most inhospitable landscapes on earth. 800 million people live in the shadow of the planet's 1,571 active volcanoes, so Chris isn't putting himself in harm's way for the pure thrill of it – by using innovative techniques, he wants to help predict future eruptions. He'll be installing an \"early warning system\" for eruptions including gas monitoring systems and surveillance web cameras at their rims to alert scientists and local communities about the ever-changing behaviour of volcanoes.",
+      "poster_path": "/2EI56uuXnkrnMtc68li0yaLcIzZ.jpg",
+      "first_air_date": "2022-06-05",
+      "popularity": 0.903,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "disaster"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 74593,
+  "fields": {
+      "name": "Wildest Islands of Indonesia",
+      "original_name": "Wildest Islands of Indonesia",
+      "overview": "The islands of Indonesia remain a wild paradise. This series explores the incredible wildlife of this extraordinary environment and reveals the remarkable ways in which life has been created, adapted, and reborn over millions of years.",
+      "poster_path": "/n5G0aJozpCXBgfh52lrHf3b5a69.jpg",
+      "first_air_date": "2016-11-27",
+      "popularity": 0.715,
+      "vote_average": 8.0,
+      "vote_count": 1,
+      "like_users": [],
+      "theme_id": "disaster"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 35962,
+  "fields": {
+      "name": "Aftershock: Earthquake in New York",
+      "original_name": "Aftershock: Earthquake in New York",
+      "overview": "Aftershock: Earthquake in New York is a 1999 four-hour disaster miniseries that was broadcast in the United States on CBS in two parts, with the first part aired on November 14 and the second on November 16. It was released to VHS in 2000, and on DVD in 2001. It is based on a book written by Chuck Scarborough. Starring Charles S. Dutton, Sharon Lawrence, Tom Skerritt, Lisa Nicole Carson, Jennifer Garner, Rachel Ticotin and Frederick Weller. under the direction of Mikael Salomon, the miniseries follows five groups of people in the aftermath of a large earthquake hitting New York City.\n\nIt was nominated for an Emmy Award for its special effects. While critics praised the special effects and cast, they heavily panned the film for its implausible scenario, predictability, and lack of realism.",
+      "poster_path": "/xhl5AuYBpbUtz8X0XSECcUq6amH.jpg",
+      "first_air_date": "1999-11-14",
+      "popularity": 7.187,
+      "vote_average": 6.8,
+      "vote_count": 36,
+      "like_users": [],
+      "theme_id": "disaster"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 208952,
+  "fields": {
+      "name": "네팔 지진: 에베레스트의 생존자들",
+      "original_name": "Aftershock: Everest and the Nepal Earthquake",
+      "overview": "생존자들의 증언과 사건 당시의 영상을 통해 2015년 네팔을 뒤흔든 지진을 들여다본다. 참사의 실상과 그 속에서 피어난 감동을 동시에 전하는 다큐시리즈.",
+      "poster_path": "/8ejcagdDQLDBO1C0Mwo5VAfWZ5a.jpg",
+      "first_air_date": "2022-09-14",
+      "popularity": 4.855,
+      "vote_average": 7.538,
+      "vote_count": 13,
+      "like_users": [],
+      "theme_id": "disaster"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 49191,
+  "fields": {
+      "name": "10.5",
+      "original_name": "10.5",
+      "overview": "Dr. Samantha Hill is an earthquake research scientist at a noted university in Washington State. Her alternative theories and her take-charge attitude cause friction with her peers. When the controversial Dr. Hill is ultimately put in charge, she is effectively entrusted with saving the entire population of the West Coast from a series of earthquakes that threaten to permanently fracture the West Coast from the rest of North America.",
+      "poster_path": "/abnY1ze2BaHh5bqIX72up8GPEbe.jpg",
+      "first_air_date": "2004-05-02",
+      "popularity": 10.268,
+      "vote_average": 6.632,
+      "vote_count": 57,
+      "like_users": [],
+      "theme_id": "disaster"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 1044,
+  "fields": {
+      "name": "살아있는 지구",
+      "original_name": "Planet Earth",
+      "overview": "2006년 3월 BBC에서 방영을 시작한 다큐멘터리. BBC와 NHK가 5년에 걸쳐서 촬영하고 제작한 초대형 프로젝트로, 신비함과 아름다움이 넘치는 생명의 별 지구를 전 세계 2백여 곳의 자연과 함께 그 안에서 살아가는 동물들의 생생한 삶의 모습을 주제별로 다룬다. 화질이나 영상미 어느 쪽으로나 절륜한 퀄리티를 자랑하며, 고난도의 압도적인 현장감과 미려한 영상으로 한 편의 드라마를 방불케 하는 자연 다큐멘터리의 진수이자 보는 이에게 저절로 감탄을 불러일으키게 하는 걸작이라 할 수 있다.",
+      "poster_path": "/mfXulHiALTloIqivuC4Q3lI3RGw.jpg",
+      "first_air_date": "2006-03-05",
+      "popularity": 40.822,
+      "vote_average": 8.499,
+      "vote_count": 900,
+      "like_users": [],
+      "theme_id": "climate"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 68595,
+  "fields": {
+      "name": "살아있는 지구 II",
+      "original_name": "Planet Earth II",
+      "overview": "2016년 11월 BBC One에서 방영을 시작한 다큐멘터리. 2006년 방영한 살아있는 지구의 후속작으로, 섬, 산, 밀림, 사막, 초원에서 동물들이 자연환경과 포식자들의 위협속에서 어떻게 생존하는지, 그리고 늘어가는 도시라는 공간안에서 어떻게 생존하고 있으며, 인간들은 동물들의 삶에 어떤 영향을 미쳤는지 살펴본다.",
+      "poster_path": "/tUKomxy50suT4MyxjYfOJDkZUq3.jpg",
+      "first_air_date": "2016-11-06",
+      "popularity": 19.526,
+      "vote_average": 8.499,
+      "vote_count": 654,
+      "like_users": [],
+      "theme_id": "climate"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 33805,
+  "fields": {
+      "name": "Planet Earth",
+      "original_name": "Planet Earth",
+      "overview": "Planet Earth is a seven episode PBS television documentary series, focusing on our planet, narrated by Richard Kiley. This vivid 7-part chronicle of discovery, documents some astonishing developments in geoscience, as it guides us to a better understanding of our planet's past, present and future. Voyage from the ocean's depths to the distant boundaries of the solar system.\n\nPlanet Earth explores the geological forces that have shaped and continue to influence life on our planet, whether they come from deep within the earth's crust or the reaches of the solar system. A journey of breathtaking imagery and compelling ideas. Witness the power of the savage forces that created our world.",
+      "poster_path": "/2hGssFVL6oTEK3t73PLhWyNOz4d.jpg",
+      "first_air_date": "1986-01-22",
+      "popularity": 0.92,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "climate"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 20618,
+  "fields": {
+      "name": "살아있는 지구 : 미래",
+      "original_name": "Planet Earth: The Future",
+      "overview": "The three-part complementary series features eminent scientists, theologians and conservationists discussing the environmental and conservation issues at stake and asks how much of the world revealed in Planet Earth will ever be seen again.",
+      "poster_path": "/dJeMdmu3CHxKKuD7wJJHuYTQ7VH.jpg",
+      "first_air_date": "2006-11-26",
+      "popularity": 2.029,
+      "vote_average": 7.8,
+      "vote_count": 4,
+      "like_users": [],
+      "theme_id": "climate"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 15723,
+  "fields": {
+      "name": "Hard Time on Planet Earth",
+      "original_name": "Hard Time on Planet Earth",
+      "overview": "Hard Time on Planet Earth is an American science fiction series that aired on CBS as a midseason replacement in 1989. Airing for 13 episodes, the series starred Martin Kove and was created by Jim and John Thomas. Scheduled opposite NBC's Unsolved Mysteries and ABC's Growing Pains on Wednesdays, Hard Time on Planet Earth ranked 65th out of 81 programs upon its premiere. Ratings for the series never improved and the series was canceled by CBS in May 1989. The last episode aired on June 21, 1989.",
+      "poster_path": "/vjT89xJZ8SAAhR0FobciczwBhEw.jpg",
+      "first_air_date": "1989-03-01",
+      "popularity": 3.568,
+      "vote_average": 6.3,
+      "vote_count": 7,
+      "like_users": [],
+      "theme_id": "climate"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 43147,
+  "fields": {
+      "name": "Planet Earth Live",
+      "original_name": "Planet Earth Live",
+      "overview": "",
+      "poster_path": "/cYpIZ6yO3Hr6Z7OueAQhmg8gk6D.jpg",
+      "first_air_date": "2012-05-06",
+      "popularity": 1.4,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "climate"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 216905,
+  "fields": {
+      "name": "A Year on Planet Earth",
+      "original_name": "A Year on Planet Earth",
+      "overview": "Filmed in over 60 different locations this epic documentary series will draw on the most spellbinding and dramatic stories from all corners of the globe. It will reveal the ways all life is connected and how natural events affect animals.",
+      "poster_path": "/x6doawI0nkYiER9rJm4aL4O0K1R.jpg",
+      "first_air_date": "2022-12-22",
+      "popularity": 6.611,
+      "vote_average": 4.0,
+      "vote_count": 2,
+      "like_users": [],
+      "theme_id": "climate"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 28877,
+  "fields": {
+      "name": "지구 : 역동의 행성",
+      "original_name": "Earth: The Power of the Planet",
+      "overview": "In each episode, geologist Dr. Iain Stewart explains the effects and importance of a specific force of nature, such as wind or volcanism. He also examines the various ways in which it shapes planet earth itself and influences life on it, often in conjunction with other natural forces, and sometimes with lifeforms, as in the 'apocalyptically' grave case of global warming.",
+      "poster_path": "/enMvfrzoC2JkuCI38PhJSOg6GT6.jpg",
+      "first_air_date": "2007-11-20",
+      "popularity": 2.191,
+      "vote_average": 8.0,
+      "vote_count": 6,
+      "like_users": [],
+      "theme_id": "climate"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 16838,
+  "fields": {
+      "name": "Are We Changing Planet Earth?",
+      "original_name": "Are We Changing Planet Earth?",
+      "overview": "David Attenborough explores just how far climate change is altering our planet.",
+      "poster_path": "/aWTzPcYnJSwIrSugJ4DMhU6Gi16.jpg",
+      "first_air_date": "2006-05-24",
+      "popularity": 0.6,
+      "vote_average": 10.0,
+      "vote_count": 1,
+      "like_users": [],
+      "theme_id": "climate"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 20476,
+  "fields": {
+      "name": "Strange Days on Planet Earth",
+      "original_name": "Strange Days on Planet Earth",
+      "overview": "Strange Days on Planet Earth is a four-part television program on PBS concerning human impact on the environment. It is narrated by Edward Norton. The show was produced by Sea Studios Foundation. Strange Days on Planet Earth grew into an ongoing partnership with the National Geographic Society to bring focus on our personal connection to the planet’s life systems.\n\nThe series were broadcast on PBS to over 12 million viewers in the U.S. and millions more in Europe, Latin America, Australia, and New Zealand. In 2007–2008, the Strange Days initiative focused on the global issues acing the ocean, under the name Strange Days Ocean.",
+      "poster_path": "/yH6h06JRMScVi5uD4PefKC9igJT.jpg",
+      "first_air_date": "2005-04-20",
+      "popularity": 1.4,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "climate"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 75121,
+  "fields": {
+      "name": "Alien Planet Earths",
+      "original_name": "Alien Planet Earths",
+      "overview": "",
+      "poster_path": "/hML5YOSZTT7gIVyGKYNbfD7KF0n.jpg",
+      "first_air_date": "2014-03-03",
+      "popularity": 0.6,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "climate"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 38725,
+  "fields": {
+      "name": "Inside Planet Earth",
+      "original_name": "Inside Planet Earth",
+      "overview": "A fantastical - but factual - journey to the Centre of the Earth. Inside Planet Earth is the story of the constant upheaval that not only shapes our world, but allows us to live on it. The magnetic field created by the moving liquid metal inside the Earth's core not only traps oxygen in our atmosphere, but protects us from the sun's dangerous solar radiation. Without it, Earth could not sustain life.",
+      "poster_path": "/eAupZSIZMkZ7pP41k6do2J3ROm0.jpg",
+      "first_air_date": "2009-10-11",
+      "popularity": 0.6,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "climate"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 17546,
+  "fields": {
+      "name": "Once Upon a Time... Planet Earth",
+      "original_name": "Il était une fois... notre terre",
+      "overview": "Teenagers, the internationally-recognized characters of the series, will be the heroes of adventures in which they will play an active role. They will be a force for change, faced with situations and problems they need to resolve. The series will be based on facts, yet still primarily entertainment. Through their actions, they directly affect their planet and the resources that must be used responsibly and are not inexhaustible. The series will also help younger audiences to understand that pollution, hunger and water shortages are realities with specific causes – rather than inevitable evils to be dreaded, they are battles to be won with solutions to be found.",
+      "poster_path": "/cXRQjzTDQ7CeT1kzj6DyYWpTQv8.jpg",
+      "first_air_date": "2009-01-03",
+      "popularity": 2.781,
+      "vote_average": 9.0,
+      "vote_count": 4,
+      "like_users": [],
+      "theme_id": "climate"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 209233,
+  "fields": {
+      "name": "Planet of the Apemen: Battle for Earth",
+      "original_name": "Planet of the Apemen: Battle for Earth",
+      "overview": "The story of how Homo sapiens once shared the Earth with other species of hominid, and how, against all the odds, we survived.",
+      "poster_path": "/ilunDY458ILmWXWdGUKs0ERWV4k.jpg",
+      "first_air_date": "2011-06-23",
+      "popularity": 0.6,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "climate"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 136051,
+  "fields": {
+      "name": "The Earthshot Prize: Repairing Our Planet",
+      "original_name": "The Earthshot Prize: Repairing Our Planet",
+      "overview": "Aims to discover, celebrate and scale innovative solutions to the greatest environmental challenges facing our planet.",
+      "poster_path": "/vnx8lHvnhHgiRF3jXVPBbHw7YFW.jpg",
+      "first_air_date": "2021-10-03",
+      "popularity": 1.386,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "climate"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 222639,
+  "fields": {
+      "name": "Earth: The Nature of our Planet",
+      "original_name": "Earth: The Nature of our Planet",
+      "overview": "Viewed from space, our blue planet seems as familiar as a long-time friend – so familiar that we forget how extraordinary it really is. As far as we know, our world is unique in the universe, defined by three elements, Air, Land and Water. Each element has its own special properties and phenomena and is home to myriad lifeforms that have infiltrated every habitat, from the deepest oceans to the tiniest nooks and crannies.",
+      "poster_path": "/qadku4ZAhqq8TinLpa3EEcp5i6p.jpg",
+      "first_air_date": "2018-03-01",
+      "popularity": 0.6,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "climate"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 74313,
+  "fields": {
+      "name": "블루 플래닛 II",
+      "original_name": "Blue Planet II",
+      "overview": "2017년 10월 BBC One에서 방영을 시작한 다큐멘터리. 2001년 방영한 블루 플래닛의 후속작으로, 다큐멘터리 계의 거성 데이비드 애튼버러가 해설을 맡았다. 전 작에 이어 바다와 그곳에 사는 생물들의 신비로운 비밀들, 그리고 우리 인간이 바다의 생태계에 미치는 영향을 심도 있게 탐구한다.",
+      "poster_path": "/j1NsoYYDYHnPkRr7Enqr8tlexgO.jpg",
+      "first_air_date": "2017-10-29",
+      "popularity": 12.243,
+      "vote_average": 8.559,
+      "vote_count": 188,
+      "like_users": [],
+      "theme_id": "climate"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 116155,
+  "fields": {
+      "name": "프로즌 플래닛 2",
+      "original_name": "Frozen Planet II",
+      "overview": "전 세계에서 최고의 퀄리티를 자랑하는 지구자연 다큐멘터리",
+      "poster_path": "/p3hSdvuPfx7AXgOk7Ut1Spin6FJ.jpg",
+      "first_air_date": "2022-09-11",
+      "popularity": 12.944,
+      "vote_average": 7.313,
+      "vote_count": 16,
+      "like_users": [],
+      "theme_id": "climate"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 115446,
+  "fields": {
+      "name": "Last Woman on Earth with Sara Pascoe",
+      "original_name": "Last Woman on Earth with Sara Pascoe",
+      "overview": "Writer and comedian Sara Pascoe is learning how to do the world’s most endangered jobs, from ice-carving in Finland to climbing trees to making sweets in Cuba.",
+      "poster_path": "/htI7reuheMlktmHCjsMYeAsBtov.jpg",
+      "first_air_date": "2020-12-27",
+      "popularity": 1.189,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "climate"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 9551,
+  "fields": {
+      "name": "The Living Planet",
+      "original_name": "The Living Planet",
+      "overview": "David Attenborough examines the ways in which animals and plants adapt to their surroundings.",
+      "poster_path": "/jkmfOTmCFHSnc64LOEtXkNmLzZw.jpg",
+      "first_air_date": "1984-01-19",
+      "popularity": 4.414,
+      "vote_average": 8.4,
+      "vote_count": 18,
+      "like_users": [],
+      "theme_id": "climate"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 100597,
+  "fields": {
+      "name": "Earth Shocks",
+      "original_name": "Earth Shocks",
+      "overview": "",
+      "poster_path": "/cMJKmmwXFNhl5g7BrGV4opsRmX6.jpg",
+      "first_air_date": "2007-11-13",
+      "popularity": 1.045,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "climate"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 120220,
+  "fields": {
+      "name": "Earth: The Biography",
+      "original_name": "Earth: The Biography",
+      "overview": "From the BBC comes this momentous documentary that uses satellite images and compelling narration to chart our planet's intriguing history, exploring Earth's unique and diverse features while stressing the importance of protecting it for the future. Combining time-lapse photography and computer-generated imagery, the video shows how our world -- forged by volcanoes, the atmosphere, glaciers and oceans -- has teetered between disaster and renewal.",
+      "poster_path": "/968TdzJ55wNQyyJk4noi9jtEaEm.jpg",
+      "first_air_date": "2008-07-22",
+      "popularity": 0.902,
+      "vote_average": 9.0,
+      "vote_count": 2,
+      "like_users": [],
+      "theme_id": "climate"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 69779,
+  "fields": {
+      "name": "Earth From Above",
+      "original_name": "Vu du ciel",
+      "overview": "Earth From Above is a documentary series dedicated to the major challenges faced by our planet, bringing the viewer beautiful High Definition images of the Earth. Each episodes talks about one particular environmental challenge.",
+      "poster_path": "/ypUwIDC5mz0vV77aC5THeXPFGSz.jpg",
+      "first_air_date": "2006-10-31",
+      "popularity": 1.305,
+      "vote_average": 9.0,
+      "vote_count": 4,
+      "like_users": [],
+      "theme_id": "climate"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 95359,
+  "fields": {
+      "name": "The Life of Earth",
+      "original_name": "The Life of Earth",
+      "overview": "How did the world we call home come to be? Combining the latest scientific discoveries and theories with CGI, we journey through eons of fire and ice to detail how Earth evolved into a habitable planet and how humanity's success is putting us and our environment in peril.",
+      "poster_path": "/euTTLsB2OSwrVAYGZz9XS3fLj40.jpg",
+      "first_air_date": "2019-06-09",
+      "popularity": 0.6,
+      "vote_average": 8.0,
+      "vote_count": 1,
+      "like_users": [],
+      "theme_id": "climate"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 19744,
+  "fields": {
+      "name": "야생의 운명",
+      "original_name": "Nature's Great Events",
+      "overview": "지구상에서 가장 극적인 야생동물을 관찰하는 다큐멘터리 시리즈로, 변화하는 자연 현상에 생명체가 어떻게 반응하는지를 보여줍니다.",
+      "poster_path": "/cbzbvNe8ht9jSHKsNPXfx5I9BWi.jpg",
+      "first_air_date": "2009-02-11",
+      "popularity": 3.599,
+      "vote_average": 8.4,
+      "vote_count": 32,
+      "like_users": [],
+      "theme_id": "climate"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 58468,
+  "fields": {
+      "name": "Attenborough: 60 Years in the Wild",
+      "original_name": "Attenborough: 60 Years in the Wild",
+      "overview": "Sir David Attenborough looks back at the unparalleled changes in natural history that he has witnessed during his 60-year career.",
+      "poster_path": "/cptFb42RkP8uVxQB75dFoI9q2YP.jpg",
+      "first_air_date": "2012-11-16",
+      "popularity": 0.95,
+      "vote_average": 7.3,
+      "vote_count": 3,
+      "like_users": [],
+      "theme_id": "climate"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 102165,
+  "fields": {
+      "name": "Invasion Earth",
+      "original_name": "Invasion Earth",
+      "overview": "",
+      "poster_path": "/iMiSZOhG2l1MiWx4wDmA437czEQ.jpg",
+      "first_air_date": "2014-10-09",
+      "popularity": 1.155,
+      "vote_average": 5.0,
+      "vote_count": 2,
+      "like_users": [],
+      "theme_id": "climate"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 77844,
+  "fields": {
+      "name": "Curious Minds:  Climate Change",
+      "original_name": "Curious Minds:  Climate Change",
+      "overview": "More extreme weather and more intense weather -- is this our new reality with climate change?  Experts weigh in on what's to come.",
+      "poster_path": "/6CN2iT4ZYeOApZamXRsWdSSWwTp.jpg",
+      "first_air_date": "2015-01-01",
+      "popularity": 0.6,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "climate"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 77885,
+  "fields": {
+      "name": "Climate Change By The Numbers",
+      "original_name": "Climate Change By The Numbers",
+      "overview": "Earth's climate is changing - understanding how has become one of the biggest scientific projects ever undertaken.",
+      "poster_path": "/wFcY1D2lkNpzBqsixXGw1SlhHis.jpg",
+      "first_air_date": "2015-01-01",
+      "popularity": 0.6,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "climate"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 123426,
+  "fields": {
+      "name": "Climate Change: Ade on the Frontline",
+      "original_name": "Climate Change: Ade on the Frontline",
+      "overview": "Ade Adepitan travels to the frontline of climate change. He discovers how life is being affected even now and scours the globe for potential solutions.",
+      "poster_path": "/3z1k6NG9YJfkhzPigPDSwAMkT05.jpg",
+      "first_air_date": "2021-04-11",
+      "popularity": 0.6,
+      "vote_average": 7.5,
+      "vote_count": 1,
+      "like_users": [],
+      "theme_id": "climate"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 222502,
+  "fields": {
+      "name": "The Politics of Climate Change",
+      "original_name": "The Politics of Climate Change",
+      "overview": "We travel the world to see how the devastation wrought by droughts, wildfires, floods, and catastrophic rains – all the direct results of climate change – are a political problem, and require political solutions.",
+      "poster_path": "/w4muEIfjzCE8TaPGThGIruE3wGN.jpg",
+      "first_air_date": "2019-01-01",
+      "popularity": 0.6,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "like_users": [],
+      "theme_id": "climate"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 16838,
+  "fields": {
+      "name": "Are We Changing Planet Earth?",
+      "original_name": "Are We Changing Planet Earth?",
+      "overview": "David Attenborough explores just how far climate change is altering our planet.",
+      "poster_path": "/aWTzPcYnJSwIrSugJ4DMhU6Gi16.jpg",
+      "first_air_date": "2006-05-24",
+      "popularity": 0.6,
+      "vote_average": 10.0,
+      "vote_count": 1,
+      "like_users": [],
+      "theme_id": "climate"
+  }
+}
+]

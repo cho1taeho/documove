@@ -25,7 +25,8 @@ def convert_movie_data(movie):
             "title": movie["title"],
             "vote_average": movie["vote_average"],
             "vote_count": movie["vote_count"],
-            "like_users": []
+            "like_users": [],
+            "theme_id": "env",
         }
     }
 
@@ -59,7 +60,7 @@ def download_movies_by_keyword(keyword):
 
     # 파일 경로 설정
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    file_path = os.path.join(base_dir, 'movies/fixtures/Waste.json')
+    file_path = os.path.join(base_dir, 'movies/fixtures/1.json')
 
     # JSON 파일로 저장
     with open(file_path, 'w', encoding='utf-8') as f:
@@ -68,7 +69,7 @@ def download_movies_by_keyword(keyword):
     return all_movies
 
 def main():
-    keyword = 'Waste'  # 검색할 키워드
+    keyword = 'environment'  # 검색할 키워드
     movies = download_movies_by_keyword(keyword)
     print(f"키워드 '{keyword}'를 포함하는 모든 영화 데이터를 JSON 파일로 다운로드하였습니다. (총 {len(movies)}개)")
 
