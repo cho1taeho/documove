@@ -1,0 +1,1807 @@
+[
+    {
+        "id": 2650,
+        "organization": {
+            "id": 1120,
+            "name": "Conservation through Poverty Alleviation, Int",
+            "ein": "87-0713649",
+            "addressLine1": "712 S. Palouse St",
+            "addressLine2": "",
+            "city": "Walla Walla",
+            "state": "WA",
+            "postal": "99362",
+            "iso3166CountryCode": "US",
+            "url": "http://www.cpali.org",
+            "logoUrl": "https://www.globalgiving.org/pfil/organ/1120/orglogo.jpg",
+            "mission": "Conservation through Poverty Alleviation, International, a US-based 501(c)3 organization, helps subsistence farmers displaced by the formation of national parks establish new livelihoods that restore and sustain protected habitats.",
+            "totalProjects": 8,
+            "activeProjects": 2,
+            "themes": {
+                "theme": [
+                    {
+                        "id": "climate",
+                        "name": "Climate Action"
+                    },
+                    {
+                        "id": "ecdev",
+                        "name": "Economic Growth"
+                    },
+                    {
+                        "id": "env",
+                        "name": "Ecosystem Restoration"
+                    },
+                    {
+                        "id": "gender",
+                        "name": "Gender Equality"
+                    },
+                    {
+                        "id": "health",
+                        "name": "Physical Health"
+                    },
+                    {
+                        "id": "hunger",
+                        "name": "Food Security"
+                    }
+                ]
+            },
+            "countries": {
+                "country": [
+                    {
+                        "name": "Madagascar",
+                        "iso3166CountryCode": "MG"
+                    }
+                ]
+            },
+            "country": "United States"
+        },
+        "active": true,
+        "title": "Help Farmers Rear Silk Moths to Restore Forests",
+        "summary": "Sustainable management of the Makira Forest requires changes in the practices of local subsistence farmers. SEPALIM teaches farmers silk rearing and sustainable production techniques that bolsters family income by 60-200% and restores habitat.  It trains local artisans to transform cocoons into unique cocoon silk textiles.  Pupae are removed from the cocoons and pupae protected until their maturity.  Hence silk production is no-kill, and sustainable and silk textiles are called \"peace silk\",",
+        "contactName": "Catherine Craig",
+        "contactAddress": "712 S. Palouse St",
+        "contactCity": "Walla Walla",
+        "contactState": "WA",
+        "contactPostal": "99362",
+        "contactCountry": "United States",
+        "contactUrl": "http://www.cpali.org",
+        "projectLink": "https://www.globalgiving.org/projects/help-farmers-rear-silk-moths-to-restore-forests/",
+        "progressReportLink": "https://www.globalgiving.org/projects/help-farmers-rear-silk-moths-to-restore-forests/updates/",
+        "themeName": "Sustainable Agriculture",
+        "country": "Madagascar",
+        "iso3166CountryCode": "MG",
+        "region": "Africa",
+        "goal": 75000.0,
+        "funding": 59286.9,
+        "remaining": 15713.1,
+        "numberOfDonations": 571,
+        "status": "active",
+        "need": "Madagascar faces an environmental and economic crisis. Its own people, in struggling to survive, are destroying the country's unique biological heritage. Compensatory subsidies, previously used to dissuade farmers from encroaching on protected areas are not sustainable and stifle farmer independence. We seek to extend a proven, locally implemented, methods of wild silk production and give 300+ families living near the Makira protected area access to profitable markets.",
+        "longTermImpact": "Economic uplift for subsistence farmers, their families and communities during a difficult period in the history of Madagascar and in the survival of critically endangered wildlife.",
+        "activities": "The project maintains a cocoon market for farmers in 3 different areas of Madagascar. Other nonprofits have implemented production programs in other parts of Madagascar but leave with out developing the markets needed to sustain farmers over the long term.  CPALI and its partner SEPALI Madagascar have not only taught farmers new ways to farm an endemic resource, but they have designed new ways to transform those resources into unique, marketable product.",
+        "additionalDocumentation": "https://www.globalgiving.org/pfil/2650/projdoc.doc",
+        "imageLink": "https://www.globalgiving.org/pfil/2650/pict.jpg",
+        "imageGallerySize": 16,
+        "videos": {
+            "video": [
+                {
+                    "url": "http://www.youtube.com/v/XTxmanaPFJc?hl=en_US&fs=1&"
+                }
+            ]
+        },
+        "longitude": 49.81201171875,
+        "latitude": -15.093338966369629,
+        "approvedDate": "2009-03-30T17:12:29-04:00",
+        "donationOptions": {
+            "donationOption": [
+                {
+                    "amount": 20,
+                    "description": "Pays for team breakfast for a month"
+                },
+                {
+                    "amount": 60,
+                    "description": "Buys 2 kilos of cocoons"
+                },
+                {
+                    "amount": 140,
+                    "description": "Salaries for 2 artisans to work for a month"
+                },
+                {
+                    "amount": 300,
+                    "description": "Purchase a new sewing machine"
+                },
+                {
+                    "amount": 4000,
+                    "description": "Supports SEPLIM team for a month"
+                }
+            ]
+        },
+        "modifiedDate": "2023-05-23T01:33:36-04:00",
+        "numberOfReports": 53,
+        "dateOfMostRecentReport": "2023-01-30T12:35:38-05:00",
+        "themes": {
+            "theme": [
+                {
+                    "id": "agriculture",
+                    "name": "Sustainable Agriculture"
+                },
+                {
+                    "id": "climate",
+                    "name": "Climate Action"
+                },
+                {
+                    "id": "env",
+                    "name": "Ecosystem Restoration"
+                },
+                {
+                    "id": "art",
+                    "name": "Arts and Culture"
+                }
+            ]
+        },
+        "image": {
+            "title": "Help Farmers Rear Silk Moths to Restore Forests",
+            "imagelink": [
+                {
+                    "url": "https://www.globalgiving.org/pfil/2650/pict_grid1.jpg",
+                    "size": "small"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/2650/pict_thumbnail.jpg",
+                    "size": "thumbnail"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/2650/pict_med.jpg",
+                    "size": "medium"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/2650/pict_grid7.jpg",
+                    "size": "large"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/2650/pict_large.jpg",
+                    "size": "extraLarge"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/2650/pict_original.jpg",
+                    "size": "original"
+                }
+            ],
+            "id": 0
+        },
+        "countries": {
+            "country": [
+                {
+                    "name": "Madagascar",
+                    "iso3166CountryCode": "MG"
+                }
+            ]
+        },
+        "type": "project"
+    },
+    {
+        "id": 6265,
+        "organization": {
+            "id": 3825,
+            "name": "VOICE Trust",
+            "addressLine1": "18 - Thathachariyar Residency, Mambalasalai, Tiruchirappalli, TamilNadu, India.",
+            "addressLine2": "Human Resource Development Training Center, VOICE Trust, Siruganur, Trichy Dt, TamilNadu, India",
+            "city": "Tiruchirpalli",
+            "state": "Tamil Nadu",
+            "postal": "620005",
+            "iso3166CountryCode": "IN",
+            "url": "https://voice-trust.org/",
+            "logoUrl": "https://www.globalgiving.org/pfil/organ/3825/orglogo.png",
+            "mission": "VOICE is committed to empowering and increasing awareness for economically, socially and educationally disadvantaged children; farmers, employed youth, disabled persons, and other underprivileged members of society.\n\nOur projects range from immediate emergency and disaster relief efforts to undertakings that address some of India's most deep-rooted issues.We protect and enhance the endangered, empower and educate the underprivileged, and inform and mobilize the compassionate.",
+            "totalProjects": 22,
+            "activeProjects": 7,
+            "themes": {
+                "theme": [
+                    {
+                        "id": "children",
+                        "name": "Child Protection"
+                    },
+                    {
+                        "id": "climate",
+                        "name": "Climate Action"
+                    },
+                    {
+                        "id": "disaster",
+                        "name": "Disaster Response"
+                    },
+                    {
+                        "id": "ecdev",
+                        "name": "Economic Growth"
+                    },
+                    {
+                        "id": "edu",
+                        "name": "Education"
+                    },
+                    {
+                        "id": "env",
+                        "name": "Ecosystem Restoration"
+                    },
+                    {
+                        "id": "gender",
+                        "name": "Gender Equality"
+                    },
+                    {
+                        "id": "health",
+                        "name": "Physical Health"
+                    },
+                    {
+                        "id": "rights",
+                        "name": "Justice and Human Rights"
+                    },
+                    {
+                        "id": "hunger",
+                        "name": "Food Security"
+                    },
+                    {
+                        "id": "covid-19",
+                        "name": "COVID-19"
+                    },
+                    {
+                        "id": "water",
+                        "name": "Clean Water"
+                    },
+                    {
+                        "id": "disability",
+                        "name": "Disability Rights"
+                    },
+                    {
+                        "id": "endabuse",
+                        "name": "Ending Abuse"
+                    },
+                    {
+                        "id": "mentalhealth",
+                        "name": "Mental Health"
+                    },
+                    {
+                        "id": "agriculture",
+                        "name": "Sustainable Agriculture"
+                    },
+                    {
+                        "id": "wildlife",
+                        "name": "Wildlife Conservation"
+                    }
+                ]
+            },
+            "countries": {
+                "country": [
+                    {
+                        "name": "India",
+                        "iso3166CountryCode": "IN"
+                    }
+                ]
+            },
+            "country": "India"
+        },
+        "active": true,
+        "title": "Teaching Sustainable Agriculture to Young Tamils",
+        "summary": "The rural areas of Tamil Nadu are home to some of the poorest Indian communities with few employment opportunities.  We're teaching children and young people to embrace the organic, eco-friendly way of farming that uses seed banking, natural fertilizers and pesticides, multi-cropping, and drip irrigation to produce more abundant, more nutritious harvests.  Lower costs and higher yields make farming an attractive occupation.   Save the family farm, save the planet.",
+        "contactName": "VOICE Trust",
+        "contactAddress": "18-Thathachariar Residency,",
+        "contactAddress2": "Mambalasalai.",
+        "contactCity": "Tiruchirappalli",
+        "contactState": "Tamil Nadu",
+        "contactPostal": "620005",
+        "contactCountry": "India",
+        "contactUrl": "https://voice-trust.org",
+        "projectLink": "https://www.globalgiving.org/projects/sustainable-agriculture-for-young-tamils/",
+        "progressReportLink": "https://www.globalgiving.org/projects/sustainable-agriculture-for-young-tamils/updates/",
+        "themeName": "Sustainable Agriculture",
+        "country": "India",
+        "iso3166CountryCode": "IN",
+        "region": "Asia and Oceania",
+        "goal": 15000.0,
+        "funding": 13508.36,
+        "remaining": 1491.64,
+        "numberOfDonations": 255,
+        "status": "active",
+        "need": "India's traditional agricultural practices are no longer sustainable. Toxic pesticides pollute the air and water.  Mono-cropping and chemical fertilizers degrade the soil, making it less climate-resilient.   Although genetically modified seeds can increase crop yield, these gains are not enough to make up for harvests destroyed by the severe droughts and monsoons that result.  And the soaring costs of chemical pesticides and fertilizers and GM seeds eat into farmer's profits.",
+        "longTermImpact": "Traditionally, children are kept home from school to do farm chores. Sustainable techniques like drip irrigation and multi-cropping require less work, while the biodiversity of non-GMO seeds extends the harvest over a longer period.   The sustainable farm produces enough income to pay school fees while making child labor less critical for the farm's survival. Improved education combined with a knowledge of sustainable farming will help a new generation create thriving agribusinesses.",
+        "activities": "Sustainable organic agricultural techniques can give farmers a better income, make their farms more climate-resilient, and reduce reliance on fossil-fuel-based chemicals that are polluting in our air, water and soil .  We have converted thousands of young people to this profitable, healthy, and earth-friendly approach to farming.  Now we have added classes for younger children, to inspire the next generation to preserve the family farm with sustainable agriculture when they grow up.",
+        "imageLink": "https://www.globalgiving.org/pfil/6265/pict.jpg",
+        "imageGallerySize": 38,
+        "longitude": 78.7115478515625,
+        "latitude": 10.930405616760254,
+        "approvedDate": "2010-08-31T15:46:21-04:00",
+        "donationOptions": {
+            "donationOption": [
+                {
+                    "amount": 10,
+                    "description": "Provides bio farming raw materials for one hectare."
+                },
+                {
+                    "amount": 20,
+                    "description": "Provides bio manure equipment for one farm."
+                },
+                {
+                    "amount": 30,
+                    "description": "Provides raw materials for preparing bio pest repellent for one crop."
+                },
+                {
+                    "amount": 50,
+                    "description": "Provides startup training for one farmer."
+                },
+                {
+                    "amount": 100,
+                    "description": "Provides startup costs for one farmer."
+                },
+                {
+                    "amount": 150,
+                    "description": "Provides training and startup costs for one farmer."
+                }
+            ]
+        },
+        "modifiedDate": "2023-05-23T01:33:49-04:00",
+        "numberOfReports": 48,
+        "dateOfMostRecentReport": "2023-05-05T03:08:40-04:00",
+        "themes": {
+            "theme": [
+                {
+                    "id": "agriculture",
+                    "name": "Sustainable Agriculture"
+                },
+                {
+                    "id": "ecdev",
+                    "name": "Economic Growth"
+                },
+                {
+                    "id": "env",
+                    "name": "Ecosystem Restoration"
+                }
+            ]
+        },
+        "image": {
+            "title": "Teaching Sustainable Agriculture to Young Tamils",
+            "imagelink": [
+                {
+                    "url": "https://www.globalgiving.org/pfil/6265/pict_grid1.jpg",
+                    "size": "small"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/6265/pict_thumbnail.jpg",
+                    "size": "thumbnail"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/6265/pict_med.jpg",
+                    "size": "medium"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/6265/pict_grid7.jpg",
+                    "size": "large"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/6265/pict_large.jpg",
+                    "size": "extraLarge"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/6265/pict_original.jpg",
+                    "size": "original"
+                }
+            ],
+            "id": 0
+        },
+        "countries": {
+            "country": [
+                {
+                    "name": "India",
+                    "iso3166CountryCode": "IN"
+                }
+            ]
+        },
+        "type": "project"
+    },
+    {
+        "id": 24069,
+        "organization": {
+            "id": 6355,
+            "name": "Chinseu Community Based Organisation",
+            "addressLine1": "P.O Box 165 Lunzu",
+            "addressLine2": "Lunzu Chilangoma Chinseu Dzimbiri GVH Mdala",
+            "city": "Blantyre",
+            "state": "Malawi",
+            "postal": "265",
+            "iso3166CountryCode": "MW",
+            "url": "",
+            "mission": "To improve the quality of life and advance the rights of children;\nTo bring about change for good on behalf of children and families, and encourage them to participate in processes which enhance their equality, self-reliance and long term sustainable development; \nWherever possible to provide practical support which allows children to grow up within their own families and communities",
+            "totalProjects": 17,
+            "activeProjects": 11,
+            "themes": {
+                "theme": [
+                    {
+                        "id": "animals",
+                        "name": "Animal Welfare"
+                    },
+                    {
+                        "id": "children",
+                        "name": "Child Protection"
+                    },
+                    {
+                        "id": "climate",
+                        "name": "Climate Action"
+                    },
+                    {
+                        "id": "democ",
+                        "name": "Peace and Reconciliation"
+                    },
+                    {
+                        "id": "disaster",
+                        "name": "Disaster Response"
+                    },
+                    {
+                        "id": "ecdev",
+                        "name": "Economic Growth"
+                    },
+                    {
+                        "id": "edu",
+                        "name": "Education"
+                    },
+                    {
+                        "id": "env",
+                        "name": "Ecosystem Restoration"
+                    },
+                    {
+                        "id": "gender",
+                        "name": "Gender Equality"
+                    },
+                    {
+                        "id": "health",
+                        "name": "Physical Health"
+                    },
+                    {
+                        "id": "human",
+                        "name": "Ending Human Trafficking"
+                    },
+                    {
+                        "id": "rights",
+                        "name": "Justice and Human Rights"
+                    },
+                    {
+                        "id": "sport",
+                        "name": "Sport"
+                    },
+                    {
+                        "id": "tech",
+                        "name": "Digital Literacy"
+                    },
+                    {
+                        "id": "hunger",
+                        "name": "Food Security"
+                    },
+                    {
+                        "id": "art",
+                        "name": "Arts and Culture"
+                    },
+                    {
+                        "id": "lgbtq",
+                        "name": "LGBTQIA+ Equality"
+                    },
+                    {
+                        "id": "covid-19",
+                        "name": "COVID-19"
+                    },
+                    {
+                        "id": "water",
+                        "name": "Clean Water"
+                    },
+                    {
+                        "id": "disability",
+                        "name": "Disability Rights"
+                    },
+                    {
+                        "id": "endabuse",
+                        "name": "Ending Abuse"
+                    },
+                    {
+                        "id": "mentalhealth",
+                        "name": "Mental Health"
+                    },
+                    {
+                        "id": "justice",
+                        "name": "Racial Justice"
+                    },
+                    {
+                        "id": "reproductive",
+                        "name": "Reproductive Health"
+                    },
+                    {
+                        "id": "housing",
+                        "name": "Safe Housing"
+                    },
+                    {
+                        "id": "agriculture",
+                        "name": "Sustainable Agriculture"
+                    },
+                    {
+                        "id": "wildlife",
+                        "name": "Wildlife Conservation"
+                    }
+                ]
+            },
+            "countries": {
+                "country": [
+                    {
+                        "name": "Malawi",
+                        "iso3166CountryCode": "MW"
+                    }
+                ]
+            },
+            "country": "Malawi"
+        },
+        "active": true,
+        "title": "CLOSING THE GENDER GAP FOR A FOOD SECURE FAMILIES",
+        "summary": "Many Malawians are farmers and 55% are organic farmers while 30% are farmers that apply fertilizer in their fields. Between August to March they works in their fields where they grows maize, groundnuts and millet depending on rainfall that comed in the months of November to March in malawi. The average turn out of the crops from their fields is 400kgs per farmer at the end of the farming season. During the months of August to November farmers opens irrigation farming.",
+        "contactName": "Noel Banda",
+        "contactAddress": "P.O Box 165 Lunzu",
+        "contactAddress2": "Lunzu Chilangoma Chinseu Dzimbiri GVH Mdala",
+        "contactCity": "Blantyre",
+        "contactState": "Malawi",
+        "contactPostal": "265",
+        "contactCountry": "Malawi",
+        "contactUrl": "",
+        "projectLink": "https://www.globalgiving.org/projects/closing-the-gender-gap-for-a-food-secure-families/",
+        "progressReportLink": "https://www.globalgiving.org/projects/closing-the-gender-gap-for-a-food-secure-families/updates/",
+        "themeName": "Sustainable Agriculture",
+        "country": "Malawi",
+        "iso3166CountryCode": "MW",
+        "region": "Africa",
+        "goal": 4000.0,
+        "funding": 2860.34,
+        "remaining": 1139.66,
+        "numberOfDonations": 11,
+        "status": "active",
+        "need": "Many Women farmers are struggling to produce enough food crops at the end of farming calendars considering to men farmers whom 30% are producing food crops for their families, this percentage of men farmers who are able to produce enough food crop is too small considering that 85% of malawians are farmers and is muchly done on family levels and he man is the head of the family. On the other side there are some women who are women headed household and they need support to succeed.",
+        "longTermImpact": "Supporting women farmers and men farmers in two types of farming namely Irrigation farming and Rainfal farming aiming bringing the number and percentages of women farmers and men farmers to equal by supplying them with lessons on how to make organic manure, providing them with early and high productive crops seeds.",
+        "activities": "Chinseu believes a happy family starts with enough to eat at househoold level, increasing the number of women farmers who shall produces enough yields from 20% to 40%  in the next two years and the number of men famers frm 30% to 40% in the same next two years will sustain the goo living standards of local people in our community.",
+        "imageLink": "https://www.globalgiving.org/pfil/24069/pict.jpg",
+        "imageGallerySize": 3,
+        "approvedDate": "2016-05-13T16:02:42-04:00",
+        "donationOptions": {
+            "donationOption": [
+                {
+                    "amount": 10,
+                    "description": "Provide one watering cane and 2kgs millet seeds"
+                },
+                {
+                    "amount": 15,
+                    "description": "Will provide 5kgs maize seeds and 2kgs groundnuts seeds"
+                },
+                {
+                    "amount": 50,
+                    "description": "Provides full materials for one irrigation farmer"
+                },
+                {
+                    "amount": 90,
+                    "description": "Provides all farming materials for seasonal rains farming for one farmer"
+                }
+            ]
+        },
+        "modifiedDate": "2023-05-23T01:35:04-04:00",
+        "numberOfReports": 27,
+        "dateOfMostRecentReport": "2023-05-15T09:34:27-04:00",
+        "themes": {
+            "theme": [
+                {
+                    "id": "agriculture",
+                    "name": "Sustainable Agriculture"
+                },
+                {
+                    "id": "climate",
+                    "name": "Climate Action"
+                },
+                {
+                    "id": "gender",
+                    "name": "Gender Equality"
+                },
+                {
+                    "id": "hunger",
+                    "name": "Food Security"
+                }
+            ]
+        },
+        "image": {
+            "title": "CLOSING THE GENDER GAP FOR A FOOD SECURE FAMILIES",
+            "imagelink": [
+                {
+                    "url": "https://www.globalgiving.org/pfil/24069/pict_grid1.jpg",
+                    "size": "small"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/24069/pict_thumbnail.jpg",
+                    "size": "thumbnail"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/24069/pict_med.jpg",
+                    "size": "medium"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/24069/pict_grid7.jpg",
+                    "size": "large"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/24069/pict_large.jpg",
+                    "size": "extraLarge"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/24069/pict_original.jpg",
+                    "size": "original"
+                }
+            ],
+            "id": 0
+        },
+        "countries": {
+            "country": [
+                {
+                    "name": "Malawi",
+                    "iso3166CountryCode": "MW"
+                }
+            ]
+        },
+        "type": "project"
+    },
+    {
+        "id": 34971,
+        "organization": {
+            "id": 47122,
+            "name": "Hand to Hand Foundation",
+            "addressLine1": "418/39 Suksabai Villa 3",
+            "addressLine2": "",
+            "city": "Pattaya",
+            "state": "",
+            "postal": "20150",
+            "iso3166CountryCode": "TH",
+            "url": "http://www.handtohandpattaya.com",
+            "logoUrl": "https://www.globalgiving.org/pfil/organ/47122/orglogo.png",
+            "mission": "The reality for many underprivileged people in Pattaya, is a life that is entrapped by poverty and abuse. Their lives are marked by a lack of adequate care, food, shelter and an uncertainty about the future. Many of these people earn a meager living as street vendors, garbage collectors, prostitutes or beggars. Drug & alcohol abuse is common in these communities, making them very dangerous places for children to grow up in.\n\nThose living in the slums are also at constant risk of abuse and exploitation, and a way to break out of this cycle of poverty seems almost impossible. Slum dwellers are often without the benefits of a house registration, which is needed to access healthcare, education and other government support services. In addition, without a birth certificate a child faces an entire lifetime of living as an 'alien' in their own home country.\n\nHand to Hand is a Christian organization that is based in Pattaya, who recognise that human rights apply to all age groups. We seek to protect those who are marginalised regardless of their race, age or religion. We achieve this by showing them the love of Jesus Christ through prayer and, on a much more practical level, by providing services such as helping them acquire legal documentation and offering food, clothing and educating the poor.",
+            "totalProjects": 5,
+            "activeProjects": 4,
+            "themes": {
+                "theme": [
+                    {
+                        "id": "children",
+                        "name": "Child Protection"
+                    },
+                    {
+                        "id": "ecdev",
+                        "name": "Economic Growth"
+                    },
+                    {
+                        "id": "edu",
+                        "name": "Education"
+                    },
+                    {
+                        "id": "health",
+                        "name": "Physical Health"
+                    },
+                    {
+                        "id": "rights",
+                        "name": "Justice and Human Rights"
+                    },
+                    {
+                        "id": "hunger",
+                        "name": "Food Security"
+                    },
+                    {
+                        "id": "endabuse",
+                        "name": "Ending Abuse"
+                    },
+                    {
+                        "id": "housing",
+                        "name": "Safe Housing"
+                    },
+                    {
+                        "id": "agriculture",
+                        "name": "Sustainable Agriculture"
+                    }
+                ]
+            },
+            "countries": {
+                "country": [
+                    {
+                        "name": "Thailand",
+                        "iso3166CountryCode": "TH"
+                    }
+                ]
+            },
+            "country": "Thailand"
+        },
+        "active": true,
+        "title": "Garden to Market- Helping the poor to grow food!",
+        "summary": "'Garden to Market' is a project aimed at helping people living in poor communities in Pattaya, Thailand to grow their own food to feed their families and also earn an income through selling produce at market. These trained growers are then empowered to set up community gardens in slum areas around the city empowering more families and overcoming hunger.",
+        "contactName": "Margaret Grainger",
+        "contactAddress": "418/39 Suksabai Villa 3",
+        "contactCity": "Pattaya",
+        "contactState": "Chonburi",
+        "contactPostal": "20150",
+        "contactCountry": "Thailand",
+        "contactUrl": "http://www.handtohandpattaya.com",
+        "projectLink": "https://www.globalgiving.org/projects/gardentomarket/",
+        "progressReportLink": "https://www.globalgiving.org/projects/gardentomarket/updates/",
+        "themeName": "Sustainable Agriculture",
+        "country": "Thailand",
+        "iso3166CountryCode": "TH",
+        "region": "Asia and Oceania",
+        "goal": 5000.0,
+        "funding": 2994.43,
+        "remaining": 2005.57,
+        "numberOfDonations": 28,
+        "status": "active",
+        "need": "Pattaya is a city in Thailand which relies mainly on tourism as a source of income for the residents. As a result of COVID 19 travel has been severely restricted leading to no tourists and the people in the city are struggling to survive with no jobs and no government support. The lines of people waiting for hand outs of free food stretch for kilometers and it is impossible for NGO's to continue this level of support indefinitely.",
+        "longTermImpact": "The long term effect is not only income stability and the solution to hunger but it will also impact communities as waste land will be cleaned up and used for basic agriculture. As new people are trained they are then also commissioned to train others. In this way the project will continue to expand exponentially into the future.",
+        "activities": "The aim of the project is to train 12 key growers how to grow vegetables and herbs that are used commonly in Thai cooking so that they cannot only feed their families but also sell produce at the local market giving them not only financial independence but also a renewed hope for the future. These growers are committed to taking their skills to others in local slum communities thus the program will continue to expand and feed more people.",
+        "additionalDocumentation": "https://www.globalgiving.org/pfil/34971/projdoc.pdf",
+        "imageLink": "https://www.globalgiving.org/pfil/34971/pict.jpg",
+        "imageGallerySize": 8,
+        "longitude": 100.85282897949219,
+        "latitude": 12.92139720916748,
+        "approvedDate": "2020-09-17T14:42:40-04:00",
+        "donationOptions": {
+            "donationOption": [
+                {
+                    "amount": 10,
+                    "description": "will provide seeds for planting pots"
+                },
+                {
+                    "amount": 15,
+                    "description": "XXL pots to grow plants in"
+                },
+                {
+                    "amount": 25,
+                    "description": "will provide 50 starter kits to grow mushrooms"
+                },
+                {
+                    "amount": 50,
+                    "description": "will provide 10 bags of soil"
+                },
+                {
+                    "amount": 60,
+                    "description": "will help purchase gardening tools"
+                },
+                {
+                    "amount": 80,
+                    "description": "will provide a watering system"
+                },
+                {
+                    "amount": 200,
+                    "description": "will cover the monthly salary for a gardener"
+                },
+                {
+                    "amount": 250,
+                    "description": "Will purchase XXL water tanks to supply water to gardens in local slums"
+                }
+            ]
+        },
+        "modifiedDate": "2023-05-23T01:35:50-04:00",
+        "numberOfReports": 8,
+        "dateOfMostRecentReport": "2023-04-22T03:46:38-04:00",
+        "themes": {
+            "theme": [
+                {
+                    "id": "agriculture",
+                    "name": "Sustainable Agriculture"
+                },
+                {
+                    "id": "hunger",
+                    "name": "Food Security"
+                }
+            ]
+        },
+        "image": {
+            "title": "Garden to Market- Helping the poor to grow food!",
+            "imagelink": [
+                {
+                    "url": "https://www.globalgiving.org/pfil/34971/pict_grid1.jpg",
+                    "size": "small"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/34971/pict_thumbnail.jpg",
+                    "size": "thumbnail"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/34971/pict_med.jpg",
+                    "size": "medium"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/34971/pict_grid7.jpg",
+                    "size": "large"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/34971/pict_large.jpg",
+                    "size": "extraLarge"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/34971/pict_original.jpg",
+                    "size": "original"
+                }
+            ],
+            "id": 0
+        },
+        "countries": {
+            "country": [
+                {
+                    "name": "Thailand",
+                    "iso3166CountryCode": "TH"
+                }
+            ]
+        },
+        "type": "project"
+    },
+    {
+        "id": 40623,
+        "active": false,
+        "title": "Commercial & Test Kitchen for KENYA Communities",
+        "summary": "Foodies Without Borders plans to construct a modern commercial & test kitchen that will immediately provide access to Kenya youth especially young women and their communities the opportunity to learn and experience culinary skills which will include commercial cooking, food science, food sanitation, business math and marketing.  This project will prepare our beneficiaries to be ready to compete and access quality and meaningful employment as well as support young food entrepreneurs & farmers.",
+        "contactName": "Anthony Njigua",
+        "contactAddress": "45 Michigan Ave",
+        "contactCity": "Lynn",
+        "contactState": "MA",
+        "contactPostal": "01902",
+        "contactCountry": "United States",
+        "contactUrl": "https://www.foodieswithoutborders.org",
+        "projectLink": "https://www.globalgiving.org/projects/kenyacommunitykitchen/",
+        "progressReportLink": "https://www.globalgiving.org/projects/kenyacommunitykitchen/updates/",
+        "themeName": "Sustainable Agriculture",
+        "country": "Kenya",
+        "iso3166CountryCode": "KE",
+        "region": "Africa",
+        "goal": 19999.0,
+        "funding": 0.0,
+        "remaining": 19999.0,
+        "numberOfDonations": 0,
+        "status": "retired",
+        "need": "The problem in Kenya and Africa is high youth unemployment yet no shortage of labor for potential labor intensive businesses which include agriculture and the hospitality sectors. We believe investing in Africa and in its youth has potential to make a difference in generations to come. Emphasis in training the youths in learning how to add value to local foods as well s learning all trending international concepts that the youth could study and utilize as part of their future businesses.",
+        "longTermImpact": "Long term impact is to elevate regions of Africa as contenders of viable and unique culinary/ sustainable farming leaders. Also become leaders in new ways of adding value to locally sourced foods and increase their appeal to international markets creating legacies of meaningful jobs and innovative mind sets when it comes to all things \"foodie\"",
+        "activities": "This project will train and educate some of the many unemployed youth in Kenya and assist them with knowledge and tools to secure meaningful employment in the agriculture and hospitality industry as well as create new entrepreneurs of the future who will usher new ways of approaching food businesses in Africa as well as mitigating food security and nutrition issues within the continent.",
+        "imageLink": "https://www.globalgiving.org/pfil/40623/pict.jpg",
+        "imageGallerySize": 2,
+        "videos": {
+            "video": [
+                {
+                    "url": "http://www.youtube.com/v/HGn0b2GMlrI"
+                }
+            ]
+        },
+        "longitude": 40.120697021484375,
+        "latitude": -3.1877329349517822,
+        "approvedDate": "2020-11-30T23:58:33-05:00",
+        "donationOptions": {
+            "donationOption": [
+                {
+                    "amount": 25,
+                    "description": "will provide with purchasing locally sourced construction material"
+                },
+                {
+                    "amount": 50,
+                    "description": "Will provide meals worth one week for each of our student who will be part of the labor force during construction of Kitchen"
+                },
+                {
+                    "amount": 250,
+                    "description": "Will provide meals & transport worth one week for each of our student who will be part of the labor force during construction of Kitchen"
+                },
+                {
+                    "amount": 1000,
+                    "description": "Will pay for accomodation and meals for our volunteer proffesionals who will help with the build"
+                },
+                {
+                    "amount": 1500,
+                    "description": "Will pay for all legal permits and licenses that would allow us to operate the kitchen legally as well as allow us to future fundraise   st"
+                },
+                {
+                    "amount": 2500,
+                    "description": "Will pay for storage and shipping of donated used and new modern kitchen equipment from USA to Kenya"
+                },
+                {
+                    "amount": 10000,
+                    "description": "Will pay for year one operations for restaurant adjuscent to kitchen which will be open to public and serve as a learning resource for the students including generating operational revenue"
+                },
+                {
+                    "amount": 20000,
+                    "description": "Will Pay for the entire project and also honor the donor with permanently naming the kitchen and restaurant to their liking"
+                }
+            ]
+        },
+        "modifiedDate": "2023-05-23T01:36:13-04:00",
+        "numberOfReports": 0,
+        "themes": {
+            "theme": [
+                {
+                    "id": "agriculture",
+                    "name": "Sustainable Agriculture"
+                },
+                {
+                    "id": "ecdev",
+                    "name": "Economic Growth"
+                },
+                {
+                    "id": "hunger",
+                    "name": "Food Security"
+                },
+                {
+                    "id": "art",
+                    "name": "Arts and Culture"
+                }
+            ]
+        },
+        "image": {
+            "title": "Commercial & Test Kitchen for KENYA Communities",
+            "imagelink": [
+                {
+                    "url": "https://www.globalgiving.org/pfil/40623/pict_grid1.jpg",
+                    "size": "small"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/40623/pict_thumbnail.jpg",
+                    "size": "thumbnail"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/40623/pict_med.jpg",
+                    "size": "medium"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/40623/pict_grid7.jpg",
+                    "size": "large"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/40623/pict_large.jpg",
+                    "size": "extraLarge"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/40623/pict_original.jpg",
+                    "size": "original"
+                }
+            ],
+            "id": 0
+        },
+        "countries": {
+            "country": [
+                {
+                    "name": "Kenya",
+                    "iso3166CountryCode": "KE"
+                }
+            ]
+        },
+        "type": "project"
+    },
+    {
+        "id": 42644,
+        "organization": {
+            "id": 69216,
+            "name": "DUFATANYE ORGANIZATION",
+            "addressLine1": "27 NYANZA BUSASAMANA NYANZA SOUTHERN PROVINCE RWANDA",
+            "addressLine2": "",
+            "city": "NYANZA District",
+            "state": "Nyanza",
+            "postal": "southern province",
+            "iso3166CountryCode": "RW",
+            "url": "http://www.dufatanye.org",
+            "logoUrl": "https://www.globalgiving.org/pfil/organ/69216/orglogo.png",
+            "mission": "Dufatanye Organization of Rwanda mission is to combat HIV/AIDs, malnutrition, and poverty through improved agricultural practices and by focusing on vulnerable populations in areas with high malnutrition and extreme poverty.",
+            "totalProjects": 12,
+            "activeProjects": 7,
+            "themes": {
+                "theme": [
+                    {
+                        "id": "climate",
+                        "name": "Climate Action"
+                    },
+                    {
+                        "id": "ecdev",
+                        "name": "Economic Growth"
+                    },
+                    {
+                        "id": "edu",
+                        "name": "Education"
+                    },
+                    {
+                        "id": "env",
+                        "name": "Ecosystem Restoration"
+                    },
+                    {
+                        "id": "gender",
+                        "name": "Gender Equality"
+                    },
+                    {
+                        "id": "sport",
+                        "name": "Sport"
+                    },
+                    {
+                        "id": "hunger",
+                        "name": "Food Security"
+                    },
+                    {
+                        "id": "art",
+                        "name": "Arts and Culture"
+                    },
+                    {
+                        "id": "water",
+                        "name": "Clean Water"
+                    },
+                    {
+                        "id": "agriculture",
+                        "name": "Sustainable Agriculture"
+                    }
+                ]
+            },
+            "countries": {
+                "country": [
+                    {
+                        "name": "Rwanda",
+                        "iso3166CountryCode": "RW"
+                    }
+                ]
+            },
+            "country": "Rwanda"
+        },
+        "active": true,
+        "title": "Fighting Malnutrition in 10 Villages of Nyanza",
+        "summary": "Our project will support 1,000 vulnerable families in 10 villages of Nyanza District, Rwanda.  Each family will receive training plus 2 fruit and 10 banana trees, 2 laying hens and manure for 1 kitchen vegetable garden. A children's program will be provided every Saturday. Your support will help to alleviate hunger, malnutrition, poverty and unemployment.  98% of the families have no other source of income. Improved agricultural practices will be taught therefore, increasing food production.",
+        "contactName": "karema Godfrey",
+        "contactAddress": "27 NYANZA BUSASAMANA",
+        "contactCity": "NYANZA",
+        "contactState": "Southern province",
+        "contactPostal": "+250",
+        "contactCountry": "Rwanda",
+        "contactUrl": "http://www.dufatanye.org",
+        "projectLink": "https://www.globalgiving.org/projects/end-hunger-malnutrition-and-poverty-in-nyanza/",
+        "progressReportLink": "https://www.globalgiving.org/projects/end-hunger-malnutrition-and-poverty-in-nyanza/updates/",
+        "themeName": "Sustainable Agriculture",
+        "country": "Rwanda",
+        "iso3166CountryCode": "RW",
+        "region": "Africa",
+        "goal": 50000.0,
+        "funding": 13433.33,
+        "remaining": 36566.67,
+        "numberOfDonations": 231,
+        "status": "active",
+        "need": "Currently the Nyanza District has 77,522 households with 1/2 the population being children. Hunger, malnutrition, poverty and illiteracy affects 98% of the villages we work in.  Poverty is extreme and the people have little to no means to provide for their daily needs. Within Nyanza the poverty rate is reported as 17.6%, but reality shows that the poverty is much higher in the villages.",
+        "longTermImpact": "1000 families will be trained in improved agricultural and food practices. 5,000 individuals will have a constant food supply. Two outstanding individuals from each village will train and provide continual support/coaching, so that hunger and malnutrition are decreased and resolved. Parents will support their children to go to school and learn to farm by helping their parents.  The practice of agroecology will help to build on ancestral knowledge and nurture a healthy land.",
+        "activities": "We will educate and provide resources for 1,000 families and children in 10 villages about agricultural practices, farming, and animal husbandry. Kitchen gardens will support people with an opportunity for a balanced diet and an increased food supply. The produce from the trees will provide an income for the family. The Saturday program will educate children through stories, nutrition training and a meal provided. Working together is the main focus of the program and organization.",
+        "additionalDocumentation": "https://www.globalgiving.org/pfil/42644/projdoc.pdf",
+        "imageLink": "https://www.globalgiving.org/pfil/42644/pict.jpg",
+        "imageGallerySize": 21,
+        "videos": {
+            "video": [
+                {
+                    "url": "http://www.youtube.com/v/DGMUuVawQN8"
+                }
+            ]
+        },
+        "longitude": 29.743501663208008,
+        "latitude": -2.342756986618042,
+        "approvedDate": "2019-12-02T23:58:24-05:00",
+        "donationOptions": {
+            "donationOption": [
+                {
+                    "amount": 10,
+                    "description": "Will provide 2 fruits trees, vegetable seeds for planting and fertilizer for 1 family"
+                },
+                {
+                    "amount": 20,
+                    "description": "Will supply 2 laying hens and 10 banana tree plants for 1 family"
+                },
+                {
+                    "amount": 35,
+                    "description": "Will build 1 kitchen garden for a family"
+                },
+                {
+                    "amount": 60,
+                    "description": "Will provide 10 bananas tree starters, 2 fruit trees, vegetable seeds and 1 kitchen garden for 1 family"
+                },
+                {
+                    "amount": 100,
+                    "description": "Will supply 5 familes with 2 laying hens and 1 fruit tree, 5 banana trees and vegetable seeds for each."
+                },
+                {
+                    "amount": 300,
+                    "description": "Will provide 7 families with 1 kitchen garden, vegetable seeds, and 2 fruit trees/5 banana trees"
+                },
+                {
+                    "amount": 500,
+                    "description": "Supplies a full package (2 fruit trees, 10 banana trees, vegetable seeds, fertilizer, 2 laying hens and 1 kitchen garden) for 8 families"
+                },
+                {
+                    "amount": 10000,
+                    "description": "Will supply 2000 fruit trees and vegetable seeds to 1,000 families"
+                }
+            ]
+        },
+        "modifiedDate": "2023-05-23T01:36:22-04:00",
+        "numberOfReports": 10,
+        "dateOfMostRecentReport": "2023-02-07T12:43:59-05:00",
+        "themes": {
+            "theme": [
+                {
+                    "id": "agriculture",
+                    "name": "Sustainable Agriculture"
+                },
+                {
+                    "id": "ecdev",
+                    "name": "Economic Growth"
+                },
+                {
+                    "id": "edu",
+                    "name": "Education"
+                },
+                {
+                    "id": "hunger",
+                    "name": "Food Security"
+                }
+            ]
+        },
+        "image": {
+            "title": "Fighting Malnutrition in 10 Villages of Nyanza",
+            "imagelink": [
+                {
+                    "url": "https://www.globalgiving.org/pfil/42644/pict_grid1.jpg",
+                    "size": "small"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/42644/pict_thumbnail.jpg",
+                    "size": "thumbnail"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/42644/pict_med.jpg",
+                    "size": "medium"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/42644/pict_grid7.jpg",
+                    "size": "large"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/42644/pict_large.jpg",
+                    "size": "extraLarge"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/42644/pict_original.jpg",
+                    "size": "original"
+                }
+            ],
+            "id": 0
+        },
+        "countries": {
+            "country": [
+                {
+                    "name": "Rwanda",
+                    "iso3166CountryCode": "RW"
+                }
+            ]
+        },
+        "type": "project"
+    },
+    {
+        "id": 45873,
+        "organization": {
+            "id": 3247,
+            "name": "Association for Humanitarian Development (AHD)",
+            "addressLine1": "House # 39/b, 2nd Floor, Block-D Unit. No. 2, Latifabad",
+            "addressLine2": "",
+            "city": "Hyderabad",
+            "state": "Sindh",
+            "postal": "71800",
+            "iso3166CountryCode": "PK",
+            "url": "http://www.ahdpak.org",
+            "logoUrl": "https://www.globalgiving.org/pfil/organ/3247/orglogo.jpg",
+            "mission": "Association for Humanitarian Development (AHD) is a social community based organization was established in December 2001-2002 and registered under the Societies Registration Act: XXI of 1860 on 17 May 2003. \nRe-Registered on June 1st 2013 \n\nVision\nTo bring Peace, Justice, Unity and Harmony for all and to ensure availability of food for marginalized communities of Pakistan",
+            "totalProjects": 15,
+            "activeProjects": 13,
+            "themes": {
+                "theme": [
+                    {
+                        "id": "children",
+                        "name": "Child Protection"
+                    },
+                    {
+                        "id": "climate",
+                        "name": "Climate Action"
+                    },
+                    {
+                        "id": "democ",
+                        "name": "Peace and Reconciliation"
+                    },
+                    {
+                        "id": "disaster",
+                        "name": "Disaster Response"
+                    },
+                    {
+                        "id": "ecdev",
+                        "name": "Economic Growth"
+                    },
+                    {
+                        "id": "edu",
+                        "name": "Education"
+                    },
+                    {
+                        "id": "env",
+                        "name": "Ecosystem Restoration"
+                    },
+                    {
+                        "id": "gender",
+                        "name": "Gender Equality"
+                    },
+                    {
+                        "id": "human",
+                        "name": "Ending Human Trafficking"
+                    },
+                    {
+                        "id": "rights",
+                        "name": "Justice and Human Rights"
+                    },
+                    {
+                        "id": "hunger",
+                        "name": "Food Security"
+                    },
+                    {
+                        "id": "covid-19",
+                        "name": "COVID-19"
+                    },
+                    {
+                        "id": "water",
+                        "name": "Clean Water"
+                    },
+                    {
+                        "id": "disability",
+                        "name": "Disability Rights"
+                    },
+                    {
+                        "id": "endabuse",
+                        "name": "Ending Abuse"
+                    },
+                    {
+                        "id": "mentalhealth",
+                        "name": "Mental Health"
+                    },
+                    {
+                        "id": "refugee",
+                        "name": "Refugee Rights"
+                    },
+                    {
+                        "id": "reproductive",
+                        "name": "Reproductive Health"
+                    },
+                    {
+                        "id": "housing",
+                        "name": "Safe Housing"
+                    },
+                    {
+                        "id": "agriculture",
+                        "name": "Sustainable Agriculture"
+                    }
+                ]
+            },
+            "countries": {
+                "country": [
+                    {
+                        "name": "Kenya",
+                        "iso3166CountryCode": "KE"
+                    },
+                    {
+                        "name": "Mozambique",
+                        "iso3166CountryCode": "MZ"
+                    },
+                    {
+                        "name": "Pakistan",
+                        "iso3166CountryCode": "PK"
+                    },
+                    {
+                        "name": "Uganda",
+                        "iso3166CountryCode": "UG"
+                    },
+                    {
+                        "name": "Zimbabwe",
+                        "iso3166CountryCode": "ZW"
+                    }
+                ]
+            },
+            "country": "Pakistan"
+        },
+        "active": true,
+        "title": "Ending Poverty with skills development in Pakistan",
+        "summary": "AHD has been working in the rural areas of Sindh since & tacking with skills development of long disasters in Pakistan, 2019 to 2020 COVUD-19 hit hard and than 2022 super floods hit hard Pakistan, AHD wants to build capacity of rural poor people of Pakistan via skill trainings and this project will help 1,000 rural families with kitchen grading to empower local people and give them skills to plant vegetables for their food security  at nearby home or village.",
+        "contactName": "Khurshid Bhatti",
+        "contactTitle": "President / CEO",
+        "contactAddress": "House # 39/b, 2nd Floor, Block-D Unit. No. 2, Latifabad",
+        "contactCity": "Hyderabad",
+        "contactState": "Sindh",
+        "contactPostal": "71800",
+        "contactCountry": "Pakistan",
+        "contactUrl": "http://www.ahdpak.org",
+        "projectLink": "https://www.globalgiving.org/projects/ending-poverty-skill-development-pakistan/",
+        "progressReportLink": "https://www.globalgiving.org/projects/ending-poverty-skill-development-pakistan/updates/",
+        "themeName": "Sustainable Agriculture",
+        "country": "Pakistan",
+        "iso3166CountryCode": "PK",
+        "region": "Asia and Oceania",
+        "goal": 35000.0,
+        "funding": 5551.0,
+        "remaining": 29449.0,
+        "numberOfDonations": 79,
+        "status": "active",
+        "need": "For the majority of people in Sindh province poor, Food, Shelter and health shortage on large scale, COVID-19 and then floods 2022 hit hard and damaged 33 million people living in miserable conditions and every where insecurity of food and shelter and health. problems on large scale in Sindh Pakistan and needs to tackle via skills development in rural areas of flood affected people, this project will build skills and trainings of 1,000 poor women to help them towards sustainable development",
+        "longTermImpact": "There is proverb to do not give fish but give skills to catch fish on daily basis and these skills help them to get on road to sustainable development, this project will be sustainable and long term development aspects, this project will enable 1,000 rural women to grow fresh vegetables on daily basis for ling time",
+        "activities": "The overall objective of the project is to contribute in the efforts of skills development in rural poor areas will target 1,000 poor families and about 40 villages will get access to plant vegetable at their household level and help them in their good security. this project will be innovative and help and empower 1,000 rural women",
+        "imageLink": "https://www.globalgiving.org/pfil/45873/pict.jpg",
+        "imageGallerySize": 7,
+        "approvedDate": "2020-03-23T08:32:27-04:00",
+        "donationOptions": {
+            "donationOption": [
+                {
+                    "amount": 10,
+                    "description": "Training on Kitchen Gardening"
+                },
+                {
+                    "amount": 25,
+                    "description": "Seeds distribution at village level"
+                },
+                {
+                    "amount": 90,
+                    "description": "Organzie trainings in differrent villages"
+                },
+                {
+                    "amount": 150,
+                    "description": "Trainings on Kitchen Gardnding for rural women"
+                },
+                {
+                    "amount": 500,
+                    "description": "setting up training centers"
+                },
+                {
+                    "amount": 1000,
+                    "description": "Distribution seed and kits for 28 families"
+                },
+                {
+                    "amount": 2500,
+                    "description": "Distribution seed and kits for 71 families"
+                },
+                {
+                    "amount": 3000,
+                    "description": "Setting up 10 skill training centers in rural villages"
+                }
+            ]
+        },
+        "modifiedDate": "2023-05-23T01:36:36-04:00",
+        "numberOfReports": 12,
+        "dateOfMostRecentReport": "2023-04-04T22:08:42-04:00",
+        "themes": {
+            "theme": [
+                {
+                    "id": "agriculture",
+                    "name": "Sustainable Agriculture"
+                },
+                {
+                    "id": "hunger",
+                    "name": "Food Security"
+                }
+            ]
+        },
+        "image": {
+            "title": "Ending Poverty with skills development in Pakistan",
+            "imagelink": [
+                {
+                    "url": "https://www.globalgiving.org/pfil/45873/pict_grid1.jpg",
+                    "size": "small"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/45873/pict_thumbnail.jpg",
+                    "size": "thumbnail"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/45873/pict_med.jpg",
+                    "size": "medium"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/45873/pict_grid7.jpg",
+                    "size": "large"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/45873/pict_large.jpg",
+                    "size": "extraLarge"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/45873/pict_original.jpg",
+                    "size": "original"
+                }
+            ],
+            "id": 0
+        },
+        "countries": {
+            "country": [
+                {
+                    "name": "Pakistan",
+                    "iso3166CountryCode": "PK"
+                }
+            ]
+        },
+        "type": "project"
+    },
+    {
+        "id": 46536,
+        "organization": {
+            "id": 30143,
+            "name": "Kenya Christian School For The Deaf",
+            "addressLine1": "29321",
+            "addressLine2": "",
+            "city": "Nairobi",
+            "state": "",
+            "postal": "00100",
+            "iso3166CountryCode": "KE",
+            "url": "http://www.kenyachristianscho.wixsite.com/kcsd",
+            "logoUrl": "https://www.globalgiving.org/pfil/organ/30143/orglogo.jpg",
+            "mission": "Trains & promotes employability skills, higher levels of productivity and technological innovation to underserved deaf and non-deaf in their development, sports, health, and education for self-reliance and prosperity.",
+            "totalProjects": 6,
+            "activeProjects": 2,
+            "themes": {
+                "theme": [
+                    {
+                        "id": "climate",
+                        "name": "Climate Action"
+                    },
+                    {
+                        "id": "edu",
+                        "name": "Education"
+                    },
+                    {
+                        "id": "tech",
+                        "name": "Digital Literacy"
+                    }
+                ]
+            },
+            "countries": {
+                "country": [
+                    {
+                        "name": "Kenya",
+                        "iso3166CountryCode": "KE"
+                    }
+                ]
+            },
+            "country": "Kenya"
+        },
+        "active": true,
+        "title": "farming to feed",
+        "summary": "Farming help reduce poverty, raise incomes and improve food security for 80% of the world's poor, who live in rural areas and work mainly in farming.Agriculture impacts society in many ways, including: supporting livelihoods through food, habitat, and jobs.",
+        "contactName": "Charles Ngiela",
+        "contactTitle": "CEO",
+        "contactAddress": "29321",
+        "contactCity": "Oyugis",
+        "contactState": "HomaBay",
+        "contactPostal": "40222",
+        "contactCountry": "Kenya",
+        "contactUrl": "https://kcsd.or.ke/entrepreneurship/",
+        "projectLink": "https://www.globalgiving.org/projects/farming-to-feed/",
+        "progressReportLink": "https://www.globalgiving.org/projects/farming-to-feed/updates/",
+        "themeName": "Sustainable Agriculture",
+        "country": "Kenya",
+        "iso3166CountryCode": "KE",
+        "region": "Africa",
+        "goal": 20000.0,
+        "funding": 1886.33,
+        "remaining": 18113.67,
+        "numberOfDonations": 11,
+        "status": "active",
+        "need": "Poverty is the greatest cause of hunger around the world - in both higher-wealth and low- to middle-income countries. Most people who are hungry live in extreme poverty, defined as income of $2.15 per day or less. The unequal distribution of income and lack of resources in developing countries means that millions of people simply cannot afford the land or farming supplies they need to grow, or otherwise gain access to nutritious food.",
+        "longTermImpact": "Adopting irrigation would ensure food production throughout the year. Encouraging farmers to grow food crops that are drought resistant. Encouraging the growing of food crops instead of cash crops. Giving loans/credit facilities to farmers",
+        "activities": "Many grain producers currently have more cash on hand than in the past.  A phenomenal growing season last year, coupled with increasing prices for stored crops helped to create this cash influx.  Many times when there is excess cash available, producers look for ways to use that cash to benefit them over the long run.  Producers may be tempted to pay off some long-term debts or pay cash for large capital purchases.",
+        "imageLink": "https://www.globalgiving.org/pfil/46536/pict.jpg",
+        "imageGallerySize": 5,
+        "videos": {
+            "video": [
+                {
+                    "url": "http://www.youtube.com/v/j09DwbUo1YA"
+                }
+            ]
+        },
+        "approvedDate": "2020-04-21T16:22:29-04:00",
+        "donationOptions": {
+            "donationOption": [
+                {
+                    "amount": 10,
+                    "description": "Will help help buy a hoe for tilting the farm"
+                },
+                {
+                    "amount": 25,
+                    "description": "Will buy 2 spraying farming insecticide to protect insects from destroying crops"
+                },
+                {
+                    "amount": 50,
+                    "description": "Will buy 20 liter spray jerican for sparaying the farm"
+                },
+                {
+                    "amount": 90,
+                    "description": "Will buy 3 shacks of organic fertilizer from other farmers"
+                },
+                {
+                    "amount": 200,
+                    "description": "Will 1buy drip water pipe for farming"
+                },
+                {
+                    "amount": 1000,
+                    "description": "Will buy water tank 5000 liters for water reservoirs for irrigation"
+                },
+                {
+                    "amount": 3000,
+                    "description": "Will buy farm 1 hand driven tractor to facilitate farming"
+                },
+                {
+                    "amount": 10000,
+                    "description": "Will help dig borehole for 300 community members of Kotieno village and support farm irrigation"
+                }
+            ]
+        },
+        "modifiedDate": "2023-05-23T01:36:39-04:00",
+        "numberOfReports": 11,
+        "dateOfMostRecentReport": "2023-02-13T07:30:37-05:00",
+        "themes": {
+            "theme": [
+                {
+                    "id": "agriculture",
+                    "name": "Sustainable Agriculture"
+                }
+            ]
+        },
+        "image": {
+            "title": "farming to feed",
+            "imagelink": [
+                {
+                    "url": "https://www.globalgiving.org/pfil/46536/pict_grid1.jpg",
+                    "size": "small"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/46536/pict_thumbnail.jpg",
+                    "size": "thumbnail"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/46536/pict_med.jpg",
+                    "size": "medium"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/46536/pict_grid7.jpg",
+                    "size": "large"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/46536/pict_large.jpg",
+                    "size": "extraLarge"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/46536/pict_original.jpg",
+                    "size": "original"
+                }
+            ],
+            "id": 0
+        },
+        "countries": {
+            "country": [
+                {
+                    "name": "Kenya",
+                    "iso3166CountryCode": "KE"
+                }
+            ]
+        },
+        "type": "project"
+    },
+    {
+        "id": 49526,
+        "active": false,
+        "title": "Safeguarding Indigenous Seeds in Southwest Morocco",
+        "summary": "This project will gather, grow, reproduce, store & distribute indigenous Amazigh Anti-Atlas variety of barely, millet and wheat seeds increasingly under threat of disappearing. These graints have grown over mellenia and are entirely adapted to the dry mountain ecosystem. Providing some 40 local farmers who practise livelihood farming with these varieties will decrease their expenses, their dependency on external sources and provide them and families with bread, major food staple in the region.",
+        "contactName": "Jamila Bargach",
+        "contactAddress": "Imm Hamriya, 4B",
+        "contactAddress2": "Avenue Al Mouqawama",
+        "contactCity": "Agadir",
+        "contactState": "Souss-Massa-Draa",
+        "contactPostal": "80020",
+        "contactCountry": "Morocco",
+        "contactUrl": "http://www.darsihmad.org",
+        "projectLink": "https://www.globalgiving.org/projects/safeguarding-indigenous-seeds-in-southwest-morocco/",
+        "progressReportLink": "https://www.globalgiving.org/projects/safeguarding-indigenous-seeds-in-southwest-morocco/updates/",
+        "themeName": "Sustainable Agriculture",
+        "country": "Morocco",
+        "iso3166CountryCode": "MA",
+        "region": "Africa",
+        "goal": 2500.0,
+        "funding": 1081.39,
+        "remaining": 1418.61,
+        "numberOfDonations": 16,
+        "status": "retired",
+        "need": "Anti-Atlas farmers practicing livelihood agriculture  find it increasingly challenging to reproduce their planting ways and seasons as they, and their ancestors, have done because of the grains used. Today wheat, barely and millet grains for planting are bought every year, further driving already vulnerable farmers into poverty and lowering the harvest yield given these grains need generations of planting to adapt to the dry local ecosystem.",
+        "longTermImpact": "The project will give the opportunity to farmers to plant grains that have adapted to this ecosystem, and will provide them and their families with hearty and healthy grains to make bread, the major food staple in this region of Morocco.  Once the individual farming is fully mastered and integrated after some 4 planting seasons, we plan on creating a sustainble cooperative model to further markett these grains to secure fund-generating activities and autonomy for these vulnerable communities.",
+        "activities": "Dar Si Hmad operates a didactic farm in the heart of the Anti-Atlas Mountains and through this project we will collect, store, label, plant, grow and tend to the original, endemic species of the grains to this region. We will distribute grain-packages to the participating farmers of the didactic farm and we will do continous monitoring and evaluation. Having access to this source of grains free of charge will solve the problem of purchasing grains for farmers already suffering from poverty",
+        "imageLink": "https://www.globalgiving.org/pfil/49526/pict.jpg",
+        "imageGallerySize": 2,
+        "approvedDate": "2020-10-09T15:11:14-04:00",
+        "donationOptions": {
+            "donationOption": [
+                {
+                    "amount": 20,
+                    "description": "Will buy a storing jar for the seed-bank"
+                },
+                {
+                    "amount": 50,
+                    "description": "Will provide labor for a week to plant and tend to the grains"
+                },
+                {
+                    "amount": 80,
+                    "description": "Will provide full package of seeds to 40 farmers"
+                },
+                {
+                    "amount": 100,
+                    "description": "Will buy quality tools and equipment for planting"
+                },
+                {
+                    "amount": 200,
+                    "description": "Will cover travel expenses for a team of 2 for 1 month to collect endemic grains"
+                }
+            ]
+        },
+        "modifiedDate": "2023-05-23T01:36:53-04:00",
+        "numberOfReports": 8,
+        "dateOfMostRecentReport": "2022-09-22T11:50:20-04:00",
+        "themes": {
+            "theme": [
+                {
+                    "id": "agriculture",
+                    "name": "Sustainable Agriculture"
+                }
+            ]
+        },
+        "image": {
+            "title": "Safeguarding Indigenous Seeds in Southwest Morocco",
+            "imagelink": [
+                {
+                    "url": "https://www.globalgiving.org/pfil/49526/pict_grid1.jpg",
+                    "size": "small"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/49526/pict_thumbnail.jpg",
+                    "size": "thumbnail"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/49526/pict_med.jpg",
+                    "size": "medium"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/49526/pict_grid7.jpg",
+                    "size": "large"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/49526/pict_large.jpg",
+                    "size": "extraLarge"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/49526/pict_original.jpg",
+                    "size": "original"
+                }
+            ],
+            "id": 0
+        },
+        "countries": {
+            "country": [
+                {
+                    "name": "Morocco",
+                    "iso3166CountryCode": "MA"
+                }
+            ]
+        },
+        "type": "project"
+    },
+    {
+        "id": 49878,
+        "active": false,
+        "title": "SAHAYATRA for River Bed Vegetable Farming",
+        "summary": "The project will train the 250 landless poor farmers for Riverbed Vegetable Farming of Rajdevi Munacipality of Rautahat district, Nepal, providing seed, fertilizer and irrigation support and promote theirs livelihood by proper use of sandy riverbank and riverbed of Bagmati river.",
+        "contactName": "Ffcn Rautahat",
+        "contactAddress": "Province No.-2, District-Rautahat, Rajdevi Municipality-7, Nepal",
+        "contactCity": "Rajdevi",
+        "contactState": "Province No. 2, Rautahat",
+        "contactPostal": "+977",
+        "contactCountry": "Nepal",
+        "contactUrl": "",
+        "projectLink": "https://www.globalgiving.org/projects/kishori-sahayatra/",
+        "progressReportLink": "https://www.globalgiving.org/projects/kishori-sahayatra/updates/",
+        "themeName": "Sustainable Agriculture",
+        "country": "Nepal",
+        "iso3166CountryCode": "NP",
+        "region": "Asia and Oceania",
+        "goal": 32159.0,
+        "funding": 0.0,
+        "remaining": 32159.0,
+        "numberOfDonations": 0,
+        "status": "retired",
+        "need": "Nepal is a developing mountainous country. There are several rivers arise from mountain and hills of Nepal. Due to the river bank cutting, soil and erosion, flood, the cultivated land of farmers become unusable and barren. So The economic condition of the farmers is deteriorating day by day. They have to face hand to mouth problem, unemployment. They can't be sending theirs children to school for education.  Due to poverty, they can't get health facility in time.",
+        "longTermImpact": "Nepal is agricultural country and most of the people of this country depend on agriculture. In context of Nepal most of furtile land is in the Terai region that is why it is also known as bread basket of Nepal. But Nepal's vast riverbeds, especially in the Terai area, remain submerged in muddy waters during the rainy season, and dry and desolate for the rest of the year. These unused riverbeds have huge potential to be utilized for poverty alleviation.",
+        "activities": "Riverbed farming is an environmentally, economically and technologically sustainable practice that can contribute to creating employment opportunities and enhance landless poor farmers capacities to sustainably adapt to the effects of climate change, reducing the risks of food insecurity and malnutrition and contributing towards economic development of the country, which creates social harmony. This shows that river bed farming has a huge potential in country.",
+        "imageLink": "https://www.globalgiving.org/pfil/49878/pict.jpg",
+        "imageGallerySize": 5,
+        "videos": {
+            "video": [
+                {
+                    "url": "http://www.youtube.com/v/5wj-AeEKQCk"
+                }
+            ]
+        },
+        "longitude": 85.29556274414062,
+        "latitude": 26.772884368896484,
+        "approvedDate": "2021-04-05T08:58:28-04:00",
+        "donationOptions": {
+            "donationOption": [
+                {
+                    "amount": 44,
+                    "description": "will support stationary for group formation."
+                },
+                {
+                    "amount": 101,
+                    "description": "will orient 30 municipal representatives of program."
+                },
+                {
+                    "amount": 2446,
+                    "description": "will train 250 landless poor farmers for riverbed vegetable Farming."
+                },
+                {
+                    "amount": 5362,
+                    "description": "will provide them Irrigation Materials support"
+                },
+                {
+                    "amount": 5368,
+                    "description": "will support 250 landless farmers vegetable seeds"
+                },
+                {
+                    "amount": 8925,
+                    "description": "will provide management cost of the program"
+                },
+                {
+                    "amount": 9915,
+                    "description": "will provide them fertilizer support for RBF"
+                }
+            ]
+        },
+        "modifiedDate": "2023-05-23T01:36:54-04:00",
+        "numberOfReports": 0,
+        "themes": {
+            "theme": [
+                {
+                    "id": "agriculture",
+                    "name": "Sustainable Agriculture"
+                }
+            ]
+        },
+        "image": {
+            "title": "SAHAYATRA for River Bed Vegetable Farming",
+            "imagelink": [
+                {
+                    "url": "https://www.globalgiving.org/pfil/49878/pict_grid1.jpg",
+                    "size": "small"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/49878/pict_thumbnail.jpg",
+                    "size": "thumbnail"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/49878/pict_med.jpg",
+                    "size": "medium"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/49878/pict_grid7.jpg",
+                    "size": "large"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/49878/pict_large.jpg",
+                    "size": "extraLarge"
+                },
+                {
+                    "url": "https://www.globalgiving.org/pfil/49878/pict_original.jpg",
+                    "size": "original"
+                }
+            ],
+            "id": 0
+        },
+        "countries": {
+            "country": [
+                {
+                    "name": "Nepal",
+                    "iso3166CountryCode": "NP"
+                }
+            ]
+        },
+        "type": "project"
+    }
+]
