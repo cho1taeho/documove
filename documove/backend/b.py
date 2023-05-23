@@ -29,7 +29,10 @@ def save_all_projects_for_theme(theme_id, api_key):
         if projects is None:  # API 요청이 실패한 경우
             break
 
-        all_projects.extend(projects["projects"]["project"])
+        for project in projects["projects"]["project"]:
+            # Extract only the required keys from each project
+            extracted_project = {key: project[key] for key in ['id', 'organization', 'active', 'title', 'summary', 'themeName', 'country', 'region', 'funding', 'remaining', 'numberOfDonations', 'status', 'activities', 'imageLink', 'imageGallerySize', 'videos', 'approvedDate', 'themes', 'image', 'type'] if key in project}
+            all_projects.append(extracted_project)
 
         if projects["projects"]["hasNext"] == "true":
             next_project_id = projects["projects"]["nextProjectId"]
@@ -40,8 +43,7 @@ def save_all_projects_for_theme(theme_id, api_key):
         json.dump(all_projects, f, indent=4)
 
 
-# 이 부분이 터미널에서 파일을 실행했을 때 자동으로 실행되는 부분입니다.
 if __name__ == "__main__":
-    theme_id = 'agriculture'  # 여기에 원하는 테마 ID를 입력하세요.
+    theme_id = 'climate'  # 여기에 원하는 테마 ID를 입력하세요.
     api_key = '5e1354cf-91c7-4d17-aa3a-1c908f511aad'  # 여기에 발급받은 API 키를 입력하세요.
     save_all_projects_for_theme(theme_id, api_key)
