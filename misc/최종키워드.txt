@@ -1,0 +1,10 @@
+Food Security		"hunger"
+Disaster Response		"disaster"
+Climate Action		"climate"
+Sustainable Agriculutre	"agriculture"
+Clean Water		"water"
+Wildlife Conservation	"wildlife"
+Racial Justice		"justice"
+Child Protection		"children"
+
+"hunger", "disaster", "climate", "agriculture", "water", "wildlife", "justice", "children"

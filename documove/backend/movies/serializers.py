@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Movie, Genre
+from .models import Movie, Genre, Giving, Theme
 
 
 class GenreSerializer(serializers.ModelSerializer):
@@ -26,3 +26,16 @@ class MovieWishlistSerializer(serializers.ModelSerializer):
     class Meta:
         model = Movie
         fields = ('id', 'title', 'poster_path', 'genre_ids',)
+
+
+class GivingSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = Giving
+
+
+class ThemeSerializer(serializers.ModelSerializer):
+    
+    class Meta:
+        model = Giving, Theme, Movie
+        
