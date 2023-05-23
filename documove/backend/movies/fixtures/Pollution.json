@@ -1,299 +1,333 @@
 [
     {
-        "adult": false,
-        "backdrop_path": "/dsuJxTwA5sN1a45wMFSP9w47xIV.jpg",
-        "genre_ids": [
-            99,
-            36
-        ],
-        "id": 268608,
-        "original_language": "en",
-        "original_title": "Beyond Pollution",
-        "overview": "Barker White documents the environmental impact of the massive BP spill.",
-        "popularity": 0.849,
-        "poster_path": "/n5SVsE2QDrLUOG2Y7DlObpTgZfC.jpg",
-        "release_date": "2012-01-01",
-        "title": "Beyond Pollution",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 268608,
+        "fields": {
+            "adult": false,
+            "genre_ids": [
+                99,
+                36
+            ],
+            "original_language": "en",
+            "original_title": "Beyond Pollution",
+            "overview": "Barker White documents the environmental impact of the massive BP spill.",
+            "popularity": 0.849,
+            "poster_path": "/n5SVsE2QDrLUOG2Y7DlObpTgZfC.jpg",
+            "release_date": "2012-01-01",
+            "title": "Beyond Pollution",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [],
-        "id": 920505,
-        "original_language": "en",
-        "original_title": "How Pollution is Changing Cinema in India",
-        "overview": "",
-        "popularity": 0.6,
-        "poster_path": null,
-        "release_date": "2021-01-01",
-        "title": "How Pollution is Changing Cinema in India",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 920505,
+        "fields": {
+            "adult": false,
+            "genre_ids": [],
+            "original_language": "en",
+            "original_title": "How Pollution is Changing Cinema in India",
+            "overview": "",
+            "popularity": 0.6,
+            "poster_path": null,
+            "release_date": "2021-01-01",
+            "title": "How Pollution is Changing Cinema in India",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": "/yrNX2G6eeWDgLNzQJsD8FhwKpYn.jpg",
-        "genre_ids": [
-            99
-        ],
-        "id": 484210,
-        "original_language": "fr",
-        "original_title": "Internet : la pollution cachée",
-        "overview": "",
-        "popularity": 0.6,
-        "poster_path": "/vYhCSMpgjQAJ7kxVbjbciKPis9r.jpg",
-        "release_date": "2013-01-01",
-        "title": "Internet : la pollution cachée",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 484210,
+        "fields": {
+            "adult": false,
+            "genre_ids": [
+                99
+            ],
+            "original_language": "fr",
+            "original_title": "Internet : la pollution cachée",
+            "overview": "",
+            "popularity": 0.6,
+            "poster_path": "/vYhCSMpgjQAJ7kxVbjbciKPis9r.jpg",
+            "release_date": "2013-01-01",
+            "title": "Internet : la pollution cachée",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [
-            99
-        ],
-        "id": 710253,
-        "original_language": "en",
-        "original_title": "Sources of Air Pollution",
-        "overview": "A color film showing the principal sources of air pollution in the United States and discussing the consequences.",
-        "popularity": 0.6,
-        "poster_path": null,
-        "release_date": "1962-01-01",
-        "title": "Sources of Air Pollution",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 710253,
+        "fields": {
+            "adult": false,
+            "genre_ids": [
+                99
+            ],
+            "original_language": "en",
+            "original_title": "Sources of Air Pollution",
+            "overview": "A color film showing the principal sources of air pollution in the United States and discussing the consequences.",
+            "popularity": 0.6,
+            "poster_path": null,
+            "release_date": "1962-01-01",
+            "title": "Sources of Air Pollution",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [
-            99
-        ],
-        "id": 980449,
-        "original_language": "en",
-        "original_title": "Death by Pollution",
-        "overview": "Ella Adoo-Kissi-Debrah was a nine-year-old girl who lived in south-east London and died in 2013. The cause of death was listed as air pollution, now her mother is fighting to make clean air a human right.",
-        "popularity": 0.6,
-        "poster_path": null,
-        "release_date": "2021-05-02",
-        "title": "Death by Pollution",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 980449,
+        "fields": {
+            "adult": false,
+            "genre_ids": [
+                99
+            ],
+            "original_language": "en",
+            "original_title": "Death by Pollution",
+            "overview": "Ella Adoo-Kissi-Debrah was a nine-year-old girl who lived in south-east London and died in 2013. The cause of death was listed as air pollution, now her mother is fighting to make clean air a human right.",
+            "popularity": 0.6,
+            "poster_path": null,
+            "release_date": "2021-05-02",
+            "title": "Death by Pollution",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [],
-        "id": 1045853,
-        "original_language": "en",
-        "original_title": "The Newtons' Workshop: The DNA Decoder & The Pollution Solution",
-        "overview": "A fun-filled collection of Biblically based, family oriented, live-action videos that help build strong values and a meaningful faith in your child. Structured around answering the questions children have about the world they live in, these videos are sure to entertain as well as educate. Ages: 7-12.  The DNA Decoders - Genetics, #7\r As Trisha finds out she needs eyeglasses, Grandpa Newton shares about genetics, heredity and DNA. When she questions him about how these scientific truths play out in real life, he sets about proving that some things are just better left in God's hands.  The Pollution Solution - Ecology, #8\r A hefty water bill and a summer-long drought begin a quest for change. A family landfill contest and a ride in Grandpa Newton's \"Spaceship\" provide the catalyst for Tim and Trisha to begin to see how important it is to take care of the planet God has given us.",
-        "popularity": 0.6,
-        "poster_path": "/yBE4wRprCw4UZXMp3rZo1DBLHXt.jpg",
-        "release_date": "",
-        "title": "The Newtons' Workshop: The DNA Decoder & The Pollution Solution",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 1045853,
+        "fields": {
+            "adult": false,
+            "genre_ids": [],
+            "original_language": "en",
+            "original_title": "The Newtons' Workshop: The DNA Decoder & The Pollution Solution",
+            "overview": "A fun-filled collection of Biblically based, family oriented, live-action videos that help build strong values and a meaningful faith in your child. Structured around answering the questions children have about the world they live in, these videos are sure to entertain as well as educate. Ages: 7-12.  The DNA Decoders - Genetics, #7\r As Trisha finds out she needs eyeglasses, Grandpa Newton shares about genetics, heredity and DNA. When she questions him about how these scientific truths play out in real life, he sets about proving that some things are just better left in God's hands.  The Pollution Solution - Ecology, #8\r A hefty water bill and a summer-long drought begin a quest for change. A family landfill contest and a ride in Grandpa Newton's \"Spaceship\" provide the catalyst for Tim and Trisha to begin to see how important it is to take care of the planet God has given us.",
+            "popularity": 0.6,
+            "poster_path": "/yBE4wRprCw4UZXMp3rZo1DBLHXt.jpg",
+            "release_date": "",
+            "title": "The Newtons' Workshop: The DNA Decoder & The Pollution Solution",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [
-            99
-        ],
-        "id": 1049821,
-        "original_language": "en",
-        "original_title": "Oil and Gas Pollution in Vaca Muerta",
-        "overview": "Vaca Muerta, Argentina, is one of the world's largest shale oil and gas deposits, that deposit is also home to the indigenous Mapuche people. In 2013, a new deal saw U.S. energy giant Chevron (energy) enter Vaca Muerta, opening the region for the first time to the international oil and gas industry. In collaboration with The Guardian, FA investigated a local Mapuche community's claim that the oil and gas industry has damaged their ancestral land, eroded their traditional ways of life and irreversibly damaged the environment.",
-        "popularity": 0.6,
-        "poster_path": null,
-        "release_date": "2019-10-14",
-        "title": "Oil and Gas Pollution in Vaca Muerta",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 1049821,
+        "fields": {
+            "adult": false,
+            "genre_ids": [
+                99
+            ],
+            "original_language": "en",
+            "original_title": "Oil and Gas Pollution in Vaca Muerta",
+            "overview": "Vaca Muerta, Argentina, is one of the world's largest shale oil and gas deposits, that deposit is also home to the indigenous Mapuche people. In 2013, a new deal saw U.S. energy giant Chevron (energy) enter Vaca Muerta, opening the region for the first time to the international oil and gas industry. In collaboration with The Guardian, FA investigated a local Mapuche community's claim that the oil and gas industry has damaged their ancestral land, eroded their traditional ways of life and irreversibly damaged the environment.",
+            "popularity": 0.6,
+            "poster_path": null,
+            "release_date": "2019-10-14",
+            "title": "Oil and Gas Pollution in Vaca Muerta",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [
-            99
-        ],
-        "id": 1096248,
-        "original_language": "it",
-        "original_title": "Pollution: Living with the Enemy",
-        "overview": "Islands, cities, beaches, the world is invaded by pollution in various forms and dangers. From plastic to smog, from microparticles to toxic fumes, we live surrounded by an enemy, which we helped to win.",
-        "popularity": 0.6,
-        "poster_path": "/9uqN1sgb6M3KXrouczLYup6MY0D.jpg",
-        "release_date": "2020-01-01",
-        "title": "Pollution: Living with the Enemy",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 1096248,
+        "fields": {
+            "adult": false,
+            "genre_ids": [
+                99
+            ],
+            "original_language": "it",
+            "original_title": "Pollution: Living with the Enemy",
+            "overview": "Islands, cities, beaches, the world is invaded by pollution in various forms and dangers. From plastic to smog, from microparticles to toxic fumes, we live surrounded by an enemy, which we helped to win.",
+            "popularity": 0.6,
+            "poster_path": "/9uqN1sgb6M3KXrouczLYup6MY0D.jpg",
+            "release_date": "2020-01-01",
+            "title": "Pollution: Living with the Enemy",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [],
-        "id": 1091961,
-        "original_language": "en",
-        "original_title": "Profit, Pollution and Deception - BP and the Oil Spill",
-        "overview": "The Deepwater Horizon was known as one of the safest drilling rigs but events involving an exploration well 5,600 metres underwater led to an explosion.",
-        "popularity": 0.6,
-        "poster_path": "/cVCNyAMFIrB7MDzCqt80z2D9KBy.jpg",
-        "release_date": "",
-        "title": "Profit, Pollution and Deception - BP and the Oil Spill",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 1091961,
+        "fields": {
+            "adult": false,
+            "genre_ids": [],
+            "original_language": "en",
+            "original_title": "Profit, Pollution and Deception - BP and the Oil Spill",
+            "overview": "The Deepwater Horizon was known as one of the safest drilling rigs but events involving an exploration well 5,600 metres underwater led to an explosion.",
+            "popularity": 0.6,
+            "poster_path": "/cVCNyAMFIrB7MDzCqt80z2D9KBy.jpg",
+            "release_date": "",
+            "title": "Profit, Pollution and Deception - BP and the Oil Spill",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [],
-        "id": 888951,
-        "original_language": "en",
-        "original_title": "Poluare",
-        "overview": "In the environmental horror film Pollution, a group of observers is haunted and threatened by the scratched-out shapes spewed from the chimney of a local factory. The emphasized horizontal and vertical lines create the impression of a threat approaching from above or behind, but in reality, it emerges directly from the film material. The fire spreading to the edges of the scorched film windows underscores the apocalyptic tones of the final turmoil.",
-        "popularity": 0.6,
-        "poster_path": null,
-        "release_date": "1977-10-14",
-        "title": "Pollution",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 888951,
+        "fields": {
+            "adult": false,
+            "genre_ids": [],
+            "original_language": "en",
+            "original_title": "Poluare",
+            "overview": "In the environmental horror film Pollution, a group of observers is haunted and threatened by the scratched-out shapes spewed from the chimney of a local factory. The emphasized horizontal and vertical lines create the impression of a threat approaching from above or behind, but in reality, it emerges directly from the film material. The fire spreading to the edges of the scorched film windows underscores the apocalyptic tones of the final turmoil.",
+            "popularity": 0.6,
+            "poster_path": null,
+            "release_date": "1977-10-14",
+            "title": "Pollution",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [
-            99
-        ],
-        "id": 974788,
-        "original_language": "ja",
-        "original_title": "水俣レポート１ 実録公調委",
-        "overview": "",
-        "popularity": 0.6,
-        "poster_path": "/nRe0ATZjh0zs6R6i8FaodEjK5ai.jpg",
-        "release_date": "1973-01-01",
-        "title": "Minamata Report 1 - The Central Pollution Board",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 974788,
+        "fields": {
+            "adult": false,
+            "genre_ids": [
+                99
+            ],
+            "original_language": "ja",
+            "original_title": "水俣レポート１ 実録公調委",
+            "overview": "",
+            "popularity": 0.6,
+            "poster_path": "/nRe0ATZjh0zs6R6i8FaodEjK5ai.jpg",
+            "release_date": "1973-01-01",
+            "title": "Minamata Report 1 - The Central Pollution Board",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [
-            16
-        ],
-        "id": 833278,
-        "original_language": "es",
-        "original_title": "Trazo Crítico-Contaminación",
-        "overview": "Nassotis throws a lot of garbage into the sea, but it always comes back, until he is buried in a garbage pile thanks to a fish that intends to teach him a lesson.",
-        "popularity": 0.6,
-        "poster_path": null,
-        "release_date": "",
-        "title": "Critical Line-Pollution",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 833278,
+        "fields": {
+            "adult": false,
+            "genre_ids": [
+                16
+            ],
+            "original_language": "es",
+            "original_title": "Trazo Crítico-Contaminación",
+            "overview": "Nassotis throws a lot of garbage into the sea, but it always comes back, until he is buried in a garbage pile thanks to a fish that intends to teach him a lesson.",
+            "popularity": 0.6,
+            "poster_path": null,
+            "release_date": "",
+            "title": "Critical Line-Pollution",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [
-            99
-        ],
-        "id": 964157,
-        "original_language": "ja",
-        "original_title": "公害はどこへ行った…",
-        "overview": "후지 테레비가 제작한 ‘NONFIX’ 다큐멘터리 시리즈의 한 편. 1989년 10월 첫 방송 이후 현재까지 ‘NONFIX’는 고정된 시선이 아닌 연출자들이 전하고자 하는 테마와 소재에 충실한 작품들을 선보여 왔다. <공해는 어디로 갔는가>는 디즈니랜드의 10배에 달하는 일본 최고 규모의 가와사키 제철소와 대기 오염의 문제를 다루고 있다. 제철소가 들어 선 뒤 주민 대부분이 심한 천식을 앓게 되고 이로 인해 제철소와 주민간의 재판이 17년간 이어지고 있는 상황.  고레에다 감독은 일본의 고도 경제 성장기인 60년대에 공해 행정을 발전시킨 한 공무원의 궤적을 따라가며 대기 오염과 국가 정책의 관계를 긴장감있게 파헤친다.",
-        "popularity": 0.6,
-        "poster_path": "/3NbJIAKpHV8FbIReGsGgU7u4QBG.jpg",
-        "release_date": "1991-12-30",
-        "title": "오염은 어디로 갔는가?",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 964157,
+        "fields": {
+            "adult": false,
+            "genre_ids": [
+                99
+            ],
+            "original_language": "ja",
+            "original_title": "公害はどこへ行った…",
+            "overview": "후지 테레비가 제작한 ‘NONFIX’ 다큐멘터리 시리즈의 한 편. 1989년 10월 첫 방송 이후 현재까지 ‘NONFIX’는 고정된 시선이 아닌 연출자들이 전하고자 하는 테마와 소재에 충실한 작품들을 선보여 왔다. <공해는 어디로 갔는가>는 디즈니랜드의 10배에 달하는 일본 최고 규모의 가와사키 제철소와 대기 오염의 문제를 다루고 있다. 제철소가 들어 선 뒤 주민 대부분이 심한 천식을 앓게 되고 이로 인해 제철소와 주민간의 재판이 17년간 이어지고 있는 상황.  고레에다 감독은 일본의 고도 경제 성장기인 60년대에 공해 행정을 발전시킨 한 공무원의 궤적을 따라가며 대기 오염과 국가 정책의 관계를 긴장감있게 파헤친다.",
+            "popularity": 0.6,
+            "poster_path": "/3NbJIAKpHV8FbIReGsGgU7u4QBG.jpg",
+            "release_date": "1991-12-30",
+            "title": "오염은 어디로 갔는가?",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [
-            99
-        ],
-        "id": 136435,
-        "original_language": "de",
-        "original_title": "Müll im Garten Eden",
-        "overview": "Villagers in Turkey's Black Sea village of Camburnu struggle with the government's decision to turn their community into a garbage dump.",
-        "popularity": 0.6,
-        "poster_path": "/oM3nPlfqB3mSxuKJ1AE2E7HCWxJ.jpg",
-        "release_date": "2012-12-06",
-        "title": "Polluting Paradise",
-        "video": false,
-        "vote_average": 5.4,
-        "vote_count": 7
+        "model": "movies.movie",
+        "pk": 136435,
+        "fields": {
+            "adult": false,
+            "genre_ids": [
+                99
+            ],
+            "original_language": "de",
+            "original_title": "Müll im Garten Eden",
+            "overview": "Villagers in Turkey's Black Sea village of Camburnu struggle with the government's decision to turn their community into a garbage dump.",
+            "popularity": 0.6,
+            "poster_path": "/oM3nPlfqB3mSxuKJ1AE2E7HCWxJ.jpg",
+            "release_date": "2012-12-06",
+            "title": "Polluting Paradise",
+            "vote_average": 5.4,
+            "vote_count": 7,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [],
-        "id": 417219,
-        "original_language": "ko",
-        "original_title": "오염된 자식들",
-        "overview": "제3회 영화평론가상 남우주연상(안성기), 음악상(김영동), 제21회 대종상 특별상(각색부문: 나한봉) 수상.  고학으로 대학을 나온 병구는 대기업의 말단사원으로 입사를 한다. 병구에게 호감을 가진 사장은 소아마비로 불구가 된 자신의 무남독녀 명희와 결혼해 줄 것을 요구한다. 출세와 막대한 유산에 눈이 어두워진 병구는 애인 형자를 저버리고 명희와 결혼을 하게 된다. 신혼의 단꿈도 잠시 허약한 체질로 임신을 하게 된 명희는 중절수술을 하게 된다. 이 기회로 수술 전 종합진단을 받은 결과 명희 불구는 수술만 잘하면 정상인의 기능을 되찾을 수 있는 고관 절 탈구증이란 반가운 소식을 듣게 된다. 하루 아침에 정상인이 된 명희는 사장내외와 함께 병구가 드디어 못마땅한 존재로 보이기 시작한다. 끝내 부모와 결탁한 명희는 병구를 배신한다. 비를 타고 오르다 갯벌에 떨어진 망둥이 꼴이 된 자신을 의식하며 허탈과 배신의 쓰라림에 대저택의 대문을 나선다.",
-        "popularity": 0.6,
-        "poster_path": "/dZCHL7NPF6KkZSDqOHNPFeIsbnN.jpg",
-        "release_date": "1982-09-25",
-        "title": "오염된 자식들",
-        "video": false,
-        "vote_average": 5.5,
-        "vote_count": 1
+        "model": "movies.movie",
+        "pk": 417219,
+        "fields": {
+            "adult": false,
+            "genre_ids": [],
+            "original_language": "ko",
+            "original_title": "오염된 자식들",
+            "overview": "제3회 영화평론가상 남우주연상(안성기), 음악상(김영동), 제21회 대종상 특별상(각색부문: 나한봉) 수상.  고학으로 대학을 나온 병구는 대기업의 말단사원으로 입사를 한다. 병구에게 호감을 가진 사장은 소아마비로 불구가 된 자신의 무남독녀 명희와 결혼해 줄 것을 요구한다. 출세와 막대한 유산에 눈이 어두워진 병구는 애인 형자를 저버리고 명희와 결혼을 하게 된다. 신혼의 단꿈도 잠시 허약한 체질로 임신을 하게 된 명희는 중절수술을 하게 된다. 이 기회로 수술 전 종합진단을 받은 결과 명희 불구는 수술만 잘하면 정상인의 기능을 되찾을 수 있는 고관 절 탈구증이란 반가운 소식을 듣게 된다. 하루 아침에 정상인이 된 명희는 사장내외와 함께 병구가 드디어 못마땅한 존재로 보이기 시작한다. 끝내 부모와 결탁한 명희는 병구를 배신한다. 비를 타고 오르다 갯벌에 떨어진 망둥이 꼴이 된 자신을 의식하며 허탈과 배신의 쓰라림에 대저택의 대문을 나선다.",
+            "popularity": 0.6,
+            "poster_path": "/dZCHL7NPF6KkZSDqOHNPFeIsbnN.jpg",
+            "release_date": "1982-09-25",
+            "title": "오염된 자식들",
+            "vote_average": 5.5,
+            "vote_count": 1,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": "/x2LKS19UGwjWeI8fO6WrDMgTfmQ.jpg",
-        "genre_ids": [
-            99
-        ],
-        "id": 774724,
-        "original_language": "en",
-        "original_title": "e-Life",
-        "overview": "Computers, smart phones, and tablets are now a part of our daily lives. They have revolutionised the way we work, the way we communicate and the way we view the world. But what happens to our old phone when we upgrade? Where does our broken computer go after we throw it out? 'e-Life' explores what happens to our electrical goods when we throw them away and exposes some unpleasant (and perhaps unknown) truths about the detrimental affects e-waste has on people's health, the environment and the economy. From consumers in the UK to the recyclers in the dumps of Ghana, the documentary will follow the journey of our e-waste. We will examine current manufacturing and disposal processes and also assess the burden the boom in electronic goods is placing on global resources. 'e-Life' will be an objective portrayal of the problem of e-waste that documents the issue through carefully crafted cinematography.",
-        "popularity": 0.968,
-        "poster_path": "/wUtkEHwdXuwOC0jwWOObFh9sIFN.jpg",
-        "release_date": "2017-08-04",
-        "title": "e-Life",
-        "video": false,
-        "vote_average": 8.5,
-        "vote_count": 4
+        "model": "movies.movie",
+        "pk": 774724,
+        "fields": {
+            "adult": false,
+            "genre_ids": [
+                99
+            ],
+            "original_language": "en",
+            "original_title": "e-Life",
+            "overview": "Computers, smart phones, and tablets are now a part of our daily lives. They have revolutionised the way we work, the way we communicate and the way we view the world. But what happens to our old phone when we upgrade? Where does our broken computer go after we throw it out? 'e-Life' explores what happens to our electrical goods when we throw them away and exposes some unpleasant (and perhaps unknown) truths about the detrimental affects e-waste has on people's health, the environment and the economy. From consumers in the UK to the recyclers in the dumps of Ghana, the documentary will follow the journey of our e-waste. We will examine current manufacturing and disposal processes and also assess the burden the boom in electronic goods is placing on global resources. 'e-Life' will be an objective portrayal of the problem of e-waste that documents the issue through carefully crafted cinematography.",
+            "popularity": 0.968,
+            "poster_path": "/wUtkEHwdXuwOC0jwWOObFh9sIFN.jpg",
+            "release_date": "2017-08-04",
+            "title": "e-Life",
+            "vote_average": 8.5,
+            "vote_count": 4,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": "/qecNYk6SEPT8ZDTFzLJ8bV12wBA.jpg",
-        "genre_ids": [
-            99
-        ],
-        "id": 586136,
-        "original_language": "de",
-        "original_title": "Vergessene Wracks",
-        "overview": "",
-        "popularity": 0.6,
-        "poster_path": "/kUtezTb4MjVDgWn3Ako01LxntFM.jpg",
-        "release_date": "2017-05-26",
-        "title": "Vergessene Wracks",
-        "video": false,
-        "vote_average": 7.6,
-        "vote_count": 5
+        "model": "movies.movie",
+        "pk": 586136,
+        "fields": {
+            "adult": false,
+            "genre_ids": [
+                99
+            ],
+            "original_language": "de",
+            "original_title": "Vergessene Wracks",
+            "overview": "",
+            "popularity": 0.6,
+            "poster_path": "/kUtezTb4MjVDgWn3Ako01LxntFM.jpg",
+            "release_date": "2017-05-26",
+            "title": "Vergessene Wracks",
+            "vote_average": 7.6,
+            "vote_count": 5,
+            "like_users": []
+        }
     }
 ]

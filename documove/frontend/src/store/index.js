@@ -30,8 +30,12 @@ export default new Vuex.Store({
     bestGenre: null,
     // youtube
     youtubeVideos: [],
+    userPoints: 0,
   },
   getters: {
+    getUserPoints(state) {
+      return state.userPoints
+    },
     movies(state) {
       return state.movies
     },
@@ -58,9 +62,15 @@ export default new Vuex.Store({
     },
     bestGenre(state) {
       return state.bestGenre
+    },
+    topDonator(state) {
+      return state.topDonator
     }
   },
   mutations: {
+    updataUserPoints(state, points) {
+      state.userPoints = points
+    },
     // ACCOUNTS MUTATIONS
     LOGIN(state) {
       state.isLogin = true
@@ -155,8 +165,19 @@ export default new Vuex.Store({
     SEARCH_YOUTUBE: function (state, res) {
       state.youtubeVideos = res.data.items
     },
+    SET_TOP_DONATOR(state, topDonator) {
+      state.topDonator = topDonator
+    },
   },
   actions: {
+    fetchUserPoints({commit}) {
+      axios
+        .get('/api/user/points')
+        .then(response => {
+          const points = response.data.points
+          commit('updateUserPoints', points)
+        })
+    },
     // ACCOUNTS ACTIONS
     login({commit}, credentials) {
       axios({
@@ -373,6 +394,15 @@ export default new Vuex.Store({
         commit('SEARCH_YOUTUBE', res)
       })
       .catch(err => console.log(err))
+    },
+    async fetchTopDonator({ commit }) {
+      try {
+        const response = await axios.get('/api/top-donator')
+        const topDonator = response.data
+        commit('SET_TOP_DONATOR', topDonator)
+      } catch (error) {
+        console.error(error)
+      }
     },
   },
   modules: {

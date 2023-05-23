@@ -1,606 +1,676 @@
 [
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [
-            99
-        ],
-        "id": 296246,
-        "original_language": "en",
-        "original_title": "Disruption: Climate. Change.",
-        "overview": "‘When it comes to climate change, why do we do so little when we know so much?’  Through a relentless investigation to find the answer, Disruption takes an unflinching look at the devastating consequences of our inaction.  The exploration lays bare the terrifying science, the shattered political process, the unrelenting industry special interests and the civic stasis that have brought us to this social, moral and ecological crossroads.The film also takes us behind-the-scenes of the efforts to organize the largest climate rally in the history of the planet during the UN world climate summit.",
-        "popularity": 0.657,
-        "poster_path": null,
-        "release_date": "2014-09-07",
-        "title": "Disruption: Climate. Change.",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 296246,
+        "fields": {
+            "adult": false,
+            "genre_ids": [
+                99
+            ],
+            "original_language": "en",
+            "original_title": "Disruption: Climate. Change.",
+            "overview": "‘When it comes to climate change, why do we do so little when we know so much?’  Through a relentless investigation to find the answer, Disruption takes an unflinching look at the devastating consequences of our inaction.  The exploration lays bare the terrifying science, the shattered political process, the unrelenting industry special interests and the civic stasis that have brought us to this social, moral and ecological crossroads.The film also takes us behind-the-scenes of the efforts to organize the largest climate rally in the history of the planet during the UN world climate summit.",
+            "popularity": 0.657,
+            "poster_path": null,
+            "release_date": "2014-09-07",
+            "title": "Disruption: Climate. Change.",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": "/kQGLA0M2nu95QlEdZwNrFTAOnUM.jpg",
-        "genre_ids": [
-            99
-        ],
-        "id": 596179,
-        "original_language": "en",
-        "original_title": "Climate Change: The Facts",
-        "overview": "After one of the hottest years on record, Sir David Attenborough looks at the science of climate change and potential solutions to this global threat. Interviews with some of the world’s leading climate scientists explore recent extreme weather conditions such as unprecedented storms and catastrophic wildfires. They also reveal what dangerous levels of climate change could mean for both human populations and the natural world in the future.",
-        "popularity": 1.552,
-        "poster_path": "/dLsPnpMoj6CtBw8OHIrCm3QSGsL.jpg",
-        "release_date": "2019-04-18",
-        "title": "Climate Change: The Facts",
-        "video": false,
-        "vote_average": 7.143,
-        "vote_count": 14
+        "model": "movies.movie",
+        "pk": 596179,
+        "fields": {
+            "adult": false,
+            "genre_ids": [
+                99
+            ],
+            "original_language": "en",
+            "original_title": "Climate Change: The Facts",
+            "overview": "After one of the hottest years on record, Sir David Attenborough looks at the science of climate change and potential solutions to this global threat. Interviews with some of the world’s leading climate scientists explore recent extreme weather conditions such as unprecedented storms and catastrophic wildfires. They also reveal what dangerous levels of climate change could mean for both human populations and the natural world in the future.",
+            "popularity": 1.552,
+            "poster_path": "/dLsPnpMoj6CtBw8OHIrCm3QSGsL.jpg",
+            "release_date": "2019-04-18",
+            "title": "Climate Change: The Facts",
+            "vote_average": 7.143,
+            "vote_count": 14,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [
-            99
-        ],
-        "id": 83401,
-        "original_language": "en",
-        "original_title": "Climate of Change",
-        "overview": "\"We are the renters of this world, not its masters,\" reminds Pooshkar, a precocious 13-year-old member of a youth environmental defense group in India. He and his fellow voraciously energetic students actively rally against the use of plastics. In Africa, a renaissance man teaches citizens to harness solar power to cook food. In Papua New Guinea, villagers practice sustainable logging to save their rainforests. A woman in London uses her PR savvy to start a successful environmental communications firm. Self-described \"hillbillies\" in Appalachia battle the big business behind strip mining. In this rich and inspiring documentary, director Brian Hill takes us around the world to find the ordinary people taking action in the fight to save our environment.",
-        "popularity": 0.6,
-        "poster_path": "/5GWq5BwozSD8Y4zG5czifKCIZLH.jpg",
-        "release_date": "2010-05-12",
-        "title": "Climate of Change",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 83401,
+        "fields": {
+            "adult": false,
+            "genre_ids": [
+                99
+            ],
+            "original_language": "en",
+            "original_title": "Climate of Change",
+            "overview": "\"We are the renters of this world, not its masters,\" reminds Pooshkar, a precocious 13-year-old member of a youth environmental defense group in India. He and his fellow voraciously energetic students actively rally against the use of plastics. In Africa, a renaissance man teaches citizens to harness solar power to cook food. In Papua New Guinea, villagers practice sustainable logging to save their rainforests. A woman in London uses her PR savvy to start a successful environmental communications firm. Self-described \"hillbillies\" in Appalachia battle the big business behind strip mining. In this rich and inspiring documentary, director Brian Hill takes us around the world to find the ordinary people taking action in the fight to save our environment.",
+            "popularity": 0.6,
+            "poster_path": "/5GWq5BwozSD8Y4zG5czifKCIZLH.jpg",
+            "release_date": "2010-05-12",
+            "title": "Climate of Change",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [
-            99
-        ],
-        "id": 896979,
-        "original_language": "en",
-        "original_title": "Finite: The Climate of Change",
-        "overview": "Inside the core of the climate movement, concerned citizens in Germany put their bodies on the line to save an ancient forest from Europe’s largest coal mine. They form an unlikely alliance with a frustrated community in rural England who are forced into action to protect their homes from a new opencast coal mine.",
-        "popularity": 0.6,
-        "poster_path": "/8qRI26Xmu6kx2BhJphyjWRHhyeU.jpg",
-        "release_date": "2023-02-15",
-        "title": "Finite: The Climate of Change",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 896979,
+        "fields": {
+            "adult": false,
+            "genre_ids": [
+                99
+            ],
+            "original_language": "en",
+            "original_title": "Finite: The Climate of Change",
+            "overview": "Inside the core of the climate movement, concerned citizens in Germany put their bodies on the line to save an ancient forest from Europe’s largest coal mine. They form an unlikely alliance with a frustrated community in rural England who are forced into action to protect their homes from a new opencast coal mine.",
+            "popularity": 0.6,
+            "poster_path": "/8qRI26Xmu6kx2BhJphyjWRHhyeU.jpg",
+            "release_date": "2023-02-15",
+            "title": "Finite: The Climate of Change",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [],
-        "id": 778349,
-        "original_language": "en",
-        "original_title": "Climate Changers",
-        "overview": "Four Australians reveal the climate action work they're leading in their community - from an Indigenous farmer on Worimi Country to a Western Sydney doctor.",
-        "popularity": 0.6,
-        "poster_path": null,
-        "release_date": "",
-        "title": "Climate Changers",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 778349,
+        "fields": {
+            "adult": false,
+            "genre_ids": [],
+            "original_language": "en",
+            "original_title": "Climate Changers",
+            "overview": "Four Australians reveal the climate action work they're leading in their community - from an Indigenous farmer on Worimi Country to a Western Sydney doctor.",
+            "popularity": 0.6,
+            "poster_path": null,
+            "release_date": null,
+            "title": "Climate Changers",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [],
-        "id": 1079141,
-        "original_language": "en",
-        "original_title": "3C's: Communicating Climate Change",
-        "overview": "The film directly communicates climate change's impact in this changing and progressing world, its causes and repercussions on Earth, and actions that must be taken to address these concerns. The surface knowledge of random teenage students was expressed and used in disseminating information about the current issues inclined to the climate crisis. The misconception that the youth are insensible about the alarming change in climate was also debunked. The film explains the significance of the environment in our lives. It principally aims to inform, educate, and raise consciousness about the necessity of communicating climate change. It tells us the narratives of the mechanisms of how climate change progressed throughout history and how it drastically changed the earth’s landscape.",
-        "popularity": 0.6,
-        "poster_path": "/8YtcsaH9ZlzIzm0K2Bo0DXB1duv.jpg",
-        "release_date": "2023-01-28",
-        "title": "3C's: Communicating Climate Change",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 1079141,
+        "fields": {
+            "adult": false,
+            "genre_ids": [],
+            "original_language": "en",
+            "original_title": "3C's: Communicating Climate Change",
+            "overview": "The film directly communicates climate change's impact in this changing and progressing world, its causes and repercussions on Earth, and actions that must be taken to address these concerns. The surface knowledge of random teenage students was expressed and used in disseminating information about the current issues inclined to the climate crisis. The misconception that the youth are insensible about the alarming change in climate was also debunked. The film explains the significance of the environment in our lives. It principally aims to inform, educate, and raise consciousness about the necessity of communicating climate change. It tells us the narratives of the mechanisms of how climate change progressed throughout history and how it drastically changed the earth’s landscape.",
+            "popularity": 0.6,
+            "poster_path": "/8YtcsaH9ZlzIzm0K2Bo0DXB1duv.jpg",
+            "release_date": "2023-01-28",
+            "title": "3C's: Communicating Climate Change",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [
-            99
-        ],
-        "id": 1097834,
-        "original_language": "en",
-        "original_title": "Climate Change Babies",
-        "overview": "\"This is an inspiring film for trailblazing mothers and parents around the world.  Climate Change Babies, which takes a hopeful approach to the climate crisis, is focusing on people taking action to secure a better future for their young children.\"",
-        "popularity": 1.113,
-        "poster_path": "/mYl5Ba3u3vzVIBJEi7D3r5RKpzW.jpg",
-        "release_date": "2021-01-01",
-        "title": "Climate Change Babies",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 1097834,
+        "fields": {
+            "adult": false,
+            "genre_ids": [
+                99
+            ],
+            "original_language": "en",
+            "original_title": "Climate Change Babies",
+            "overview": "\"This is an inspiring film for trailblazing mothers and parents around the world.  Climate Change Babies, which takes a hopeful approach to the climate crisis, is focusing on people taking action to secure a better future for their young children.\"",
+            "popularity": 1.113,
+            "poster_path": "/mYl5Ba3u3vzVIBJEi7D3r5RKpzW.jpg",
+            "release_date": "2021-01-01",
+            "title": "Climate Change Babies",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [],
-        "id": 1079135,
-        "original_language": "en",
-        "original_title": "Earth's Trial: Debunking Climate Change Myths",
-        "overview": "In this courtroom drama, Mother Earth is sent to trial for the destruction she has brought upon humanity. The audience is faced with a moral dilemma of whether Earth should be held responsible for the loss of lives and habitat from extreme typhoons. Witnesses and experts are brought to the stand to disprove misconceptions about climate change.",
-        "popularity": 0.6,
-        "poster_path": "/7IvF5JCQ5PgD3VdjdXBn1zZBBEz.jpg",
-        "release_date": "2023-01-28",
-        "title": "Earth's Trial: Debunking Climate Change Myths",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 1079135,
+        "fields": {
+            "adult": false,
+            "genre_ids": [],
+            "original_language": "en",
+            "original_title": "Earth's Trial: Debunking Climate Change Myths",
+            "overview": "In this courtroom drama, Mother Earth is sent to trial for the destruction she has brought upon humanity. The audience is faced with a moral dilemma of whether Earth should be held responsible for the loss of lives and habitat from extreme typhoons. Witnesses and experts are brought to the stand to disprove misconceptions about climate change.",
+            "popularity": 0.6,
+            "poster_path": "/7IvF5JCQ5PgD3VdjdXBn1zZBBEz.jpg",
+            "release_date": "2023-01-28",
+            "title": "Earth's Trial: Debunking Climate Change Myths",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [],
-        "id": 1079150,
-        "original_language": "en",
-        "original_title": "Marvels of Science: Climate Change",
-        "overview": "Do you think that the COVID-19 pandemic and nuclear war are the only threat to humanity? An engaging film entitled “Marvels of Science: Climate Change” welcomes you again to the world of Science. This explanatory video pursues to educate and entertain its viewers at the same time. Hoping that all ages can understand today's biggest problem and how we can all be a hero to our world, this aims to promote awareness and responsibility to take action. The film encourages people that we don’t have to do something big; simple changes and actions have a significant impact. With Science, imagination, and collaborative effort, positive change is possible!",
-        "popularity": 0.6,
-        "poster_path": "/wvZ6AQ6GvUiSNXHJB06EqtGwEyT.jpg",
-        "release_date": "2023-01-21",
-        "title": "Marvels of Science: Climate Change",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 1079150,
+        "fields": {
+            "adult": false,
+            "genre_ids": [],
+            "original_language": "en",
+            "original_title": "Marvels of Science: Climate Change",
+            "overview": "Do you think that the COVID-19 pandemic and nuclear war are the only threat to humanity? An engaging film entitled “Marvels of Science: Climate Change” welcomes you again to the world of Science. This explanatory video pursues to educate and entertain its viewers at the same time. Hoping that all ages can understand today's biggest problem and how we can all be a hero to our world, this aims to promote awareness and responsibility to take action. The film encourages people that we don’t have to do something big; simple changes and actions have a significant impact. With Science, imagination, and collaborative effort, positive change is possible!",
+            "popularity": 0.6,
+            "poster_path": "/wvZ6AQ6GvUiSNXHJB06EqtGwEyT.jpg",
+            "release_date": "2023-01-21",
+            "title": "Marvels of Science: Climate Change",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [],
-        "id": 651644,
-        "original_language": "en",
-        "original_title": "Hands on: women, climate, change",
-        "overview": "HANDS-ON profiles five women from four continents tackling climate change through policy, protest, education and innovation. The film powerfully demonstrates how women are transferring knowledge and local networks into hands-on strategies.",
-        "popularity": 0.6,
-        "poster_path": null,
-        "release_date": "",
-        "title": "Hands on: women, climate, change",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 651644,
+        "fields": {
+            "adult": false,
+            "genre_ids": [],
+            "original_language": "en",
+            "original_title": "Hands on: women, climate, change",
+            "overview": "HANDS-ON profiles five women from four continents tackling climate change through policy, protest, education and innovation. The film powerfully demonstrates how women are transferring knowledge and local networks into hands-on strategies.",
+            "popularity": 0.6,
+            "poster_path": null,
+            "release_date": null,
+            "title": "Hands on: women, climate, change",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": "/uweoyX4ZN4uxpu1XKSEvSTlyG1l.jpg",
-        "genre_ids": [
-            99
-        ],
-        "id": 581416,
-        "original_language": "en",
-        "original_title": "Climate Change: A Horizon Guide",
-        "overview": "Dr Helen Czerski delves into the Horizon archive to chart the transformation of a little-known theory into one of the greatest scientific undertakings in history.",
-        "popularity": 0.6,
-        "poster_path": "/f0OqQsgCRk4gF0YDBgmBZboYPlQ.jpg",
-        "release_date": "2015-03-04",
-        "title": "Climate Change: A Horizon Guide",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 581416,
+        "fields": {
+            "adult": false,
+            "genre_ids": [
+                99
+            ],
+            "original_language": "en",
+            "original_title": "Climate Change: A Horizon Guide",
+            "overview": "Dr Helen Czerski delves into the Horizon archive to chart the transformation of a little-known theory into one of the greatest scientific undertakings in history.",
+            "popularity": 0.6,
+            "poster_path": "/f0OqQsgCRk4gF0YDBgmBZboYPlQ.jpg",
+            "release_date": "2015-03-04",
+            "title": "Climate Change: A Horizon Guide",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [
-            99
-        ],
-        "id": 388691,
-        "original_language": "en",
-        "original_title": "Faces of Climate Change",
-        "overview": "Documentary about how young people in Greenland deal with climate change, shot around Uummannaq.",
-        "popularity": 0.6,
-        "poster_path": null,
-        "release_date": "2015-01-01",
-        "title": "Faces of Climate Change",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 388691,
+        "fields": {
+            "adult": false,
+            "genre_ids": [
+                99
+            ],
+            "original_language": "en",
+            "original_title": "Faces of Climate Change",
+            "overview": "Documentary about how young people in Greenland deal with climate change, shot around Uummannaq.",
+            "popularity": 0.6,
+            "poster_path": null,
+            "release_date": "2015-01-01",
+            "title": "Faces of Climate Change",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": "/yXT9JCMn57XhYfNCjDnfRLQDM8k.jpg",
-        "genre_ids": [
-            99
-        ],
-        "id": 947935,
-        "original_language": "en",
-        "original_title": "Climate Change on Trial",
-        "overview": "Nick Beake travels to Norway to meet the young people taking on their government in an attempt to prevent further drilling for oil and gas. They believe their country's export of fossil fuels is putting the planet in peril, and it's one of many similar fights emerging across Europe.",
-        "popularity": 0.6,
-        "poster_path": "/8FjyUCTauAbgNFpbBwHcOl0iLQp.jpg",
-        "release_date": "2021-10-18",
-        "title": "Climate Change on Trial",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 947935,
+        "fields": {
+            "adult": false,
+            "genre_ids": [
+                99
+            ],
+            "original_language": "en",
+            "original_title": "Climate Change on Trial",
+            "overview": "Nick Beake travels to Norway to meet the young people taking on their government in an attempt to prevent further drilling for oil and gas. They believe their country's export of fossil fuels is putting the planet in peril, and it's one of many similar fights emerging across Europe.",
+            "popularity": 0.6,
+            "poster_path": "/8FjyUCTauAbgNFpbBwHcOl0iLQp.jpg",
+            "release_date": "2021-10-18",
+            "title": "Climate Change on Trial",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [
-            99
-        ],
-        "id": 395682,
-        "original_language": "en",
-        "original_title": "Climate Change By Numbers",
-        "overview": "A look at three key numbers that clarify the important questions on climate change, giving a unique perspective on what we know about the past, present and future of our climate.",
-        "popularity": 0.6,
-        "poster_path": "/5DMbE67lZ0faRces5Hrm7s0udl9.jpg",
-        "release_date": "2015-03-02",
-        "title": "Climate Change By Numbers",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 395682,
+        "fields": {
+            "adult": false,
+            "genre_ids": [
+                99
+            ],
+            "original_language": "en",
+            "original_title": "Climate Change By Numbers",
+            "overview": "A look at three key numbers that clarify the important questions on climate change, giving a unique perspective on what we know about the past, present and future of our climate.",
+            "popularity": 0.6,
+            "poster_path": "/5DMbE67lZ0faRces5Hrm7s0udl9.jpg",
+            "release_date": "2015-03-02",
+            "title": "Climate Change By Numbers",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [],
-        "id": 625934,
-        "original_language": "en",
-        "original_title": "Qapirangajuq: Inuit Knowledge and Climate Change",
-        "overview": "Director Zacharias Kunuk (Atanarjuat The Fast Runner) and researcher and filmmaker Dr. Ian Mauro (Seeds of Change) have teamed up with Inuit communities to document their knowledge and experience regarding climate change. This documentary, the world's first Inuktitut language film on the topic, takes the viewer \"on the land\" with elders and hunters to explore the social and ecological impacts of a warming Arctic. This unforgettable film helps us to appreciate Inuit culture and expertise regarding environmental change and indigenous ways of adapting to it.",
-        "popularity": 0.6,
-        "poster_path": "/7Jr19WC0erxoaM3iMVnRIsw2lUd.jpg",
-        "release_date": "2010-01-01",
-        "title": "Qapirangajuq: Inuit Knowledge and Climate Change",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 625934,
+        "fields": {
+            "adult": false,
+            "genre_ids": [],
+            "original_language": "en",
+            "original_title": "Qapirangajuq: Inuit Knowledge and Climate Change",
+            "overview": "Director Zacharias Kunuk (Atanarjuat The Fast Runner) and researcher and filmmaker Dr. Ian Mauro (Seeds of Change) have teamed up with Inuit communities to document their knowledge and experience regarding climate change. This documentary, the world's first Inuktitut language film on the topic, takes the viewer \"on the land\" with elders and hunters to explore the social and ecological impacts of a warming Arctic. This unforgettable film helps us to appreciate Inuit culture and expertise regarding environmental change and indigenous ways of adapting to it.",
+            "popularity": 0.6,
+            "poster_path": "/7Jr19WC0erxoaM3iMVnRIsw2lUd.jpg",
+            "release_date": "2010-01-01",
+            "title": "Qapirangajuq: Inuit Knowledge and Climate Change",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [
-            99
-        ],
-        "id": 752424,
-        "original_language": "en",
-        "original_title": "A Climate For Change: A Second Life",
-        "overview": "Documentary series about how Hawaii is facing the climate change challenge.",
-        "popularity": 0.6,
-        "poster_path": "/30gMHJrAE9a1SKvQMOhgFyx48xx.jpg",
-        "release_date": "2020-08-02",
-        "title": "A Climate For Change: A Second Life",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 752424,
+        "fields": {
+            "adult": false,
+            "genre_ids": [
+                99
+            ],
+            "original_language": "en",
+            "original_title": "A Climate For Change: A Second Life",
+            "overview": "Documentary series about how Hawaii is facing the climate change challenge.",
+            "popularity": 0.6,
+            "poster_path": "/30gMHJrAE9a1SKvQMOhgFyx48xx.jpg",
+            "release_date": "2020-08-02",
+            "title": "A Climate For Change: A Second Life",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": "/4j65VLfuoyCYnOKOhXRLFIuzYVd.jpg",
-        "genre_ids": [
-            99
-        ],
-        "id": 326213,
-        "original_language": "en",
-        "original_title": "Climate Change: Our Planet - The Arctic Story",
-        "overview": "In the far North, in the late fall, at a time of year when it should be covered with ice, the sea remains frozen along the coast of Greenland. Glaciers are melting and shedding chunks of ice that are scattered across the ocean surface. The animals inhabiting the land and water are threatened by warming temperatures and loss of sea ice. Climate change is fundamentally altering the natural environment of Greenland and affecting the lives of its wildlife and indigenous people. Greenlanders, who have survived for generations by hunting, are now losing their prey and their traditional way of life. They are facing the stark reality of a warming climate and are trying to adapt. Until now, the Inuit people who were born in Greenland and know only their traditional life of hunting, have never thought of a different place, a different life, a different future. But now they must face the possibility of losing their ancient traditions and their prey along with the disappearing ice.",
-        "popularity": 0.6,
-        "poster_path": "/p0OXnfhQxrkDCyDQEBQTcMTy6YX.jpg",
-        "release_date": "2011-02-01",
-        "title": "Climate Change: Our Planet - The Arctic Story",
-        "video": true,
-        "vote_average": 8.0,
-        "vote_count": 1
+        "model": "movies.movie",
+        "pk": 326213,
+        "fields": {
+            "adult": false,
+            "genre_ids": [
+                99
+            ],
+            "original_language": "en",
+            "original_title": "Climate Change: Our Planet - The Arctic Story",
+            "overview": "In the far North, in the late fall, at a time of year when it should be covered with ice, the sea remains frozen along the coast of Greenland. Glaciers are melting and shedding chunks of ice that are scattered across the ocean surface. The animals inhabiting the land and water are threatened by warming temperatures and loss of sea ice. Climate change is fundamentally altering the natural environment of Greenland and affecting the lives of its wildlife and indigenous people. Greenlanders, who have survived for generations by hunting, are now losing their prey and their traditional way of life. They are facing the stark reality of a warming climate and are trying to adapt. Until now, the Inuit people who were born in Greenland and know only their traditional life of hunting, have never thought of a different place, a different life, a different future. But now they must face the possibility of losing their ancient traditions and their prey along with the disappearing ice.",
+            "popularity": 0.6,
+            "poster_path": "/p0OXnfhQxrkDCyDQEBQTcMTy6YX.jpg",
+            "release_date": "2011-02-01",
+            "title": "Climate Change: Our Planet - The Arctic Story",
+            "vote_average": 8.0,
+            "vote_count": 1,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [],
-        "id": 300256,
-        "original_language": "en",
-        "original_title": "The Soil Solution To Climate Change",
-        "overview": "What if a solution to climate change was found beneath your feet? The Soil Solution explores the fascinating soil food web and documents the work of those ushering in a new system of land management that works with nature and increases soil carbon. Building healthy soil may provide the best solution that we have to combat the global climate crisis. Every year billions of tons of valuable soil are lost. Our survival depends on conserving, protecting and regenerating this living universe beneath our feet.",
-        "popularity": 0.6,
-        "poster_path": null,
-        "release_date": "2013-01-01",
-        "title": "The Soil Solution To Climate Change",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 300256,
+        "fields": {
+            "adult": false,
+            "genre_ids": [],
+            "original_language": "en",
+            "original_title": "The Soil Solution To Climate Change",
+            "overview": "What if a solution to climate change was found beneath your feet? The Soil Solution explores the fascinating soil food web and documents the work of those ushering in a new system of land management that works with nature and increases soil carbon. Building healthy soil may provide the best solution that we have to combat the global climate crisis. Every year billions of tons of valuable soil are lost. Our survival depends on conserving, protecting and regenerating this living universe beneath our feet.",
+            "popularity": 0.6,
+            "poster_path": null,
+            "release_date": "2013-01-01",
+            "title": "The Soil Solution To Climate Change",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [
-            99
-        ],
-        "id": 1071102,
-        "original_language": "fr",
-        "original_title": "Climat : Mon cerveau fait l'autruche",
-        "overview": "Although a real awareness of the populations is underway - the multiplication of natural disasters and heat records helping - the human activities responsible for global warming remain unchanged, as if the threat was unreal. This collective immobility could have its origin in the brain. A number of cognitive biases impede judgment.",
-        "popularity": 0.6,
-        "poster_path": "/zC3RO2IcXVN7hhbfXilSlLmr7lz.jpg",
-        "release_date": "2022-03-12",
-        "title": "Climate Change: The Brain Paradox",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 1071102,
+        "fields": {
+            "adult": false,
+            "genre_ids": [
+                99
+            ],
+            "original_language": "fr",
+            "original_title": "Climat : Mon cerveau fait l'autruche",
+            "overview": "Although a real awareness of the populations is underway - the multiplication of natural disasters and heat records helping - the human activities responsible for global warming remain unchanged, as if the threat was unreal. This collective immobility could have its origin in the brain. A number of cognitive biases impede judgment.",
+            "popularity": 0.6,
+            "poster_path": "/zC3RO2IcXVN7hhbfXilSlLmr7lz.jpg",
+            "release_date": "2022-03-12",
+            "title": "Climate Change: The Brain Paradox",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [
-            99
-        ],
-        "id": 41325,
-        "original_language": "en",
-        "original_title": "Out of Balance: ExxonMobil's Impact on Climate Change",
-        "overview": "“Out of Balance: ExxonMobil’s Impact on Climate Change” details the science and consequences of global warming. Its focus, however, is on ExxonMobil’s financing of media campaigns and global warming skeptics. To tell the story, he interviewed leading writers and scientists on the topic, from Cameron Wake at the University of New Hampshire’s Climate Change Research Center to Rajendra K. Pachauri, chair of IPCC.”",
-        "popularity": 0.6,
-        "poster_path": null,
-        "release_date": "",
-        "title": "Out of Balance: ExxonMobil's Impact on Climate Change",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 41325,
+        "fields": {
+            "adult": false,
+            "genre_ids": [
+                99
+            ],
+            "original_language": "en",
+            "original_title": "Out of Balance: ExxonMobil's Impact on Climate Change",
+            "overview": "“Out of Balance: ExxonMobil’s Impact on Climate Change” details the science and consequences of global warming. Its focus, however, is on ExxonMobil’s financing of media campaigns and global warming skeptics. To tell the story, he interviewed leading writers and scientists on the topic, from Cameron Wake at the University of New Hampshire’s Climate Change Research Center to Rajendra K. Pachauri, chair of IPCC.”",
+            "popularity": 0.6,
+            "poster_path": null,
+            "release_date": null,
+            "title": "Out of Balance: ExxonMobil's Impact on Climate Change",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [],
-        "id": 893797,
-        "original_language": "es",
-        "original_title": "Tarcila: Indigenous Solutions to Climate Change from Peru",
-        "overview": "Tarcila Rivera Zea, a Quechuan activist, fights for Indigenous rights in Peru. She finds that her lifelong efforts to empower her people are growing increasingly crucial as the weather becomes unreliable and climate change raises the stakes.",
-        "popularity": 0.6,
-        "poster_path": "/AqLdUezIr0NCt5QcrhmTB40yJSb.jpg",
-        "release_date": "2020-01-01",
-        "title": "Tarcila: Indigenous Solutions to Climate Change from Peru",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 893797,
+        "fields": {
+            "adult": false,
+            "genre_ids": [],
+            "original_language": "es",
+            "original_title": "Tarcila: Indigenous Solutions to Climate Change from Peru",
+            "overview": "Tarcila Rivera Zea, a Quechuan activist, fights for Indigenous rights in Peru. She finds that her lifelong efforts to empower her people are growing increasingly crucial as the weather becomes unreliable and climate change raises the stakes.",
+            "popularity": 0.6,
+            "poster_path": "/AqLdUezIr0NCt5QcrhmTB40yJSb.jpg",
+            "release_date": "2020-01-01",
+            "title": "Tarcila: Indigenous Solutions to Climate Change from Peru",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [
-            99
-        ],
-        "id": 1098348,
-        "original_language": "en",
-        "original_title": "Playback Social Entrepreneurs: Climate Change, COVID, and Commerce",
-        "overview": "Take an in-depth look at the current state of economic innovation and social responsibility as business leaders around the world face multiple crises.",
-        "popularity": 0.6,
-        "poster_path": "/yhxOocdMgS9jGJB6JKN4UKoB3wv.jpg",
-        "release_date": "",
-        "title": "Playback Social Entrepreneurs: Climate Change, COVID, and Commerce",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 1098348,
+        "fields": {
+            "adult": false,
+            "genre_ids": [
+                99
+            ],
+            "original_language": "en",
+            "original_title": "Playback Social Entrepreneurs: Climate Change, COVID, and Commerce",
+            "overview": "Take an in-depth look at the current state of economic innovation and social responsibility as business leaders around the world face multiple crises.",
+            "popularity": 0.6,
+            "poster_path": "/yhxOocdMgS9jGJB6JKN4UKoB3wv.jpg",
+            "release_date": null,
+            "title": "Playback Social Entrepreneurs: Climate Change, COVID, and Commerce",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [],
-        "id": 1123229,
-        "original_language": "en",
-        "original_title": "The Wisdom to Survive: Climate Change, Capitalism & Community",
-        "overview": "Climate change is taking place. Will we have the wisdom to survive? The film features thought leaders and activists in the realms of science, economics and spirituality discussing how we can evolve in the face of climate disruption. Interviewees include Bill McKibbin, Joanna Macy, Roger Payne and young pioneers like Herschelle Milford and Quincy Saul.",
-        "popularity": 0.6,
-        "poster_path": "/blUZkok72hnl6js04eHYc4V3G8.jpg",
-        "release_date": "2013-09-12",
-        "title": "The Wisdom to Survive: Climate Change, Capitalism & Community",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 1123229,
+        "fields": {
+            "adult": false,
+            "genre_ids": [],
+            "original_language": "en",
+            "original_title": "The Wisdom to Survive: Climate Change, Capitalism & Community",
+            "overview": "Climate change is taking place. Will we have the wisdom to survive? The film features thought leaders and activists in the realms of science, economics and spirituality discussing how we can evolve in the face of climate disruption. Interviewees include Bill McKibbin, Joanna Macy, Roger Payne and young pioneers like Herschelle Milford and Quincy Saul.",
+            "popularity": 0.6,
+            "poster_path": "/blUZkok72hnl6js04eHYc4V3G8.jpg",
+            "release_date": "2013-09-12",
+            "title": "The Wisdom to Survive: Climate Change, Capitalism & Community",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [
-            99
-        ],
-        "id": 681808,
-        "original_language": "en",
-        "original_title": "Love In The Midst Of Climate Change",
-        "overview": "Love In The Midst Of Climate Change is a documentary that highlights ordinary people doing extraordinary things to survive and lead decent lives in the teeth of adverse circumstances. This short will highlight Khoelife Soap Farm which is located on a smallholding in Gordon’s Bay, a seaside village just outside Cape Town, South Africa. Khoelife oils and soap gifts to the world are cooked on solar power and biogas, rooted in indigenous knowledge, vegan-friendly, not tested on animals and handmade in South Africa. This Is Khoelife mission to saving the ecosystem we all share.",
-        "popularity": 0.6,
-        "poster_path": "/cNVduMu5IRM11hlgEHdEyKdFTmU.jpg",
-        "release_date": "2018-03-01",
-        "title": "Love In The Midst Of Climate Change",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 681808,
+        "fields": {
+            "adult": false,
+            "genre_ids": [
+                99
+            ],
+            "original_language": "en",
+            "original_title": "Love In The Midst Of Climate Change",
+            "overview": "Love In The Midst Of Climate Change is a documentary that highlights ordinary people doing extraordinary things to survive and lead decent lives in the teeth of adverse circumstances. This short will highlight Khoelife Soap Farm which is located on a smallholding in Gordon’s Bay, a seaside village just outside Cape Town, South Africa. Khoelife oils and soap gifts to the world are cooked on solar power and biogas, rooted in indigenous knowledge, vegan-friendly, not tested on animals and handmade in South Africa. This Is Khoelife mission to saving the ecosystem we all share.",
+            "popularity": 0.6,
+            "poster_path": "/cNVduMu5IRM11hlgEHdEyKdFTmU.jpg",
+            "release_date": "2018-03-01",
+            "title": "Love In The Midst Of Climate Change",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [],
-        "id": 884700,
-        "original_language": "tr",
-        "original_title": "İklim Değişimi",
-        "overview": "Iklim moves to London to complete her university education. The cold atmosphere as soon as she lands and the distant people she encounters through her journey makes it hard for her to cope with this new life.",
-        "popularity": 0.6,
-        "poster_path": "/7cmBWzAnJxwEP6O8KDCiMB8lnuT.jpg",
-        "release_date": "2020-09-06",
-        "title": "Climate Change",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 884700,
+        "fields": {
+            "adult": false,
+            "genre_ids": [],
+            "original_language": "tr",
+            "original_title": "İklim Değişimi",
+            "overview": "Iklim moves to London to complete her university education. The cold atmosphere as soon as she lands and the distant people she encounters through her journey makes it hard for her to cope with this new life.",
+            "popularity": 0.6,
+            "poster_path": "/7cmBWzAnJxwEP6O8KDCiMB8lnuT.jpg",
+            "release_date": "2020-09-06",
+            "title": "Climate Change",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [],
-        "id": 677543,
-        "original_language": "fr",
-        "original_title": "Climate Change: what do you want me to say?",
-        "overview": "",
-        "popularity": 0.6,
-        "poster_path": null,
-        "release_date": "",
-        "title": "Climate Change: what do you want me to say?",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 677543,
+        "fields": {
+            "adult": false,
+            "genre_ids": [],
+            "original_language": "fr",
+            "original_title": "Climate Change: what do you want me to say?",
+            "overview": "",
+            "popularity": 0.6,
+            "poster_path": null,
+            "release_date": null,
+            "title": "Climate Change: what do you want me to say?",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [],
-        "id": 1041272,
-        "original_language": "en",
-        "original_title": "Is Climate Change Making Mosquitos Worse in my Backyard?",
-        "overview": "A 3rd grade girl frustrated by getting bitten by mosquitoes wonders if climate change is making the problem worse and then seeks out ways to address the problem.",
-        "popularity": 0.6,
-        "poster_path": "/doVPMciS5Nb1rZTpXymeq6NdX1b.jpg",
-        "release_date": "",
-        "title": "Is Climate Change Making Mosquitos Worse in my Backyard?",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 1041272,
+        "fields": {
+            "adult": false,
+            "genre_ids": [],
+            "original_language": "en",
+            "original_title": "Is Climate Change Making Mosquitos Worse in my Backyard?",
+            "overview": "A 3rd grade girl frustrated by getting bitten by mosquitoes wonders if climate change is making the problem worse and then seeks out ways to address the problem.",
+            "popularity": 0.6,
+            "poster_path": "/doVPMciS5Nb1rZTpXymeq6NdX1b.jpg",
+            "release_date": null,
+            "title": "Is Climate Change Making Mosquitos Worse in my Backyard?",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [],
-        "id": 634383,
-        "original_language": "en",
-        "original_title": "The crime behind the Amazon climate change crisis",
-        "overview": "The battle against deforestation in President Jair Bolsonaro's Brazil is also a fight against criminal networks and corruption, drawing in politicians, militias and drugs gangs. The FT follows the fight as it cycles from the cities to the rainforest, and meets the indigenous people trying to save their land",
-        "popularity": 0.6,
-        "poster_path": "/jZrERAiyTrDJWy8qRBdoxATDBqt.jpg",
-        "release_date": "2019-09-24",
-        "title": "The crime behind the Amazon climate change crisis",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 634383,
+        "fields": {
+            "adult": false,
+            "genre_ids": [],
+            "original_language": "en",
+            "original_title": "The crime behind the Amazon climate change crisis",
+            "overview": "The battle against deforestation in President Jair Bolsonaro's Brazil is also a fight against criminal networks and corruption, drawing in politicians, militias and drugs gangs. The FT follows the fight as it cycles from the cities to the rainforest, and meets the indigenous people trying to save their land",
+            "popularity": 0.6,
+            "poster_path": "/jZrERAiyTrDJWy8qRBdoxATDBqt.jpg",
+            "release_date": "2019-09-24",
+            "title": "The crime behind the Amazon climate change crisis",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [
-            99
-        ],
-        "id": 461204,
-        "original_language": "en",
-        "original_title": "Between Earth and Sky: Climate Change on the Last Frontier",
-        "overview": "In the vast wilderness of Alaska the earth is changing, threatening the history and culture of native peoples, natural landscapes, and the habitats of wild life. Between Earth and Sky examines how climate change is rapidly affecting Alaska, and will soon affect us all.",
-        "popularity": 0.656,
-        "poster_path": "/4cwcad2iFYx52quPLPE0fsqQX16.jpg",
-        "release_date": "2016-08-31",
-        "title": "Between Earth and Sky: Climate Change on the Last Frontier",
-        "video": false,
-        "vote_average": 8.5,
-        "vote_count": 2
+        "model": "movies.movie",
+        "pk": 461204,
+        "fields": {
+            "adult": false,
+            "genre_ids": [
+                99
+            ],
+            "original_language": "en",
+            "original_title": "Between Earth and Sky: Climate Change on the Last Frontier",
+            "overview": "In the vast wilderness of Alaska the earth is changing, threatening the history and culture of native peoples, natural landscapes, and the habitats of wild life. Between Earth and Sky examines how climate change is rapidly affecting Alaska, and will soon affect us all.",
+            "popularity": 0.656,
+            "poster_path": "/4cwcad2iFYx52quPLPE0fsqQX16.jpg",
+            "release_date": "2016-08-31",
+            "title": "Between Earth and Sky: Climate Change on the Last Frontier",
+            "vote_average": 8.5,
+            "vote_count": 2,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [],
-        "id": 987638,
-        "original_language": "en",
-        "original_title": "A Future Threatened By Climate Change: Voices and Visions of the Youth!",
-        "overview": "A FUTURE THREATENED BY CLIMATE CHANGE: Voices and Visions of the Youth!\r Cultural Center of the Philippines, Tanghalang Aurelio Tolentino\r November 19, 2019",
-        "popularity": 0.6,
-        "poster_path": "/2UbBgPJWWpOCwdS5skxwmp5BIqE.jpg",
-        "release_date": "2019-06-01",
-        "title": "A Future Threatened By Climate Change: Voices and Visions of the Youth!",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 987638,
+        "fields": {
+            "adult": false,
+            "genre_ids": [],
+            "original_language": "en",
+            "original_title": "A Future Threatened By Climate Change: Voices and Visions of the Youth!",
+            "overview": "A FUTURE THREATENED BY CLIMATE CHANGE: Voices and Visions of the Youth!\r Cultural Center of the Philippines, Tanghalang Aurelio Tolentino\r November 19, 2019",
+            "popularity": 0.6,
+            "poster_path": "/2UbBgPJWWpOCwdS5skxwmp5BIqE.jpg",
+            "release_date": "2019-06-01",
+            "title": "A Future Threatened By Climate Change: Voices and Visions of the Youth!",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": "/uLPOOnpjJ5WLtHm2dZggez26IAi.jpg",
-        "genre_ids": [
-            878,
-            35,
-            18
-        ],
-        "id": 862791,
-        "original_language": "ru",
-        "original_title": "Нас всех убьёт глобальное потепление",
-        "overview": "Magical girl Asya used magic to help her friend with her mental health issues but made it worse. Now, bringing her friend back going to be as easy as stopping сlimate сhange.",
-        "popularity": 0.6,
-        "poster_path": "/dmAzQObpbX0iUc16t8vMZbbC0jP.jpg",
-        "release_date": "2021-09-29",
-        "title": "Climate Change Is Going to Kill Us All",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 862791,
+        "fields": {
+            "adult": false,
+            "genre_ids": [
+                878,
+                35,
+                18
+            ],
+            "original_language": "ru",
+            "original_title": "Нас всех убьёт глобальное потепление",
+            "overview": "Magical girl Asya used magic to help her friend with her mental health issues but made it worse. Now, bringing her friend back going to be as easy as stopping сlimate сhange.",
+            "popularity": 0.6,
+            "poster_path": "/dmAzQObpbX0iUc16t8vMZbbC0jP.jpg",
+            "release_date": "2021-09-29",
+            "title": "Climate Change Is Going to Kill Us All",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [
-            99
-        ],
-        "id": 376263,
-        "original_language": "en",
-        "original_title": "How to Let Go of the World and Love All the Things Climate Can't Change",
-        "overview": "When documentarian Josh Fox realizes, after much soul searching, that the answers for how to respond to the degradation of our environment cannot be found in his own back yard, he travels the world to connect with communities that are already facing grave effects of climate change. What he finds is a complicated mix of tragedy and inspiration in the various ways climate change is affecting our value systems. How to Let Go of the World delivers a sobering portrait of the state of climate change, and takes stock of what makes humans survivors, and our societies so creative and resilient.",
-        "popularity": 0.6,
-        "poster_path": "/eZEOvacyC5Bfl7eX1D5umNr8E8R.jpg",
-        "release_date": "2016-04-02",
-        "title": "How to Let Go of the World and Love All the Things Climate Can't Change",
-        "video": false,
-        "vote_average": 4.2,
-        "vote_count": 9
+        "model": "movies.movie",
+        "pk": 376263,
+        "fields": {
+            "adult": false,
+            "genre_ids": [
+                99
+            ],
+            "original_language": "en",
+            "original_title": "How to Let Go of the World and Love All the Things Climate Can't Change",
+            "overview": "When documentarian Josh Fox realizes, after much soul searching, that the answers for how to respond to the degradation of our environment cannot be found in his own back yard, he travels the world to connect with communities that are already facing grave effects of climate change. What he finds is a complicated mix of tragedy and inspiration in the various ways climate change is affecting our value systems. How to Let Go of the World delivers a sobering portrait of the state of climate change, and takes stock of what makes humans survivors, and our societies so creative and resilient.",
+            "popularity": 0.6,
+            "poster_path": "/eZEOvacyC5Bfl7eX1D5umNr8E8R.jpg",
+            "release_date": "2016-04-02",
+            "title": "How to Let Go of the World and Love All the Things Climate Can't Change",
+            "vote_average": 4.2,
+            "vote_count": 9,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": "/tcrfqHthZWGuksRpK3O0QSpL3Cq.jpg",
-        "genre_ids": [
-            99
-        ],
-        "id": 925974,
-        "original_language": "es",
-        "original_title": "Tarea Vida de Cuba, Combatiendo el Cambio Climático",
-        "overview": "Climate change is among the world’s greatest challenges. As a small Caribbean island, Cuba is disproportionately affected by climate change through extreme weather events. Up to 10% of Cuban territory could be submerged by the end of the century, wiping out coastal towns, polluting water supplies, destroying agricultural lands and forcing one million people to relocate. Finding solutions is now essential.  In this documentary, Dr Helen Yaffe goes to Cuba to find out about ‘Tarea Vida’ (Life Task), a long-term state plan to protect the population, environment and the economy from climate change. The Cuban approach combines environmental science, natural solutions and community participation in strategies for adaptation and mitigation.  Produced by DaniFilms with Dr Helen Yaffe from the University of Glasgow for the COP26 conference in Glasgow.",
-        "popularity": 0.6,
-        "poster_path": "/aVsbKXEClH4TjmGPbliE4yc9ROx.jpg",
-        "release_date": "2021-11-08",
-        "title": "Cuba’s Life Task: Combatting Climate Change",
-        "video": false,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 925974,
+        "fields": {
+            "adult": false,
+            "genre_ids": [
+                99
+            ],
+            "original_language": "es",
+            "original_title": "Tarea Vida de Cuba, Combatiendo el Cambio Climático",
+            "overview": "Climate change is among the world’s greatest challenges. As a small Caribbean island, Cuba is disproportionately affected by climate change through extreme weather events. Up to 10% of Cuban territory could be submerged by the end of the century, wiping out coastal towns, polluting water supplies, destroying agricultural lands and forcing one million people to relocate. Finding solutions is now essential.  In this documentary, Dr Helen Yaffe goes to Cuba to find out about ‘Tarea Vida’ (Life Task), a long-term state plan to protect the population, environment and the economy from climate change. The Cuban approach combines environmental science, natural solutions and community participation in strategies for adaptation and mitigation.  Produced by DaniFilms with Dr Helen Yaffe from the University of Glasgow for the COP26 conference in Glasgow.",
+            "popularity": 0.6,
+            "poster_path": "/aVsbKXEClH4TjmGPbliE4yc9ROx.jpg",
+            "release_date": "2021-11-08",
+            "title": "Cuba’s Life Task: Combatting Climate Change",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": "/wgvI95iHfdnzq40lZotU2rMMeNM.jpg",
-        "genre_ids": [
-            99
-        ],
-        "id": 559715,
-        "original_language": "de",
-        "original_title": "Die geheimen Machenschaften der Ölindustrie",
-        "overview": "We reveal how the oil industry has been secretly funding scientific studies, launching false media reports and systematically deceiving the public about climate change - since 1946. At the same time, they used their knowledge about climate change to gear up for a warming planet. Now, the first lawsuits have been filed, holding them responsible for global warming.",
-        "popularity": 0.6,
-        "poster_path": "/9DhAazJbsa1be0yCscXmMXARRSb.jpg",
-        "release_date": "2017-11-05",
-        "title": "Smoke and Fumes: The Climate Change Cover-Up",
-        "video": false,
-        "vote_average": 8.0,
-        "vote_count": 1
+        "model": "movies.movie",
+        "pk": 559715,
+        "fields": {
+            "adult": false,
+            "genre_ids": [
+                99
+            ],
+            "original_language": "de",
+            "original_title": "Die geheimen Machenschaften der Ölindustrie",
+            "overview": "We reveal how the oil industry has been secretly funding scientific studies, launching false media reports and systematically deceiving the public about climate change - since 1946. At the same time, they used their knowledge about climate change to gear up for a warming planet. Now, the first lawsuits have been filed, holding them responsible for global warming.",
+            "popularity": 0.6,
+            "poster_path": "/9DhAazJbsa1be0yCscXmMXARRSb.jpg",
+            "release_date": "2017-11-05",
+            "title": "Smoke and Fumes: The Climate Change Cover-Up",
+            "vote_average": 8.0,
+            "vote_count": 1,
+            "like_users": []
+        }
     },
     {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [
-            99
-        ],
-        "id": 666085,
-        "original_language": "en",
-        "original_title": "Glop",
-        "overview": "A young filmmaker takes a walk",
-        "popularity": 0.6,
-        "poster_path": "/e8YpXjfAkmNp4nGFEUJwDmp3PnY.jpg",
-        "release_date": "2020-01-12",
-        "title": "Glop",
-        "video": true,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "model": "movies.movie",
+        "pk": 666085,
+        "fields": {
+            "adult": false,
+            "genre_ids": [
+                99
+            ],
+            "original_language": "en",
+            "original_title": "Glop",
+            "overview": "A young filmmaker takes a walk",
+            "popularity": 0.6,
+            "poster_path": "/e8YpXjfAkmNp4nGFEUJwDmp3PnY.jpg",
+            "release_date": "2020-01-12",
+            "title": "Glop",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "like_users": []
+        }
     }
 ]

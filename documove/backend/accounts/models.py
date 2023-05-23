@@ -16,7 +16,7 @@ class Keyword(models.Model):
 
 class User(AbstractUser):
     genre_dict = models.JSONField(default=genre_default)
-    point = models.IntegerField(default = 0)
+    points = models.IntegerField(default = 0)
     badge = models.ImageField(upload_to='badges/', blank=True, null=True)
     keywords = models.ManyToManyField(Keyword, related_name='accountuser')
 

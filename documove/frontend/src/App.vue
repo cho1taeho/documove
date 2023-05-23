@@ -1,17 +1,20 @@
 <template>
   <div id="app">
     <Navbar/>
-    <v-app>
+    <!-- <v-app>
+      <DonationCard : topDonator="topDonator"/> -->
       <transition name="fade">
         <router-view/>
       </transition>
-    </v-app>
+    <!-- </v-app> -->
   </div>
 </template>
 
 <script>
-import { mapActions } from 'vuex'
+import { mapActions, mapGetters } from 'vuex'
 import Navbar from '@/Navbar'
+// import DonationCard from '@/components/community/DonationCard'
+
 
 export default {
   name: 'App',
@@ -21,13 +24,17 @@ export default {
     }
   },
   components: {
-    Navbar
+    Navbar,
+    // DonationCard
   },
   computed: {
     ...mapActions([
       'checkMovies',
       'checkLogin'
     ]),
+    ...mapGetters([
+      'topDonator'
+    ])
   },
   methods: {
     getToken() {
@@ -41,9 +48,13 @@ export default {
       }
       return config
     },
+    ...mapActions([
+      'fetchTopDonator'
+    ])
   },
   created() {
     this.$store.dispatch('checkLogin', this.getToken())
+    this.fetchTopDonator()
   },
 }
 

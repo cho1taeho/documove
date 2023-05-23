@@ -2,7 +2,6 @@ from django.conf import settings
 from django.db import models
 
 
-# Create your models here.
 class Genre(models.Model):
     name = models.CharField(max_length=50)
     like_users = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='like_genres')
@@ -14,10 +13,10 @@ class Keyword(models.Model):
     def __str__(self):
         return self.name
 
+
 class Movie(models.Model):
     like_users = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='like_movies')
-    genre_ids = models.ManyToManyField(Genre)
-    
+    genre_ids = models.ManyToManyField(Genre, related_name='movies')  # genre_ids 필드를 Genre 모델과 연결합니다.
 
     poster_path = models.CharField(max_length=200, blank=True, null=True)
     adult = models.BooleanField()
@@ -29,10 +28,10 @@ class Movie(models.Model):
     popularity = models.FloatField(null=True, blank=True)
     vote_count = models.IntegerField(null=True, blank=True)
     vote_average = models.FloatField(null=True, blank=True)
-    keywords = models.ManyToManyField(Keyword, related_name='moives')
+    # keywords = models.ManyToManyField(Keyword, related_name='movies')
 
-    def get_environment_keywords(self):
-        return settings.ENVIRONMENT_KEYWORDS
+    # def get_environment_keywords(self):
+    #     return settings.ENVIRONMENT_KEYWORDS
 
 
 class Keywordpoint(models.Model):
