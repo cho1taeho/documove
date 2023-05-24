@@ -5,46 +5,58 @@
     <br>
     
     <h2>Giving List</h2>
+    <div class="theme-buttons">
+      <button v-for="theme in themes" :key="theme" @click="filterByTheme(theme)">{{ theme.name }}</button>
+    </div>
     <div class="giving-list">
-      <div v-for="giving in givings" :key="giving.id" class="giving-item">
-        <h3>{{ giving.title }}</h3>
-        <p>{{ giving.summary }}</p>
-        <p>Theme: {{ giving.themeName }}</p>
-        <p>Country: {{ giving.country }}</p>
-        <p>Region: {{ giving.region }}</p>
-        <p>Funding: {{ giving.funding }}</p>
-        <p>Remaining: {{ giving.remaining }}</p>
-        <p>Number of Donations: {{ giving.numberOfDonations }}</p>
-        <p>Status: {{ giving.status }}</p>
-        <p>Activities: {{ giving.activities }}</p>
-        <p>Approved Date: {{ giving.approvedDate }}</p>
+      <div v-for="giving in themeGivings" :key="giving.id" class="giving-item">
+        <div class="card" style="width: 18rem;">
+          <img :src="giving.image" class="card-img-top" alt="Giving Image">
+          <div class="card-body">
+            <h5 class="card-title">{{ giving.title }}</h5>
+            <p class="card-text">{{ giving.summary }}</p>
+            <router-link :to="{ name: 'GivingDetail', params: { id: giving.id }}">View Details</router-link>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import { mapGetters, mapActions } from 'vuex'
+import { mapActions, mapGetters } from 'vuex';
 
 export default {
   name: 'Giving',
   computed: {
-    ...mapGetters(['givings']),
+    ...mapGetters(['themeGivings']),
   },
-  mounted() {
-    this.fetchGivings();
+  data() {
+    return {
+      themes: [
+        { id: 'climate', name: 'Climate Action' },
+        { id: 'env', name: 'Ecosystem Restoration' },
+      ],
+    };
   },
   methods: {
-    ...mapActions(['getGivings']),
-    fetchGivings() {
-      this.getGivings();
-    }
-  }
-}
+    ...mapActions(['getGivings', 'setTheme']),
+    filterByTheme(theme) {
+      this.setTheme(theme.id);
+    },
+  },
+  mounted() {
+    this.getGivings();
+  },
+};
 </script>
 
-<style>
-.giving-item {
+<style scoped>
+.theme-buttons {
   margin-bottom: 20px;
+}
+.giving-item {
+  display: inline-block;
+  margin: 10px;
 }
 </style>

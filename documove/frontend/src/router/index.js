@@ -6,14 +6,27 @@ import Login from '@/views/accounts/Login.vue'
 import Signup from '@/views/accounts/Signup.vue'
 // import TinderMain from '@/views/tinder/TinderMain.vue'
 import Recommend from '@/views/recommend/Recommend.vue'
+import GivingTheme from '@/views/giving/GivingTheme.vue'
+import GivingDetail from '@/views/giving/GivingDetail.vue'
 import Giving from '@/views/giving/Giving.vue'
+
 Vue.use(VueRouter)
 
 const routes = [
   {
     path:'/giving',
-    name: 'Giving',
+    name:'Giving',
     component: Giving
+  },
+  {
+    path:'/givingdetail/:id',
+    name:'GivingDetail',
+    component: GivingDetail
+  },
+  {
+    path:'/givingtheme',
+    name: 'GivingTheme',
+    component: GivingTheme
   },
   {
     path: '/',

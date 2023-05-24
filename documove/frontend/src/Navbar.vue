@@ -13,13 +13,13 @@
             <router-link class="nav-link" :to="{ name: 'Home' }">홈</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" :to="{ name: 'Recommend' }">다큐멘터리</router-link>
+            <a class="nav-link" @click="toggleThemeSelection">테마</a>
+            <div v-show="showThemeSelection" class="theme-selection">
+              <router-link v-for="theme in themes" :key="theme" @click.native="changeTheme(theme)" :to="{ name: 'GivingTheme', params: { theme: theme } }">{{ theme }}</router-link>
+            </div>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" :to="{ name: 'Giving' }">후원api</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class="nav-link" :to="{ name: 'Community' }">커뮤니티</router-link>
+            <router-link class="nav-link" :to="{ name: 'Giving' }">rlqld</router-link>
           </li>
         </ul>
         <!-- 로그인 했을 경우 -->
@@ -40,13 +40,30 @@
 </template>
 
 <script>
-import {mapActions, mapState} from 'vuex'
+import { mapActions, mapState } from 'vuex'
 
 export default {
   name: 'Navbar',
-  methods: {
+  data() {
+    return {
+      showThemeSelection: false,
+      themes: ['hunger', 'disaster', 'climate', 'agriculture', 'water', 'wildlife', 'justice', 'children']
+    }
+  },
+  methods: {  
+    changeTheme(theme) {
+      this.$store.dispatch('selectTheme', theme)
+      this.navigateToGiving(theme)
+      this.toggleThemeSelection()
+    },
     logout() {
       this.$store.dispatch('logout')
+    },
+    toggleThemeSelection() {
+      this.showThemeSelection = !this.showThemeSelection
+    },
+    navigateToGiving(theme) {
+      this.$router.push({ name: 'GivingTheme', params: { theme: theme } })
     },
     getToken() {
       const token = localStorage.getItem('jwt')
@@ -61,12 +78,8 @@ export default {
     },
   },
   computed: {
-    ...mapActions([
-      'checkLogin'
-    ]),
-    ...mapState([
-      'isLogin'
-    ])
+    ...mapActions(['checkLogin']),
+    ...mapState(['isLogin'])
   },
   created() {
     this.$store.dispatch('checkLogin', this.getToken())
@@ -75,5 +88,19 @@ export default {
 </script>
 
 <style>
-  @import './assets/styles/common.css';
+@import './assets/styles/common.css';
+
+.theme-selection {
+  position: absolute;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  z-index: 100;
+}
+
+.theme-selection a {
+  display: block;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
 </style>

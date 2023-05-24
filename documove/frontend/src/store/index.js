@@ -11,6 +11,8 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    showThemeSelection: false,
+    selectedTheme: '',
     // accounts
     isLogin: false,
     // movies
@@ -34,6 +36,12 @@ export default new Vuex.Store({
     givings:[]
   },
   getters: {
+    themeGivings: state => {
+      if (!state.selectedTheme) {
+        return state.givings
+      }
+      return state.givings.filter(giving => giving.themes[0].id === state.selectedTheme)
+    },
     givings(state) {
       return state.givings
     },
@@ -72,6 +80,15 @@ export default new Vuex.Store({
     }
   },
   mutations: {
+    setGivings(state, givings) {
+      state.givings = givings
+    },
+    toggleThemeSelection(state) {
+      state.showThemeSelection = !state.showThemeSelection
+    },
+    setSelectedTheme(state, theme) {
+      state.selectedTheme = theme
+    },
     GET_GIVINGS(state, givings) {
       state.givings= givings
     },
@@ -177,14 +194,26 @@ export default new Vuex.Store({
     },
   },
   actions: {
-    getGivings({ commit }) {
-      axios
-        .get(`${SERVER_URL}movies/giving/`)
-        .then((res) => {
-          commit('GET_GIVINGS', res.data);
-        })
-        .catch((err) => console.log(err));
+    setTheme({ commit }, theme) {
+      commit('setSelectedTheme', theme)
     },
+    selectTheme({commit}, theme) {
+      commit('setSelectedTheme', theme)
+    },
+    // getGivings({ commit }) {
+    //   axios
+    //     .get(`${SERVER_URL}movies/giving/`)
+    //     .then((res) => {
+    //       commit('GET_GIVINGS', res.data);
+    //     })
+    //     .catch((err) => console.log(err));
+    // },
+   
+    async getGivings({ commit }) {
+      // API 호출
+      const response = await axios.get('/api/givings')
+      commit('setGivings', response.data)
+    },   
     fetchUserPoints({commit}) {
       axios
         .get('/api/user/points')
