@@ -33,6 +33,9 @@ export default new Vuex.Store({
     userPoints: 0,
   },
   getters: {
+    givings(state) {
+      return state.givings
+    },
     getUserPoints(state) {
       return state.userPoints
     },
@@ -68,6 +71,7 @@ export default new Vuex.Store({
     }
   },
   mutations: {
+    
     updataUserPoints(state, points) {
       state.userPoints = points
     },
@@ -170,6 +174,14 @@ export default new Vuex.Store({
     },
   },
   actions: {
+    getGivings({ commit }) {
+      axios
+        .get(`${SERVER_URL}movies/giving/`)
+        .then((res) => {
+          commit('GET_GIVINGS', res.data);
+        })
+        .catch((err) => console.log(err));
+    },
     fetchUserPoints({commit}) {
       axios
         .get('/api/user/points')

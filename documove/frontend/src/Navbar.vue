@@ -16,6 +16,9 @@
             <router-link class="nav-link" :to="{ name: 'Recommend' }">다큐멘터리</router-link>
           </li>
           <li class="nav-item">
+            <router-link class="nav-link" :to="{ name: 'Giving' }">후원api</router-link>
+          </li>
+          <li class="nav-item">
             <router-link class="nav-link" :to="{ name: 'Community' }">커뮤니티</router-link>
           </li>
         </ul>

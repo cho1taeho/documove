@@ -6,10 +6,15 @@ import Login from '@/views/accounts/Login.vue'
 import Signup from '@/views/accounts/Signup.vue'
 // import TinderMain from '@/views/tinder/TinderMain.vue'
 import Recommend from '@/views/recommend/Recommend.vue'
-
+import Giving from '@/views/giving/Giving.vue'
 Vue.use(VueRouter)
 
 const routes = [
+  {
+    path:'/giving',
+    name: 'Giving',
+    component: Giving
+  },
   {
     path: '/',
     name: 'Home',

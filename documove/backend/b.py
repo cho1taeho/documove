@@ -1,5 +1,13 @@
+import os
+import django
 import requests
 import json
+
+# Django 설정 모듈을 설정합니다.
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "config.settings")
+django.setup()
+
+from movies.models import Giving
 
 def get_projects_for_theme(theme_id, api_key, next_project_id=None):
     base_url = "https://api.globalgiving.org/api/public/projectservice/themes/{}/projects".format(theme_id)
@@ -21,7 +29,6 @@ def get_projects_for_theme(theme_id, api_key, next_project_id=None):
 
 def save_all_projects_for_theme(theme_id, api_key):
     next_project_id = None
-    all_projects = []
 
     while True:
         projects = get_projects_for_theme(theme_id, api_key, next_project_id)
@@ -31,23 +38,16 @@ def save_all_projects_for_theme(theme_id, api_key):
 
         for project in projects["projects"]["project"]:
             # Extract only the required keys from each project
-            extracted_project = {key: project[key] for key in ['id', 'active', 'title', 'summary', 'themeName', 'country', 'region', 'funding', 'remaining', 'numberOfDonations', 'status', 'activities', 'imageLink', 'imageGallerySize', 'videos', 'approvedDate', 'themes', 'image', 'type'] if key in project}
-            # Convert to Django fixture format
-            django_fixture_format = {
-                "model": "movies.giving",  # Adjust this according to your app name and model name
-                "pk": extracted_project["id"],
-                "fields": extracted_project
-            }
-            del django_fixture_format["fields"]["id"]  # 'id' field is now redundant
-            all_projects.append(django_fixture_format)
+            extracted_project = {key: project[key] for key in ['id', 'organization', 'active', 'title', 'summary', 'themeName', 'country', 'region', 'funding', 'remaining', 'numberOfDonations', 'status', 'activities', 'imageLink', 'imageGallerySize', 'videos', 'approvedDate', 'themes', 'image', 'type'] if key in project}
+            
+            # Create a new Giving instance and save it
+            giving = Giving(**extracted_project)
+            giving.save()
 
         if projects["projects"]["hasNext"] == "true":
             next_project_id = projects["projects"]["nextProjectId"]
         else:
             break
-
-    with open('movies/fixtures/giving.json', 'w') as f:
-        json.dump(all_projects, f, indent=4)
 
 
 if __name__ == "__main__":

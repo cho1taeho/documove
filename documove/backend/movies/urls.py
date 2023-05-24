@@ -9,4 +9,5 @@ urlpatterns = [
     path('random/', views.random),
     path('genres/', views.genres),
     path('recommend/', views.recommend),
+    path('giving/', views.giving),
 ]

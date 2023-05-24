@@ -7,11 +7,27 @@ from rest_framework.response import Response
 from rest_framework.decorators import api_view, authentication_classes, permission_classes
 from rest_framework.permissions import IsAuthenticated
 from rest_framework_jwt.authentication import JSONWebTokenAuthentication
-from .models import Movie, Genre
-from .serializers import MovieSerializer, MovieRandomSerializer, GenreSerializer
+from .models import Movie, Genre, Giving
+from .serializers import MovieSerializer, MovieRandomSerializer, GenreSerializer,GivingSerializer
 
 # user 모델 가져오기
 from django.contrib.auth import get_user_model
+
+# giving api 가져오기
+
+@api_view(['GET', 'POST'])
+def giving(request):
+    if request.method == 'GET':
+        givings = Giving.objects.all()
+        serializer = GivingSerializer(givings, many=True)
+        return Response(serializer.data, status=status.HTTP_200_OK)
+    elif request.method == 'POST':
+        serializer = GivingSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
 
 # Create your views here.
 # 인기순으로 영화 제목 보내기 (selectBox)

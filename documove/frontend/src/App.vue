@@ -33,7 +33,7 @@ export default {
       'checkLogin'
     ]),
     ...mapGetters([
-      'topDonator'
+      // 'topDonator'
     ])
   },
   methods: {
@@ -49,12 +49,12 @@ export default {
       return config
     },
     ...mapActions([
-      'fetchTopDonator'
+      // 'fetchTopDonator'
     ])
   },
   created() {
     this.$store.dispatch('checkLogin', this.getToken())
-    this.fetchTopDonator()
+    // this.fetchTopDonator()
   },
 }
 
