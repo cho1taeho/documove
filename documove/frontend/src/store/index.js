@@ -84,6 +84,9 @@ export default new Vuex.Store({
     }
   },
   mutations: {
+    SET_MOVIE_DETAILS(state, movie) {
+      state.movieDetail = movie
+    },
     SET_ISAUTHENTICATED(state, payload) {
       state.isAuthenticated = payload
     },
@@ -210,6 +213,15 @@ export default new Vuex.Store({
     },
   },
   actions: {
+    async getMovieDetails({ commit }, id) {
+      try {
+        const response = await axios.get(`${SERVER_URL}movies/${id}`);
+        const movie = response.data;
+        commit('SET_MOVIE_DETAILS', movie);
+      } catch (error) {
+        console.log(error);
+      }
+    },
     setTheme({ commit }, theme) {
       commit('setSelectedTheme', theme)
     },

@@ -8,6 +8,7 @@ import Recommend from '@/views/recommend/Recommend.vue'
 import GivingTheme from '@/views/giving/GivingTheme.vue'
 import GivingDetail from '@/views/giving/GivingDetail.vue'
 import Giving from '@/views/giving/Giving.vue'
+import MovieDetail from '@/components/movies/MovieDetail.vue'
 
 Vue.use(VueRouter)
 
@@ -47,11 +48,12 @@ const routes = [
     name: 'Community',
     component: Community
   },
-  // {
-  //   path: '/tinder/tinder/',
-  //   name: 'TinderMain',
-  //   component: TinderMain
-  // },
+  {
+  path: '/movie/:id',
+  name: 'MovieDetail',
+  component: MovieDetail,
+  props: true
+  },
   {
     path: '/recommend/',
     name: 'Recommend',
