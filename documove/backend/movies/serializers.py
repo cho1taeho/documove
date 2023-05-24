@@ -35,6 +35,8 @@ class GivingSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
 
+
+
 class ThemeSerializer(serializers.ModelSerializer):
     
     class Meta:

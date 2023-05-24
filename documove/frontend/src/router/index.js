@@ -19,7 +19,7 @@ const routes = [
     component: Giving
   },
   {
-    path:'/givingdetail/:id',
+    path:'/givingdetail',
     name:'GivingDetail',
     component: GivingDetail
   },
@@ -49,10 +49,10 @@ const routes = [
     component: Community
   },
   {
-  path: '/movie/:id',
-  name: 'MovieDetail',
-  component: MovieDetail,
-  props: true
+    path: '/movie/:id',
+    name: 'MovieDetail',
+    component: MovieDetail,
+    props: true
   },
   {
     path: '/recommend/',

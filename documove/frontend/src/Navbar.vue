@@ -13,7 +13,7 @@
             <router-link class="nav-link" :to="{ name: 'Home' }">홈</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" @click="toggleThemeSelection">테마</a>
+            <a class="nav-link" @click="toggleThemeSelection">후원 테마</a>
             <div v-show="showThemeSelection" class="theme-selection">          
               <router-link v-for="theme in themes" :key="theme" @click.native="changeTheme(theme)" :to="{ name: 'GivingTheme', query: {theme_id: theme}  }">{{ theme }}</router-link>
             </div>
@@ -22,13 +22,13 @@
             <router-link class="nav-link" :to="{ name: 'Giving' }">rlqld</router-link>
           </li>
         </ul>
-        <!-- 로그인 했을 경우 -->
+
         <ul v-if="isLogin" class="navbar-nav">
           <li class="nav-item-right">
             <router-link class="nav-link" @click.native="logout" to="#">로그아웃</router-link>
           </li>
         </ul>
-        <!-- 로그아웃 했을 경우 -->
+
         <ul v-else class="navbar-nav">
           <li class="nav-item-right">
             <router-link class="nav-link" :to="{ name: 'Login' }">로그인</router-link>

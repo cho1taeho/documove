@@ -51,6 +51,6 @@ def save_all_projects_for_theme(theme_id, api_key):
 
 
 if __name__ == "__main__":
-    theme_id = 'children'  # 여기에 원하는 테마 ID를 입력하세요.
+    theme_id = 'hunger'  # 여기에 원하는 테마 ID를 입력하세요.
     api_key = '5e1354cf-91c7-4d17-aa3a-1c908f511aad'  # 여기에 발급받은 API 키를 입력하세요.
     save_all_projects_for_theme(theme_id, api_key)
