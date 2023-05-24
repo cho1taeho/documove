@@ -1,3 +1,4 @@
+import random
 from django.shortcuts import get_object_or_404
 from django.conf import settings
 from django.http import JsonResponse
@@ -36,8 +37,9 @@ def giving(request):
 @permission_classes([IsAuthenticated])
 def home(request):
     if request.method == 'GET':
-        movies = Movie.objects.order_by('-popularity')[:50]
-        serializer = MovieSerializer(movies, many=True)
+        movies = Movie.objects.all()
+        random_movies = random.sample(list(movies), 50)
+        serializer = MovieSerializer(random_movies, many=True)
         return Response(serializer.data, status=status.HTTP_200_OK)
 
 # 영화 상세 데이터
@@ -50,13 +52,13 @@ def movie_detail(request, movie_pk):
     return Response(serializer.data)
 
 # tinder에 보낼 랜덤 영화
-@api_view(['GET'])
-@authentication_classes([JSONWebTokenAuthentication])
-@permission_classes([IsAuthenticated])
-def random(request):
-    movies = Movie.objects.order_by('?')[:200]
-    serializer = MovieRandomSerializer(movies, many=True)
-    return Response(serializer.data, status=status.HTTP_200_OK)
+# @api_view(['GET'])
+# @authentication_classes([JSONWebTokenAuthentication])
+# @permission_classes([IsAuthenticated])
+# def random(request):
+#     movies = Movie.objects.order_by('?')[:200]
+#     serializer = MovieRandomSerializer(movies, many=True)
+#     return Response(serializer.data, status=status.HTTP_200_OK)
 
 # GET : genre 데이터를 리턴
 # POST : tinder로 받아온 선호 장르 입력
