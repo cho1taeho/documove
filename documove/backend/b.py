@@ -31,8 +31,15 @@ def save_all_projects_for_theme(theme_id, api_key):
 
         for project in projects["projects"]["project"]:
             # Extract only the required keys from each project
-            extracted_project = {key: project[key] for key in ['id', 'organization', 'active', 'title', 'summary', 'themeName', 'country', 'region', 'funding', 'remaining', 'numberOfDonations', 'status', 'activities', 'imageLink', 'imageGallerySize', 'videos', 'approvedDate', 'themes', 'image', 'type'] if key in project}
-            all_projects.append(extracted_project)
+            extracted_project = {key: project[key] for key in ['id', 'active', 'title', 'summary', 'themeName', 'country', 'region', 'funding', 'remaining', 'numberOfDonations', 'status', 'activities', 'imageLink', 'imageGallerySize', 'videos', 'approvedDate', 'themes', 'image', 'type'] if key in project}
+            # Convert to Django fixture format
+            django_fixture_format = {
+                "model": "movies.giving",  # Adjust this according to your app name and model name
+                "pk": extracted_project["id"],
+                "fields": extracted_project
+            }
+            del django_fixture_format["fields"]["id"]  # 'id' field is now redundant
+            all_projects.append(django_fixture_format)
 
         if projects["projects"]["hasNext"] == "true":
             next_project_id = projects["projects"]["nextProjectId"]
