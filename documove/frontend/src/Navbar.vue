@@ -14,8 +14,8 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" @click="toggleThemeSelection">테마</a>
-            <div v-show="showThemeSelection" class="theme-selection">
-              <router-link v-for="theme in themes" :key="theme" @click.native="changeTheme(theme)" :to="{ name: 'GivingTheme', params: { theme: theme } }">{{ theme }}</router-link>
+            <div v-show="showThemeSelection" class="theme-selection">          
+              <router-link v-for="theme in themes" :key="theme" @click.native="changeTheme(theme)" :to="{ name: 'GivingTheme', query: {theme_id: theme}  }">{{ theme }}</router-link>
             </div>
           </li>
           <li class="nav-item">
@@ -54,7 +54,7 @@ export default {
     ...mapActions(['checkLogin', 'selectTheme']),
     changeTheme(theme) {
       this.selectTheme(theme);
-      this.navigateToGiving(theme);
+      // this.navigateToGivingTheme(theme);
       this.toggleThemeSelection();
     },
     logout() {
@@ -63,9 +63,9 @@ export default {
     toggleThemeSelection() {
       this.showThemeSelection = !this.showThemeSelection;
     },
-    navigateToGiving(theme) {
-      this.$router.push({ name: 'GivingTheme', params: { theme: theme } });
-    },
+    // navigateToGivingTheme(theme) {
+    //   this.$router.push({ name: 'GivingTheme', query: {theme_id : theme}  });
+    // },
     getToken() {
       const token = localStorage.getItem('jwt');
       return token;

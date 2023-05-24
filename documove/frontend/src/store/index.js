@@ -40,11 +40,11 @@ export default new Vuex.Store({
     givings:[]
   },
   getters: {    
-    themeGivings: state => {
+    themeGivings: state => {     
       if (!state.selectedTheme) {
         return state.givings
       }
-      return state.givings.filter(giving => giving.themes[0].id === state.selectedTheme)
+      return state.givings.filter(giving => giving.themes.theme[0].id === state.selectedTheme)
     },
     givings(state) {
       return state.givings

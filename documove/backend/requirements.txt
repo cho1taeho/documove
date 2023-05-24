@@ -3,8 +3,10 @@ certifi==2020.12.5
 chardet==4.0.0
 Django==3.2.3
 django-cors-headers==3.7.0
+django-filter==23.2
 djangorestframework==3.12.4
 djangorestframework-jwt==1.11.0
+ez-setup==0.9
 idna==2.10
 Pillow==9.5.0
 PyJWT==1.7.1

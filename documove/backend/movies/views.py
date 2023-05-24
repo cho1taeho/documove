@@ -11,10 +11,30 @@ from rest_framework_jwt.authentication import JSONWebTokenAuthentication
 from .models import Movie, Genre, Giving
 from .serializers import MovieSerializer, MovieRandomSerializer, GenreSerializer,GivingSerializer
 
+from rest_framework import viewsets
+from rest_framework.response import Response
+from django_filters.rest_framework import DjangoFilterBackend
+
 # user 모델 가져오기
 from django.contrib.auth import get_user_model
 
 # giving api 가져오기
+
+class GivingViewSet(viewsets.ViewSet):
+    filter_backends = [DjangoFilterBackend]
+    filterset_fields = ['themes__theme__id']
+
+    def list(self, request, *args, **kwargs):
+        queryset = Giving.objects.all()
+        theme_id = self.request.query_params.get('theme_id', None)
+
+        if theme_id is not None:
+            queryset = queryset.filter(themes__theme__id__in=theme_id.split(','))
+
+        serializer = GivingSerializer(queryset, many=True)
+        return Response(serializer.data)
+
+
 
 @api_view(['GET', 'POST'])
 def giving(request):
