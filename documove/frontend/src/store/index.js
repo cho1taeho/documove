@@ -31,6 +31,7 @@ export default new Vuex.Store({
     // youtube
     youtubeVideos: [],
     userPoints: 0,
+    givings:[]
   },
   getters: {
     givings(state) {
@@ -71,7 +72,9 @@ export default new Vuex.Store({
     }
   },
   mutations: {
-    
+    GET_GIVINGS(state, givings) {
+      state.givings= givings
+    },
     updataUserPoints(state, points) {
       state.userPoints = points
     },
