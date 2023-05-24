@@ -1,24 +1,8 @@
 <template>
   <div>
-    <br>
-    <br>
-    <br>
-    
-    <h2>Giving List</h2>
-    <div class="theme-buttons">
-      <button v-for="theme in themes" :key="theme" @click="filterByTheme(theme)">{{ theme.name }}</button>
-    </div>
-    <div class="giving-list">
-      <div v-for="giving in themeGivings" :key="giving.id" class="giving-item">
-        <div class="card" style="width: 18rem;">
-          <img :src="giving.image" class="card-img-top" alt="Giving Image">
-          <div class="card-body">
-            <h5 class="card-title">{{ giving.title }}</h5>
-            <p class="card-text">{{ giving.summary }}</p>
-            <router-link :to="{ name: 'GivingDetail', params: { id: giving.id }}">View Details</router-link>
-          </div>
-        </div>
-      </div>
+    <div v-for="giving in givings" :key="giving.id" class="card">
+      <img :src="getThumbnailImage(giving)" alt="Giving Image">
+      <p>{{ giving.title }}</p>
     </div>
   </div>
 </template>
@@ -27,36 +11,38 @@
 import { mapActions, mapGetters } from 'vuex';
 
 export default {
-  name: 'Giving',
   computed: {
-    ...mapGetters(['themeGivings']),
-  },
-  data() {
-    return {
-      themes: [
-        { id: 'climate', name: 'Climate Action' },
-        { id: 'env', name: 'Ecosystem Restoration' },
-      ],
-    };
+    ...mapGetters(['givings']),
   },
   methods: {
-    ...mapActions(['getGivings', 'setTheme']),
-    filterByTheme(theme) {
-      this.setTheme(theme.id);
+    ...mapActions(['getGivings']),
+    getThumbnailImage(giving) {
+      // 이미지 링크 배열에서 "thumbnail" 크기의 이미지 링크를 반환합니다.
+      const thumbnailImage = giving.image.imagelink.find(link => link.size === 'original');
+      if (thumbnailImage) {
+        return thumbnailImage.url;
+      }
+      // "thumbnail" 크기의 이미지가 없는 경우 기본 이미지 URL 또는 다른 크기의 이미지 URL을 반환할 수도 있습니다.
+      return giving.image.imagelink[0].url;
     },
   },
-  mounted() {
+  created() {
     this.getGivings();
   },
 };
 </script>
 
 <style scoped>
-.theme-buttons {
-  margin-bottom: 20px;
-}
-.giving-item {
+.card {
   display: inline-block;
+  width: 20%;
   margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+.card img {
+  width: 100%;
+  height: auto;
 }
 </style>

@@ -40,7 +40,7 @@
 </template>
 
 <script>
-import { mapActions, mapState } from 'vuex'
+import { mapActions, mapState } from 'vuex';
 
 export default {
   name: 'Navbar',
@@ -48,43 +48,43 @@ export default {
     return {
       showThemeSelection: false,
       themes: ['hunger', 'disaster', 'climate', 'agriculture', 'water', 'wildlife', 'justice', 'children']
-    }
+    };
   },
-  methods: {  
+  methods: {
+    ...mapActions(['checkLogin', 'selectTheme']),
     changeTheme(theme) {
-      this.$store.dispatch('selectTheme', theme)
-      this.navigateToGiving(theme)
-      this.toggleThemeSelection()
+      this.selectTheme(theme);
+      this.navigateToGiving(theme);
+      this.toggleThemeSelection();
     },
     logout() {
-      this.$store.dispatch('logout')
+      this.$store.dispatch('logout');
     },
     toggleThemeSelection() {
-      this.showThemeSelection = !this.showThemeSelection
+      this.showThemeSelection = !this.showThemeSelection;
     },
     navigateToGiving(theme) {
-      this.$router.push({ name: 'GivingTheme', params: { theme: theme } })
+      this.$router.push({ name: 'GivingTheme', params: { theme: theme } });
     },
     getToken() {
-      const token = localStorage.getItem('jwt')
-      return token
+      const token = localStorage.getItem('jwt');
+      return token;
     },
     setToken() {
-      const token = localStorage.getItem('jwt')
+      const token = localStorage.getItem('jwt');
       const config = {
         Authorization: `JWT ${token}`
-      }
-      return config
-    },
+      };
+      return config;
+    }
   },
   computed: {
-    ...mapActions(['checkLogin']),
     ...mapState(['isLogin'])
   },
   created() {
-    this.$store.dispatch('checkLogin', this.getToken())
+    this.checkLogin(this.getToken());
   }
-}
+};
 </script>
 
 <style>

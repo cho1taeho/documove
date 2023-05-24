@@ -11,6 +11,10 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    isAuthenticated: false,
+    token:'',
+    username:'',
+    selectedThemeID: null,
     showThemeSelection: false,
     selectedTheme: '',
     // accounts
@@ -35,7 +39,7 @@ export default new Vuex.Store({
     userPoints: 0,
     givings:[]
   },
-  getters: {
+  getters: {    
     themeGivings: state => {
       if (!state.selectedTheme) {
         return state.givings
@@ -80,6 +84,18 @@ export default new Vuex.Store({
     }
   },
   mutations: {
+    SET_ISAUTHENTICATED(state, payload) {
+      state.isAuthenticated = payload
+    },
+    SET_TOKEN(state, payload) {
+      state.token = payload
+    },
+    SET_USERNAME(state, payload) {
+      state.username = payload
+    },
+    SET_SELECTEDTHEMEID(state, payload) {
+      state.selectedThemeID = payload
+    },
     setGivings(state, givings) {
       state.givings = givings
     },
@@ -210,10 +226,14 @@ export default new Vuex.Store({
     // },
    
     async getGivings({ commit }) {
-      // API 호출
-      const response = await axios.get('/api/givings')
-      commit('setGivings', response.data)
-    },   
+      try {
+        const response = await axios.get(`${SERVER_URL}movies/giving/`);
+        const givings = response.data;
+        commit('GET_GIVINGS', givings);
+      } catch (error) {
+        console.log(error);
+      }
+    },
     fetchUserPoints({commit}) {
       axios
         .get('/api/user/points')
@@ -221,6 +241,9 @@ export default new Vuex.Store({
           const points = response.data.points
           commit('updateUserPoints', points)
         })
+    },
+    setSelectedThemeID({commit}, selectedThemeID) {
+      commit('SET_SELECTEDTHEMEID', selectedThemeID)
     },
     // ACCOUNTS ACTIONS
     login({commit}, credentials) {
@@ -232,9 +255,13 @@ export default new Vuex.Store({
       .then(res => {
         localStorage.setItem('jwt', res.data.token)
         commit('LOGIN')
+        const selectedThemeID= res.data.selectedThemeID
+        commit('SET_ISAUTHENTICATED', true); 
+        commit('SET_SELECTEDTHEMEID', selectedThemeID);
         router.push({name: 'Home'})
       })
       .catch(err => console.log(err))
+      
     },
     checkLogin({commit}, token) {
       if (token) {
