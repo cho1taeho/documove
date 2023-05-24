@@ -7,17 +7,20 @@
       transition="dialog-bottom-transition"
     >
       <template v-slot:activator="{ on, attrs }">
-        <v-img
-          :src="imgSrc"
-          alt="포스터 없음"
-          v-bind="attrs"
-          v-on="on"
-        />
+        <router-link :to="{ name: 'MovieDetail', params: { movieId: movie.id }}">
+          <v-img
+            :src="imgSrc"
+            alt="포스터 없음"
+            v-bind="attrs"
+            v-on="on"
+          />
+        </router-link>
       </template>
-      <MovieDetail :movie="movie" @close="dialog = false" />
+      <MovieDetail :movieId="movie.id" @close="dialog = false" />
     </v-dialog>
   </div>
 </template>
+
 
 <script>
 import MovieDetail from '@/components/movies/MovieDetail'
@@ -45,3 +48,7 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+/* 필요한 CSS 스타일을 여기에 추가하세요 */
+</style>
