@@ -37,8 +37,8 @@ export default {
     if (theme_id) {
       try {
         const response = await axios.get(`http://127.0.0.1:8000/movies/giving/`);
-        const totalpointByTheme = await axios.get('http://127.0.0.1:8000/movies/totalPointByTheme')
-        console.log(totalpointByTheme)
+        // const totalpointByTheme = await axios.get('http://127.0.0.1:8000/movies/totalPointByTheme')
+        // console.log(totalpointByTheme)
         this.givings = response.data.filter(movie => movie.themes.theme[0].id === theme_id);
       } catch (error) {
         console.error(error);

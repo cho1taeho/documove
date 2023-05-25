@@ -1,7 +1,8 @@
 import random
+import json
 from django.shortcuts import get_object_or_404
 from django.conf import settings
-from django.http import JsonResponse
+from django.http import JsonResponse, HttpResponse
 
 from rest_framework import status
 from rest_framework.response import Response
@@ -18,7 +19,6 @@ from rest_framework import viewsets
 from rest_framework.response import Response
 from django_filters.rest_framework import DjangoFilterBackend
 
-import json
 
 # user 모델 가져오기
 from django.contrib.auth import get_user_model
@@ -55,7 +55,7 @@ def giving(request):
 
 @api_view(['GET'])
 def totalPointByTheme(request):
-    totalPointTheme = dict()
+    totalPointTheme = {}
     themes = settings.ENVIRONMENT_KEYWORDS
     for t in themes:
         totalPointTheme[t] = 0
@@ -64,7 +64,7 @@ def totalPointByTheme(request):
     for d in donation:
         totalPointTheme[d.givings.themes['theme'][0]['id']] += d.giving_points
     
-    return Response(json.dumps(totalPointByTheme), status=status.HTTP_200_OK)
+    return JsonResponse(totalPointByTheme,safe=True)
 
 
 @api_view(['GET'])
