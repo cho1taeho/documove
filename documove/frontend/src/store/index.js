@@ -37,7 +37,9 @@ export default new Vuex.Store({
     // youtube
     youtubeVideos: [],
     userPoints: 0,
-    givings:[]
+    givings:[],
+    user: null,
+    wishlist: null,
   },
   getters: {    
     themeGivings: state => {     
@@ -115,6 +117,12 @@ export default new Vuex.Store({
       state.userPoints = points
     },
     // ACCOUNTS MUTATIONS
+    SET_USER(state, user) {
+      state.user = user
+    },
+    SET_WISHLIST(state, wishlist) {
+      state.wishlist = wishlist
+    },
     LOGIN(state) {
       state.isLogin = true
     },

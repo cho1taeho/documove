@@ -1,31 +1,37 @@
 <template>
   <div>
-    <h1>My Page</h1>
-    <p>Point: {{ point }}</p>
-    <button @click="increasePoints">A Button</button>
-    <button @click="showInputDialog">B Button</button>
-    <div v-if="showInput">
-      <input type="number" v-model="inputValue" />
-      <button @click="submitInput">Submit</button>
-      <p v-if="inputValue > point">Points are not enough.</p>
-    </div>
-    <!-- <p>Input Value: {{ inputValue }}</p> -->
+    <br>
+    <h1>My Page - {{ user.user.username }}</h1>
+    <p>Point: {{ user.user.points }}</p>
   </div>
 </template>
 
 <script>
-import { mapGetters, mapActions } from 'vuex';
+import axios from 'axios';
 
 export default {
-  computed: {
-    ...mapGetters(['isLogin']),
-    point() {
-
-      return this.$store.state.point;
-    },
+  data() {
+    return {
+      user: {},
+    }
   },
-  methods: {
-    ...mapActions(['increasePoints', 'showInputDialog', 'submitInput']),
+  async created() {
+    try {
+      const response = await axios.get(`http://127.0.0.1:8000/accounts/mypage/`);
+      this.user = response.data;
+      
+    } catch (error) {
+      console.error(error);
+    }
   },
-};
+  // methods: {
+  //   submitInput() {
+  //     if (this.inputValue <= this.user.points) {
+  //       console.log('Points are enough. Logic goes here.');
+  //     } else {
+  //       console.log('Points are not enough.');
+  //     }
+  //   }
+  // }
+}
 </script>

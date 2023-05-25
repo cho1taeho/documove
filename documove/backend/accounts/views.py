@@ -1,8 +1,10 @@
 from rest_framework import status
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
-from .serializers import UserSerializer
-
+from .serializers import UserSerializer, WishlistSerializer
+from django.shortcuts import get_object_or_404
+from .models import User, Wishlist
+from django.http import JsonResponse
 
 # Create your views here.
 @api_view(['POST'])
@@ -22,3 +24,15 @@ def signup(request):
 @api_view(['POST'])
 def viewhistory(request):
     pass
+
+def mypage_view(request):
+    user = get_object_or_404(User)
+    wishlist = Wishlist.objects.filter(user=user)
+
+    user_serializer = UserSerializer(user)
+    wishlist_serializer = WishlistSerializer(wishlist, many=True)
+
+    return JsonResponse({
+        'user': user_serializer.data,
+        'wishlist': wishlist_serializer.data,
+    })
