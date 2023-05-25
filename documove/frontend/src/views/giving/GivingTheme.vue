@@ -19,6 +19,7 @@
 <script>
 import axios from "axios";
 
+
 export default {
   data() {
     return {
@@ -26,14 +27,9 @@ export default {
     };
   },
   methods: {
-  async goToGivingDetail() {
-      try {
-        const response = await axios.get(`http://127.0.0.1:8000/movies/giving/`);
-        const givingDetail = response.data;      
-        this.$router.push({ name: 'GivingDetail', query: { givingDetail: JSON.stringify(givingDetail) } });
-      } catch (error) {
-        console.error(error);
-      }
+    goToGivingDetail(giving_id) {
+      
+      this.$router.push({name:'GivingDetail', query: {giving_id : giving_id}})
     },
   },
   async created() {
