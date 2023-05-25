@@ -4,7 +4,7 @@
       <v-btn
         icon
         dark
-        @click="$emit('close')"
+        @click="$router.go(-1)"
       >
         <v-icon>mdi-close</v-icon>
       </v-btn>
@@ -43,16 +43,33 @@
 </template>
 
 <script>
+import axios from "axios";
+
 export default {
-  name: 'MovieDetail',
-  props: {
-    movie: {
-      type: Object,
-      required: true,
-    },
+  data() {
+    return {
+      movie: null
+    };
   },
-}
+  async created() {
+    const movie_id = this.$route.query.id;
+    if (movie_id) {
+      try {
+        const response = await axios.get(`http://127.0.0.1:8000/movies/`)
+        this.movies = response.data.id
+      } catch(error) {
+        console.error(error)
+      }
+    }
+  }
+};
 </script>
+
+<style scoped>
+/* 필요한 CSS 스타일을 여기에 추가하세요 */
+</style>
+
+
 
 <style scoped>
 .movie-detail-card {
