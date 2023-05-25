@@ -53,7 +53,7 @@ def review_update_delete(request, review_pk):
 @authentication_classes([JSONWebTokenAuthentication])
 @permission_classes([IsAuthenticated])
 def comment_create(request, review_pk):
-    review = get_object_or_404(Review, pk=review_pk)
+    review = get_object_or_404(Review)
     if request.method == 'GET':
         comments = review.comment_set.order_by('-pk')
         serializer = CommentSerializer(comments, many=True)

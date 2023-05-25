@@ -6,6 +6,8 @@
 </template>
 
 <script>
+import axios from 'axios'
+
 export default {
   name: 'CommentForm',
   props: {
@@ -29,14 +31,31 @@ export default {
       }
       return config
     },
-    createComment() {
+     createComment() {
+      const movieId = this.movie && this.movie.id; // 영화 ID
+      if (!movieId) {
+        console.error('영화 ID가 없습니다.');
+        return;
+      }
       const commentItemSet = {
         commentItem: this.commentItem,
-        review_id: this.review.id,
-        token: this.setToken()
-      }
-      this.$store.dispatch('createComment', commentItemSet)
-      this.commentItem.content = null
+        token: this.setToken(),
+      };
+      axios({
+        method: 'POST',
+        url: `http://127.0.0.1:8000/community/reviews/comments/`,
+        data: commentItemSet.commentItem,
+        headers: commentItemSet.token,
+      })
+        .then((response) => {
+          // 댓글 작성 성공 시 처리할 로직
+          console.log('댓글 작성 성공:', response.data);
+        })
+        .catch((error) => {
+          // 댓글 작성 실패 시 처리할 로직
+          console.error('댓글 작성 실패:', error);
+        });
+      this.commentItem.content = null;
     },
   },
 }

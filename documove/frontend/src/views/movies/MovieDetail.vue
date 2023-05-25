@@ -38,18 +38,28 @@
           평점: {{ movie.vote_average }}
         </div>
       </div>
+      <CommentForm/>
+      <CommentList/>
     </div>
+ 
   </div>
 </template>
 
 <script>
 import axios from "axios"
+import CommentForm from '@/components/community/CommentForm'
+import CommentList from '@/components/community/CommentList'
+
 
 export default {
   data() {
     return {
       movie: [],
     }
+  },
+  components:{
+    CommentForm,
+    CommentList
   },
   computed: {
     imgSrc: function () {
