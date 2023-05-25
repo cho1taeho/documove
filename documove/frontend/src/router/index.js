@@ -9,6 +9,7 @@ import GivingTheme from '@/views/giving/GivingTheme.vue'
 import GivingDetail from '@/views/giving/GivingDetail.vue'
 import Giving from '@/views/giving/Giving.vue'
 import MovieDetail from '@/components/movies/MovieDetail.vue'
+import MyPage from '@/views/accounts/MyPage.vue'
 
 Vue.use(VueRouter)
 
@@ -58,6 +59,11 @@ const routes = [
     path: '/recommend/',
     name: 'Recommend',
     component: Recommend
+  },
+  {
+    path: '/mypage/:userId',
+    name: 'MyPage',
+    component: MyPage
   },
 ]
 

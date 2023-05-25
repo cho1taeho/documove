@@ -37,7 +37,9 @@ export default new Vuex.Store({
     // youtube
     youtubeVideos: [],
     userPoints: 0,
-    givings:[]
+    givings:[],
+    user: null,
+    wishlist: null,
   },
   getters: {    
     themeGivings: state => {     
@@ -115,6 +117,12 @@ export default new Vuex.Store({
       state.userPoints = points
     },
     // ACCOUNTS MUTATIONS
+    SET_USER(state, user) {
+      state.user = user
+    },
+    SET_WISHLIST(state, wishlist) {
+      state.wishlist = wishlist
+    },
     LOGIN(state) {
       state.isLogin = true
     },
@@ -213,6 +221,11 @@ export default new Vuex.Store({
     },
   },
   actions: {
+    async fetchUser({ commit }, username) {
+      const response = await axios.get(`http://127.0.0.1:8000/mypage/${username}/`);
+      commit('setUser', response.data.user);
+      commit('setWishlist', response.data.wishlist);
+    },
     async getMovieDetails({ commit }, id) {
       try {
         const response = await axios.get(`${SERVER_URL}movies/${id}`);
