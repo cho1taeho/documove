@@ -11,8 +11,7 @@
           <p><strong>Country :</strong> {{giving.country}} </p>
           <p><strong>Region :</strong> {{giving.region}} </p>
           <p><strong>Activites :</strong> {{giving.activities}} </p>
-          <p><strong>Themes : 변경예정</strong> {{giving.themes}} </p>
-
+          
 
           <img :src="giving.imageLink" alt="Giving Image" class="img-fluid">
         </div>

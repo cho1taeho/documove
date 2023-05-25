@@ -8,8 +8,12 @@ import Recommend from '@/views/recommend/Recommend.vue'
 import GivingTheme from '@/views/giving/GivingTheme.vue'
 import GivingDetail from '@/views/giving/GivingDetail.vue'
 import Giving from '@/views/giving/Giving.vue'
+<<<<<<< HEAD
 import MovieDetail from '@/components/movies/MovieDetail.vue'
 import MyPage from '@/views/accounts/MyPage.vue'
+=======
+import MovieDetail from '@/views/movies/MovieDetail.vue'
+>>>>>>> ed7c398190587df27b3e839ee041c3d3faa2f878
 
 Vue.use(VueRouter)
 
@@ -50,10 +54,9 @@ const routes = [
     component: Community
   },
   {
-    path: '/movie',
+    path: '/moviedetail',
     name: 'MovieDetail',
-    component: MovieDetail,
-    props: true
+    component: MovieDetail,   
   },
   {
     path: '/recommend/',

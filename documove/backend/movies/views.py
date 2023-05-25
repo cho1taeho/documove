@@ -9,7 +9,7 @@ from rest_framework.decorators import api_view, authentication_classes, permissi
 from rest_framework.permissions import IsAuthenticated
 from rest_framework_jwt.authentication import JSONWebTokenAuthentication
 from .models import Movie, Genre, Giving
-from .serializers import MovieSerializer, MovieRandomSerializer, GenreSerializer,GivingSerializer
+from .serializers import MovieDetailSerializer,MovieSerializer, MovieRandomSerializer, GenreSerializer,GivingSerializer
 
 from rest_framework import viewsets
 from rest_framework.response import Response
@@ -35,6 +35,16 @@ class GivingViewSet(viewsets.ViewSet):
         return Response(serializer.data)
 
 
+@api_view(['GET'])
+def movie_detail(request, pk):
+    try:
+        movie = Movie.objects.get(pk=pk)
+    except Movie.DoesNotExist:
+        return Response(status=status.HTTP_404_NOT_FOUND)
+        
+    serializer = MovieDetailSerializer(movie)
+    return Response(serializer.data, status=status.HTTP_200_OK)
+
 
 @api_view(['GET', 'POST'])
 def giving(request):
@@ -48,7 +58,13 @@ def giving(request):
             serializer.save()
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-
+    
+@api_view(['GET'])
+def movies(request):
+    # if request.method == 'GET':
+    movies = Movie.objects.all()
+    serializer = MovieDetailSerializer(movies, many=True)
+    return Response(serializer.data, status=status.HTTP_200_OK)
 
 # Create your views here.
 # 인기순으로 영화 제목 보내기 (selectBox)
