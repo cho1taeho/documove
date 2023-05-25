@@ -5,7 +5,7 @@
       :src="imgSrc"
       alt="포스터 없음"
       class="movie-poster"
-      @click="goToMovieDetail(movie.id)"
+      @click="goToMovieDetail(movie.title)"
     />
   </div>
 </template>
@@ -27,15 +27,10 @@ export default {
     },
   },
   methods: {
-    async goToMovieDetail(movieId) {
-      try {
-        const response = await axios.get(`http://127.0.0.1:8000/movie/${movieId}/`);
-        const movieDetail = response.data;      
-        this.$router.push({ name: 'MovieDetail', query: { movieDetail: JSON.stringify(movieDetail) } });
-      } catch (error) {
-        console.error(error);
-      }
-    },
+    goToMovieDetail(movieId) {
+      this.$router.push({name:'MovieDetail', query: {movieId : movieId} })
+      console.log(movieId)
+    }
 
   },
   async created() {
@@ -43,7 +38,7 @@ export default {
     if (movieId) {
       try {
         const response = await axios.get(`http://127.0.0.1:8000/movie/`);
-        this.movies = response.data.filter(movie => movie.id === movieId);
+        this.movie = response.data.filter(movie => movie.id === movieId);
       } catch (error) {
         console.error(error);
       }

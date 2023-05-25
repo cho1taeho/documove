@@ -30,6 +30,22 @@ class Comment(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
+class Moviepoint(models.Model):
+    users = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='point_users')
+    movies = models.ManyToManyField('movies.Movie', related_name='point_movies')
+    # obtained_at = models.DateTimeField(null=True, blank=True)
+
+class Themepoint(models.Model):
+    users = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='giving_users')
+    themes = models.ManyToManyField('movies.Giving',related_name='giving_themes')
+    total_points = models.IntegerField(default=0)
+
+    def update_total_points(self):
+        self.total_points = self.themes.aggregate(sum('funding'))['funding__sum'] or 0
+        self.save()
+
+    def get_user_count(self):
+        return self.users.count()
 
 
 class Donation(models.Model):
