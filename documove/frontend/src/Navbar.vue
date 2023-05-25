@@ -13,13 +13,13 @@
             <router-link class="nav-link" :to="{ name: 'Home' }">홈</router-link>
           </li>
           <li class="nav-item">
+            <router-link class="nav-link" :to="{ name: 'Giving' }">후원 </router-link>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" @click="toggleThemeSelection">후원 테마</a>
             <div v-show="showThemeSelection" class="theme-selection">          
               <router-link v-for="theme in themes" :key="theme" @click.native="changeTheme(theme)" :to="{ name: 'GivingTheme', query: {theme_id: theme}  }">{{ theme }}</router-link>
             </div>
-          </li>
-          <li class="nav-item">
-            <router-link class="nav-link" :to="{ name: 'Giving' }">rlqld</router-link>
           </li>
         </ul>
 
