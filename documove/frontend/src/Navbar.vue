@@ -22,10 +22,10 @@
             </div>
           </li>
         </ul>
-
+        
         <ul v-if="isLogin" class="navbar-nav">
           <li class="nav-item-right">
-            <router-link class="nav-link" :to="{ name: 'MyPage', params: { userId: userId } }">마이페이지</router-link>
+            <router-link class="nav-link" :to="{ name: 'MyPage'}">마이페이지</router-link>
           </li>
           <li class="nav-item-right">
             <router-link class="nav-link" @click.native="logout" to="#">로그아웃</router-link>
@@ -82,7 +82,7 @@ export default {
     }
   },
   computed: {
-    ...mapState(['isLogin'])
+    ...mapState(['isLogin', 'userId'])
   },
   created() {
     this.checkLogin(this.getToken());

@@ -221,11 +221,6 @@ export default new Vuex.Store({
     },
   },
   actions: {
-    async fetchUser({ commit }, username) {
-      const response = await axios.get(`http://127.0.0.1:8000/mypage/${username}/`);
-      commit('setUser', response.data.user);
-      commit('setWishlist', response.data.wishlist);
-    },
     async getMovieDetails({ commit }, id) {
       try {
         const response = await axios.get(`${SERVER_URL}movies/${id}`);

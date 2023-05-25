@@ -25,8 +25,8 @@ def signup(request):
 def viewhistory(request):
     pass
 
-def mypage(request, username):
-    user = get_object_or_404(User, username=username)
+def mypage_view(request):
+    user = get_object_or_404(User)
     wishlist = Wishlist.objects.filter(user=user)
 
     user_serializer = UserSerializer(user)

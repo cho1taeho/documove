@@ -14,8 +14,9 @@ def genre_default():
 class User(AbstractUser):
     genre_dict = models.JSONField(default=genre_default)
     points = models.IntegerField(default = 0)
+    used_point = models.IntegerField(default = 0)
     badge = models.ImageField(upload_to='badges/', blank=True, null=True)
-   
+    
     def add_points(self, points):
         self.points += points
         self.save()
@@ -30,7 +31,6 @@ class User(AbstractUser):
     def get_environment_keywords(self):
         return settings.ENVIRONMENT_KEYWORDS
     
-
 
     def __str__(self):
         return self.username

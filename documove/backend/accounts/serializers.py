@@ -11,7 +11,7 @@ class UserSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = User
-        fields = ('username', 'password', 'email', 'points', 'badge',)
+        fields = '__all__'
 
 class WishlistSerializer(serializers.ModelSerializer):
     moives = MovieWishlistSerializer(many=True)
