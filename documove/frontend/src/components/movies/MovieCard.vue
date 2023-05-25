@@ -5,7 +5,7 @@
       :src="imgSrc"
       alt="포스터 없음"
       class="movie-poster"
-      @click="goToMovieDetail(movie.title)"
+      @click="goToMovieDetail(movie.id)"
     />
   </div>
 </template>
@@ -28,8 +28,9 @@ export default {
   },
   methods: {
     goToMovieDetail(movieId) {
-      this.$router.push({name:'MovieDetail', query: {movieId : movieId} })
+      console.log(this.movie)
       console.log(movieId)
+      this.$router.push({name:'MovieDetail', query: {movieId : movieId} })
     }
 
   },

@@ -37,11 +37,13 @@ class GivingViewSet(viewsets.ViewSet):
 
 @api_view(['GET'])
 def movie_detail(request, pk):
-    try:
-        movie = Movie.objects.get(pk=pk)
-    except Movie.DoesNotExist:
-        return Response(status=status.HTTP_404_NOT_FOUND)
+    # try:
+    #     movie = Movie.objects.get(pk=pk)
+    # except Movie.DoesNotExist:
+    #     return Response(status=status.HTTP_404_NOT_FOUND)
         
+    # serializer = MovieDetailSerializer(movie)
+    movie = Movie.objects.get(pk=pk)
     serializer = MovieDetailSerializer(movie)
     return Response(serializer.data, status=status.HTTP_200_OK)
 
@@ -64,6 +66,7 @@ def movies(request):
     # if request.method == 'GET':
     movies = Movie.objects.all()
     serializer = MovieDetailSerializer(movies, many=True)
+    print(serializer.data)
     return Response(serializer.data, status=status.HTTP_200_OK)
 
 # Create your views here.
@@ -79,13 +82,13 @@ def home(request):
         return Response(serializer.data, status=status.HTTP_200_OK)
 
 # 영화 상세 데이터
-@api_view(['GET'])
-@authentication_classes([JSONWebTokenAuthentication])
-@permission_classes([IsAuthenticated])
-def movie_detail(request, movie_pk):
-    movie = get_object_or_404(Movie, pk=movie_pk)
-    serializer = MovieSerializer(movie)
-    return Response(serializer.data)
+# @api_view(['GET'])
+# @authentication_classes([JSONWebTokenAuthentication])
+# @permission_classes([IsAuthenticated])
+# def movie_detail(request, movie_pk):
+#     movie = get_object_or_404(Movie, pk=movie_pk)
+#     serializer = MovieDetailSerializer(movie)
+#     return Response(serializer.data)
 
 # tinder에 보낼 랜덤 영화
 # @api_view(['GET'])
