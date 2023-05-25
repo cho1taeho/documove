@@ -3,28 +3,40 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework import status
 
-from .models import Review, Comment
-from .serializers import CommentSerializer, ReviewListSerializer, ReviewSerializer
+from accounts.models import User
+from accounts.serializers import UserSerializer
+from .models import Review, Comment, Moviepoint
+from .serializers import CommentSerializer, ReviewListSerializer, ReviewSerializer, PointSerializer
+
 
 from rest_framework.decorators import authentication_classes, permission_classes
 from rest_framework.permissions import IsAuthenticated
 from rest_framework_jwt.authentication import JSONWebTokenAuthentication
 
-# Create your views here.
-# review 목록 조회, 생성
+
 @api_view(['GET', 'POST'])
-@authentication_classes([JSONWebTokenAuthentication])
 @permission_classes([IsAuthenticated])
-def review_create(request):
+@authentication_classes([JSONWebTokenAuthentication])
+def moviepoint(request, movie_pk):
+    moviepoint = Moviepoint.objects.filter(movies=movie_pk, users=request.user)
     if request.method == 'GET':
-        reviews = Review.objects.order_by('-pk')
-        serializer = ReviewSerializer(reviews, many=True)
+        serializer = PointSerializer(moviepoint)
         return Response(serializer.data)
     elif request.method == 'POST':
-        serializer = ReviewSerializer(data=request.data)
+        newMoviepoint = Moviepoint.objects.create(movies=Movie, users=request.user)
+        serializer = PointSerializer(newMoviepoint, data=request.data)
+        # 만약 이미 레코드가 있다면? 포인트 지급 불가
+        if moviepoint.exists():
+            return Response({'detail': '이미 포인트를 받았습니다.'}, status=status.HTTP_409_CONFLICT)
+        
+        loginedUser = get_object_or_404(User)
+        userSerializer = UserSerializer(loginedUser, data=request.data)
+        loginedUser.add_points(1000)
+        if userSerializer.is_valid(raise_exception=True):
+            userSerializer.save()
         if serializer.is_valid(raise_exception=True):
-            serializer.save(user=request.user)
-            return Response(serializer.data, status=status.HTTP_201_CREATED)
+            serializer.save()
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
 
 # 단일 review 조회, 수정, 삭제
 @api_view(['GET', 'PUT', 'DELETE'])
@@ -47,6 +59,22 @@ def review_update_delete(request, review_pk):
             return Response({'detail': '권한이 없습니다.'}, status=status.HTTP_403_FORBIDDEN)
         review.delete()
         return Response({ 'id': review_pk }, status=status.HTTP_204_NO_CONTENT)
+# Create your views here.
+# review 목록 조회, 생성
+@api_view(['GET', 'POST'])
+@authentication_classes([JSONWebTokenAuthentication])
+@permission_classes([IsAuthenticated])
+def review_create(request):
+    if request.method == 'GET':
+        reviews = Review.objects.order_by('-pk')
+        serializer = ReviewSerializer(reviews, many=True)
+        return Response(serializer.data)
+    elif request.method == 'POST':
+        serializer = ReviewSerializer(data=request.data)
+        if serializer.is_valid(raise_exception=True):
+            serializer.save(user=request.user)
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+
 
 # comment 목록 조회, 생성
 @api_view(['GET', 'POST'])

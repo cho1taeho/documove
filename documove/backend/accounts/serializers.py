@@ -18,7 +18,7 @@ class WishlistSerializer(serializers.ModelSerializer):
     
     class Meta:
         model = Wishlist
-        fields = ['user', 'movies', 'created_at']
+        fields = ['user', 'movies', 'created_at',]
 
 
 class UserbadgeSerializer(serializers.ModelSerializer):

@@ -25,7 +25,6 @@ def convert_movie_data(movie):
             "title": movie["title"],
             "vote_average": movie["vote_average"],
             "vote_count": movie["vote_count"],
-            "like_users": [],
             "theme_id": "env",
         }
     }

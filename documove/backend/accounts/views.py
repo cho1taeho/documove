@@ -36,3 +36,4 @@ def mypage_view(request):
         'user': user_serializer.data,
         'wishlist': wishlist_serializer.data,
     })
+

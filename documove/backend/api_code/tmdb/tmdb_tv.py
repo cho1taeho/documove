@@ -23,7 +23,6 @@ def convert_tv_data(tv):
             "popularity": tv["popularity"],
             "vote_average": tv["vote_average"],
             "vote_count": tv["vote_count"],
-            "like_users": [],
             "theme_id": "water"
         }
     }

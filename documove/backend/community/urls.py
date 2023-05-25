@@ -11,4 +11,5 @@ urlpatterns = [
     # path('reviews/<int:review_pk>/rates', views.rate_create),
     # path('rates/<int:rate_pk>/', views.rate_update_delete),
     path('comments/<int:comment_pk>/', views.comment_update_delete),
+    path('moviepoints/<int:movie_pk>/', views.moviepoint)
 ]

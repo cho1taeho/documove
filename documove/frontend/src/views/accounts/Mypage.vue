@@ -1,8 +1,10 @@
 <template>
   <div>
     <br>
-    <h1>My Page - {{ user.user.username }}</h1>
+    <h1>My page</h1>
+    <h2> {{ user.user.username }} 님의 페이지</h2>
     <p>Point: {{ user.user.points }}</p>
+    <p>giving point: {{user.user.used_point}} </p>
   </div>
 </template>
 

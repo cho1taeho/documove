@@ -37,9 +37,12 @@
         <div class="movie-vote-average">
           평점: {{ movie.vote_average }}
         </div>
-      </div>
-      <CommentForm/>
-      <CommentList/>
+        <div class="movie-review">
+        <!-- <input type="text"/> -->
+        <button></button>
+        <!-- <button @click="">point</button> -->
+        </div>
+      </div>   
     </div>
  
   </div>
@@ -47,8 +50,7 @@
 
 <script>
 import axios from "axios"
-import CommentForm from '@/components/community/CommentForm'
-import CommentList from '@/components/community/CommentList'
+
 
 
 export default {
@@ -58,8 +60,7 @@ export default {
     }
   },
   components:{
-    CommentForm,
-    CommentList
+
   },
   computed: {
     imgSrc: function () {

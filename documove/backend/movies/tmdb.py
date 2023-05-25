@@ -66,7 +66,6 @@ def create_movie_data():
 
             movie.pop('backdrop_path')
             movie.pop('video')
-            movie['like_users'] = []
             tmp = {
                 'model': 'movies.movie',
                 'pk': movie.pop('id'),

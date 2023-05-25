@@ -20,20 +20,6 @@ from django.contrib.auth import get_user_model
 
 # giving api 가져오기
 
-class GivingViewSet(viewsets.ViewSet):
-    filter_backends = [DjangoFilterBackend]
-    filterset_fields = ['themes__theme__id']
-
-    def list(self, request, *args, **kwargs):
-        queryset = Giving.objects.all()
-        theme_id = self.request.query_params.get('theme_id', None)
-
-        if theme_id is not None:
-            queryset = queryset.filter(themes__theme__id__in=theme_id.split(','))
-
-        serializer = GivingSerializer(queryset, many=True)
-        return Response(serializer.data)
-
 
 @api_view(['GET'])
 def movie_detail(request, pk):
@@ -46,6 +32,7 @@ def movie_detail(request, pk):
     movie = Movie.objects.get(pk=pk)
     serializer = MovieDetailSerializer(movie)
     return Response(serializer.data, status=status.HTTP_200_OK)
+
 
 
 @api_view(['GET', 'POST'])
