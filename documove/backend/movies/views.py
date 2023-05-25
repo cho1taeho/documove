@@ -10,10 +10,15 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework_jwt.authentication import JSONWebTokenAuthentication
 from .models import Movie, Genre, Giving
 from .serializers import MovieDetailSerializer,MovieSerializer, MovieRandomSerializer, GenreSerializer,GivingSerializer
+from community.models import GivingDonation
+
+from django.conf import settings
 
 from rest_framework import viewsets
 from rest_framework.response import Response
 from django_filters.rest_framework import DjangoFilterBackend
+
+import json
 
 # user 모델 가져오기
 from django.contrib.auth import get_user_model
@@ -33,13 +38,13 @@ def movie_detail(request, pk):
     serializer = MovieDetailSerializer(movie)
     return Response(serializer.data, status=status.HTTP_200_OK)
 
-
-
 @api_view(['GET', 'POST'])
 def giving(request):
     if request.method == 'GET':
         givings = Giving.objects.all()
+        
         serializer = GivingSerializer(givings, many=True)
+        
         return Response(serializer.data, status=status.HTTP_200_OK)
     elif request.method == 'POST':
         serializer = GivingSerializer(data=request.data)
@@ -47,7 +52,21 @@ def giving(request):
             serializer.save()
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+@api_view(['GET'])
+def totalPointByTheme(request):
+    totalPointTheme = dict()
+    themes = settings.ENVIRONMENT_KEYWORDS
+    for t in themes:
+        totalPointTheme[t] = 0
     
+    donation = GivingDonation.objects.all()
+    for d in donation:
+        totalPointTheme[d.givings.themes['theme'][0]['id']] += d.giving_points
+    
+    return Response(json.dumps(totalPointByTheme), status=status.HTTP_200_OK)
+
+
 @api_view(['GET'])
 def movies(request):
     # if request.method == 'GET':

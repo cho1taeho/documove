@@ -16,6 +16,7 @@
           <img :src="giving.imageLink" alt="Giving Image" class="img-fluid">
         </div>
       </div>
+      <button @click="givingPoint()" >후원하기</button>
     </div>
   </div>
   <div v-else>Loading...</div>
@@ -26,6 +27,7 @@
 import axios from "axios"
 
 export default {
+  
   data() {
     return {
       giving: null,
@@ -43,6 +45,26 @@ export default {
     }    
   },
   methods: {
+    async givingPoint(){
+      const givingId = this.giving.id
+      const point = prompt("how much?")
+      let points
+      try {
+        const whoIAm = await axios.get(`http://127.0.0.1:8000/accounts/mypage/`).then(res => res.data);
+        points = whoIAm.user.points
+        await axios.post(`http://127.0.0.1:8000/accounts/giving/`,
+        {
+          username : whoIAm.user.username,
+          password : whoIAm.user.password,
+          point : parseInt(point),
+          givingId : givingId
+        })
+        alert('후원성공했습니다 \n현재 남은 포인트 : ' + (whoIAm.user.points - point))
+      } catch(err){
+        alert('포인트가 부족합니다. \n현재 남은 포인트 : ' + points)
+      }
+    
+    },
     getOriginalImageLink() {
        if (this.giving && this.giving.imageLink && this.giving.imageLink.length > 0) {
         const imageLinkArray = Array.from(this.giving.imageLink); 

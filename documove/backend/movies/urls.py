@@ -12,4 +12,5 @@ urlpatterns = [
     path('giving/', views.giving, name='giving'),
     path('movies/', views.movies, name='movies'),
     path('movies/<int:pk>/', views.movie_detail, name='movie-detail'),
+    path('totalPointByTheme', views.totalPointByTheme)
 ]

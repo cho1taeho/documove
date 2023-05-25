@@ -1,8 +1,7 @@
 from django.db import models
 from django.conf import settings
 from django.core.validators import MaxValueValidator, MinValueValidator
-from movies.models import Movie
-
+from movies.models import Movie, Giving
 class Keyword(models.Model):
     name = models.CharField(max_length=50)
 
@@ -36,8 +35,8 @@ class Comment(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
 
 class Moviepoint(models.Model):
-    users = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='users')
-    movies = models.ForeignKey(Movie, on_delete=models.CASCADE, related_name='movies')
+    users = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='points_users')
+    movies = models.ForeignKey(Movie, on_delete=models.CASCADE, related_name='points_movies')
     # obtained_at = models.DateTimeField(null=True, blank=True)
     # class Meta:
     #     constraints  = [
@@ -47,17 +46,10 @@ class Moviepoint(models.Model):
     #         )
     #     ]
 
-class Themepoint(models.Model):
-    users = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='giving_users')
-    themes = models.ManyToManyField('movies.Giving',related_name='giving_themes')
-    total_points = models.IntegerField(default=0)
-
-    def update_total_points(self):
-        self.total_points = self.themes.aggregate(sum('funding'))['funding__sum'] or 0
-        self.save()
-
-    def get_user_count(self):
-        return self.users.count()
+class GivingDonation(models.Model):
+    users = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='donation_user')
+    givings = models.ForeignKey(Giving, on_delete=models.CASCADE, related_name='donation_giving')
+    giving_points = models.IntegerField()
 
 
 class Donation(models.Model):

@@ -19,14 +19,13 @@ class User(AbstractUser):
     
     def add_points(self, points):
         self.points += points
-        self.save()
 
     def subtract_points(self, points):
         if self.points - points < 0:
             raise ValidationError('후원 포인트가 모자랍니다.')
         else:
             self.points -= points
-        self.save()
+            self.used_point += points
 
     def get_environment_keywords(self):
         return settings.ENVIRONMENT_KEYWORDS

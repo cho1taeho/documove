@@ -9,4 +9,5 @@ urlpatterns = [
     path('signup/', views.signup),
     path('api-token-auth/', obtain_jwt_token),
     path('mypage/', views.mypage_view),
+    path('giving/', views.subtract_points)
 ]

@@ -39,7 +39,7 @@
         </div>
         <div class="movie-review">
         <!-- <input type="text"/> -->
-        <button></button>
+        <button @click="addPoint()">포인트적립하기</button>
         <!-- <button @click="">point</button> -->
         </div>
       </div>   
@@ -61,6 +61,34 @@ export default {
   },
   components:{
 
+  },
+  methods: {
+    async addPoint() {
+      const movieId = this.$route.query.movieId;
+      console.log(this.$store.state.username)
+      let points
+      if(movieId){
+        try{
+          const whoIAm = await axios.get(`http://127.0.0.1:8000/accounts/mypage/`).then(res => res.data);
+          console.log(whoIAm.user)
+          points = whoIAm.user.points
+          await axios.post(`http://127.0.0.1:8000/community/moviepoints/${movieId}/`, 
+          {
+            username : whoIAm.user.username,
+            password : whoIAm.user.password
+          }, 
+          {
+            headers : {
+              Authorization : `jwt ${localStorage.getItem('jwt')}`
+            }
+          })
+          alert('포인트 적립되었습니다 \n현재 포인트 : ' + ( whoIAm.user.points + 1000))
+        } catch (error) {
+          // aready add point
+          alert('이미 포인트를 받았습니다 \n현재 포인트 : ' + points)
+        }
+      }
+    }
   },
   computed: {
     imgSrc: function () {

@@ -1,6 +1,6 @@
 from rest_framework import serializers
 from rest_framework.utils import model_meta
-from .models import Comment, Review, Donation, TopDonator, Moviepoint
+from .models import Comment, Review, Donation, TopDonator, Moviepoint, GivingDonation
 
 class CommentSerializer(serializers.ModelSerializer):
 
@@ -47,7 +47,12 @@ class DonationSerializer(serializers.ModelSerializer):
         model = Donation
         fields = '__all__'
         
-
+class GivingDonationSerializer(serializers.ModelSerializer):
+    class Meta:
+        modal = GivingDonation
+        fields = '__all__'
+        read_only_fields = ('users', 'givings')        
+        
 class TopDonatorSerializer(serializers.ModelSerializer):
     username = serializers.SerializerMethodField()
     total_donation = serializers.SerializerMethodField()

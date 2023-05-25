@@ -7,35 +7,40 @@ from accounts.models import User
 from accounts.serializers import UserSerializer
 from .models import Review, Comment, Moviepoint
 from .serializers import CommentSerializer, ReviewListSerializer, ReviewSerializer, PointSerializer
-
+from movies.models import Movie
 
 from rest_framework.decorators import authentication_classes, permission_classes
 from rest_framework.permissions import IsAuthenticated
 from rest_framework_jwt.authentication import JSONWebTokenAuthentication
-
 
 @api_view(['GET', 'POST'])
 @permission_classes([IsAuthenticated])
 @authentication_classes([JSONWebTokenAuthentication])
 def moviepoint(request, movie_pk):
     moviepoint = Moviepoint.objects.filter(movies=movie_pk, users=request.user)
+    # moviepoint = get_object_or_404(Moviepoint, movies=movie_pk, users=request.user)
     if request.method == 'GET':
-        serializer = PointSerializer(moviepoint)
+        print(moviepoint)
+        serializer = PointSerializer(moviepoint.get())
         return Response(serializer.data)
     elif request.method == 'POST':
-        newMoviepoint = Moviepoint.objects.create(movies=Movie, users=request.user)
-        serializer = PointSerializer(newMoviepoint, data=request.data)
         # 만약 이미 레코드가 있다면? 포인트 지급 불가
+        print(moviepoint)
         if moviepoint.exists():
             return Response({'detail': '이미 포인트를 받았습니다.'}, status=status.HTTP_409_CONFLICT)
-        
+        # create moviepoints
         loginedUser = get_object_or_404(User)
+        movie = get_object_or_404(Movie, id = movie_pk)
+        newMoviePoint = Moviepoint.objects.create(movies=movie, users=loginedUser)
+        serializer = PointSerializer(newMoviePoint, data=request.data)
+        # update user point
         userSerializer = UserSerializer(loginedUser, data=request.data)
         loginedUser.add_points(1000)
         if userSerializer.is_valid(raise_exception=True):
             userSerializer.save()
         if serializer.is_valid(raise_exception=True):
             serializer.save()
+
         return Response(serializer.data, status=status.HTTP_201_CREATED)
 
 # 단일 review 조회, 수정, 삭제
