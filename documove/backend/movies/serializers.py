@@ -13,7 +13,7 @@ class MovieSerializer(serializers.ModelSerializer):
     class Meta:
         model = Movie
 
-        exclude = ('id', 'like_users')
+        exclude = ( 'like_users',)
         read_only_fields = ('genres',)
 
 

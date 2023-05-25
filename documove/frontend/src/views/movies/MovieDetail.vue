@@ -1,4 +1,4 @@
-<template>
+<template> 
   <div class="movie-detail-card">
     <div class="movie-detail-toolbar">
       <v-btn
@@ -11,8 +11,8 @@
       <img id="logo-image" src="@/assets/images/logo.png" />
     </div>
     <div class="movie-detail-body">
-      <div class="movie-detail-poster">
-        <img :src="movie.poster_path" alt="포스터 없음" />
+       <div class="movie-detail-poster">
+        <img :src="imgSrc" alt="포스터 왜 없음" />
       </div>
       <div class="movie-detail-info">
         <div class="movie-detail-title">{{ movie.title }}</div>
@@ -48,25 +48,24 @@ import axios from "axios"
 export default {
   data() {
     return {
-      movie: null,
+      movie: [],
     }
   },
-  async created() {
-    const movieId= this.$route.query.movie && this.$route.query.movie.title   
-    if (movieId) {
-      try {
-        const response = await axios.get(`http://127.0.0.1:8000/movies/movies/<movie_id>/`)
-        this.movie = response.data.find(movie => movie.title === movieId)
-      } catch(error){
-        console.log(error)
+  computed: {
+    imgSrc: function () {
+      return this.movie && this.movie.poster_path ? "https://image.tmdb.org/t/p/original" + this.movie.poster_path : '';
+    },
+  },
+ async created() {
+  const movieId = this.$route.query.movieId;
+  if (movieId) {
+    try {
+      const response = await axios.get(`http://127.0.0.1:8000/movies/movies/${movieId}/`);
+      this.movie = response.data;
+      } catch (error) {
+        console.error(error);
       }
     }
   }
-
-
 }
 </script>
-
-<style>
-
-</style>
