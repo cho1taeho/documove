@@ -49,7 +49,7 @@ const routes = [
     component: Community
   },
   {
-    path: '/movie/:id',
+    path: '/movie',
     name: 'MovieDetail',
     component: MovieDetail,
     props: true

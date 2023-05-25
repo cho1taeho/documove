@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-4" v-for="giving in givings" :key="giving.id">
           <div class="card" @click="goToGivingDetail(giving.id)">
-            <img :src="giving.imageLink" class="card-img-top" :alt="giving.title">
+            <v-img :src="giving.imageLink" class="card-img-top" :alt="giving.title"/>
             <div class="card-body">
               <h5 class="card-title">{{ giving.title }}</h5>
             </div>

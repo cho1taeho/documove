@@ -1,6 +1,6 @@
 /* navbar */
 .navbar {
-  background-color: #000000;
+  background-color: #e6e6dd;
   position: fixed;
   top: 0;
   width: 100%;
@@ -19,21 +19,21 @@
 .navbar-brand {
   font-family: 'Anton', sans-serif;
   font-size: 2rem;
-  color: green;
+  color: red;
   letter-spacing: 2px;
 }
 
 .navbar-brand:hover {
-  color: green;
+  color: red;
 }
 
 .nav-link {
   text-decoration: none;
-  color: gainsboro;
+  color: black;
 }
 
 .nav-link:hover {
-  color: white;
+  color: black;
 }
 
 #navbar-logo {
