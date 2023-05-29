@@ -1,4 +1,4 @@
-# 🎯DOCUMOVE (ongoing pjt)
+# 🎯DOCUMOVE
 
 환경다큐멘터리 정보제공, 후원 프로젝트
 <br/>
@@ -39,7 +39,8 @@
 `seanwoori <seanwoory@gmail.com>` 
 <br/>
 <br/>
-최태호 `cho1taeho <cow12dog@gmail.com>`
+최태호 
+`cho1taeho <cow12dog@gmail.com>`
 <br/>
 <br/>
 ## Requirements
